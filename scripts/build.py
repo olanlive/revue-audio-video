@@ -32,15 +32,15 @@ SITE_DESC = "Veille logiciels, solutions et add-ons audio & vidéo — open sour
 
 CSS = """\
 :root {
-  --bg: #0f1419;
-  --surface: #1a2332;
-  --border: #2d3a4f;
-  --text: #e7ecf3;
-  --muted: #9aa8bc;
-  --accent: #6cb6ff;
-  --accent-hover: #9ad0ff;
-  --tag-bg: #243044;
-  --tag-text: #b8d4f0;
+  --bg: #0d1611;
+  --surface: #15231b;
+  --border: #2a4033;
+  --text: #e6f2ea;
+  --muted: #9db8a6;
+  --accent: #5fd38d;
+  --accent-hover: #8fe6b0;
+  --tag-bg: #1d3326;
+  --tag-text: #b6e8c8;
   --radius: 8px;
   --font: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, sans-serif;
   --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
@@ -122,7 +122,7 @@ nav.crumbs span.sep { margin: 0 0.35rem; }
   text-decoration: none;
 }
 .tag:hover {
-  background: #2e4058;
+  background: #264a35;
   color: var(--accent-hover);
   text-decoration: none;
   border-color: var(--accent);
@@ -200,6 +200,7 @@ def page(
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d1611">
   <title>{esc(title)}</title>
   <meta name="description" content="{esc(SITE_DESC)}">
   <link rel="stylesheet" href="{prefix}style.css">
