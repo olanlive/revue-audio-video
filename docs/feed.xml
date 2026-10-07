@@ -84,5 +84,16 @@
       <category>vse</category>
       <category>encodage</category>
     </item>
+    <item>
+      <title>slatefree 1.2.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-06-slatefree-1-2-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-06-slatefree-1-2-0</guid>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Outil Rust en ligne de commande qui synchronise des centaines de clips multi-caméras sans clap ni timecode, calés sur l’audio continu d’un enregistreur. Sortie : timeline FCP 7 XML pour Resolve et CSV de contrôle par clip. Repo créé le 6 oct, déjà en v1.2.0.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>cli</category>
+      <category>multiplateforme</category>
+    </item>
   </channel>
 </rss>

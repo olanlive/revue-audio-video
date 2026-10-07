@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-10-06",
+    "name": "slatefree 1.2.0",
+    "summary": "Outil Rust en ligne de commande qui synchronise des centaines de clips multi-caméras sans clap ni timecode, calés sur l’audio continu d’un enregistreur. Sortie : timeline FCP 7 XML pour Resolve et CSV de contrôle par clip. Repo créé le 6 oct, déjà en v1.2.0.",
+    "url": "https://github.com/MayVortex/slatefree",
+    "tags": [
+      "open-source",
+      "montage",
+      "cli",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Fil X — @VFXDESK",
+      "url": "https://x.com/VFXDESK/status/2107698253294887243"
+    }
+  },
+  {
     "date": "2026-10-07",
     "name": "FFmpeg 9.0.2 « Lei »",
     "summary": "Le moteur d’encodage derrière Blender, OBS et Shotcut passe en 9.0 : filtres IA sur GPU via ONNX Runtime, vidéo 360° en Vulkan, WebP animé, ProRes RAW accéléré sur Mac. La 9.0.2 (18 sept) ajoute des correctifs de sécurité.",

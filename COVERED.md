@@ -14,3 +14,4 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 | 2026-10-07 | Aegisub 3.5.0 | open-source, sous-titres, securite, multiplateforme | https://aegisub.org/ | https://olanlive.github.io/revue-audio-video/#2026-10-07-aegisub-3-5-0 |
 | 2026-10-07 | Shutter Encoder 20.4 | open-source, encodage, ffmpeg, gui | https://www.shutterencoder.com/ | https://olanlive.github.io/revue-audio-video/#2026-10-07-shutter-encoder-20-4 |
 | 2026-10-07 | Image Sequence to MP4 (add-on Blender) 2.0.0 | open-source, blender-addon, vse, encodage | https://extensions.blender.org/add-ons/image-sequence-to-mp4-video-converter/ | https://olanlive.github.io/revue-audio-video/#2026-10-07-image-sequence-to-mp4-add-on-blender-2-0-0 |
+| 2026-10-06 | slatefree 1.2.0 | open-source, montage, cli, multiplateforme | https://github.com/MayVortex/slatefree | https://olanlive.github.io/revue-audio-video/#2026-10-06-slatefree-1-2-0 |
