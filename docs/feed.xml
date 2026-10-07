@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel>
+  <title>Revue Pépites Audio &amp; Vidéo</title>
+  <link>https://olanlive.github.io/revue-audio-video/</link>
+  <description>Veille logiciels, solutions et add-ons audio &amp; vidéo — montage, encodage, captation, sous-titres, DAW, plugins, IA. Open source d’abord, tous les 2 jours.</description>
+  <language>fr</language>
+  <item>
+    <title>Revue n°1 — FFmpeg 9, Audacity 4, OBS 33 en bêta et un export MP4 propre depuis Blender</title>
+    <link>https://olanlive.github.io/revue-audio-video/revues/2026-10-07.html</link>
+    <guid>https://olanlive.github.io/revue-audio-video/revues/2026-10-07.html</guid>
+    <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
+    <description>Premier passage de la revue : sept pépites audio/vidéo, toutes open source, repérées sur les trois dernières semaines. Au menu : le moteur d’encodage que tout le monde utilise passe en 9.0, Audacity sort de sa refonte Qt, OBS prépare une version 33 qui bouscule l’emplacement des plugins, deux éditeurs (Shotcut, Aegisub) publient des correctifs de sécurité à appliquer vite, et un add-on Blender transforme enfin une séquence d’images en MP4 sans bloquer l’interface.</description>
+  </item>
+</channel></rss>
