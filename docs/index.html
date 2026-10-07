@@ -6,6 +6,7 @@
   <title>Revue Pépites Audio &amp; Vidéo</title>
   <meta name="description" content="Veille logiciels, solutions et add-ons audio &amp; vidéo — open source d’abord — tous les 2 jours.">
   <link rel="stylesheet" href="style.css">
+  <link rel="alternate" type="application/rss+xml" title="Revue Pépites Audio &amp; Vidéo" href="https://olanlive.github.io/revue-audio-video/feed.xml">
 </head>
 <body>
   <div class="wrap">
@@ -22,7 +23,7 @@
 <article class="discovery" id="2026-10-07-ffmpeg-9-0-2-lei">
   <p class="date-label"><time datetime="2026-10-07">7 octobre 2026</time></p>
   <h3><a href="https://ffmpeg.org/download.html" rel="noopener" target="_blank">FFmpeg 9.0.2 « Lei »</a></h3>
-  <p class="summary">La boîte à outils (CLI + libavcodec/libavformat…) qui sert de moteur d’encodage à la quasi-totalité des logiciels vidéo, de Blender à OBS et Shotcut : la brique à garder à jour sur les postes et les fermes de rendu du studio. La 9.0 « Lei » (début août 2026 ; branche coupée le 26 juin) apporte un backend DNN ONNX Runtime avec exécution GPU, un filtre v360_vulkan (vidéo 360°), le décodage et le démultiplexage du WebP animé, le hwaccel ProRes RAW via VideoToolbox (Mac) et un filtre transpose_cuda. À vérifier dans les scripts avant mise à jour : le décodage CELT seul est retiré (Opus non touché), les anciennes options NVENC et les SDK antérieurs à 11.1 ne sont plus pris en charge. La 9.0.2 (18 sept), dernière stable de la branche, est une série de correctifs dont plusieurs de sécurité (VVC, Vulkan AV1/HEVC, mov, ogg…) ; la 8.1.x reste maintenue (8.1.3 le 21 sept). Shotcut 26.9.27 vient de passer à FFmpeg 9.0. Open source (LGPL 2.1+, certains composants optionnels en GPL selon la compilation), gratuit ; très mature, référence de l’industrie.</p>
+  <p class="summary">Le moteur d’encodage derrière Blender, OBS et Shotcut passe en 9.0 : filtres IA sur GPU via ONNX Runtime, vidéo 360° en Vulkan, WebP animé, ProRes RAW accéléré sur Mac. La 9.0.2 (18 sept) ajoute des correctifs de sécurité.</p>
   <p class="source">Trouvé via : <a href="https://ffmpeg.org/download.html" rel="noopener" target="_blank">Web — ffmpeg.org (Download + Changelog n9.0.2)</a></p>
   <div class="tags"><a class="tag" href="tags/open-source.html">#open-source</a><a class="tag" href="tags/encodage.html">#encodage</a><a class="tag" href="tags/ffmpeg.html">#ffmpeg</a><a class="tag" href="tags/cli.html">#cli</a></div>
 </article>
@@ -30,7 +31,7 @@
 <article class="discovery" id="2026-10-07-audacity-4-0-1">
   <p class="date-label"><time datetime="2026-10-07">7 octobre 2026</time></p>
   <h3><a href="https://www.audacityteam.org/" rel="noopener" target="_blank">Audacity 4.0.1</a></h3>
-  <p class="summary">L’éditeur audio libre multiplateforme, entièrement reconstruit sur Qt avec la 4.0 (3 sept) : nouveau modèle d’édition de clips (sélection directe, groupes, déplacement entre pistes mono/stéréo), espaces de travail, thèmes, spectrogramme repensé, ASIO dans les builds Windows officielles, nouveau format de projet .aup4 (les .aup3 sont convertis sans toucher l’original, mais ne se réenregistrent pas en .aup3). Pour nettoyer une voix off ou préparer un son d’anim, c’est l’outil gratuit le plus répandu. La 4.0.1 (30 sept) corrige les gros défauts de la 4.0 (corruption de projet après un échec de sauvegarde, conversion .aup3, chemins non-ASCII, AppImage Linux) et ajoute l’export multiple (une piste ou une région étiquetée = un fichier) et une version portable Windows sans installation, pratique côté IT. Encore absents en 4.x : pistes MIDI/note, mixeur, Macro Manager et pipe de scripting, hébergement VAMP/LADSPA, lecture à vitesse variable — garder la 3.x si vous en dépendez. Open source (GPL v3, beaucoup de fichiers en GPL v2+), gratuit.</p>
+  <p class="summary">Audacity 4 reconstruit son interface sur Qt : clips sélectionnables et groupables, espaces de travail, ASIO sous Windows. La 4.0.1 (30 sept) corrige les bugs de jeunesse et ajoute l’export d’une piste ou d’une région par fichier, plus une version portable Windows.</p>
   <p class="source">Trouvé via : <a href="https://github.com/audacity/audacity/releases/tag/Audacity-4.0.1" rel="noopener" target="_blank">Release GitHub — audacity/audacity 4.0.1</a></p>
   <div class="tags"><a class="tag" href="tags/open-source.html">#open-source</a><a class="tag" href="tags/audio.html">#audio</a><a class="tag" href="tags/edition-audio.html">#edition-audio</a><a class="tag" href="tags/multiplateforme.html">#multiplateforme</a></div>
 </article>
@@ -38,7 +39,7 @@
 <article class="discovery" id="2026-10-07-obs-studio-33-0-beta-6">
   <p class="date-label"><time datetime="2026-10-07">7 octobre 2026</time></p>
   <h3><a href="https://obsproject.com/" rel="noopener" target="_blank">OBS Studio 33.0 bêta 6</a></h3>
-  <p class="summary">Le logiciel libre de référence pour l’enregistrement d’écran, la captation multi-sources et le streaming (démos, tutos internes, présentations clients). La 33.0 refond le chargement des plugins : plugins officiels dans un dossier « core », nouvel emplacement pour les tiers, anciens emplacements tolérés jusqu’à OBS 34.0 — à anticiper côté IT si vous déployez des plugins. Elle met aussi à jour CEF (sources navigateur, 127 → 150), améliore le magnétisme des sources, ajoute des raccourcis de monitoring audio et active NVENC sur Arm64. Bêta 6 publiée le 3 oct (heure de Paris), après la bêta 5 du 1er oct : corrections de plantages liés aux groupes, du scripting macOS et des hooks de capture de jeu ; le mode sans échec ne démarre plus le serveur WebSocket ; abandon de FFmpeg 6.x/7.x, Qt 6.4–6.9 et Ubuntu 24.04. Encore en bêta : tester sur une machine dédiée (stable actuelle : 32.2.2 du 14 août). Open source (GPL v2+), gratuit.</p>
+  <p class="summary">OBS 33 (bêta 6, 3 oct) refond le chargement des plugins, avec un nouveau dossier pour les plugins tiers à anticiper côté IT. Au programme aussi : moteur des sources navigateur mis à jour (CEF 150), magnétisme des sources revu et NVENC sur Arm64.</p>
   <p class="source">Trouvé via : <a href="https://github.com/obsproject/obs-studio/releases/tag/33.0.0-beta6" rel="noopener" target="_blank">Release GitHub — obsproject/obs-studio 33.0.0-beta6</a></p>
   <div class="tags"><a class="tag" href="tags/open-source.html">#open-source</a><a class="tag" href="tags/captation.html">#captation</a><a class="tag" href="tags/streaming.html">#streaming</a><a class="tag" href="tags/beta.html">#beta</a></div>
 </article>
@@ -46,7 +47,7 @@
 <article class="discovery" id="2026-10-07-shotcut-26-9-27-mlt-7-42-0">
   <p class="date-label"><time datetime="2026-10-07">7 octobre 2026</time></p>
   <h3><a href="https://www.shotcut.org/" rel="noopener" target="_blank">Shotcut 26.9.27 (+ MLT 7.42.0)</a></h3>
-  <p class="summary">Éditeur vidéo non linéaire libre et multiplateforme, sur le framework MLT (aussi utilisé par Kdenlive) : un monteur léger pour reels, making-of et previews. La 26.9.27 (28 sept) corrige des failles dans les téléchargements (un HTTPS en échec retombait en HTTP, erreurs de certificat ignorables, modèle Whisper conservé malgré un SHA-256 incorrect) : mise à jour recommandée. Elle passe aussi à FFmpeg 9.0, garde le pipeline audio en float 32 bits, ajoute le ducking audio automatique par piste, un volume et un vumètre dans les en-têtes de piste, et un « Adjustment Clip » dont les filtres s’appliquent aux pistes vidéo en dessous. MLT 7.42.0 (3 oct) ajoute un module GPU « placebo » (libplacebo : mise à l’échelle, debanding, tonemapping, shaders .hook façon mpv) et passe l’audio par défaut en float32. Open source (Shotcut GPL v3, MLT LGPL 2.1), gratuit ; mature, sorties environ mensuelles.</p>
+  <p class="summary">Le monteur libre ajoute le ducking audio automatique, un volume et un vumètre par piste, et un « Adjustment Clip » qui filtre toutes les pistes en dessous. Passage à FFmpeg 9.0 et failles de téléchargement corrigées : mise à jour recommandée.</p>
   <p class="source">Trouvé via : <a href="https://www.shotcut.org/blog/new-release-26.9.27/" rel="noopener" target="_blank">Web — shotcut.org (blog 26.9.27)</a></p>
   <div class="tags"><a class="tag" href="tags/open-source.html">#open-source</a><a class="tag" href="tags/montage.html">#montage</a><a class="tag" href="tags/mlt.html">#mlt</a><a class="tag" href="tags/securite.html">#securite</a></div>
 </article>
@@ -54,7 +55,7 @@
 <article class="discovery" id="2026-10-07-aegisub-3-5-0">
   <p class="date-label"><time datetime="2026-10-07">7 octobre 2026</time></p>
   <h3><a href="https://aegisub.org/" rel="noopener" target="_blank">Aegisub 3.5.0</a></h3>
-  <p class="summary">Éditeur de sous-titres avancé (ASS/SSA notamment) : calage sur la forme d’onde, styles, typesetting et preview vidéo temps réel, maintenu par la communauté TypesettingTools — pour sous-titrer proprement une bande-démo ou une vidéo client, plus finement qu’un simple SRT. La 3.5.0 (4 oct selon le changelog, release GitHub le 5 ; après une bêta en juillet) corrige une faille (advisory GHSA-67hq-5vgg-6f23) : un fichier de sous-titres piégé pouvait exécuter du code via les scripts d’automatisation qu’il référence — mise à jour conseillée à tous. Nouveautés : zoom et panoramique dans la vidéo, bien meilleur support High-DPI, synchronisation proposée de la résolution du script et de la matrice couleur avec la vidéo, builds natives Apple Silicon ; builds Windows et macOS désormais signées. Open source (BSD 3 clauses pour l’essentiel du code), gratuit ; projet ancien et éprouvé.</p>
+  <p class="summary">L’éditeur de sous-titres ASS de référence sort la 3.5.0 (4 oct) : zoom et panoramique dans la vidéo, High-DPI bien meilleur, builds Apple Silicon natives. Elle corrige une faille où un fichier piégé pouvait exécuter du code : mise à jour à faire.</p>
   <p class="source">Trouvé via : <a href="https://github.com/TypesettingTools/Aegisub/releases/tag/v3.5.0" rel="noopener" target="_blank">Release GitHub — TypesettingTools/Aegisub v3.5.0</a></p>
   <div class="tags"><a class="tag" href="tags/open-source.html">#open-source</a><a class="tag" href="tags/sous-titres.html">#sous-titres</a><a class="tag" href="tags/securite.html">#securite</a><a class="tag" href="tags/multiplateforme.html">#multiplateforme</a></div>
 </article>
@@ -62,7 +63,7 @@
 <article class="discovery" id="2026-10-07-shutter-encoder-20-4">
   <p class="date-label"><time datetime="2026-10-07">7 octobre 2026</time></p>
   <h3><a href="https://www.shutterencoder.com/" rel="noopener" target="_blank">Shutter Encoder 20.4</a></h3>
-  <p class="summary">Convertisseur vidéo/audio/image conçu par des monteurs, basé sur FFmpeg (codecs pro, découpe sans réencodage, LUT et espaces couleur, désentrelacement, files d’attente) : l’interface idéale pour donner la puissance de FFmpeg aux graphistes sans terminal (proxys, ProRes/DNx, extraits de review). La 20.4 (28 sept) ajoute un filtre « Film grain », la normalisation de crête (peak) dans la normalisation audio, l’option de retrait des images dupliquées pour tous les codecs, l’ajout à la file depuis « Mes fonctions » et une interface unique plus large, avec de nombreux correctifs (fuites mémoire, décodage GPU, multi-cuts…). Open source (GPL v3), gratuit (dons acceptés) ; mature, mises à jour fréquentes (20.3 fin août), Windows/macOS/Linux.</p>
+  <p class="summary">Toute la puissance de FFmpeg sans terminal : proxys, ProRes/DNx, découpe sans réencodage. La 20.4 (28 sept) ajoute un filtre de grain film, la normalisation de crête et le retrait des images dupliquées pour tous les codecs.</p>
   <p class="source">Trouvé via : <a href="https://github.com/paulpacifico/shutter-encoder/releases/tag/20.4" rel="noopener" target="_blank">Release GitHub — paulpacifico/shutter-encoder 20.4</a></p>
   <div class="tags"><a class="tag" href="tags/open-source.html">#open-source</a><a class="tag" href="tags/encodage.html">#encodage</a><a class="tag" href="tags/ffmpeg.html">#ffmpeg</a><a class="tag" href="tags/gui.html">#gui</a></div>
 </article>
@@ -70,7 +71,7 @@
 <article class="discovery" id="2026-10-07-image-sequence-to-mp4-add-on-blender-2-0-0">
   <p class="date-label"><time datetime="2026-10-07">7 octobre 2026</time></p>
   <h3><a href="https://extensions.blender.org/add-ons/image-sequence-to-mp4-video-converter/" rel="noopener" target="_blank">Image Sequence to MP4 (add-on Blender) 2.0.0</a></h3>
-  <p class="summary">Extension Blender qui assemble une séquence d’images rendues (PNG, EXR…) en vidéo H.264, H.265 ou AV1 depuis l’éditeur d’images, la barre latérale du Video Sequencer ou l’onglet Output — le cas typique du studio : rendre en séquence (sûr en cas de plantage) puis sortir vite une vidéo de review sans Resolve ni commande FFmpeg. La 2.0.0 (2 oct) est une réécriture : export dans un processus séparé (Blender reste utilisable, barre de progression, annulation), FFmpeg utilisé s’il est installé sinon l’encodeur de Blender, détection des images manquantes au lieu d’images noires, tri numérique des frames, couleurs selon la gestion des couleurs de la scène, presets Web 1080p / Master / preview 720p / vertical 9:16. Open source (GPL v3+), gratuit sur extensions.blender.org ; jeune add-on, nécessite Blender 5.0+, réglages 1.x non repris — à tester avant de l’intégrer au pipeline.</p>
+  <p class="summary">Vos rendus PNG/EXR deviennent un MP4 (H.264, H.265 ou AV1) en un clic, en tâche de fond, sans bloquer Blender. La 2.0.0 (2 oct) détecte les frames manquantes, respecte la gestion des couleurs et propose des presets Web, 720p et 9:16.</p>
   <p class="source">Trouvé via : <a href="https://extensions.blender.org/add-ons/image-sequence-to-mp4-video-converter/versions/" rel="noopener" target="_blank">Web — extensions.blender.org (historique des versions)</a></p>
   <div class="tags"><a class="tag" href="tags/open-source.html">#open-source</a><a class="tag" href="tags/blender-addon.html">#blender-addon</a><a class="tag" href="tags/vse.html">#vse</a><a class="tag" href="tags/encodage.html">#encodage</a></div>
 </article>
@@ -84,7 +85,8 @@
     <footer class="site">
       <p>Veille audio / vidéo · open source d’abord (gratuit / payant signalé) · tous les 2 jours · 9h Europe/Paris</p>
       <p><a href="https://github.com/olanlive/revue-audio-video">Code source sur GitHub</a>
-         · <a href="tags/index.html">Tous les tags</a></p>
+         · <a href="tags/index.html">Tous les tags</a>
+         · <a href="feed.xml">Flux RSS</a></p>
     </footer>
   </div>
 </body>

@@ -6,6 +6,7 @@
   <title>#cli · Revue Pépites Audio &amp; Vidéo</title>
   <meta name="description" content="Veille logiciels, solutions et add-ons audio &amp; vidéo — open source d’abord — tous les 2 jours.">
   <link rel="stylesheet" href="../style.css">
+  <link rel="alternate" type="application/rss+xml" title="Revue Pépites Audio &amp; Vidéo" href="https://olanlive.github.io/revue-audio-video/feed.xml">
 </head>
 <body>
   <div class="wrap">
@@ -21,7 +22,7 @@
 <article class="discovery" id="2026-10-07-ffmpeg-9-0-2-lei">
   <p class="date-label"><time datetime="2026-10-07">7 octobre 2026</time></p>
   <h3><a href="https://ffmpeg.org/download.html" rel="noopener" target="_blank">FFmpeg 9.0.2 « Lei »</a></h3>
-  <p class="summary">La boîte à outils (CLI + libavcodec/libavformat…) qui sert de moteur d’encodage à la quasi-totalité des logiciels vidéo, de Blender à OBS et Shotcut : la brique à garder à jour sur les postes et les fermes de rendu du studio. La 9.0 « Lei » (début août 2026 ; branche coupée le 26 juin) apporte un backend DNN ONNX Runtime avec exécution GPU, un filtre v360_vulkan (vidéo 360°), le décodage et le démultiplexage du WebP animé, le hwaccel ProRes RAW via VideoToolbox (Mac) et un filtre transpose_cuda. À vérifier dans les scripts avant mise à jour : le décodage CELT seul est retiré (Opus non touché), les anciennes options NVENC et les SDK antérieurs à 11.1 ne sont plus pris en charge. La 9.0.2 (18 sept), dernière stable de la branche, est une série de correctifs dont plusieurs de sécurité (VVC, Vulkan AV1/HEVC, mov, ogg…) ; la 8.1.x reste maintenue (8.1.3 le 21 sept). Shotcut 26.9.27 vient de passer à FFmpeg 9.0. Open source (LGPL 2.1+, certains composants optionnels en GPL selon la compilation), gratuit ; très mature, référence de l’industrie.</p>
+  <p class="summary">Le moteur d’encodage derrière Blender, OBS et Shotcut passe en 9.0 : filtres IA sur GPU via ONNX Runtime, vidéo 360° en Vulkan, WebP animé, ProRes RAW accéléré sur Mac. La 9.0.2 (18 sept) ajoute des correctifs de sécurité.</p>
   <p class="source">Trouvé via : <a href="https://ffmpeg.org/download.html" rel="noopener" target="_blank">Web — ffmpeg.org (Download + Changelog n9.0.2)</a></p>
   <div class="tags"><a class="tag" href="./open-source.html">#open-source</a><a class="tag" href="./encodage.html">#encodage</a><a class="tag" href="./ffmpeg.html">#ffmpeg</a><a class="tag" href="./cli.html">#cli</a></div>
 </article>
@@ -30,7 +31,8 @@
     <footer class="site">
       <p>Veille audio / vidéo · open source d’abord (gratuit / payant signalé) · tous les 2 jours · 9h Europe/Paris</p>
       <p><a href="https://github.com/olanlive/revue-audio-video">Code source sur GitHub</a>
-         · <a href="../tags/index.html">Tous les tags</a></p>
+         · <a href="../tags/index.html">Tous les tags</a>
+         · <a href="../feed.xml">Flux RSS</a></p>
     </footer>
   </div>
 </body>

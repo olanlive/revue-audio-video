@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Revue Pépites Audio &amp; Vidéo</title>
+    <link>https://olanlive.github.io/revue-audio-video/</link>
+    <description>Veille logiciels, solutions et add-ons audio &amp; vidéo — open source d’abord — tous les 2 jours.</description>
+    <language>fr</language>
+    <lastBuildDate>Wed, 07 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <atom:link href="https://olanlive.github.io/revue-audio-video/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>FFmpeg 9.0.2 « Lei »</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-07-ffmpeg-9-0-2-lei</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-07-ffmpeg-9-0-2-lei</guid>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Le moteur d’encodage derrière Blender, OBS et Shotcut passe en 9.0 : filtres IA sur GPU via ONNX Runtime, vidéo 360° en Vulkan, WebP animé, ProRes RAW accéléré sur Mac. La 9.0.2 (18 sept) ajoute des correctifs de sécurité.</description>
+      <category>open-source</category>
+      <category>encodage</category>
+      <category>ffmpeg</category>
+      <category>cli</category>
+    </item>
+    <item>
+      <title>Audacity 4.0.1</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-07-audacity-4-0-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-07-audacity-4-0-1</guid>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Audacity 4 reconstruit son interface sur Qt : clips sélectionnables et groupables, espaces de travail, ASIO sous Windows. La 4.0.1 (30 sept) corrige les bugs de jeunesse et ajoute l’export d’une piste ou d’une région par fichier, plus une version portable Windows.</description>
+      <category>open-source</category>
+      <category>audio</category>
+      <category>edition-audio</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>OBS Studio 33.0 bêta 6</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-07-obs-studio-33-0-beta-6</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-07-obs-studio-33-0-beta-6</guid>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
+      <description>OBS 33 (bêta 6, 3 oct) refond le chargement des plugins, avec un nouveau dossier pour les plugins tiers à anticiper côté IT. Au programme aussi : moteur des sources navigateur mis à jour (CEF 150), magnétisme des sources revu et NVENC sur Arm64.</description>
+      <category>open-source</category>
+      <category>captation</category>
+      <category>streaming</category>
+      <category>beta</category>
+    </item>
+    <item>
+      <title>Shotcut 26.9.27 (+ MLT 7.42.0)</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-07-shotcut-26-9-27-mlt-7-42-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-07-shotcut-26-9-27-mlt-7-42-0</guid>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Le monteur libre ajoute le ducking audio automatique, un volume et un vumètre par piste, et un « Adjustment Clip » qui filtre toutes les pistes en dessous. Passage à FFmpeg 9.0 et failles de téléchargement corrigées : mise à jour recommandée.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>mlt</category>
+      <category>securite</category>
+    </item>
+    <item>
+      <title>Aegisub 3.5.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-07-aegisub-3-5-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-07-aegisub-3-5-0</guid>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
+      <description>L’éditeur de sous-titres ASS de référence sort la 3.5.0 (4 oct) : zoom et panoramique dans la vidéo, High-DPI bien meilleur, builds Apple Silicon natives. Elle corrige une faille où un fichier piégé pouvait exécuter du code : mise à jour à faire.</description>
+      <category>open-source</category>
+      <category>sous-titres</category>
+      <category>securite</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>Shutter Encoder 20.4</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-07-shutter-encoder-20-4</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-07-shutter-encoder-20-4</guid>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Toute la puissance de FFmpeg sans terminal : proxys, ProRes/DNx, découpe sans réencodage. La 20.4 (28 sept) ajoute un filtre de grain film, la normalisation de crête et le retrait des images dupliquées pour tous les codecs.</description>
+      <category>open-source</category>
+      <category>encodage</category>
+      <category>ffmpeg</category>
+      <category>gui</category>
+    </item>
+    <item>
+      <title>Image Sequence to MP4 (add-on Blender) 2.0.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-07-image-sequence-to-mp4-add-on-blender-2-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-07-image-sequence-to-mp4-add-on-blender-2-0-0</guid>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Vos rendus PNG/EXR deviennent un MP4 (H.264, H.265 ou AV1) en un clic, en tâche de fond, sans bloquer Blender. La 2.0.0 (2 oct) détecte les frames manquantes, respecte la gestion des couleurs et propose des presets Web, 720p et 9:16.</description>
+      <category>open-source</category>
+      <category>blender-addon</category>
+      <category>vse</category>
+      <category>encodage</category>
+    </item>
+  </channel>
+</rss>
