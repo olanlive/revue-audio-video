@@ -106,6 +106,14 @@ h2.section {
   margin: 0 0 1rem;
   font-weight: 600;
 }
+.day-sep {
+  margin: 2.75rem 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--accent);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text);
+}
 .date-label {
   color: var(--muted);
   font-size: 0.9rem;

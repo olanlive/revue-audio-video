@@ -139,6 +139,14 @@ h2.section {
   margin: 0 0 1rem;
   font-weight: 600;
 }
+.day-sep {
+  margin: 2.75rem 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--accent);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text);
+}
 .date-label {
   color: var(--muted);
   font-size: 0.9rem;
@@ -162,6 +170,27 @@ code { font-family: var(--mono); font-size: 0.9em; }
 
 def esc(s: str) -> str:
     return html.escape(s, quote=True)
+
+
+def format_day_fr(iso: str) -> str:
+    """« Mercredi 7 octobre 2026 » — noms explicites, indépendant de la locale système."""
+    dt = datetime.strptime(iso, "%Y-%m-%d")
+    days = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+    return f"{days[dt.weekday()]} {format_date_fr(iso)}"
+
+
+def day_feed_html(discoveries: list[dict], *, tags_base: str) -> str:
+    """Fil groupé par jour : un séparateur (titre + filet accent) avant le 1er bloc de chaque date."""
+    out, current = [], None
+    for item in discoveries:
+        if item["date"] != current:
+            current = item["date"]
+            out.append(
+                f'\n<h3 class="day-sep" id="jour-{esc(current)}"><time datetime="{esc(current)}">'
+                f"{esc(format_day_fr(current))}</time></h3>"
+            )
+        out.append(discovery_html(item, tags_base=tags_base))
+    return "".join(out)
 
 
 def format_date_fr(iso: str) -> str:
@@ -345,9 +374,7 @@ def build() -> None:
             all_tags.add(tag)
             by_tag[tag].append(item)
 
-    feed = "".join(
-        discovery_html(item, tags_base="tags/") for item in discoveries
-    )
+    feed = day_feed_html(discoveries, tags_base="tags/")
     tag_links = "".join(
         f'<a class="tag" href="tags/{esc(t)}.html">#{esc(t)}</a>'
         for t in sorted(all_tags)
