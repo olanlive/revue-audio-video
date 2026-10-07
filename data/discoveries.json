@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2026-10-07",
+    "name": "FFmpeg 9.0.2 « Lei »",
+    "summary": "La boîte à outils (CLI + libavcodec/libavformat…) qui sert de moteur d’encodage à la quasi-totalité des logiciels vidéo, de Blender à OBS et Shotcut : la brique à garder à jour sur les postes et les fermes de rendu du studio. La 9.0 « Lei » (début août 2026 ; branche coupée le 26 juin) apporte un backend DNN ONNX Runtime avec exécution GPU, un filtre v360_vulkan (vidéo 360°), le décodage et le démultiplexage du WebP animé, le hwaccel ProRes RAW via VideoToolbox (Mac) et un filtre transpose_cuda. À vérifier dans les scripts avant mise à jour : le décodage CELT seul est retiré (Opus non touché), les anciennes options NVENC et les SDK antérieurs à 11.1 ne sont plus pris en charge. La 9.0.2 (18 sept), dernière stable de la branche, est une série de correctifs dont plusieurs de sécurité (VVC, Vulkan AV1/HEVC, mov, ogg…) ; la 8.1.x reste maintenue (8.1.3 le 21 sept). Shotcut 26.9.27 vient de passer à FFmpeg 9.0. Open source (LGPL 2.1+, certains composants optionnels en GPL selon la compilation), gratuit ; très mature, référence de l’industrie.",
+    "url": "https://ffmpeg.org/download.html",
+    "tags": [
+      "open-source",
+      "encodage",
+      "ffmpeg",
+      "cli"
+    ],
+    "source": {
+      "label": "Web — ffmpeg.org (Download + Changelog n9.0.2)",
+      "url": "https://ffmpeg.org/download.html"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "name": "Audacity 4.0.1",
+    "summary": "L’éditeur audio libre multiplateforme, entièrement reconstruit sur Qt avec la 4.0 (3 sept) : nouveau modèle d’édition de clips (sélection directe, groupes, déplacement entre pistes mono/stéréo), espaces de travail, thèmes, spectrogramme repensé, ASIO dans les builds Windows officielles, nouveau format de projet .aup4 (les .aup3 sont convertis sans toucher l’original, mais ne se réenregistrent pas en .aup3). Pour nettoyer une voix off ou préparer un son d’anim, c’est l’outil gratuit le plus répandu. La 4.0.1 (30 sept) corrige les gros défauts de la 4.0 (corruption de projet après un échec de sauvegarde, conversion .aup3, chemins non-ASCII, AppImage Linux) et ajoute l’export multiple (une piste ou une région étiquetée = un fichier) et une version portable Windows sans installation, pratique côté IT. Encore absents en 4.x : pistes MIDI/note, mixeur, Macro Manager et pipe de scripting, hébergement VAMP/LADSPA, lecture à vitesse variable — garder la 3.x si vous en dépendez. Open source (GPL v3, beaucoup de fichiers en GPL v2+), gratuit.",
+    "url": "https://www.audacityteam.org/",
+    "tags": [
+      "open-source",
+      "audio",
+      "edition-audio",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Release GitHub — audacity/audacity 4.0.1",
+      "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.1"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "name": "OBS Studio 33.0 bêta 6",
+    "summary": "Le logiciel libre de référence pour l’enregistrement d’écran, la captation multi-sources et le streaming (démos, tutos internes, présentations clients). La 33.0 refond le chargement des plugins : plugins officiels dans un dossier « core », nouvel emplacement pour les tiers, anciens emplacements tolérés jusqu’à OBS 34.0 — à anticiper côté IT si vous déployez des plugins. Elle met aussi à jour CEF (sources navigateur, 127 → 150), améliore le magnétisme des sources, ajoute des raccourcis de monitoring audio et active NVENC sur Arm64. Bêta 6 publiée le 3 oct (heure de Paris), après la bêta 5 du 1er oct : corrections de plantages liés aux groupes, du scripting macOS et des hooks de capture de jeu ; le mode sans échec ne démarre plus le serveur WebSocket ; abandon de FFmpeg 6.x/7.x, Qt 6.4–6.9 et Ubuntu 24.04. Encore en bêta : tester sur une machine dédiée (stable actuelle : 32.2.2 du 14 août). Open source (GPL v2+), gratuit.",
+    "url": "https://obsproject.com/",
+    "tags": [
+      "open-source",
+      "captation",
+      "streaming",
+      "beta"
+    ],
+    "source": {
+      "label": "Release GitHub — obsproject/obs-studio 33.0.0-beta6",
+      "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0-beta6"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "name": "Shotcut 26.9.27 (+ MLT 7.42.0)",
+    "summary": "Éditeur vidéo non linéaire libre et multiplateforme, sur le framework MLT (aussi utilisé par Kdenlive) : un monteur léger pour reels, making-of et previews. La 26.9.27 (28 sept) corrige des failles dans les téléchargements (un HTTPS en échec retombait en HTTP, erreurs de certificat ignorables, modèle Whisper conservé malgré un SHA-256 incorrect) : mise à jour recommandée. Elle passe aussi à FFmpeg 9.0, garde le pipeline audio en float 32 bits, ajoute le ducking audio automatique par piste, un volume et un vumètre dans les en-têtes de piste, et un « Adjustment Clip » dont les filtres s’appliquent aux pistes vidéo en dessous. MLT 7.42.0 (3 oct) ajoute un module GPU « placebo » (libplacebo : mise à l’échelle, debanding, tonemapping, shaders .hook façon mpv) et passe l’audio par défaut en float32. Open source (Shotcut GPL v3, MLT LGPL 2.1), gratuit ; mature, sorties environ mensuelles.",
+    "url": "https://www.shotcut.org/",
+    "tags": [
+      "open-source",
+      "montage",
+      "mlt",
+      "securite"
+    ],
+    "source": {
+      "label": "Web — shotcut.org (blog 26.9.27)",
+      "url": "https://www.shotcut.org/blog/new-release-26.9.27/"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "name": "Aegisub 3.5.0",
+    "summary": "Éditeur de sous-titres avancé (ASS/SSA notamment) : calage sur la forme d’onde, styles, typesetting et preview vidéo temps réel, maintenu par la communauté TypesettingTools — pour sous-titrer proprement une bande-démo ou une vidéo client, plus finement qu’un simple SRT. La 3.5.0 (4 oct selon le changelog, release GitHub le 5 ; après une bêta en juillet) corrige une faille (advisory GHSA-67hq-5vgg-6f23) : un fichier de sous-titres piégé pouvait exécuter du code via les scripts d’automatisation qu’il référence — mise à jour conseillée à tous. Nouveautés : zoom et panoramique dans la vidéo, bien meilleur support High-DPI, synchronisation proposée de la résolution du script et de la matrice couleur avec la vidéo, builds natives Apple Silicon ; builds Windows et macOS désormais signées. Open source (BSD 3 clauses pour l’essentiel du code), gratuit ; projet ancien et éprouvé.",
+    "url": "https://aegisub.org/",
+    "tags": [
+      "open-source",
+      "sous-titres",
+      "securite",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Release GitHub — TypesettingTools/Aegisub v3.5.0",
+      "url": "https://github.com/TypesettingTools/Aegisub/releases/tag/v3.5.0"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "name": "Shutter Encoder 20.4",
+    "summary": "Convertisseur vidéo/audio/image conçu par des monteurs, basé sur FFmpeg (codecs pro, découpe sans réencodage, LUT et espaces couleur, désentrelacement, files d’attente) : l’interface idéale pour donner la puissance de FFmpeg aux graphistes sans terminal (proxys, ProRes/DNx, extraits de review). La 20.4 (28 sept) ajoute un filtre « Film grain », la normalisation de crête (peak) dans la normalisation audio, l’option de retrait des images dupliquées pour tous les codecs, l’ajout à la file depuis « Mes fonctions » et une interface unique plus large, avec de nombreux correctifs (fuites mémoire, décodage GPU, multi-cuts…). Open source (GPL v3), gratuit (dons acceptés) ; mature, mises à jour fréquentes (20.3 fin août), Windows/macOS/Linux.",
+    "url": "https://www.shutterencoder.com/",
+    "tags": [
+      "open-source",
+      "encodage",
+      "ffmpeg",
+      "gui"
+    ],
+    "source": {
+      "label": "Release GitHub — paulpacifico/shutter-encoder 20.4",
+      "url": "https://github.com/paulpacifico/shutter-encoder/releases/tag/20.4"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "name": "Image Sequence to MP4 (add-on Blender) 2.0.0",
+    "summary": "Extension Blender qui assemble une séquence d’images rendues (PNG, EXR…) en vidéo H.264, H.265 ou AV1 depuis l’éditeur d’images, la barre latérale du Video Sequencer ou l’onglet Output — le cas typique du studio : rendre en séquence (sûr en cas de plantage) puis sortir vite une vidéo de review sans Resolve ni commande FFmpeg. La 2.0.0 (2 oct) est une réécriture : export dans un processus séparé (Blender reste utilisable, barre de progression, annulation), FFmpeg utilisé s’il est installé sinon l’encodeur de Blender, détection des images manquantes au lieu d’images noires, tri numérique des frames, couleurs selon la gestion des couleurs de la scène, presets Web 1080p / Master / preview 720p / vertical 9:16. Open source (GPL v3+), gratuit sur extensions.blender.org ; jeune add-on, nécessite Blender 5.0+, réglages 1.x non repris — à tester avant de l’intégrer au pipeline.",
+    "url": "https://extensions.blender.org/add-ons/image-sequence-to-mp4-video-converter/",
+    "tags": [
+      "open-source",
+      "blender-addon",
+      "vse",
+      "encodage"
+    ],
+    "source": {
+      "label": "Web — extensions.blender.org (historique des versions)",
+      "url": "https://extensions.blender.org/add-ons/image-sequence-to-mp4-video-converter/versions/"
+    }
+  }
+]

@@ -6,47 +6,35 @@ Veille **logiciels, solutions et add-ons audio & vidéo** pour un studio 3D : mo
 
 Site statique (GitHub Pages) : **https://olanlive.github.io/revue-audio-video/**
 
-Cadence : **tous les 2 jours** vers **9h Europe/Paris** — un billet de 3 à 7 pépites.
+Cadence : **tous les 2 jours** vers **9h Europe/Paris** — 3 à 7 découvertes à chaque passage, ajoutées en tête d’un fil unique (même format que [`revue-oss-3d`](https://github.com/olanlive/revue-oss-3d)).
 
-## Ligne éditoriale
+## Priorités
 
-1. **Open source d’abord.** Gratuit non libre, freemium ou payant acceptés s’ils sont clairement signalés (champ `price`).
-2. Chaque pépite : lien officiel, ce que c’est, pourquoi c’est utile au studio, licence/prix, maturité, et l’actu récente (avec date) qui la justifie.
+1. **Open source d’abord.** Gratuit non libre, freemium ou payant acceptés s’ils sont clairement signalés (tag + résumé).
+2. Chaque découverte dit : ce que c’est, pourquoi c’est utile au studio, la version et l’actu récente **avec sa date**, la licence/le prix, la maturité.
 3. **Tout est vérifié sur les sources officielles** (site du projet, releases GitHub, changelog). Aucune version, date ou licence inventée.
-4. **Hors périmètre** (couvert par [`revue-oss-3d`](https://github.com/olanlive/revue-oss-3d)) : 3D, VFX, compositing, rendu, modélisation, shaders, add-ons Blender non vidéo.
-5. Éviter les doublons : consulter [`COVERED.md`](./COVERED.md) avant chaque billet.
+4. **Hors périmètre** (couvert par `revue-oss-3d`) : 3D, VFX, compositing, rendu, modélisation, shaders, add-ons Blender non vidéo.
+5. Pas de doublon : consulter [`COVERED.md`](./COVERED.md) avant d’ajouter.
 
-## Publier un nouveau billet
+## Ajouter une découverte
 
-1. Créer `data/revues/AAAA-MM-JJ.json` (date du jour, heure de Paris) :
+1. Éditer [`data/discoveries.json`](./data/discoveries.json) : ajouter un objet par découverte en tête (ou n’importe où — le build trie par date décroissante ; à date égale, l’ordre du fichier est conservé) :
 
 ```json
 {
   "date": "2026-10-09",
-  "title": "Revue n°2 — …",
-  "intro": "Deux ou trois phrases d’accroche.",
-  "items": [
-    {
-      "name": "Nom de l’outil",
-      "version": "1.2.3",
-      "url": "https://site-officiel…",
-      "category": "Montage vidéo",
-      "what": "Ce que c’est.",
-      "why": "Pourquoi c’est utile au studio.",
-      "license": "Open source — GPL v3. Gratuit.",
-      "price": "open-source",
-      "maturity": "Mature / bêta / jeune projet…",
-      "news": "Ce qui vient de sortir, avec la date.",
-      "news_date": "2026-10-08",
-      "news_url": "https://…/releases/tag/v1.2.3",
-      "tags": ["montage", "ffmpeg"]
-    }
-  ],
-  "sources": [{ "label": "Release GitHub 1.2.3", "url": "https://…" }]
+  "name": "Nom de l’outil 1.2.3",
+  "summary": "Ce que c’est + pourquoi c’est utile au studio. Actu datée (sortie le 8 oct…). Open source (GPL v3), gratuit ; maturité.",
+  "url": "https://site-officiel…",
+  "tags": ["open-source", "montage", "ffmpeg"],
+  "source": { "label": "Release GitHub — owner/repo 1.2.3", "url": "https://github.com/owner/repo/releases/tag/v1.2.3" }
 }
 ```
 
-`price` ∈ `open-source` | `gratuit` | `freemium` | `payant`. Champs obligatoires par pépite : `name`, `url`, `what`, `why`, `license`, `price`, `maturity`, `news`, `news_date` (le build échoue sinon).
+- `date` = jour de publication (heure de Paris), format `AAAA-MM-JJ`.
+- `name` = nom + version (la version fait partie de l’ancre).
+- Le **premier tag** donne la licence/le prix : `open-source`, `gratuit`, `freemium` ou `payant`.
+- `source` (optionnel) : où l’info a été vérifiée/repérée — affiché « Trouvé via : … ».
 
 2. Rebuild (régénère `docs/` et `COVERED.md`) :
 
@@ -54,27 +42,43 @@ Cadence : **tous les 2 jours** vers **9h Europe/Paris** — un billet de 3 à 7 
 python3 scripts/build.py
 ```
 
-3. Commit + push :
+3. Commit + push `data/`, `docs/`, `COVERED.md` (et éventuellement ce README) :
 
 ```bash
-git add data docs COVERED.md && git commit -m "Revue AAAA-MM-JJ : outil1, outil2, …" && git push origin main
+git add data docs COVERED.md && git commit -m "Pépites AAAA-MM-JJ: Outil1 x.y, Outil2 x.y" && git push origin main
 ```
 
-4. Le billet est en ligne (après le build Pages, ~1 min) à :
-`https://olanlive.github.io/revue-audio-video/revues/AAAA-MM-JJ.html`
+4. Lien vers une découverte : chaque bloc a une ancre stable `AAAA-MM-JJ-nom-version` (minuscules, accents retirés, tout caractère non alphanumérique → `-`), par ex. `https://olanlive.github.io/revue-audio-video/#2026-10-07-audacity-4-0-1`. Les ancres exactes sont listées dans `COVERED.md`.
 
 ## Tags (vocabulaire)
 
-Tags kebab-case, en français : `montage`, `encodage`, `ffmpeg`, `captation`, `streaming`, `etalonnage`, `sous-titres`, `audio`, `edition-audio`, `daw`, `plugin-audio`, `restauration`, `ia`, `blender-addon`, `vse`, `mlt`, `gui`, `cli`, `securite`, `beta`, `multiplateforme`.
+| Tag | Usage |
+|-----|--------|
+| `open-source` / `gratuit` / `freemium` / `payant` | Licence / prix (toujours en premier) |
+| `montage` | Montage vidéo (NLE) |
+| `encodage` | Encodage / transcodage / codecs |
+| `ffmpeg` | Basé sur FFmpeg ou FFmpeg lui-même |
+| `captation` / `streaming` | Capture, enregistrement, diffusion |
+| `etalonnage` | Étalonnage / couleur vidéo |
+| `sous-titres` | Sous-titrage, transcription |
+| `audio` / `edition-audio` / `daw` / `plugin-audio` | Audio |
+| `restauration` | Débruitage, restauration |
+| `ia` | Outils IA audio/vidéo |
+| `blender-addon` / `vse` | Add-ons Blender vidéo/son, Video Sequencer |
+| `mlt` | Écosystème MLT (Shotcut, Kdenlive) |
+| `gui` / `cli` | Interface graphique / ligne de commande |
+| `securite` | Correctif de sécurité notable |
+| `beta` | Version bêta / préversion |
+| `multiplateforme` | Windows / macOS / Linux |
 
 ## Architecture
 
-- `data/revues/AAAA-MM-JJ.json` — un fichier = un billet (source de vérité, éditable)
-- `scripts/build.py` — génère le HTML dans `docs/` + `COVERED.md`
-- `docs/` — site publié (GitHub Pages depuis `main` / dossier `/docs`) : `index.html` (billets du plus récent au plus ancien), `revues/*.html`, `tags/*.html`, `feed.xml` (RSS)
-- `COVERED.md` — liste générée des outils déjà couverts (anti-doublons)
+- `data/discoveries.json` — fil plat de découvertes (éditable)
+- `scripts/build.py` — génère le HTML dans `docs/` et `COVERED.md`
+- `docs/` — site publié (Pages depuis `main` / dossier `/docs`) : `index.html` (page unique, plus récent en haut), `tags/*.html`
+- `COVERED.md` — liste générée des outils déjà couverts, avec ancres
 
-Pas de npm, pas de Jekyll (`docs/.nojekyll`). Python 3, bibliothèque standard uniquement.
+Pas de npm. Python 3 standard library uniquement.
 
 ## Licence
 

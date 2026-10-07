@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
-"""Génère le site statique « Revue Pépites Audio & Vidéo » dans docs/.
+"""Build static HTML discovery feed for revue-audio-video into docs/ (+ COVERED.md).
 
-Source de vérité : data/revues/AAAA-MM-JJ.json (un fichier = un billet).
-Sorties : docs/index.html, docs/revues/AAAA-MM-JJ.html, docs/tags/*.html,
-docs/feed.xml, docs/style.css, docs/.nojekyll et COVERED.md (à la racine).
-Python 3, bibliothèque standard uniquement.
+Même logique que olanlive/revue-oss-3d : un fil plat de découvertes,
+une page unique docs/index.html (plus récent en haut) + pages de tags.
 """
 
 from __future__ import annotations
@@ -12,135 +10,194 @@ from __future__ import annotations
 import html
 import json
 import re
+import unicodedata
 import shutil
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-REVUES = ROOT / "data" / "revues"
+DATA = ROOT / "data" / "discoveries.json"
 DOCS = ROOT / "docs"
+TAGS_DIR = DOCS / "tags"
 COVERED = ROOT / "COVERED.md"
 
 SITE_TITLE = "Revue Pépites Audio & Vidéo"
-SITE_DESC = (
-    "Veille logiciels, solutions et add-ons audio & vidéo — montage, encodage, "
-    "captation, sous-titres, DAW, plugins, IA. Open source d’abord, tous les 2 jours."
-)
-SITE_URL = "https://olanlive.github.io/revue-audio-video/"
-REPO_URL = "https://github.com/olanlive/revue-audio-video"
-
-PRICE_LABELS = {
-    "open-source": "Open source",
-    "gratuit": "Gratuit (non libre)",
-    "freemium": "Freemium",
-    "payant": "Payant",
-}
-REQUIRED_ITEM_KEYS = (
-    "name", "url", "what", "why", "license", "price", "maturity", "news", "news_date",
-)
+SITE_DESC = "Veille logiciels, solutions et add-ons audio & vidéo — open source d’abord — tous les 2 jours."
 
 CSS = """\
 :root {
-  --bg: #13110f;
-  --surface: #1e1a17;
-  --border: #3a3029;
-  --text: #f1ebe4;
-  --muted: #b3a597;
-  --accent: #ff9f5a;
-  --accent-hover: #ffc08f;
-  --tag-bg: #2c241e;
-  --tag-text: #f3cfae;
-  --oss: #7bd88f;
-  --free: #8cc8ff;
-  --paid: #ff8a8a;
+  --bg: #0f1419;
+  --surface: #1a2332;
+  --border: #2d3a4f;
+  --text: #e7ecf3;
+  --muted: #9aa8bc;
+  --accent: #6cb6ff;
+  --accent-hover: #9ad0ff;
+  --tag-bg: #243044;
+  --tag-text: #b8d4f0;
   --radius: 8px;
   --font: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, sans-serif;
   --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
-  --max: 760px;
+  --max: 720px;
 }
 * { box-sizing: border-box; }
-body { margin: 0; font-family: var(--font); background: var(--bg); color: var(--text); line-height: 1.6; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+}
 a { color: var(--accent); text-decoration: none; }
 a:hover { color: var(--accent-hover); text-decoration: underline; }
-.wrap { max-width: var(--max); margin: 0 auto; padding: 1.25rem 1.25rem 3rem; }
-header.site { border-bottom: 1px solid var(--border); margin-bottom: 2rem; padding-bottom: 1.25rem; }
-header.site h1 { margin: 0 0 .35rem; font-size: 1.6rem; letter-spacing: -.02em; }
-header.site h1 a { color: var(--text); }
-.tagline { color: var(--muted); margin: 0; font-size: .95rem; }
-nav.crumbs { font-size: .85rem; color: var(--muted); margin-bottom: 1.5rem; }
+.wrap {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 1.25rem 1.25rem 3rem;
+}
+header.site {
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 2rem;
+  padding-bottom: 1.25rem;
+}
+header.site h1 {
+  margin: 0 0 0.35rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+header.site h1 a { color: var(--text); text-decoration: none; }
+header.site h1 a:hover { color: var(--accent); }
+.tagline { color: var(--muted); margin: 0; font-size: 0.95rem; }
+nav.crumbs {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
 nav.crumbs a { color: var(--muted); }
-.meta { color: var(--muted); font-size: .9rem; }
-h2.section { font-size: 1.25rem; margin: 0 0 1rem; }
-.post-card, .pepite { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.1rem 1.25rem; margin-bottom: 1rem; }
-.post-card h3 { margin: 0 0 .35rem; font-size: 1.15rem; }
-.post-card h3 a { color: var(--text); }
-.post-card ul { margin: .5rem 0 0; padding-left: 1.2rem; color: var(--muted); font-size: .92rem; }
-.intro { font-size: 1rem; margin-bottom: 1.5rem; }
-.pepite h2 { margin: 0 0 .4rem; font-size: 1.2rem; }
-.pepite h2 a { color: var(--text); }
-.pepite dl { margin: .6rem 0; display: grid; grid-template-columns: 9.5rem 1fr; gap: .35rem .8rem; font-size: .93rem; }
-.pepite dt { color: var(--muted); }
-.pepite dd { margin: 0; }
-.pepite p { margin: .45rem 0; }
-.badges { display: flex; flex-wrap: wrap; gap: .4rem; margin: .2rem 0 .5rem; }
-.badge { font-size: .75rem; font-family: var(--mono); padding: .15rem .55rem; border-radius: 999px; border: 1px solid var(--border); }
-.badge.open-source { color: var(--oss); border-color: var(--oss); }
-.badge.gratuit, .badge.freemium { color: var(--free); border-color: var(--free); }
-.badge.payant { color: var(--paid); border-color: var(--paid); }
-.badge.cat { color: var(--muted); }
-.tags { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .6rem; }
-.tag { display: inline-block; background: var(--tag-bg); color: var(--tag-text); font-size: .75rem; font-family: var(--mono); padding: .2rem .55rem; border-radius: 999px; border: 1px solid var(--border); }
-.tag:hover { color: var(--accent-hover); text-decoration: none; border-color: var(--accent); }
-.tag-cloud { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0 2rem; }
-.sources { font-size: .88rem; color: var(--muted); }
-.sources li { margin-bottom: .2rem; }
-footer.site { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--border); color: var(--muted); font-size: .85rem; }
-code { font-family: var(--mono); font-size: .9em; }
-@media (max-width: 560px) { .pepite dl { grid-template-columns: 1fr; } .pepite dt { margin-top: .3rem; } }
+nav.crumbs a:hover { color: var(--accent); }
+nav.crumbs span.sep { margin: 0 0.35rem; }
+.meta { color: var(--muted); font-size: 0.9rem; }
+.discovery {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.15rem 1.25rem;
+  margin-bottom: 1rem;
+}
+.discovery h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+.discovery h3 a { color: var(--text); }
+.discovery h3 a:hover { color: var(--accent); }
+.discovery .summary {
+  margin: 0 0 0.75rem;
+  color: var(--text);
+  font-size: 0.95rem;
+}
+.discovery .source {
+  margin: 0 0 0.75rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.tag {
+  display: inline-block;
+  background: var(--tag-bg);
+  color: var(--tag-text);
+  font-size: 0.75rem;
+  font-family: var(--mono);
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  text-decoration: none;
+}
+.tag:hover {
+  background: #2e4058;
+  color: var(--accent-hover);
+  text-decoration: none;
+  border-color: var(--accent);
+}
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 2rem;
+  align-items: center;
+}
+h2.section {
+  font-size: 1.25rem;
+  margin: 0 0 1rem;
+  font-weight: 600;
+}
+.date-label {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin: 0 0 0.35rem;
+}
+footer.site {
+  margin-top: 3rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.empty { color: var(--muted); }
+code { font-family: var(--mono); font-size: 0.9em; }
+@media (max-width: 520px) {
+  .wrap { padding: 1rem 1rem 2.5rem; }
+  header.site h1 { font-size: 1.35rem; }
+}
 """
 
-MONTHS = ["", "janvier", "février", "mars", "avril", "mai", "juin", "juillet",
-          "août", "septembre", "octobre", "novembre", "décembre"]
+
+def esc(s: str) -> str:
+    return html.escape(s, quote=True)
 
 
-def esc(s) -> str:
-    return html.escape(str(s), quote=True)
-
-
-def fr_date(iso: str) -> str:
+def format_date_fr(iso: str) -> str:
     dt = datetime.strptime(iso, "%Y-%m-%d")
-    day = "1er" if dt.day == 1 else str(dt.day)
-    return f"{day} {MONTHS[dt.month]} {dt.year}"
+    months = [
+        "", "janvier", "février", "mars", "avril", "mai", "juin",
+        "juillet", "août", "septembre", "octobre", "novembre", "décembre",
+    ]
+    return f"{dt.day} {months[dt.month]} {dt.year}"
 
 
-def slugify(s: str) -> str:
-    s = s.lower()
-    for a, b in (("é", "e"), ("è", "e"), ("ê", "e"), ("à", "a"), ("ç", "c"), ("ô", "o"), ("û", "u"), ("î", "i")):
-        s = s.replace(a, b)
-    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
-
-
-def page(title: str, body: str, *, depth: int = 0, crumbs=None, description: str = SITE_DESC) -> str:
+def page(
+    title: str,
+    body: str,
+    *,
+    depth: int = 0,
+    crumbs: list[tuple[str, str]] | None = None,
+) -> str:
+    """depth: 0 = docs/, 1 = docs/tags/."""
     prefix = "../" * depth
     crumb_html = ""
     if crumbs:
         parts = []
         for i, (label, href) in enumerate(crumbs):
-            if href and i < len(crumbs) - 1:
+            if i < len(crumbs) - 1 and href:
                 parts.append(f'<a href="{esc(href)}">{esc(label)}</a>')
             else:
                 parts.append(f"<span>{esc(label)}</span>")
-        crumb_html = '<nav class="crumbs" aria-label="Fil d’Ariane">' + " / ".join(parts) + "</nav>"
+        crumb_html = (
+            '<nav class="crumbs" aria-label="Fil d’Ariane">'
+            + '<span class="sep" aria-hidden="true"> / </span>'.join(parts)
+            + "</nav>"
+        )
     return f"""<!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{esc(title)}</title>
-  <meta name="description" content="{esc(description)}">
+  <meta name="description" content="{esc(SITE_DESC)}">
   <link rel="stylesheet" href="{prefix}style.css">
-  <link rel="alternate" type="application/rss+xml" title="{esc(SITE_TITLE)}" href="{prefix}feed.xml">
 </head>
 <body>
   <div class="wrap">
@@ -151,8 +208,9 @@ def page(title: str, body: str, *, depth: int = 0, crumbs=None, description: str
     {crumb_html}
     {body}
     <footer class="site">
-      <p>Veille audio / vidéo · open source d’abord (gratuit ou payant signalé) · tous les 2 jours vers 9h (Europe/Paris)</p>
-      <p><a href="{REPO_URL}">Code source sur GitHub</a> · <a href="{prefix}tags/index.html">Tous les tags</a> · <a href="{prefix}feed.xml">Flux RSS</a></p>
+      <p>Veille audio / vidéo · open source d’abord (gratuit / payant signalé) · tous les 2 jours · 9h Europe/Paris</p>
+      <p><a href="https://github.com/olanlive/revue-audio-video">Code source sur GitHub</a>
+         · <a href="{prefix}tags/index.html">Tous les tags</a></p>
     </footer>
   </div>
 </body>
@@ -160,162 +218,170 @@ def page(title: str, body: str, *, depth: int = 0, crumbs=None, description: str
 """
 
 
-def tags_html(tags, base: str) -> str:
+def tags_html(tags: list[str], *, tags_base: str) -> str:
     if not tags:
         return ""
-    return '<div class="tags">' + "".join(
-        f'<a class="tag" href="{base}{esc(t)}.html">#{esc(t)}</a>' for t in tags) + "</div>"
+    links = [
+        f'<a class="tag" href="{tags_base}{esc(t)}.html">#{esc(t)}</a>'
+        for t in tags
+    ]
+    return '<div class="tags">' + "".join(links) + "</div>"
 
 
-def load_posts() -> list[dict]:
-    posts = []
-    for f in sorted(REVUES.glob("*.json")):
-        p = json.loads(f.read_text(encoding="utf-8"))
-        p.setdefault("date", f.stem)
-        p["slug"] = f.stem
-        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}(-[a-z0-9-]+)?", f.stem):
-            raise SystemExit(f"Nom de fichier invalide : {f.name} (attendu AAAA-MM-JJ.json)")
-        items = p.get("items", [])
-        if not 1 <= len(items) <= 10:
-            raise SystemExit(f"{f.name} : nombre de pépites inattendu ({len(items)})")
-        for it in items:
-            missing = [k for k in REQUIRED_ITEM_KEYS if not it.get(k)]
-            if missing:
-                raise SystemExit(f"{f.name} / {it.get('name')} : champs manquants {missing}")
-            if it["price"] not in PRICE_LABELS:
-                raise SystemExit(f"{f.name} / {it['name']} : price doit être {list(PRICE_LABELS)}")
-        posts.append(p)
-    posts.sort(key=lambda p: (p["date"], p["slug"]), reverse=True)
-    return posts
+def source_html(source) -> str:
+    """source: {"label": str, "url": str?} or a plain string."""
+    if not source:
+        return ""
+    if isinstance(source, str):
+        return f'<p class="source">Trouvé via : {esc(source)}</p>'
+    label = esc(source.get("label", ""))
+    url = source.get("url")
+    if url:
+        label = f'<a href="{esc(url)}" rel="noopener" target="_blank">{label}</a>'
+    return f'<p class="source">Trouvé via : {label}</p>'
 
 
-def pepite_html(it: dict, tags_base: str) -> str:
-    cat = f'<span class="badge cat">{esc(it["category"])}</span>' if it.get("category") else ""
-    title = esc(it["name"]) + (f' {esc(it["version"])}' if it.get("version") else "")
-    news_link = f' — <a href="{esc(it["news_url"])}" rel="noopener">source</a>' if it.get("news_url") else ""
+def anchor_id(item: dict) -> str:
+    """Ancre stable : AAAA-MM-JJ-nom-version (ex. 2026-10-07-audacity-4-0-1)."""
+    if item.get("id"):
+        return item["id"]
+    name = unicodedata.normalize("NFKD", item["name"]).encode("ascii", "ignore").decode()
+    slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+    return f"{item['date']}-{slug}"
+
+
+def discovery_html(
+    item: dict,
+    *,
+    tags_base: str,
+    show_date: bool = True,
+) -> str:
+    date_bit = ""
+    if show_date and item.get("date"):
+        date_bit = (
+            f'<p class="date-label"><time datetime="{esc(item["date"])}">'
+            f"{esc(format_date_fr(item['date']))}</time></p>"
+        )
     return f"""
-<article class="pepite" id="{esc(slugify(it['name']))}">
-  <h2><a href="{esc(it['url'])}" rel="noopener">{title}</a></h2>
-  <div class="badges"><span class="badge {esc(it['price'])}">{esc(PRICE_LABELS[it['price']])}</span>{cat}</div>
-  <p><strong>C’est quoi :</strong> {esc(it['what'])}</p>
-  <p><strong>Pourquoi pour toi :</strong> {esc(it['why'])}</p>
-  <dl>
-    <dt>Licence / prix</dt><dd>{esc(it['license'])}</dd>
-    <dt>Maturité</dt><dd>{esc(it['maturity'])}</dd>
-    <dt>L’actu ({esc(fr_date(it['news_date']))})</dt><dd>{esc(it['news'])}{news_link}</dd>
-  </dl>
-  {tags_html(it.get('tags', []), tags_base)}
-</article>"""
+<article class="discovery" id="{esc(anchor_id(item))}">
+  {date_bit}
+  <h3><a href="{esc(item['url'])}" rel="noopener" target="_blank">{esc(item['name'])}</a></h3>
+  <p class="summary">{esc(item['summary'])}</p>
+  {source_html(item.get('source'))}
+  {tags_html(item.get('tags', []), tags_base=tags_base)}
+</article>
+"""
 
 
 def build() -> None:
-    posts = load_posts()
+    discoveries = json.loads(DATA.read_text(encoding="utf-8"))
+    discoveries = sorted(discoveries, key=lambda d: d["date"], reverse=True)
+
     if DOCS.exists():
-        shutil.rmtree(DOCS)
-    (DOCS / "revues").mkdir(parents=True)
-    (DOCS / "tags").mkdir(parents=True)
+        for child in DOCS.iterdir():
+            if child.is_dir():
+                shutil.rmtree(child)
+            else:
+                child.unlink()
+    DOCS.mkdir(parents=True, exist_ok=True)
+    TAGS_DIR.mkdir(parents=True, exist_ok=True)
+
     (DOCS / "style.css").write_text(CSS, encoding="utf-8")
     (DOCS / ".nojekyll").write_text("", encoding="utf-8")
 
-    by_tag: dict[str, list[tuple[dict, dict]]] = defaultdict(list)
-    for p in posts:
-        for it in p["items"]:
-            for t in it.get("tags", []):
-                by_tag[t].append((p, it))
+    by_tag: dict[str, list[dict]] = defaultdict(list)
+    all_tags: set[str] = set()
 
-    # Billets
-    for p in posts:
-        items = "".join(pepite_html(it, "../tags/") for it in p["items"])
-        sources = ""
-        if p.get("sources"):
-            sources = '<section class="sources"><h2 class="section">Sources</h2><ul>' + "".join(
-                f'<li><a href="{esc(s["url"])}" rel="noopener">{esc(s["label"])}</a></li>' for s in p["sources"]
-            ) + "</ul></section>"
-        body = f"""
-<article>
-  <p class="meta"><time datetime="{esc(p['date'])}">{esc(fr_date(p['date']))}</time> · {len(p['items'])} pépites</p>
-  <h2 class="section" style="font-size:1.5rem">{esc(p['title'])}</h2>
-  <p class="intro">{esc(p.get('intro', ''))}</p>
-  {items}
-  {sources}
-</article>"""
-        (DOCS / "revues" / f"{p['slug']}.html").write_text(
-            page(f"{p['title']} · {SITE_TITLE}", body, depth=1,
-                 crumbs=[("Accueil", "../index.html"), (fr_date(p["date"]), "")],
-                 description=p.get("intro", SITE_DESC)[:200]),
-            encoding="utf-8")
+    for item in discoveries:
+        for tag in item.get("tags", []):
+            all_tags.add(tag)
+            by_tag[tag].append(item)
 
-    # Accueil
-    cards = "".join(
-        f"""
-<article class="post-card">
-  <p class="meta"><time datetime="{esc(p['date'])}">{esc(fr_date(p['date']))}</time> · {len(p['items'])} pépites</p>
-  <h3><a href="revues/{esc(p['slug'])}.html">{esc(p['title'])}</a></h3>
-  <ul>{''.join(f'<li>{esc(it["name"])}{(" " + esc(it["version"])) if it.get("version") else ""} — {esc(PRICE_LABELS[it["price"]])}</li>' for it in p['items'])}</ul>
-</article>""" for p in posts)
-    cloud = "".join(f'<a class="tag" href="tags/{esc(t)}.html">#{esc(t)}</a>' for t in sorted(by_tag))
-    home = f"""
+    feed = "".join(
+        discovery_html(item, tags_base="tags/") for item in discoveries
+    )
+    tag_links = "".join(
+        f'<a class="tag" href="tags/{esc(t)}.html">#{esc(t)}</a>'
+        for t in sorted(all_tags)
+    )
+    n = len(discoveries)
+    home_body = f"""
 <section>
-  <h2 class="section">Billets</h2>
-  <p class="meta">{len(posts)} billet{'s' if len(posts) != 1 else ''}, du plus récent au plus ancien</p>
-  {cards or '<p class="meta">Aucun billet pour le moment.</p>'}
+  <h2 class="section">Découvertes</h2>
+  <p class="meta">{n} découverte{'s' if n != 1 else ''}</p>
+  {feed if feed else '<p class="empty">Aucune découverte pour le moment.</p>'}
 </section>
 <section>
   <h2 class="section">Tags</h2>
-  <div class="tag-cloud">{cloud or '—'}</div>
-</section>"""
-    (DOCS / "index.html").write_text(page(SITE_TITLE, home), encoding="utf-8")
+  <div class="tag-cloud">{tag_links or '<span class="empty">—</span>'}</div>
+</section>
+"""
+    (DOCS / "index.html").write_text(
+        page(SITE_TITLE, home_body, depth=0), encoding="utf-8"
+    )
 
-    # Tags
-    for t, entries in sorted(by_tag.items()):
-        lst = "".join(
-            f'<li><a href="../revues/{esc(p["slug"])}.html#{esc(slugify(it["name"]))}">{esc(it["name"])}'
-            f'{(" " + esc(it["version"])) if it.get("version") else ""}</a> '
-            f'<span class="meta">— {esc(fr_date(p["date"]))}</span></li>' for p, it in entries)
-        (DOCS / "tags" / f"{t}.html").write_text(
-            page(f"#{t} · {SITE_TITLE}", f'<h2 class="section">Tag <code>#{esc(t)}</code></h2><ul>{lst}</ul>',
-                 depth=1, crumbs=[("Accueil", "../index.html"), ("Tags", "index.html"), (f"#{t}", "")]),
-            encoding="utf-8")
-    idx = " ".join(f'<a class="tag" href="{esc(t)}.html">#{esc(t)}</a><span class="meta">({len(e)})</span>'
-                   for t, e in sorted(by_tag.items()))
-    (DOCS / "tags" / "index.html").write_text(
-        page(f"Tags · {SITE_TITLE}", f'<h2 class="section">Tous les tags</h2><div class="tag-cloud">{idx or "—"}</div>',
-             depth=1, crumbs=[("Accueil", "../index.html"), ("Tags", "")]), encoding="utf-8")
+    for tag in sorted(all_tags):
+        entries = sorted(by_tag[tag], key=lambda e: e["date"], reverse=True)
+        items_html = "".join(
+            discovery_html(item, tags_base="./") for item in entries
+        )
+        body = f"""
+<h2 class="section">Tag <code>#{esc(tag)}</code></h2>
+<p class="meta">{len(entries)} découverte{'s' if len(entries) != 1 else ''}</p>
+{items_html}
+"""
+        (TAGS_DIR / f"{tag}.html").write_text(
+            page(
+                f"#{tag} · {SITE_TITLE}",
+                body,
+                depth=1,
+                crumbs=[
+                    ("Accueil", "../index.html"),
+                    ("Tags", "index.html"),
+                    (f"#{tag}", ""),
+                ],
+            ),
+            encoding="utf-8",
+        )
 
-    # RSS
-    rss_items = "".join(
-        f"""
-  <item>
-    <title>{esc(p['title'])}</title>
-    <link>{SITE_URL}revues/{esc(p['slug'])}.html</link>
-    <guid>{SITE_URL}revues/{esc(p['slug'])}.html</guid>
-    <pubDate>{datetime.strptime(p['date'], '%Y-%m-%d').strftime('%a, %d %b %Y 09:00:00 +0200')}</pubDate>
-    <description>{esc(p.get('intro', ''))}</description>
-  </item>""" for p in posts)
-    (DOCS / "feed.xml").write_text(f"""<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel>
-  <title>{esc(SITE_TITLE)}</title>
-  <link>{SITE_URL}</link>
-  <description>{esc(SITE_DESC)}</description>
-  <language>fr</language>{rss_items}
-</channel></rss>
-""", encoding="utf-8")
+    cloud_parts = []
+    for t in sorted(all_tags):
+        cloud_parts.append(
+            f'<a class="tag" href="{esc(t)}.html">#{esc(t)}</a>'
+            f'<span class="meta">({len(by_tag[t])})</span>'
+        )
+    tags_index_body = f"""
+<h2 class="section">Tous les tags</h2>
+<div class="tag-cloud">{' '.join(cloud_parts) or '<span class="empty">—</span>'}</div>
+"""
+    (TAGS_DIR / "index.html").write_text(
+        page(
+            f"Tags · {SITE_TITLE}",
+            tags_index_body,
+            depth=1,
+            crumbs=[("Accueil", "../index.html"), ("Tags", "")],
+        ),
+        encoding="utf-8",
+    )
 
-    # COVERED.md (anti-doublons pour les prochains passages)
-    rows = []
-    for p in posts:
-        for it in p["items"]:
-            rows.append(f"| {p['date']} | {it['name']} | {it.get('version', '')} | {PRICE_LABELS[it['price']]} | {it['url']} |")
+    rows = "\n".join(
+        f"| {d['date']} | {d['name']} | {', '.join(d.get('tags', []))} | {d['url']} | "
+        f"https://olanlive.github.io/revue-audio-video/#{anchor_id(d)} |"
+        for d in discoveries
+    )
     COVERED.write_text(
         "# Outils déjà couverts\n\n"
-        "Fichier **généré** par `scripts/build.py` à partir de `data/revues/*.json` — ne pas éditer à la main.\n"
-        "Avant chaque nouveau billet : ne reprendre un outil déjà listé que s’il y a une **nouvelle version majeure ou une actu forte**, "
-        "et le signaler comme suivi (« déjà vu le … »).\n\n"
-        "Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, modélisation, shaders, add-ons Blender non vidéo.\n\n"
-        "| Billet | Outil | Version | Licence/prix | Lien |\n|---|---|---|---|---|\n" + "\n".join(rows) + "\n",
-        encoding="utf-8")
+        "Fichier **généré** par `scripts/build.py` depuis `data/discoveries.json` — ne pas éditer à la main.\n"
+        "Avant d’ajouter une découverte : ne reprendre un outil déjà listé que s’il y a une nouvelle version "
+        "majeure ou une actu forte (et le dire dans le résumé : « déjà vu le … »).\n\n"
+        "Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, modélisation, shaders, "
+        "add-ons Blender non vidéo.\n\n"
+        "| Date | Découverte | Tags | Lien officiel | Ancre sur le site |\n|---|---|---|---|---|\n"
+        + rows + "\n",
+        encoding="utf-8",
+    )
 
-    print(f"OK : {len(posts)} billet(s), {sum(len(p['items']) for p in posts)} pépite(s), {len(by_tag)} tag(s) → {DOCS}")
+    print(f"Built {len(discoveries)} discovery(ies), {len(all_tags)} tag(s) → {DOCS}")
 
 
 if __name__ == "__main__":
