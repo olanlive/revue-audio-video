@@ -1,5 +1,53 @@
 [
   {
+    "date": "2026-10-09",
+    "name": "OBS Studio 33.0 RC1",
+    "summary": "Déjà vu le 7 oct en bêta 6 : OBS 33.0 passe en release candidate (9 oct). Sources navigateur corrigées (page blanche au rafraîchissement, requêtes réseau local), Plugin Manager fiabilisé en mode sans échec : la version finale approche.",
+    "url": "https://obsproject.com/",
+    "tags": [
+      "open-source",
+      "captation",
+      "streaming",
+      "beta"
+    ],
+    "source": {
+      "label": "Release GitHub — obsproject/obs-studio 33.0.0-rc1",
+      "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0-rc1"
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "name": "MediaMTX 1.21.2",
+    "summary": "Serveur et proxy de flux live prêt à l’emploi (SRT, WebRTC, RTSP, RTMP, LL-HLS, Media-over-QUIC) qui publie, enregistre et relit audio et vidéo. La 1.21.2 (8 oct) ferme un accès libre au serveur de relecture et filtre les SEI non standard de certaines caméras.",
+    "url": "https://github.com/bluenviron/mediamtx",
+    "tags": [
+      "open-source",
+      "streaming",
+      "securite",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Release GitHub — bluenviron/mediamtx v1.21.2",
+      "url": "https://github.com/bluenviron/mediamtx/releases/tag/v1.21.2"
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "name": "whisper.cpp 1.9.5",
+    "summary": "Transcription Whisper en C/C++ pur, en local sur CPU ou GPU, idéale pour sous-titrer sans cloud. La 1.9.5 (6 oct) embarque ggml 0.26.0 : optimisations CUDA, Metal et WebGPU, et flash attention clairsemée sous Vulkan.",
+    "url": "https://github.com/ggml-org/whisper.cpp",
+    "tags": [
+      "open-source",
+      "ia",
+      "sous-titres",
+      "cli"
+    ],
+    "source": {
+      "label": "Release GitHub — ggml-org/whisper.cpp v1.9.5",
+      "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.5"
+    }
+  },
+  {
     "date": "2026-10-06",
     "name": "slatefree 1.2.0",
     "summary": "Outil Rust en ligne de commande qui synchronise des centaines de clips multi-caméras sans clap ni timecode, calés sur l’audio continu d’un enregistreur. Sortie : timeline FCP 7 XML pour Resolve et CSV de contrôle par clip. Repo créé le 6 oct, déjà en v1.2.0.",

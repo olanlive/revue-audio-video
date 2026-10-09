@@ -7,6 +7,9 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-09 | OBS Studio 33.0 RC1 | open-source, captation, streaming, beta | https://obsproject.com/ | https://olanlive.github.io/revue-audio-video/#2026-10-09-obs-studio-33-0-rc1 |
+| 2026-10-09 | MediaMTX 1.21.2 | open-source, streaming, securite, multiplateforme | https://github.com/bluenviron/mediamtx | https://olanlive.github.io/revue-audio-video/#2026-10-09-mediamtx-1-21-2 |
+| 2026-10-09 | whisper.cpp 1.9.5 | open-source, ia, sous-titres, cli | https://github.com/ggml-org/whisper.cpp | https://olanlive.github.io/revue-audio-video/#2026-10-09-whisper-cpp-1-9-5 |
 | 2026-10-07 | FFmpeg 9.0.2 « Lei » | open-source, encodage, ffmpeg, cli | https://ffmpeg.org/download.html | https://olanlive.github.io/revue-audio-video/#2026-10-07-ffmpeg-9-0-2-lei |
 | 2026-10-07 | Audacity 4.0.1 | open-source, audio, edition-audio, multiplateforme | https://www.audacityteam.org/ | https://olanlive.github.io/revue-audio-video/#2026-10-07-audacity-4-0-1 |
 | 2026-10-07 | OBS Studio 33.0 bêta 6 | open-source, captation, streaming, beta | https://obsproject.com/ | https://olanlive.github.io/revue-audio-video/#2026-10-07-obs-studio-33-0-beta-6 |

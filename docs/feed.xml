@@ -5,8 +5,41 @@
     <link>https://olanlive.github.io/revue-audio-video/</link>
     <description>Veille logiciels, solutions et add-ons audio &amp; vidéo — open source d’abord — tous les 2 jours.</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 07 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OBS Studio 33.0 RC1</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-09-obs-studio-33-0-rc1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-09-obs-studio-33-0-rc1</guid>
+      <pubDate>Fri, 09 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Déjà vu le 7 oct en bêta 6 : OBS 33.0 passe en release candidate (9 oct). Sources navigateur corrigées (page blanche au rafraîchissement, requêtes réseau local), Plugin Manager fiabilisé en mode sans échec : la version finale approche.</description>
+      <category>open-source</category>
+      <category>captation</category>
+      <category>streaming</category>
+      <category>beta</category>
+    </item>
+    <item>
+      <title>MediaMTX 1.21.2</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-09-mediamtx-1-21-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-09-mediamtx-1-21-2</guid>
+      <pubDate>Fri, 09 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Serveur et proxy de flux live prêt à l’emploi (SRT, WebRTC, RTSP, RTMP, LL-HLS, Media-over-QUIC) qui publie, enregistre et relit audio et vidéo. La 1.21.2 (8 oct) ferme un accès libre au serveur de relecture et filtre les SEI non standard de certaines caméras.</description>
+      <category>open-source</category>
+      <category>streaming</category>
+      <category>securite</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>whisper.cpp 1.9.5</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-09-whisper-cpp-1-9-5</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-09-whisper-cpp-1-9-5</guid>
+      <pubDate>Fri, 09 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Transcription Whisper en C/C++ pur, en local sur CPU ou GPU, idéale pour sous-titrer sans cloud. La 1.9.5 (6 oct) embarque ggml 0.26.0 : optimisations CUDA, Metal et WebGPU, et flash attention clairsemée sous Vulkan.</description>
+      <category>open-source</category>
+      <category>ia</category>
+      <category>sous-titres</category>
+      <category>cli</category>
+    </item>
     <item>
       <title>FFmpeg 9.0.2 « Lei »</title>
       <link>https://olanlive.github.io/revue-audio-video/#2026-10-07-ffmpeg-9-0-2-lei</link>
