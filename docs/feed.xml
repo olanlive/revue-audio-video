@@ -5,8 +5,19 @@
     <link>https://olanlive.github.io/revue-audio-video/</link>
     <description>Veille logiciels, solutions et add-ons audio &amp; vidéo — open source d’abord — tous les 2 jours.</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 09 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Subtitle Edit 5.3.0 RC2</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-11-subtitle-edit-5-3-0-rc2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-11-subtitle-edit-5-3-0-rc2</guid>
+      <pubDate>Sun, 11 Oct 2026 09:00:00 +0200</pubDate>
+      <description>L’éditeur de sous-titres libre prépare sa 5.3 : release candidate 2 publiée le 11 oct, avec des builds Windows, macOS (Apple Silicon et Intel) et Linux (tarball et Flatpak), plus SeConv, son convertisseur de sous-titres en ligne de commande.</description>
+      <category>open-source</category>
+      <category>sous-titres</category>
+      <category>beta</category>
+      <category>multiplateforme</category>
+    </item>
     <item>
       <title>OBS Studio 33.0 RC1</title>
       <link>https://olanlive.github.io/revue-audio-video/#2026-10-09-obs-studio-33-0-rc1</link>

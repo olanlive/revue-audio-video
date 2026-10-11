@@ -7,6 +7,7 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-11 | Subtitle Edit 5.3.0 RC2 | open-source, sous-titres, beta, multiplateforme | https://github.com/SubtitleEdit/subtitleedit | https://olanlive.github.io/revue-audio-video/#2026-10-11-subtitle-edit-5-3-0-rc2 |
 | 2026-10-09 | OBS Studio 33.0 RC1 | open-source, captation, streaming, beta | https://obsproject.com/ | https://olanlive.github.io/revue-audio-video/#2026-10-09-obs-studio-33-0-rc1 |
 | 2026-10-09 | MediaMTX 1.21.2 | open-source, streaming, securite, multiplateforme | https://github.com/bluenviron/mediamtx | https://olanlive.github.io/revue-audio-video/#2026-10-09-mediamtx-1-21-2 |
 | 2026-10-09 | whisper.cpp 1.9.5 | open-source, ia, sous-titres, cli | https://github.com/ggml-org/whisper.cpp | https://olanlive.github.io/revue-audio-video/#2026-10-09-whisper-cpp-1-9-5 |
