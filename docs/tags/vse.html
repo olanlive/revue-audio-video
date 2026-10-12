@@ -27,8 +27,10 @@
   <h3><a href="https://extensions.blender.org/add-ons/image-sequence-to-mp4-video-converter/" rel="noopener" target="_blank">Image Sequence to MP4 (add-on Blender) 2.0.0</a></h3>
   <p class="summary">Vos rendus PNG/EXR deviennent un MP4 (H.264, H.265 ou AV1) en un clic, en tâche de fond, sans bloquer Blender. La 2.0.0 (2 oct) détecte les frames manquantes, respecte la gestion des couleurs et propose des presets Web, 720p et 9:16.</p>
   <p class="source">Trouvé via : <a href="https://extensions.blender.org/add-ons/image-sequence-to-mp4-video-converter/versions/" rel="noopener" target="_blank">Web — extensions.blender.org (historique des versions)</a></p>
-  <div class="tags"><a class="tag" href="../index.html#tag=open-source">#open-source</a><a class="tag" href="../index.html#tag=blender-addon">#blender-addon</a><a class="tag" href="../index.html#tag=vse">#vse</a><a class="tag" href="../index.html#tag=encodage">#encodage</a></div>
-  <p class="share-x"><a href="https://x.com/intent/post?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0AImage%20Sequence%20to%20MP4%20%28add-on%20Blender%29%202.0.0%20%3A%20Vos%20rendus%20PNG%2FEXR%20deviennent%20un%20MP4%20%28H.264%2C%20H.265%20ou%20AV1%29%20en%20un%20clic%2C%20en%20t%C3%A2che%20de%20fond%2C%20sans%20bloquer%20Blender.%20La%202.0.0%20%282%20oct%29%20d%C3%A9tecte%20les%20frames%20manquantes%2C%20respecte%20la%20gestion%E2%80%A6%0Ahttps%3A%2F%2Fextensions.blender.org%2Fadd-ons%2Fimage-sequence-to-mp4-video-converter%2F%0A%23opensource" rel="noopener" target="_blank">Partager sur X</a></p>
+  <p class="share-x" data-tags="open-source blender-addon vse encodage" data-text="Pépite du jour 💎
+Image Sequence to MP4 (add-on Blender) 2.0.0 : Vos rendus PNG/EXR deviennent un MP4 (H.264, H.265 ou AV1) en un clic, en tâche de fond, sans bloquer Blender. La 2.0.0 (2 oct) détecte les frames manquantes, respecte la gestion…
+https://extensions.blender.org/add-ons/image-sequence-to-mp4-video-converter/
+#opensource"><a class="share-btn" href="https://twitter.com/intent/tweet?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0AImage%20Sequence%20to%20MP4%20%28add-on%20Blender%29%202.0.0%20%3A%20Vos%20rendus%20PNG%2FEXR%20deviennent%20un%20MP4%20%28H.264%2C%20H.265%20ou%20AV1%29%20en%20un%20clic%2C%20en%20t%C3%A2che%20de%20fond%2C%20sans%20bloquer%20Blender.%20La%202.0.0%20%282%20oct%29%20d%C3%A9tecte%20les%20frames%20manquantes%2C%20respecte%20la%20gestion%E2%80%A6%0Ahttps%3A%2F%2Fextensions.blender.org%2Fadd-ons%2Fimage-sequence-to-mp4-video-converter%2F%0A%23opensource" rel="noopener" target="_blank">Partager sur X</a> · <button type="button" class="copy-btn" hidden>Copier</button></p>
 </article>
 
 
@@ -39,5 +41,23 @@
          · <a href="../feed.xml">Flux RSS</a></p>
     </footer>
   </div>
+<script>/*PEPITES_SHARE*/
+(function(){
+  [].forEach.call(document.querySelectorAll('.share-x .copy-btn'),function(b){ if(navigator.clipboard) b.hidden=false; });
+  document.addEventListener('click',function(e){
+    var t=e.target, p=t.closest&&t.closest('.share-x'); if(!p) return;
+    var text=p.getAttribute('data-text');
+    if(t.closest('.share-btn')){
+      e.preventDefault();
+      if(navigator.share){ navigator.share({text:text}).catch(function(){}); }
+      else { window.open('https://twitter.com/intent/tweet?text='+encodeURIComponent(text),'_blank','noopener'); }
+    } else if(t.closest('.copy-btn')){
+      navigator.clipboard.writeText(text).then(function(){
+        var b=t.closest('.copy-btn'); b.textContent='Copié ✓'; setTimeout(function(){ b.textContent='Copier'; },2000);
+      }).catch(function(){});
+    }
+  });
+})();
+</script>
 </body>
 </html>

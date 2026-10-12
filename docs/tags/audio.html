@@ -27,8 +27,10 @@
   <h3><a href="https://www.audacityteam.org/" rel="noopener" target="_blank">Audacity 4.0.1</a></h3>
   <p class="summary">Audacity 4 reconstruit son interface sur Qt : clips sélectionnables et groupables, espaces de travail, ASIO sous Windows. La 4.0.1 (30 sept) corrige les bugs de jeunesse et ajoute l’export d’une piste ou d’une région par fichier, plus une version portable Windows.</p>
   <p class="source">Trouvé via : <a href="https://github.com/audacity/audacity/releases/tag/Audacity-4.0.1" rel="noopener" target="_blank">Release GitHub — audacity/audacity 4.0.1</a></p>
-  <div class="tags"><a class="tag" href="../index.html#tag=open-source">#open-source</a><a class="tag" href="../index.html#tag=audio">#audio</a><a class="tag" href="../index.html#tag=edition-audio">#edition-audio</a><a class="tag" href="../index.html#tag=multiplateforme">#multiplateforme</a></div>
-  <p class="share-x"><a href="https://x.com/intent/post?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0AAudacity%204.0.1%20%3A%20Audacity%204%20reconstruit%20son%20interface%20sur%20Qt%20%3A%20clips%20s%C3%A9lectionnables%20et%20groupables%2C%20espaces%20de%20travail%2C%20ASIO%20sous%20Windows.%20La%204.0.1%20%2830%20sept%29%20corrige%20les%20bugs%20de%20jeunesse%20et%20ajoute%20l%E2%80%99export%20d%E2%80%99une%20piste%20ou%20d%E2%80%A6%0Ahttps%3A%2F%2Fwww.audacityteam.org%2F%0A%23opensource" rel="noopener" target="_blank">Partager sur X</a></p>
+  <p class="share-x" data-tags="open-source audio edition-audio multiplateforme" data-text="Pépite du jour 💎
+Audacity 4.0.1 : Audacity 4 reconstruit son interface sur Qt : clips sélectionnables et groupables, espaces de travail, ASIO sous Windows. La 4.0.1 (30 sept) corrige les bugs de jeunesse et ajoute l’export d’une piste ou d…
+https://www.audacityteam.org/
+#opensource"><a class="share-btn" href="https://twitter.com/intent/tweet?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0AAudacity%204.0.1%20%3A%20Audacity%204%20reconstruit%20son%20interface%20sur%20Qt%20%3A%20clips%20s%C3%A9lectionnables%20et%20groupables%2C%20espaces%20de%20travail%2C%20ASIO%20sous%20Windows.%20La%204.0.1%20%2830%20sept%29%20corrige%20les%20bugs%20de%20jeunesse%20et%20ajoute%20l%E2%80%99export%20d%E2%80%99une%20piste%20ou%20d%E2%80%A6%0Ahttps%3A%2F%2Fwww.audacityteam.org%2F%0A%23opensource" rel="noopener" target="_blank">Partager sur X</a> · <button type="button" class="copy-btn" hidden>Copier</button></p>
 </article>
 
 
@@ -39,5 +41,23 @@
          · <a href="../feed.xml">Flux RSS</a></p>
     </footer>
   </div>
+<script>/*PEPITES_SHARE*/
+(function(){
+  [].forEach.call(document.querySelectorAll('.share-x .copy-btn'),function(b){ if(navigator.clipboard) b.hidden=false; });
+  document.addEventListener('click',function(e){
+    var t=e.target, p=t.closest&&t.closest('.share-x'); if(!p) return;
+    var text=p.getAttribute('data-text');
+    if(t.closest('.share-btn')){
+      e.preventDefault();
+      if(navigator.share){ navigator.share({text:text}).catch(function(){}); }
+      else { window.open('https://twitter.com/intent/tweet?text='+encodeURIComponent(text),'_blank','noopener'); }
+    } else if(t.closest('.copy-btn')){
+      navigator.clipboard.writeText(text).then(function(){
+        var b=t.closest('.copy-btn'); b.textContent='Copié ✓'; setTimeout(function(){ b.textContent='Copier'; },2000);
+      }).catch(function(){});
+    }
+  });
+})();
+</script>
 </body>
 </html>
