@@ -21,24 +21,17 @@
 <section>
   <h2 class="section">Découvertes</h2>
   <p class="meta">12 découvertes</p>
-  <div class="tag-filter" aria-label="Filtrer par tag"><a class="tag tag-all" href="#" data-tag="" role="button" aria-pressed="true">Tous</a><a class="tag" href="tags/open-source.html" data-tag="open-source" role="button" aria-pressed="false">#open-source</a><a class="tag" href="tags/multiplateforme.html" data-tag="multiplateforme" role="button" aria-pressed="false">#multiplateforme</a><a class="tag" href="tags/beta.html" data-tag="beta" role="button" aria-pressed="false">#beta</a><a class="tag" href="tags/cli.html" data-tag="cli" role="button" aria-pressed="false">#cli</a><a class="tag" href="tags/encodage.html" data-tag="encodage" role="button" aria-pressed="false">#encodage</a><a class="tag" href="tags/securite.html" data-tag="securite" role="button" aria-pressed="false">#securite</a><a class="tag" href="tags/sous-titres.html" data-tag="sous-titres" role="button" aria-pressed="false">#sous-titres</a><a class="tag" href="tags/streaming.html" data-tag="streaming" role="button" aria-pressed="false">#streaming</a><a class="tag" href="tags/captation.html" data-tag="captation" role="button" aria-pressed="false">#captation</a><a class="tag" href="tags/ffmpeg.html" data-tag="ffmpeg" role="button" aria-pressed="false">#ffmpeg</a><a class="tag" href="tags/montage.html" data-tag="montage" role="button" aria-pressed="false">#montage</a><a class="tag" href="tags/audio.html" data-tag="audio" role="button" aria-pressed="false">#audio</a><a class="tag" href="tags/blender-addon.html" data-tag="blender-addon" role="button" aria-pressed="false">#blender-addon</a><a class="tag" href="tags/edition-audio.html" data-tag="edition-audio" role="button" aria-pressed="false">#edition-audio</a></div><script>
+  <div class="tag-filter" data-home role="group" aria-label="Filtrer par tag"><a class="tag tag-toggle" href="tags/index.html" role="button" aria-expanded="false" aria-controls="tf-panel">Filtrer ▾</a><button type="button" class="tag tag-clear" hidden></button><div class="tf-panel" id="tf-panel" hidden><a class="tag tag-all" href="#" data-tag="" aria-pressed="true">Tous</a><a class="tag" href="tags/open-source.html" data-tag="open-source" aria-pressed="false">open-source <span class="tf-n">(12)</span></a><a class="tag" href="tags/multiplateforme.html" data-tag="multiplateforme" aria-pressed="false">multiplateforme <span class="tf-n">(5)</span></a><a class="tag" href="tags/beta.html" data-tag="beta" aria-pressed="false">beta <span class="tf-n">(3)</span></a><a class="tag" href="tags/cli.html" data-tag="cli" aria-pressed="false">cli <span class="tf-n">(3)</span></a><a class="tag" href="tags/encodage.html" data-tag="encodage" aria-pressed="false">encodage <span class="tf-n">(3)</span></a><a class="tag" href="tags/securite.html" data-tag="securite" aria-pressed="false">securite <span class="tf-n">(3)</span></a><a class="tag" href="tags/sous-titres.html" data-tag="sous-titres" aria-pressed="false">sous-titres <span class="tf-n">(3)</span></a><a class="tag" href="tags/streaming.html" data-tag="streaming" aria-pressed="false">streaming <span class="tf-n">(3)</span></a><a class="tag" href="tags/captation.html" data-tag="captation" aria-pressed="false">captation <span class="tf-n">(2)</span></a><a class="tag" href="tags/ffmpeg.html" data-tag="ffmpeg" aria-pressed="false">ffmpeg <span class="tf-n">(2)</span></a><a class="tag" href="tags/montage.html" data-tag="montage" aria-pressed="false">montage <span class="tf-n">(2)</span></a><a class="tag" href="tags/audio.html" data-tag="audio" aria-pressed="false">audio <span class="tf-n">(1)</span></a><a class="tag" href="tags/blender-addon.html" data-tag="blender-addon" aria-pressed="false">blender-addon <span class="tf-n">(1)</span></a><a class="tag" href="tags/edition-audio.html" data-tag="edition-audio" aria-pressed="false">edition-audio <span class="tf-n">(1)</span></a><a class="tag" href="tags/gui.html" data-tag="gui" aria-pressed="false">gui <span class="tf-n">(1)</span></a><a class="tag" href="tags/ia.html" data-tag="ia" aria-pressed="false">ia <span class="tf-n">(1)</span></a><a class="tag" href="tags/mlt.html" data-tag="mlt" aria-pressed="false">mlt <span class="tf-n">(1)</span></a><a class="tag" href="tags/vse.html" data-tag="vse" aria-pressed="false">vse <span class="tf-n">(1)</span></a></div></div><script>
 (function(){
-  var bar=document.querySelector('.tag-filter'); if(!bar) return;
-  var btns=[].slice.call(bar.querySelectorAll('[data-tag]'));
-  var clr=document.createElement('button'); clr.type='button'; clr.className='tag tag-clear'; clr.hidden=true;
-  clr.setAttribute('aria-label','Retirer le filtre'); bar.appendChild(clr);
-  function setTag(t){ if(t) location.hash='tag='+encodeURIComponent(t); else history.replaceState(null,'',location.pathname+location.search); apply(); }
-  clr.addEventListener('click',function(){ setTag(''); });
-  document.addEventListener('click',function(e){
-    var l=e.target.closest&&e.target.closest('article.discovery .tags a.tag'); if(!l) return;
-    var m=(l.getAttribute('href')||'').match(/([^\/]+)\.html$/); if(!m) return;
-    e.preventDefault(); setTag(decodeURIComponent(m[1])); bar.scrollIntoView({behavior:'smooth',block:'start'});
-  });
+  var bar=document.querySelector('.tag-filter[data-home]'); if(!bar) return;
+  var tog=bar.querySelector('.tag-toggle'), panel=bar.querySelector('.tf-panel'), clr=bar.querySelector('.tag-clear');
+  var btns=[].slice.call(panel.querySelectorAll('[data-tag]'));
   function tagsOf(a){var d=a.querySelector('[data-tags]');return d?d.getAttribute('data-tags').split(' '):[];}
+  function open(o){ panel.hidden=!o; tog.setAttribute('aria-expanded',String(o)); tog.textContent=o?'Filtrer ▴':'Filtrer ▾'; }
   function apply(){
     var m=location.hash.match(/^#tag=(.+)$/), t=m?decodeURIComponent(m[1]):'';
     btns.forEach(function(b){b.setAttribute('aria-pressed', String(b.getAttribute('data-tag')===t));});
-    clr.hidden=!t; clr.textContent='Filtré : '+t+' ✕';
+    clr.hidden=!t; clr.textContent=t+' ✕'; clr.setAttribute('aria-label','Retirer le filtre '+t);
     var nodes=[].slice.call(document.querySelectorAll('.day-sep, article.discovery')), sep=null, seen=false;
     function close(){ if(sep) sep.hidden=!seen; }
     nodes.forEach(function(n){
@@ -47,9 +40,11 @@
     });
     close();
   }
-  btns.forEach(function(b){b.addEventListener('click',function(e){
-    e.preventDefault(); setTag(b.getAttribute('data-tag'));
-  });});
+  function setTag(t){ if(t) location.hash='tag='+encodeURIComponent(t); else history.replaceState(null,'',location.pathname+location.search); apply(); }
+  tog.addEventListener('click',function(e){ e.preventDefault(); open(panel.hidden); });
+  clr.addEventListener('click',function(){ setTag(''); });
+  btns.forEach(function(b){ b.addEventListener('click',function(e){ e.preventDefault(); setTag(b.getAttribute('data-tag')); open(false); tog.focus(); }); });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&!panel.hidden){ open(false); tog.focus(); } });
   window.addEventListener('hashchange',apply); apply();
 })();
 </script>
