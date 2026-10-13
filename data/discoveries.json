@@ -1,5 +1,66 @@
 [
   {
+    "date": "2026-10-13",
+    "name": "Phase Align 1.0.0",
+    "summary": "Plugin libre (AGPL) qui recale deux pistes d’une même source (micro proche/salle, DI/ampli) : délai ±4 ms, rotation de phase, polarité, corrélomètre, et ANALYSE qui suggère le bon réglage. v1.0.0 sortie le 9 oct en VST3/AU pour Windows, macOS et Linux.",
+    "url": "https://github.com/tehguitarist/PhaseAlign",
+    "tags": [
+      "open-source",
+      "audio",
+      "plugin-audio",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Rekkerd — FREE: Phase Align open-source phase and time alignment plugin",
+      "url": "https://rekkerd.org/free-phase-align-open-source-phase-and-time-alignment-plugin/"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "name": "DuckingSpace 1.1",
+    "summary": "Réverbe libre (GPL-3) avec ducking intégré : elle s’efface quand le son joue et s’épanouit dans les silences, sans bus ni sidechain. La 1.1 (11 oct) arrive sur Mac (VST3/AU), ajoute un moteur HALL, 13 presets et une interface refaite.",
+    "url": "https://www.sonicskunk.com/",
+    "tags": [
+      "open-source",
+      "audio",
+      "plugin-audio"
+    ],
+    "source": {
+      "label": "Rekkerd — FREE: DuckingSpace reverb effect plugin updated to v1.1",
+      "url": "https://rekkerd.org/free-duckingspace-reverb-effect-plugin-updated-to-v1-1/"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "name": "ToneShiftEQ 1.3.0",
+    "summary": "EQ 12 bandes libre (BSD-3) signé brummer10 : convolution FFT à phase minimale ou biquads, zéro latence, dynamique par bande et spectre en temps réel. La 1.3.0 (8 oct) corrige VST3 et LV2 ; en CLAP, VST3, LV2 et standalone pour Linux et Windows.",
+    "url": "https://github.com/brummer10/ToneShiftEQ",
+    "tags": [
+      "open-source",
+      "audio",
+      "plugin-audio"
+    ],
+    "source": {
+      "label": "Linux Music News (linuxmusicians.com) — ToneShiftEQ",
+      "url": "https://linuxmusicians.com/viewtopic.php?p=188377#p188377"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "name": "Drumlabooh 13.0.0",
+    "summary": "Boîte à rythmes libre (GPL-3) en LV2/VST3 qui lit les kits Hydrogen, SFZ et son propre format. La 13 (8 oct) apporte Diskach, kit années 90 de 7 instruments × 128 variations, le format de kit 1.1, et écarte les kits SFZ incompatibles au lieu de planter le DAW.",
+    "url": "https://github.com/psemiletov/drumlabooh",
+    "tags": [
+      "open-source",
+      "audio",
+      "plugin-audio"
+    ],
+    "source": {
+      "label": "Linux Music News (linuxmusicians.com) — Drumlabooh 13 released",
+      "url": "https://linuxmusicians.com/viewtopic.php?p=188369#p188369"
+    }
+  },
+  {
     "date": "2026-10-11",
     "name": "Subtitle Edit 5.3.0 RC2",
     "summary": "L’éditeur de sous-titres libre prépare sa 5.3 : release candidate 2 publiée le 11 oct, avec des builds Windows, macOS (Apple Silicon et Intel) et Linux (tarball et Flatpak), plus SeConv, son convertisseur de sous-titres en ligne de commande.",
