@@ -28,7 +28,7 @@ FEED_MAX = 100
 SUMMARY_MAX = 280
 
 SITE_TITLE = "Revue Pépites Audio & Vidéo"
-SITE_DESC = "Veille logiciels, solutions et add-ons audio & vidéo — open source d’abord — tous les 2 jours."
+SITE_DESC = "Veille logiciels, solutions et add-ons audio & vidéo — open source d’abord."
 
 CSS = """\
 :root {
@@ -152,8 +152,7 @@ h2.section {
   font-weight: 600;
   color: var(--text);
 }
-.day-sep:first-of-type,
-.day-sep.first { margin-top: 1.5rem; }
+.day-sep:first-of-type { margin-top: 1.5rem; }
 footer.site {
   margin-top: 3rem;
   padding-top: 1.25rem;
@@ -413,7 +412,7 @@ def page(
     {crumb_html}
     {body}
     <footer class="site">
-      <p>Veille audio / vidéo · open source d’abord (gratuit / payant signalé) · tous les 2 jours · 9h Europe/Paris</p>
+      <p>Veille audio / vidéo · open source d’abord (gratuit / payant signalé)</p>
       <p><a href="https://github.com/olanlive/revue-audio-video">Code source sur GitHub</a>
          · <a href="{prefix}tags/index.html">Tous les tags</a>
          · <a href="{prefix}feed.xml">Flux RSS</a></p>
