@@ -7,6 +7,12 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-14 | Kdenlive 26.08.2 | open-source, montage, mlt, multiplateforme | https://kdenlive.org/news/releases/26.08.2/ | https://olanlive.github.io/revue-audio-video/#2026-10-14-kdenlive-26-08-2 |
+| 2026-10-14 | PySceneDetect 0.7.2 | open-source, montage, cli, sous-titres | https://www.scenedetect.com/ | https://olanlive.github.io/revue-audio-video/#2026-10-14-pyscenedetect-0-7-2 |
+| 2026-10-14 | Fish Audio Drama 3 (fish-speech 3.0.0 bêta) | gratuit, ia, audio, beta | https://github.com/fishaudio/fish-speech | https://olanlive.github.io/revue-audio-video/#2026-10-14-fish-audio-drama-3-fish-speech-3-0-0-beta |
+| 2026-10-14 | pyVideoTrans 4.16 | open-source, ia, sous-titres, audio | https://github.com/jianchang512/pyvideotrans | https://olanlive.github.io/revue-audio-video/#2026-10-14-pyvideotrans-4-16 |
+| 2026-10-14 | Mr.Warmer | gratuit, audio, plugin-audio | https://mrmoustache.es/en/mrwarmer | https://olanlive.github.io/revue-audio-video/#2026-10-14-mr-warmer |
+| 2026-10-14 | UN/T-01 | gratuit, audio, plugin-audio | https://all-the-machines.com/products/unit-01/ | https://olanlive.github.io/revue-audio-video/#2026-10-14-un-t-01 |
 | 2026-10-13 | Phase Align 1.0.0 | open-source, audio, plugin-audio, multiplateforme | https://github.com/tehguitarist/PhaseAlign | https://olanlive.github.io/revue-audio-video/#2026-10-13-phase-align-1-0-0 |
 | 2026-10-13 | DuckingSpace 1.1 | open-source, audio, plugin-audio | https://www.sonicskunk.com/ | https://olanlive.github.io/revue-audio-video/#2026-10-13-duckingspace-1-1 |
 | 2026-10-13 | ToneShiftEQ 1.3.0 | open-source, audio, plugin-audio | https://github.com/brummer10/ToneShiftEQ | https://olanlive.github.io/revue-audio-video/#2026-10-13-toneshifteq-1-3-0 |

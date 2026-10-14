@@ -5,8 +5,72 @@
     <link>https://olanlive.github.io/revue-audio-video/</link>
     <description>Veille logiciels, solutions et add-ons audio &amp; vidéo — open source d’abord — tous les 2 jours.</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 13 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Kdenlive 26.08.2</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-14-kdenlive-26-08-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-14-kdenlive-26-08-2</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Deuxième version de maintenance du monteur libre de KDE (13 oct) : le filtre Dynamic Text peut compter les images à partir de 1, pratique en animation, et une trentaine de correctifs sur proxys (dont l’encodage NVIDIA), titreur, niveaux audio et enregistrement audio.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>mlt</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>PySceneDetect 0.7.2</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-14-pyscenedetect-0-7-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-14-pyscenedetect-0-7-2</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Détection automatique des plans et coupes d’une vidéo, en CLI ou en bibliothèque Python (BSD-3). La 0.7.2 (12 oct) exporte les coupes en fichier keyframes pour Aegisub, recalibre ses détecteurs histogramme et hash sur benchmarks et gère PyAV 19.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>cli</category>
+      <category>sous-titres</category>
+    </item>
+    <item>
+      <title>Fish Audio Drama 3 (fish-speech 3.0.0 bêta)</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-14-fish-audio-drama-3-fish-speech-3-0-0-beta</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-14-fish-audio-drama-3-fish-speech-3-0-0-beta</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Modèle de synthèse vocale « dirigée » à poids ouverts (13 oct) : clonage de voix, indications de jeu ([laughs], &lt;whisper&gt;), reprise d’une prise sur simple note, scènes jusqu’à 16 voix et retouche d’un mot dans un audio existant. ~80 langues ; GPU 48 Go requis.</description>
+      <category>gratuit</category>
+      <category>ia</category>
+      <category>audio</category>
+      <category>beta</category>
+    </item>
+    <item>
+      <title>pyVideoTrans 4.16</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-14-pyvideotrans-4-16</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-14-pyvideotrans-4-16</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Traduit une vidéo d’une langue à l’autre : transcription, traduction, doublage et sous-titres incrustés (GPL-3). La 4.16 (13 oct) ajoute l’interface web en français, un backend de doublage audio.cpp et corrige l’erreur 403 d’Edge-TTS.</description>
+      <category>open-source</category>
+      <category>ia</category>
+      <category>sous-titres</category>
+      <category>audio</category>
+    </item>
+    <item>
+      <title>Mr.Warmer</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-14-mr-warmer</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-14-mr-warmer</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Saturateur gratuit pensé pour le mastering : modèle physique d’une triode 12AX7 dont les harmoniques suivent l’enveloppe, Tilt EQ avant le tube, saturation dosable en Mid/Side, suréchantillonnage ×8 et compensation de gain. VST3/AAX (Win, Mac) et AU ; repéré le 13 oct.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+    </item>
+    <item>
+      <title>UN/T-01</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-14-un-t-01</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-14-un-t-01</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Boîte à rythmes gratuite à deux moteurs : 6 pistes en 808 synthétisée façon circuits d’origine ou lecteur d’échantillons (les vôtres aussi), séquenceur 32 pas polymétrique avec Euclid, effets intégrés et 48 presets. VST3, CLAP, AU et standalone, Mac et Windows ; sortie le 13 oct.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+    </item>
     <item>
       <title>Phase Align 1.0.0</title>
       <link>https://olanlive.github.io/revue-audio-video/#2026-10-13-phase-align-1-0-0</link>

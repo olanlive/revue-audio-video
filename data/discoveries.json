@@ -1,5 +1,99 @@
 [
   {
+    "date": "2026-10-14",
+    "name": "Kdenlive 26.08.2",
+    "summary": "Deuxième version de maintenance du monteur libre de KDE (13 oct) : le filtre Dynamic Text peut compter les images à partir de 1, pratique en animation, et une trentaine de correctifs sur proxys (dont l’encodage NVIDIA), titreur, niveaux audio et enregistrement audio.",
+    "url": "https://kdenlive.org/news/releases/26.08.2/",
+    "tags": [
+      "open-source",
+      "montage",
+      "mlt",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Page web — kdenlive.org, « Kdenlive 26.08.2 released »",
+      "url": "https://kdenlive.org/news/releases/26.08.2/"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "name": "PySceneDetect 0.7.2",
+    "summary": "Détection automatique des plans et coupes d’une vidéo, en CLI ou en bibliothèque Python (BSD-3). La 0.7.2 (12 oct) exporte les coupes en fichier keyframes pour Aegisub, recalibre ses détecteurs histogramme et hash sur benchmarks et gère PyAV 19.",
+    "url": "https://www.scenedetect.com/",
+    "tags": [
+      "open-source",
+      "montage",
+      "cli",
+      "sous-titres"
+    ],
+    "source": {
+      "label": "Release GitHub — Breakthrough/PySceneDetect v0.7.2",
+      "url": "https://github.com/Breakthrough/PySceneDetect/releases/tag/v0.7.2"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "name": "Fish Audio Drama 3 (fish-speech 3.0.0 bêta)",
+    "summary": "Modèle de synthèse vocale « dirigée » à poids ouverts (13 oct) : clonage de voix, indications de jeu ([laughs], <whisper>), reprise d’une prise sur simple note, scènes jusqu’à 16 voix et retouche d’un mot dans un audio existant. ~80 langues ; GPU 48 Go requis.",
+    "url": "https://github.com/fishaudio/fish-speech",
+    "tags": [
+      "gratuit",
+      "ia",
+      "audio",
+      "beta"
+    ],
+    "source": {
+      "label": "Release GitHub — fishaudio/fish-speech v3.0.0-beta",
+      "url": "https://github.com/fishaudio/fish-speech/releases/tag/v3.0.0-beta"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "name": "pyVideoTrans 4.16",
+    "summary": "Traduit une vidéo d’une langue à l’autre : transcription, traduction, doublage et sous-titres incrustés (GPL-3). La 4.16 (13 oct) ajoute l’interface web en français, un backend de doublage audio.cpp et corrige l’erreur 403 d’Edge-TTS.",
+    "url": "https://github.com/jianchang512/pyvideotrans",
+    "tags": [
+      "open-source",
+      "ia",
+      "sous-titres",
+      "audio"
+    ],
+    "source": {
+      "label": "Release GitHub — jianchang512/pyvideotrans v4.16",
+      "url": "https://github.com/jianchang512/pyvideotrans/releases/tag/v4.16"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "name": "Mr.Warmer",
+    "summary": "Saturateur gratuit pensé pour le mastering : modèle physique d’une triode 12AX7 dont les harmoniques suivent l’enveloppe, Tilt EQ avant le tube, saturation dosable en Mid/Side, suréchantillonnage ×8 et compensation de gain. VST3/AAX (Win, Mac) et AU ; repéré le 13 oct.",
+    "url": "https://mrmoustache.es/en/mrwarmer",
+    "tags": [
+      "gratuit",
+      "audio",
+      "plugin-audio"
+    ],
+    "source": {
+      "label": "Rekkerd — FREE: Mr.Warmer saturation effect plugin by MrMoustache",
+      "url": "https://rekkerd.org/free-mr-warmer-saturation-effect-plugin-by-mrmoustache/"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "name": "UN/T-01",
+    "summary": "Boîte à rythmes gratuite à deux moteurs : 6 pistes en 808 synthétisée façon circuits d’origine ou lecteur d’échantillons (les vôtres aussi), séquenceur 32 pas polymétrique avec Euclid, effets intégrés et 48 presets. VST3, CLAP, AU et standalone, Mac et Windows ; sortie le 13 oct.",
+    "url": "https://all-the-machines.com/products/unit-01/",
+    "tags": [
+      "gratuit",
+      "audio",
+      "plugin-audio"
+    ],
+    "source": {
+      "label": "Rekkerd — FREE: UN/T-01 drum machine instrument by All The Machines",
+      "url": "https://rekkerd.org/free-un-t-01-drum-machine-instrument-by-all-the-machines/"
+    }
+  },
+  {
     "date": "2026-10-13",
     "name": "Phase Align 1.0.0",
     "summary": "Plugin libre (AGPL) qui recale deux pistes d’une même source (micro proche/salle, DI/ampli) : délai ±4 ms, rotation de phase, polarité, corrélomètre, et ANALYSE qui suggère le bon réglage. v1.0.0 sortie le 9 oct en VST3/AU pour Windows, macOS et Linux.",
