@@ -32,14 +32,14 @@ SITE_DESC = "Veille logiciels, solutions et add-ons audio & vidéo — open sour
 
 CSS = """\
 :root {
-  --bg: #0d1611;
-  --surface: #15231b;
-  --border: #2a4033;
-  --text: #e6f2ea;
-  --muted: #9db8a6;
+  --bg: #0f1419;
+  --surface: #1a2332;
+  --border: #2d3a4f;
+  --text: #e7ecf3;
+  --muted: #9aa8bc;
   --accent: #5fd38d;
   --accent-hover: #8fe6b0;
-  --tag-bg: #1d3326;
+  --tag-bg: #243044;
   --tag-text: #b6e8c8;
   --radius: 8px;
   --font: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, sans-serif;
@@ -122,7 +122,7 @@ nav.crumbs span.sep { margin: 0 0.35rem; }
   text-decoration: none;
 }
 .tag:hover {
-  background: #264a35;
+  background: #2e4058;
   color: var(--accent-hover);
   text-decoration: none;
   border-color: var(--accent);
@@ -139,19 +139,21 @@ h2.section {
   margin: 0 0 1rem;
   font-weight: 600;
 }
-.day-sep {
-  margin: 2.75rem 0 1rem;
-  padding-bottom: 0.4rem;
-  border-bottom: 1px solid var(--accent);
-  font-size: 1.15rem;
-  font-weight: 600;
-  color: var(--text);
-}
 .date-label {
   color: var(--muted);
   font-size: 0.9rem;
   margin: 0 0 0.35rem;
 }
+.day-sep {
+  margin: 2.75rem 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--accent);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text);
+}
+.day-sep:first-of-type,
+.day-sep.first { margin-top: 1.5rem; }
 footer.site {
   margin-top: 3rem;
   padding-top: 1.25rem;
