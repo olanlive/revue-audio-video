@@ -5,8 +5,71 @@
     <link>https://olanlive.github.io/revue-audio-video/</link>
     <description>Veille logiciels, solutions et add-ons audio &amp; vidéo — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 14 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Subtitle Edit 5.3.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-16-subtitle-edit-5-3-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-16-subtitle-edit-5-3-0</guid>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Version stable 5.3.0 (14 oct ; déjà vu en RC2 le 11) : palette de commandes, import DVD, remux multi-pistes, lecteur FFmpeg avec décodage GPU, musique ACE-Step locale, et moteurs ASR/TTS/traduction à jour (whisper.cpp 1.9.5, FFmpeg 9.0.2).</description>
+      <category>open-source</category>
+      <category>sous-titres</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>FrameTrellis 1.2.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-16-frametrellis-1-2-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-16-frametrellis-1-2-0</guid>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Monteur vidéo libre (GPL-3, C++/Qt/MLT/FFmpeg) : la 1.2.0 (15 oct) ajoute duplication multi-clips, presse-papiers d’attributs audio/image, mute par lot et nudge image par image. Export MP4 H.264 ; Windows (installeur) et Linux (sources).</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>mlt</category>
+      <category>ffmpeg</category>
+    </item>
+    <item>
+      <title>Bagels V2</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-16-bagels-v2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-16-bagels-v2</guid>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Synthé résonant gratuit (VST3/AU/CLAP/standalone) pour Windows, macOS et Linux : trois banques de quatre résonateurs et spectre combiné. La V2 (repérée le 15 oct) peaufine l’UI, baisse fortement le CPU (SIMD) et ajoute limiteur, presets et partials rapides.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>VinylNoize</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-16-vinylnoize</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-16-vinylnoize</guid>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Plugin vinyle gratuit (Win/Mac/Linux, VST3/AU/LV2) qui reconstruit une vraie lecture de disque plutôt que des boucles de bruit : moteur calibré sur un LP mesuré, modèle physique de platine, et mode Deck (scratch, freinage). Sortie gratuite signalée le 15 oct.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>Aetheriae 1.0.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-16-aetheriae-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-16-aetheriae-1-0-0</guid>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Synthé de textures gratuit (Morphor) : jusqu’à 8 sources par voix (granulaire, FM 6 ops, phase distortion, résonateurs, wavetables), chaîne BBD et lo-fi, 282 presets. VST3/AU/CLAP/standalone Mac et Windows, plus version navigateur ; v1.0.0, repérée le 15 oct.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+    </item>
+    <item>
+      <title>Synpathy 2.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-16-synpathy-2-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-16-synpathy-2-0</guid>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Machine à cordes gratuite (VST3/AU/AAX/standalone) autour de la résonance sympathique : les voix tenues se nourrissent mutuellement. La 2.0 (15 oct) remplace le moteur pour un champ plus vivant ; trois knobs (Form, Aura, Synpathy), Mac et Windows.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+    </item>
     <item>
       <title>Kdenlive 26.08.2</title>
       <link>https://olanlive.github.io/revue-audio-video/#2026-10-14-kdenlive-26-08-2</link>

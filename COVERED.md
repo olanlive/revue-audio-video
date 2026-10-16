@@ -7,6 +7,12 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-16 | Subtitle Edit 5.3.0 | open-source, sous-titres, multiplateforme | https://github.com/SubtitleEdit/subtitleedit | https://olanlive.github.io/revue-audio-video/#2026-10-16-subtitle-edit-5-3-0 |
+| 2026-10-16 | FrameTrellis 1.2.0 | open-source, montage, mlt, ffmpeg | https://github.com/sanskarIN/frametrellis | https://olanlive.github.io/revue-audio-video/#2026-10-16-frametrellis-1-2-0 |
+| 2026-10-16 | Bagels V2 | gratuit, audio, plugin-audio, multiplateforme | https://dropshotaudio.com/bagels | https://olanlive.github.io/revue-audio-video/#2026-10-16-bagels-v2 |
+| 2026-10-16 | VinylNoize | gratuit, audio, plugin-audio, multiplateforme | https://www.noizefield.com/products/vinylnoize-free-download | https://olanlive.github.io/revue-audio-video/#2026-10-16-vinylnoize |
+| 2026-10-16 | Aetheriae 1.0.0 | gratuit, audio, plugin-audio | https://morphor.io/plugins/aetheriae/ | https://olanlive.github.io/revue-audio-video/#2026-10-16-aetheriae-1-0-0 |
+| 2026-10-16 | Synpathy 2.0 | gratuit, audio, plugin-audio | https://quantasticalsound.com/synpathy.html | https://olanlive.github.io/revue-audio-video/#2026-10-16-synpathy-2-0 |
 | 2026-10-14 | Kdenlive 26.08.2 | open-source, montage, mlt, multiplateforme | https://kdenlive.org/news/releases/26.08.2/ | https://olanlive.github.io/revue-audio-video/#2026-10-14-kdenlive-26-08-2 |
 | 2026-10-14 | PySceneDetect 0.7.2 | open-source, montage, cli, sous-titres | https://www.scenedetect.com/ | https://olanlive.github.io/revue-audio-video/#2026-10-14-pyscenedetect-0-7-2 |
 | 2026-10-14 | Fish Audio Drama 3 (fish-speech 3.0.0 bêta) | gratuit, ia, audio, beta | https://github.com/fishaudio/fish-speech | https://olanlive.github.io/revue-audio-video/#2026-10-14-fish-audio-drama-3-fish-speech-3-0-0-beta |
