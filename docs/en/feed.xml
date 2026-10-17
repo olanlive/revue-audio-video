@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Audio &amp; Video Gems</title>
+    <link>https://olanlive.github.io/revue-audio-video/en/</link>
+    <description>Software, solutions and add-ons for audio &amp; video — open source first.</description>
+    <language>en</language>
+    <lastBuildDate>Sat, 17 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <atom:link href="https://olanlive.github.io/revue-audio-video/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title xml:lang="fr">FilmCraft 0.8.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-17-filmcraft-0-8-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-17-filmcraft-0-8-0</guid>
+      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Reprise libre (MIT/Apache) du workflow Premiere Pro, en pur Rust : montage, panneau façon Lumetri, mixage, échanges AAF/FCPXML et 650+ commandes pilotables en CLI ou via un serveur MCP. La 0.8.0 (14 oct) ajoute l’export audio 32 bits ; projet jeune.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>etalonnage</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title xml:lang="fr">oscmix 2.0.11</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-17-oscmix-2-0-11</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-17-oscmix-2-0-11</guid>
+      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Mixeur libre pour cartes RME Fireface (UCX II, UFX III, 802…) en mode class-compliant, là où TotalMix n’existe pas sous Linux. La 2.0.11 (préversion, 15 oct) ajoute 8 groupes de faders, deux bus FX aux. et une interface web qui garde l’état au rechargement.</description>
+      <category>open-source</category>
+      <category>audio</category>
+      <category>gui</category>
+      <category>beta</category>
+    </item>
+    <item>
+      <title xml:lang="fr">Plugin Alliance : 6 plugins gratuits</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-17-plugin-alliance-6-plugins-gratuits</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-17-plugin-alliance-6-plugins-gratuits</guid>
+      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Six plugins de mix et mastering offerts avec un compte gratuit : bx_masterdesk (mastering analogique), bx_console N, le compresseur 254E, bx_refinement V3, bx_boom V3 et Soft Limit. Installation via le gestionnaire Mac/Windows ; offre signalée le 16 oct.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+    </item>
+    <item>
+      <title xml:lang="fr">ChipTune (bêta)</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-17-chiptune-beta</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-17-chiptune-beta</guid>
+      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Synthé Morphoice qui recrée la puce SID du Commodore 64, modélisée au bit près à l’horloge d’origine (6581 et 8580) : modes solo, arpège chiptune et poly 16 voix, chorus façon Juno. Bêta gratuite à prix libre (16 oct) ; la version finale pourrait être payante.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+      <category>beta</category>
+    </item>
+    <item>
+      <title xml:lang="fr">Cali Reverb (Nembrini Audio)</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-17-cali-reverb-nembrini-audio</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-17-cali-reverb-nembrini-audio</guid>
+      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Ampli guitare high gain modélisé sur une tête Mesa Boogie Rectoverb 50 W, normalement payant, offert pendant quelques jours seulement (promo signalée le 16 oct) : il suffit d’un compte Nembrini Audio pour le récupérer.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+    </item>
+    <item>
+      <title xml:lang="fr">Subtitle Edit 5.3.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-16-subtitle-edit-5-3-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-16-subtitle-edit-5-3-0</guid>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Version stable 5.3.0 (14 oct ; déjà vu en RC2 le 11) : palette de commandes, import DVD, remux multi-pistes, lecteur FFmpeg avec décodage GPU, musique ACE-Step locale, et moteurs ASR/TTS/traduction à jour (whisper.cpp 1.9.5, FFmpeg 9.0.2).</description>
+      <category>open-source</category>
+      <category>sous-titres</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title xml:lang="fr">FrameTrellis 1.2.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-16-frametrellis-1-2-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-16-frametrellis-1-2-0</guid>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Monteur vidéo libre (GPL-3, C++/Qt/MLT/FFmpeg) : la 1.2.0 (15 oct) ajoute duplication multi-clips, presse-papiers d’attributs audio/image, mute par lot et nudge image par image. Export MP4 H.264 ; Windows (installeur) et Linux (sources).</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>mlt</category>
+      <category>ffmpeg</category>
+    </item>
+    <item>
+      <title xml:lang="fr">Bagels V2</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-16-bagels-v2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-16-bagels-v2</guid>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Synthé résonant gratuit (VST3/AU/CLAP/standalone) pour Windows, macOS et Linux : trois banques de quatre résonateurs et spectre combiné. La V2 (repérée le 15 oct) peaufine l’UI, baisse fortement le CPU (SIMD) et ajoute limiteur, presets et partials rapides.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title xml:lang="fr">VinylNoize</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-16-vinylnoize</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-16-vinylnoize</guid>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Plugin vinyle gratuit (Win/Mac/Linux, VST3/AU/LV2) qui reconstruit une vraie lecture de disque plutôt que des boucles de bruit : moteur calibré sur un LP mesuré, modèle physique de platine, et mode Deck (scratch, freinage). Sortie gratuite signalée le 15 oct.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title xml:lang="fr">Aetheriae 1.0.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-16-aetheriae-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-16-aetheriae-1-0-0</guid>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Synthé de textures gratuit (Morphor) : jusqu’à 8 sources par voix (granulaire, FM 6 ops, phase distortion, résonateurs, wavetables), chaîne BBD et lo-fi, 282 presets. VST3/AU/CLAP/standalone Mac et Windows, plus version navigateur ; v1.0.0, repérée le 15 oct.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+    </item>
+    <item>
+      <title xml:lang="fr">Synpathy 2.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-16-synpathy-2-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-16-synpathy-2-0</guid>
+      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Machine à cordes gratuite (VST3/AU/AAX/standalone) autour de la résonance sympathique : les voix tenues se nourrissent mutuellement. La 2.0 (15 oct) remplace le moteur pour un champ plus vivant ; trois knobs (Form, Aura, Synpathy), Mac et Windows.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+    </item>
+    <item>
+      <title xml:lang="fr">Kdenlive 26.08.2</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-14-kdenlive-26-08-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-14-kdenlive-26-08-2</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Deuxième version de maintenance du monteur libre de KDE (13 oct) : le filtre Dynamic Text peut compter les images à partir de 1, pratique en animation, et une trentaine de correctifs sur proxys (dont l’encodage NVIDIA), titreur, niveaux audio et enregistrement audio.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>mlt</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title xml:lang="fr">PySceneDetect 0.7.2</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-14-pyscenedetect-0-7-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-14-pyscenedetect-0-7-2</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Détection automatique des plans et coupes d’une vidéo, en CLI ou en bibliothèque Python (BSD-3). La 0.7.2 (12 oct) exporte les coupes en fichier keyframes pour Aegisub, recalibre ses détecteurs histogramme et hash sur benchmarks et gère PyAV 19.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>cli</category>
+      <category>sous-titres</category>
+    </item>
+    <item>
+      <title xml:lang="fr">Fish Audio Drama 3 (fish-speech 3.0.0 bêta)</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-14-fish-audio-drama-3-fish-speech-3-0-0-beta</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-14-fish-audio-drama-3-fish-speech-3-0-0-beta</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Modèle de synthèse vocale « dirigée » à poids ouverts (13 oct) : clonage de voix, indications de jeu ([laughs], &lt;whisper&gt;), reprise d’une prise sur simple note, scènes jusqu’à 16 voix et retouche d’un mot dans un audio existant. ~80 langues ; GPU 48 Go requis.</description>
+      <category>gratuit</category>
+      <category>ia</category>
+      <category>audio</category>
+      <category>beta</category>
+    </item>
+    <item>
+      <title xml:lang="fr">pyVideoTrans 4.16</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-14-pyvideotrans-4-16</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-14-pyvideotrans-4-16</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Traduit une vidéo d’une langue à l’autre : transcription, traduction, doublage et sous-titres incrustés (GPL-3). La 4.16 (13 oct) ajoute l’interface web en français, un backend de doublage audio.cpp et corrige l’erreur 403 d’Edge-TTS.</description>
+      <category>open-source</category>
+      <category>ia</category>
+      <category>sous-titres</category>
+      <category>audio</category>
+    </item>
+    <item>
+      <title xml:lang="fr">Mr.Warmer</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-14-mr-warmer</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-14-mr-warmer</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Saturateur gratuit pensé pour le mastering : modèle physique d’une triode 12AX7 dont les harmoniques suivent l’enveloppe, Tilt EQ avant le tube, saturation dosable en Mid/Side, suréchantillonnage ×8 et compensation de gain. VST3/AAX (Win, Mac) et AU ; repéré le 13 oct.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+    </item>
+    <item>
+      <title xml:lang="fr">UN/T-01</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-14-un-t-01</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-14-un-t-01</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Boîte à rythmes gratuite à deux moteurs : 6 pistes en 808 synthétisée façon circuits d’origine ou lecteur d’échantillons (les vôtres aussi), séquenceur 32 pas polymétrique avec Euclid, effets intégrés et 48 presets. VST3, CLAP, AU et standalone, Mac et Windows ; sortie le 13 oct.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+    </item>
+    <item>
+      <title xml:lang="fr">Phase Align 1.0.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-13-phase-align-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-13-phase-align-1-0-0</guid>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Plugin libre (AGPL) qui recale deux pistes d’une même source (micro proche/salle, DI/ampli) : délai ±4 ms, rotation de phase, polarité, corrélomètre, et ANALYSE qui suggère le bon réglage. v1.0.0 sortie le 9 oct en VST3/AU pour Windows, macOS et Linux.</description>
+      <category>open-source</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title xml:lang="fr">DuckingSpace 1.1</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-13-duckingspace-1-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-13-duckingspace-1-1</guid>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Réverbe libre (GPL-3) avec ducking intégré : elle s’efface quand le son joue et s’épanouit dans les silences, sans bus ni sidechain. La 1.1 (11 oct) arrive sur Mac (VST3/AU), ajoute un moteur HALL, 13 presets et une interface refaite.</description>
+      <category>open-source</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+    </item>
+    <item>
+      <title xml:lang="fr">ToneShiftEQ 1.3.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-13-toneshifteq-1-3-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-13-toneshifteq-1-3-0</guid>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">EQ 12 bandes libre (BSD-3) signé brummer10 : convolution FFT à phase minimale ou biquads, zéro latence, dynamique par bande et spectre en temps réel. La 1.3.0 (8 oct) corrige VST3 et LV2 ; en CLAP, VST3, LV2 et standalone pour Linux et Windows.</description>
+      <category>open-source</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+    </item>
+    <item>
+      <title xml:lang="fr">Drumlabooh 13.0.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-13-drumlabooh-13-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-13-drumlabooh-13-0-0</guid>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Boîte à rythmes libre (GPL-3) en LV2/VST3 qui lit les kits Hydrogen, SFZ et son propre format. La 13 (8 oct) apporte Diskach, kit années 90 de 7 instruments × 128 variations, le format de kit 1.1, et écarte les kits SFZ incompatibles au lieu de planter le DAW.</description>
+      <category>open-source</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+    </item>
+    <item>
+      <title xml:lang="fr">Subtitle Edit 5.3.0 RC2</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-11-subtitle-edit-5-3-0-rc2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-11-subtitle-edit-5-3-0-rc2</guid>
+      <pubDate>Sun, 11 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">L’éditeur de sous-titres libre prépare sa 5.3 : release candidate 2 publiée le 11 oct, avec des builds Windows, macOS (Apple Silicon et Intel) et Linux (tarball et Flatpak), plus SeConv, son convertisseur de sous-titres en ligne de commande.</description>
+      <category>open-source</category>
+      <category>sous-titres</category>
+      <category>beta</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title xml:lang="fr">OBS Studio 33.0 RC1</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-09-obs-studio-33-0-rc1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-09-obs-studio-33-0-rc1</guid>
+      <pubDate>Fri, 09 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Déjà vu le 7 oct en bêta 6 : OBS 33.0 passe en release candidate (9 oct). Sources navigateur corrigées (page blanche au rafraîchissement, requêtes réseau local), Plugin Manager fiabilisé en mode sans échec : la version finale approche.</description>
+      <category>open-source</category>
+      <category>captation</category>
+      <category>streaming</category>
+      <category>beta</category>
+    </item>
+    <item>
+      <title xml:lang="fr">MediaMTX 1.21.2</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-09-mediamtx-1-21-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-09-mediamtx-1-21-2</guid>
+      <pubDate>Fri, 09 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Serveur et proxy de flux live prêt à l’emploi (SRT, WebRTC, RTSP, RTMP, LL-HLS, Media-over-QUIC) qui publie, enregistre et relit audio et vidéo. La 1.21.2 (8 oct) ferme un accès libre au serveur de relecture et filtre les SEI non standard de certaines caméras.</description>
+      <category>open-source</category>
+      <category>streaming</category>
+      <category>securite</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title xml:lang="fr">whisper.cpp 1.9.5</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-09-whisper-cpp-1-9-5</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-09-whisper-cpp-1-9-5</guid>
+      <pubDate>Fri, 09 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Transcription Whisper en C/C++ pur, en local sur CPU ou GPU, idéale pour sous-titrer sans cloud. La 1.9.5 (6 oct) embarque ggml 0.26.0 : optimisations CUDA, Metal et WebGPU, et flash attention clairsemée sous Vulkan.</description>
+      <category>open-source</category>
+      <category>ia</category>
+      <category>sous-titres</category>
+      <category>cli</category>
+    </item>
+    <item>
+      <title xml:lang="fr">FFmpeg 9.0.2 « Lei »</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-07-ffmpeg-9-0-2-lei</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-07-ffmpeg-9-0-2-lei</guid>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Le moteur d’encodage derrière Blender, OBS et Shotcut passe en 9.0 : filtres IA sur GPU via ONNX Runtime, vidéo 360° en Vulkan, WebP animé, ProRes RAW accéléré sur Mac. La 9.0.2 (18 sept) ajoute des correctifs de sécurité.</description>
+      <category>open-source</category>
+      <category>encodage</category>
+      <category>ffmpeg</category>
+      <category>cli</category>
+    </item>
+    <item>
+      <title xml:lang="fr">Audacity 4.0.1</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-07-audacity-4-0-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-07-audacity-4-0-1</guid>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Audacity 4 reconstruit son interface sur Qt : clips sélectionnables et groupables, espaces de travail, ASIO sous Windows. La 4.0.1 (30 sept) corrige les bugs de jeunesse et ajoute l’export d’une piste ou d’une région par fichier, plus une version portable Windows.</description>
+      <category>open-source</category>
+      <category>audio</category>
+      <category>edition-audio</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title xml:lang="fr">OBS Studio 33.0 bêta 6</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-07-obs-studio-33-0-beta-6</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-07-obs-studio-33-0-beta-6</guid>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">OBS 33 (bêta 6, 3 oct) refond le chargement des plugins, avec un nouveau dossier pour les plugins tiers à anticiper côté IT. Au programme aussi : moteur des sources navigateur mis à jour (CEF 150), magnétisme des sources revu et NVENC sur Arm64.</description>
+      <category>open-source</category>
+      <category>captation</category>
+      <category>streaming</category>
+      <category>beta</category>
+    </item>
+    <item>
+      <title xml:lang="fr">Shotcut 26.9.27 (+ MLT 7.42.0)</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-07-shotcut-26-9-27-mlt-7-42-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-07-shotcut-26-9-27-mlt-7-42-0</guid>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Le monteur libre ajoute le ducking audio automatique, un volume et un vumètre par piste, et un « Adjustment Clip » qui filtre toutes les pistes en dessous. Passage à FFmpeg 9.0 et failles de téléchargement corrigées : mise à jour recommandée.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>mlt</category>
+      <category>securite</category>
+    </item>
+    <item>
+      <title xml:lang="fr">Aegisub 3.5.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-07-aegisub-3-5-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-07-aegisub-3-5-0</guid>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">L’éditeur de sous-titres ASS de référence sort la 3.5.0 (4 oct) : zoom et panoramique dans la vidéo, High-DPI bien meilleur, builds Apple Silicon natives. Elle corrige une faille où un fichier piégé pouvait exécuter du code : mise à jour à faire.</description>
+      <category>open-source</category>
+      <category>sous-titres</category>
+      <category>securite</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title xml:lang="fr">Shutter Encoder 20.4</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-07-shutter-encoder-20-4</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-07-shutter-encoder-20-4</guid>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Toute la puissance de FFmpeg sans terminal : proxys, ProRes/DNx, découpe sans réencodage. La 20.4 (28 sept) ajoute un filtre de grain film, la normalisation de crête et le retrait des images dupliquées pour tous les codecs.</description>
+      <category>open-source</category>
+      <category>encodage</category>
+      <category>ffmpeg</category>
+      <category>gui</category>
+    </item>
+    <item>
+      <title xml:lang="fr">Image Sequence to MP4 (add-on Blender) 2.0.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-07-image-sequence-to-mp4-add-on-blender-2-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-07-image-sequence-to-mp4-add-on-blender-2-0-0</guid>
+      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Vos rendus PNG/EXR deviennent un MP4 (H.264, H.265 ou AV1) en un clic, en tâche de fond, sans bloquer Blender. La 2.0.0 (2 oct) détecte les frames manquantes, respecte la gestion des couleurs et propose des presets Web, 720p et 9:16.</description>
+      <category>open-source</category>
+      <category>blender-addon</category>
+      <category>vse</category>
+      <category>encodage</category>
+    </item>
+    <item>
+      <title xml:lang="fr">slatefree 1.2.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-06-slatefree-1-2-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-06-slatefree-1-2-0</guid>
+      <pubDate>Tue, 06 Oct 2026 09:00:00 +0200</pubDate>
+      <description xml:lang="fr">Outil Rust en ligne de commande qui synchronise des centaines de clips multi-caméras sans clap ni timecode, calés sur l’audio continu d’un enregistreur. Sortie : timeline FCP 7 XML pour Resolve et CSV de contrôle par clip. Repo créé le 6 oct, déjà en v1.2.0.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>cli</category>
+      <category>multiplateforme</category>
+    </item>
+  </channel>
+</rss>
