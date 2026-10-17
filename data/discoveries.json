@@ -2,7 +2,9 @@
   {
     "date": "2026-10-17",
     "name": "FilmCraft 0.8.0",
+    "name_en": "FilmCraft 0.8.0",
     "summary": "Reprise libre (MIT/Apache) du workflow Premiere Pro, en pur Rust : montage, panneau façon Lumetri, mixage, échanges AAF/FCPXML et 650+ commandes pilotables en CLI ou via un serveur MCP. La 0.8.0 (14 oct) ajoute l’export audio 32 bits ; projet jeune.",
+    "summary_en": "Free (MIT/Apache) take on the Premiere Pro workflow, in pure Rust: editing, a Lumetri-style panel, mixing, AAF/FCPXML exchange and 650+ commands drivable from a CLI or an MCP server. 0.8.0 (Oct 14) adds 32-bit audio export; a young project.",
     "url": "https://github.com/storytold/filmcraft",
     "tags": [
       "open-source",
@@ -12,13 +14,16 @@
     ],
     "source": {
       "label": "AICrier — FilmCraft 0.8.0 brings Premiere-style editing to Rust",
+      "label_en": "AICrier — FilmCraft 0.8.0 brings Premiere-style editing to Rust",
       "url": "https://aicrier.com/post/0vvp9bv6v6kmuqg09mct"
     }
   },
   {
     "date": "2026-10-17",
     "name": "oscmix 2.0.11",
+    "name_en": "oscmix 2.0.11",
     "summary": "Mixeur libre pour cartes RME Fireface (UCX II, UFX III, 802…) en mode class-compliant, là où TotalMix n’existe pas sous Linux. La 2.0.11 (préversion, 15 oct) ajoute 8 groupes de faders, deux bus FX aux. et une interface web qui garde l’état au rechargement.",
+    "summary_en": "Free mixer for RME Fireface interfaces (UCX II, UFX III, 802…) in class-compliant mode, where TotalMix doesn’t exist on Linux. 2.0.11 (pre-release, Oct 15) adds 8 fader groups, two aux FX buses and a web UI that keeps its state on reload.",
     "url": "https://github.com/huddx01/oscmix",
     "tags": [
       "open-source",
@@ -28,13 +33,16 @@
     ],
     "source": {
       "label": "LinuxMusicians — oscmix, RME TotalMix alternative for Linux CC-mode",
+      "label_en": "LinuxMusicians — oscmix, RME TotalMix alternative for Linux CC-mode",
       "url": "https://linuxmusicians.com/viewtopic.php?p=188483#p188483"
     }
   },
   {
     "date": "2026-10-17",
     "name": "Plugin Alliance : 6 plugins gratuits",
+    "name_en": "Plugin Alliance: 6 free plugins",
     "summary": "Six plugins de mix et mastering offerts avec un compte gratuit : bx_masterdesk (mastering analogique), bx_console N, le compresseur 254E, bx_refinement V3, bx_boom V3 et Soft Limit. Installation via le gestionnaire Mac/Windows ; offre signalée le 16 oct.",
+    "summary_en": "Six mixing and mastering plugins free with a free account: bx_masterdesk (analog mastering), bx_console N, the 254E compressor, bx_refinement V3, bx_boom V3 and Soft Limit. Installed via the Mac/Windows manager; offer reported on Oct 16.",
     "url": "https://www.plugin-alliance.com/pages/free-plugins",
     "tags": [
       "gratuit",
@@ -43,13 +51,16 @@
     ],
     "source": {
       "label": "Rekkerd — FREE: Bundle of 6 mixing and mastering plugins from Plugin Alliance",
+      "label_en": "Rekkerd — FREE: Bundle of 6 mixing and mastering plugins from Plugin Alliance",
       "url": "https://rekkerd.org/free-6-mixing-and-mastering-plugins-from-plugin-alliance/"
     }
   },
   {
     "date": "2026-10-17",
     "name": "ChipTune (bêta)",
+    "name_en": "ChipTune (beta)",
     "summary": "Synthé Morphoice qui recrée la puce SID du Commodore 64, modélisée au bit près à l’horloge d’origine (6581 et 8580) : modes solo, arpège chiptune et poly 16 voix, chorus façon Juno. Bêta gratuite à prix libre (16 oct) ; la version finale pourrait être payante.",
+    "summary_en": "Morphoice synth recreating the Commodore 64 SID chip, bit-accurately modelled at the original clock (6581 and 8580): solo, chiptune arpeggio and 16-voice poly modes, Juno-style chorus. Free pay-what-you-want beta (Oct 16); the final version may be paid.",
     "url": "https://morphoice.gumroad.com/l/chiptune",
     "tags": [
       "gratuit",
@@ -59,13 +70,16 @@
     ],
     "source": {
       "label": "Rekkerd — FREE: ChipTune C64 SID chip emulation (public beta)",
+      "label_en": "Rekkerd — FREE: ChipTune C64 SID chip emulation (public beta)",
       "url": "https://rekkerd.org/free-chiptune-c64-sid-chip-emulation-public-beta/"
     }
   },
   {
     "date": "2026-10-17",
     "name": "Cali Reverb (Nembrini Audio)",
+    "name_en": "Cali Reverb (Nembrini Audio)",
     "summary": "Ampli guitare high gain modélisé sur une tête Mesa Boogie Rectoverb 50 W, normalement payant, offert pendant quelques jours seulement (promo signalée le 16 oct) : il suffit d’un compte Nembrini Audio pour le récupérer.",
+    "summary_en": "High-gain guitar amp modelled on a 50 W Mesa Boogie Rectoverb head, normally paid, free for a few days only (promo reported on Oct 16): all you need is a Nembrini Audio account to grab it.",
     "url": "https://www.nembriniaudio.com/pages/cali-reverb-free-promotion",
     "tags": [
       "gratuit",
@@ -74,13 +88,16 @@
     ],
     "source": {
       "label": "Rekkerd — FREE: Cali Reverb high gain guitar amplifier plugin (limited time)",
+      "label_en": "Rekkerd — FREE: Cali Reverb high gain guitar amplifier plugin (limited time)",
       "url": "https://rekkerd.org/free-cali-reverb-high-gain-guitar-amplifier-plugin-limited-time/"
     }
   },
   {
     "date": "2026-10-16",
     "name": "Subtitle Edit 5.3.0",
+    "name_en": "Subtitle Edit 5.3.0",
     "summary": "Version stable 5.3.0 (14 oct ; déjà vu en RC2 le 11) : palette de commandes, import DVD, remux multi-pistes, lecteur FFmpeg avec décodage GPU, musique ACE-Step locale, et moteurs ASR/TTS/traduction à jour (whisper.cpp 1.9.5, FFmpeg 9.0.2).",
+    "summary_en": "Stable 5.3.0 (Oct 14; already covered as RC2 on the 11th): command palette, DVD import, multi-track remux, FFmpeg player with GPU decoding, local ACE-Step music, and updated ASR/TTS/translation engines (whisper.cpp 1.9.5, FFmpeg 9.0.2).",
     "url": "https://github.com/SubtitleEdit/subtitleedit",
     "tags": [
       "open-source",
@@ -89,13 +106,16 @@
     ],
     "source": {
       "label": "Release GitHub — SubtitleEdit/subtitleedit v5.3.0",
+      "label_en": "GitHub release — SubtitleEdit/subtitleedit v5.3.0",
       "url": "https://github.com/SubtitleEdit/subtitleedit/releases/tag/v5.3.0"
     }
   },
   {
     "date": "2026-10-16",
     "name": "FrameTrellis 1.2.0",
+    "name_en": "FrameTrellis 1.2.0",
     "summary": "Monteur vidéo libre (GPL-3, C++/Qt/MLT/FFmpeg) : la 1.2.0 (15 oct) ajoute duplication multi-clips, presse-papiers d’attributs audio/image, mute par lot et nudge image par image. Export MP4 H.264 ; Windows (installeur) et Linux (sources).",
+    "summary_en": "Free video editor (GPL-3, C++/Qt/MLT/FFmpeg): 1.2.0 (Oct 15) adds multi-clip duplication, an audio/image attribute clipboard, batch mute and frame-by-frame nudging. H.264 MP4 export; Windows (installer) and Linux (source).",
     "url": "https://github.com/sanskarIN/frametrellis",
     "tags": [
       "open-source",
@@ -105,13 +125,16 @@
     ],
     "source": {
       "label": "Release GitHub — sanskarIN/frametrellis v1.2.0",
+      "label_en": "GitHub release — sanskarIN/frametrellis v1.2.0",
       "url": "https://github.com/sanskarIN/frametrellis/releases/tag/v1.2.0"
     }
   },
   {
     "date": "2026-10-16",
     "name": "Bagels V2",
+    "name_en": "Bagels V2",
     "summary": "Synthé résonant gratuit (VST3/AU/CLAP/standalone) pour Windows, macOS et Linux : trois banques de quatre résonateurs et spectre combiné. La V2 (repérée le 15 oct) peaufine l’UI, baisse fortement le CPU (SIMD) et ajoute limiteur, presets et partials rapides.",
+    "summary_en": "Free resonant synth (VST3/AU/CLAP/standalone) for Windows, macOS and Linux: three banks of four resonators and a combined spectrum. V2 (spotted Oct 15) polishes the UI, cuts CPU use sharply (SIMD) and adds a limiter, presets and fast partials.",
     "url": "https://dropshotaudio.com/bagels",
     "tags": [
       "gratuit",
@@ -121,13 +144,16 @@
     ],
     "source": {
       "label": "Rekkerd — FREE: Bagels V2 synthesizer instrument by Dropshot Audio",
+      "label_en": "Rekkerd — FREE: Bagels V2 synthesizer instrument by Dropshot Audio",
       "url": "https://rekkerd.org/free-bagels-v2-synthesizer-instrument-by-dropshot-audio/"
     }
   },
   {
     "date": "2026-10-16",
     "name": "VinylNoize",
+    "name_en": "VinylNoize",
     "summary": "Plugin vinyle gratuit (Win/Mac/Linux, VST3/AU/LV2) qui reconstruit une vraie lecture de disque plutôt que des boucles de bruit : moteur calibré sur un LP mesuré, modèle physique de platine, et mode Deck (scratch, freinage). Sortie gratuite signalée le 15 oct.",
+    "summary_en": "Free vinyl plugin (Win/Mac/Linux, VST3/AU/LV2) that rebuilds real record playback rather than noise loops: engine calibrated on a measured LP, physical turntable model, and a Deck mode (scratching, braking). Free release reported on Oct 15.",
     "url": "https://www.noizefield.com/products/vinylnoize-free-download",
     "tags": [
       "gratuit",
@@ -137,13 +163,16 @@
     ],
     "source": {
       "label": "Rekkerd — FREE: VinylNoize synthesized vinyl plugin by Noizefield",
+      "label_en": "Rekkerd — FREE: VinylNoize synthesized vinyl plugin by Noizefield",
       "url": "https://rekkerd.org/free-vinylnoize-synthesized-vinyl-plugin-by-noizefield/"
     }
   },
   {
     "date": "2026-10-16",
     "name": "Aetheriae 1.0.0",
+    "name_en": "Aetheriae 1.0.0",
     "summary": "Synthé de textures gratuit (Morphor) : jusqu’à 8 sources par voix (granulaire, FM 6 ops, phase distortion, résonateurs, wavetables), chaîne BBD et lo-fi, 282 presets. VST3/AU/CLAP/standalone Mac et Windows, plus version navigateur ; v1.0.0, repérée le 15 oct.",
+    "summary_en": "Free texture synth (Morphor): up to 8 sources per voice (granular, 6-op FM, phase distortion, resonators, wavetables), BBD and lo-fi chain, 282 presets. VST3/AU/CLAP/standalone for Mac and Windows, plus a browser version; v1.0.0, spotted Oct 15.",
     "url": "https://morphor.io/plugins/aetheriae/",
     "tags": [
       "gratuit",
@@ -152,13 +181,16 @@
     ],
     "source": {
       "label": "Rekkerd — FREE: Aetheriae hybrid texture synthesizer by Morphor",
+      "label_en": "Rekkerd — FREE: Aetheriae hybrid texture synthesizer by Morphor",
       "url": "https://rekkerd.org/free-aetheriae-hybrid-texture-synthesizer-by-morphor/"
     }
   },
   {
     "date": "2026-10-16",
     "name": "Synpathy 2.0",
+    "name_en": "Synpathy 2.0",
     "summary": "Machine à cordes gratuite (VST3/AU/AAX/standalone) autour de la résonance sympathique : les voix tenues se nourrissent mutuellement. La 2.0 (15 oct) remplace le moteur pour un champ plus vivant ; trois knobs (Form, Aura, Synpathy), Mac et Windows.",
+    "summary_en": "Free string machine (VST3/AU/AAX/standalone) built around sympathetic resonance: held voices feed each other. 2.0 (Oct 15) replaces the engine for a livelier field; three knobs (Form, Aura, Synpathy), Mac and Windows.",
     "url": "https://quantasticalsound.com/synpathy.html",
     "tags": [
       "gratuit",
@@ -167,13 +199,16 @@
     ],
     "source": {
       "label": "Rekkerd — Quantastical Sound updates Synpathy free string machine to v2.0",
+      "label_en": "Rekkerd — Quantastical Sound updates Synpathy free string machine to v2.0",
       "url": "https://rekkerd.org/quantastical-sound-updates-synpathy-free-string-machine-to-v2-0/"
     }
   },
   {
     "date": "2026-10-14",
     "name": "Kdenlive 26.08.2",
+    "name_en": "Kdenlive 26.08.2",
     "summary": "Deuxième version de maintenance du monteur libre de KDE (13 oct) : le filtre Dynamic Text peut compter les images à partir de 1, pratique en animation, et une trentaine de correctifs sur proxys (dont l’encodage NVIDIA), titreur, niveaux audio et enregistrement audio.",
+    "summary_en": "Second maintenance release of KDE’s free video editor (Oct 13): the Dynamic Text filter can count frames from 1, handy for animation, plus some thirty fixes to proxies (including NVIDIA encoding), the titler, audio levels and audio recording.",
     "url": "https://kdenlive.org/news/releases/26.08.2/",
     "tags": [
       "open-source",
@@ -183,13 +218,16 @@
     ],
     "source": {
       "label": "Page web — kdenlive.org, « Kdenlive 26.08.2 released »",
+      "label_en": "Web page — kdenlive.org, “Kdenlive 26.08.2 released”",
       "url": "https://kdenlive.org/news/releases/26.08.2/"
     }
   },
   {
     "date": "2026-10-14",
     "name": "PySceneDetect 0.7.2",
+    "name_en": "PySceneDetect 0.7.2",
     "summary": "Détection automatique des plans et coupes d’une vidéo, en CLI ou en bibliothèque Python (BSD-3). La 0.7.2 (12 oct) exporte les coupes en fichier keyframes pour Aegisub, recalibre ses détecteurs histogramme et hash sur benchmarks et gère PyAV 19.",
+    "summary_en": "Automatic shot and cut detection for video, as a CLI or a Python library (BSD-3). 0.7.2 (Oct 12) exports cuts as a keyframes file for Aegisub, recalibrates its histogram and hash detectors on benchmarks and supports PyAV 19.",
     "url": "https://www.scenedetect.com/",
     "tags": [
       "open-source",
@@ -199,13 +237,16 @@
     ],
     "source": {
       "label": "Release GitHub — Breakthrough/PySceneDetect v0.7.2",
+      "label_en": "GitHub release — Breakthrough/PySceneDetect v0.7.2",
       "url": "https://github.com/Breakthrough/PySceneDetect/releases/tag/v0.7.2"
     }
   },
   {
     "date": "2026-10-14",
     "name": "Fish Audio Drama 3 (fish-speech 3.0.0 bêta)",
+    "name_en": "Fish Audio Drama 3 (fish-speech 3.0.0 beta)",
     "summary": "Modèle de synthèse vocale « dirigée » à poids ouverts (13 oct) : clonage de voix, indications de jeu ([laughs], <whisper>), reprise d’une prise sur simple note, scènes jusqu’à 16 voix et retouche d’un mot dans un audio existant. ~80 langues ; GPU 48 Go requis.",
+    "summary_en": "Open-weights “directed” speech synthesis model (Oct 13): voice cloning, acting cues ([laughs], <whisper>), retaking a line from a simple note, scenes with up to 16 voices and editing one word in existing audio. ~80 languages; 48 GB GPU required.",
     "url": "https://github.com/fishaudio/fish-speech",
     "tags": [
       "gratuit",
@@ -215,13 +256,16 @@
     ],
     "source": {
       "label": "Release GitHub — fishaudio/fish-speech v3.0.0-beta",
+      "label_en": "GitHub release — fishaudio/fish-speech v3.0.0-beta",
       "url": "https://github.com/fishaudio/fish-speech/releases/tag/v3.0.0-beta"
     }
   },
   {
     "date": "2026-10-14",
     "name": "pyVideoTrans 4.16",
+    "name_en": "pyVideoTrans 4.16",
     "summary": "Traduit une vidéo d’une langue à l’autre : transcription, traduction, doublage et sous-titres incrustés (GPL-3). La 4.16 (13 oct) ajoute l’interface web en français, un backend de doublage audio.cpp et corrige l’erreur 403 d’Edge-TTS.",
+    "summary_en": "Translates a video from one language to another: transcription, translation, dubbing and burned-in subtitles (GPL-3). 4.16 (Oct 13) adds a French web UI and an audio.cpp dubbing backend, and fixes Edge-TTS’s 403 error.",
     "url": "https://github.com/jianchang512/pyvideotrans",
     "tags": [
       "open-source",
@@ -231,13 +275,16 @@
     ],
     "source": {
       "label": "Release GitHub — jianchang512/pyvideotrans v4.16",
+      "label_en": "GitHub release — jianchang512/pyvideotrans v4.16",
       "url": "https://github.com/jianchang512/pyvideotrans/releases/tag/v4.16"
     }
   },
   {
     "date": "2026-10-14",
     "name": "Mr.Warmer",
+    "name_en": "Mr.Warmer",
     "summary": "Saturateur gratuit pensé pour le mastering : modèle physique d’une triode 12AX7 dont les harmoniques suivent l’enveloppe, Tilt EQ avant le tube, saturation dosable en Mid/Side, suréchantillonnage ×8 et compensation de gain. VST3/AAX (Win, Mac) et AU ; repéré le 13 oct.",
+    "summary_en": "Free saturator designed for mastering: physical model of a 12AX7 triode whose harmonics follow the envelope, Tilt EQ before the tube, adjustable Mid/Side saturation, ×8 oversampling and gain compensation. VST3/AAX (Win, Mac) and AU; spotted Oct 13.",
     "url": "https://mrmoustache.es/en/mrwarmer",
     "tags": [
       "gratuit",
@@ -246,13 +293,16 @@
     ],
     "source": {
       "label": "Rekkerd — FREE: Mr.Warmer saturation effect plugin by MrMoustache",
+      "label_en": "Rekkerd — FREE: Mr.Warmer saturation effect plugin by MrMoustache",
       "url": "https://rekkerd.org/free-mr-warmer-saturation-effect-plugin-by-mrmoustache/"
     }
   },
   {
     "date": "2026-10-14",
     "name": "UN/T-01",
+    "name_en": "UN/T-01",
     "summary": "Boîte à rythmes gratuite à deux moteurs : 6 pistes en 808 synthétisée façon circuits d’origine ou lecteur d’échantillons (les vôtres aussi), séquenceur 32 pas polymétrique avec Euclid, effets intégrés et 48 presets. VST3, CLAP, AU et standalone, Mac et Windows ; sortie le 13 oct.",
+    "summary_en": "Free two-engine drum machine: 6 tracks of 808 synthesised like the original circuits, or a sample player (your own samples too), 32-step polymetric sequencer with Euclid, built-in effects and 48 presets. VST3, CLAP, AU and standalone, Mac and Windows; released Oct 13.",
     "url": "https://all-the-machines.com/products/unit-01/",
     "tags": [
       "gratuit",
@@ -261,13 +311,16 @@
     ],
     "source": {
       "label": "Rekkerd — FREE: UN/T-01 drum machine instrument by All The Machines",
+      "label_en": "Rekkerd — FREE: UN/T-01 drum machine instrument by All The Machines",
       "url": "https://rekkerd.org/free-un-t-01-drum-machine-instrument-by-all-the-machines/"
     }
   },
   {
     "date": "2026-10-13",
     "name": "Phase Align 1.0.0",
+    "name_en": "Phase Align 1.0.0",
     "summary": "Plugin libre (AGPL) qui recale deux pistes d’une même source (micro proche/salle, DI/ampli) : délai ±4 ms, rotation de phase, polarité, corrélomètre, et ANALYSE qui suggère le bon réglage. v1.0.0 sortie le 9 oct en VST3/AU pour Windows, macOS et Linux.",
+    "summary_en": "Free plugin (AGPL) that aligns two tracks from the same source (close/room mic, DI/amp): ±4 ms delay, phase rotation, polarity, correlation meter, and ANALYSE, which suggests the right setting. v1.0.0 released Oct 9 as VST3/AU for Windows, macOS and Linux.",
     "url": "https://github.com/tehguitarist/PhaseAlign",
     "tags": [
       "open-source",
@@ -277,13 +330,16 @@
     ],
     "source": {
       "label": "Rekkerd — FREE: Phase Align open-source phase and time alignment plugin",
+      "label_en": "Rekkerd — FREE: Phase Align open-source phase and time alignment plugin",
       "url": "https://rekkerd.org/free-phase-align-open-source-phase-and-time-alignment-plugin/"
     }
   },
   {
     "date": "2026-10-13",
     "name": "DuckingSpace 1.1",
+    "name_en": "DuckingSpace 1.1",
     "summary": "Réverbe libre (GPL-3) avec ducking intégré : elle s’efface quand le son joue et s’épanouit dans les silences, sans bus ni sidechain. La 1.1 (11 oct) arrive sur Mac (VST3/AU), ajoute un moteur HALL, 13 presets et une interface refaite.",
+    "summary_en": "Free reverb (GPL-3) with built-in ducking: it steps back while the sound plays and blooms in the silences, with no bus or sidechain. 1.1 (Oct 11) comes to Mac (VST3/AU) and adds a HALL engine, 13 presets and a redesigned interface.",
     "url": "https://www.sonicskunk.com/",
     "tags": [
       "open-source",
@@ -292,13 +348,16 @@
     ],
     "source": {
       "label": "Rekkerd — FREE: DuckingSpace reverb effect plugin updated to v1.1",
+      "label_en": "Rekkerd — FREE: DuckingSpace reverb effect plugin updated to v1.1",
       "url": "https://rekkerd.org/free-duckingspace-reverb-effect-plugin-updated-to-v1-1/"
     }
   },
   {
     "date": "2026-10-13",
     "name": "ToneShiftEQ 1.3.0",
+    "name_en": "ToneShiftEQ 1.3.0",
     "summary": "EQ 12 bandes libre (BSD-3) signé brummer10 : convolution FFT à phase minimale ou biquads, zéro latence, dynamique par bande et spectre en temps réel. La 1.3.0 (8 oct) corrige VST3 et LV2 ; en CLAP, VST3, LV2 et standalone pour Linux et Windows.",
+    "summary_en": "Free 12-band EQ (BSD-3) by brummer10: minimum-phase FFT convolution or biquads, zero latency, per-band dynamics and a real-time spectrum. 1.3.0 (Oct 8) fixes VST3 and LV2; available as CLAP, VST3, LV2 and standalone for Linux and Windows.",
     "url": "https://github.com/brummer10/ToneShiftEQ",
     "tags": [
       "open-source",
@@ -307,13 +366,16 @@
     ],
     "source": {
       "label": "Linux Music News (linuxmusicians.com) — ToneShiftEQ",
+      "label_en": "Linux Music News (linuxmusicians.com) — ToneShiftEQ",
       "url": "https://linuxmusicians.com/viewtopic.php?p=188377#p188377"
     }
   },
   {
     "date": "2026-10-13",
     "name": "Drumlabooh 13.0.0",
+    "name_en": "Drumlabooh 13.0.0",
     "summary": "Boîte à rythmes libre (GPL-3) en LV2/VST3 qui lit les kits Hydrogen, SFZ et son propre format. La 13 (8 oct) apporte Diskach, kit années 90 de 7 instruments × 128 variations, le format de kit 1.1, et écarte les kits SFZ incompatibles au lieu de planter le DAW.",
+    "summary_en": "Free drum machine (GPL-3) in LV2/VST3 that reads Hydrogen and SFZ kits and its own format. Version 13 (Oct 8) brings Diskach, a 90s kit of 7 instruments × 128 variations, kit format 1.1, and skips incompatible SFZ kits instead of crashing the DAW.",
     "url": "https://github.com/psemiletov/drumlabooh",
     "tags": [
       "open-source",
@@ -322,13 +384,16 @@
     ],
     "source": {
       "label": "Linux Music News (linuxmusicians.com) — Drumlabooh 13 released",
+      "label_en": "Linux Music News (linuxmusicians.com) — Drumlabooh 13 released",
       "url": "https://linuxmusicians.com/viewtopic.php?p=188369#p188369"
     }
   },
   {
     "date": "2026-10-11",
     "name": "Subtitle Edit 5.3.0 RC2",
+    "name_en": "Subtitle Edit 5.3.0 RC2",
     "summary": "L’éditeur de sous-titres libre prépare sa 5.3 : release candidate 2 publiée le 11 oct, avec des builds Windows, macOS (Apple Silicon et Intel) et Linux (tarball et Flatpak), plus SeConv, son convertisseur de sous-titres en ligne de commande.",
+    "summary_en": "The free subtitle editor is preparing 5.3: release candidate 2 published on Oct 11, with builds for Windows, macOS (Apple Silicon and Intel) and Linux (tarball and Flatpak), plus SeConv, its command-line subtitle converter.",
     "url": "https://github.com/SubtitleEdit/subtitleedit",
     "tags": [
       "open-source",
@@ -338,13 +403,16 @@
     ],
     "source": {
       "label": "Release GitHub — SubtitleEdit/subtitleedit v5.3.0-rc2",
+      "label_en": "GitHub release — SubtitleEdit/subtitleedit v5.3.0-rc2",
       "url": "https://github.com/SubtitleEdit/subtitleedit/releases/tag/v5.3.0-rc2"
     }
   },
   {
     "date": "2026-10-09",
     "name": "OBS Studio 33.0 RC1",
+    "name_en": "OBS Studio 33.0 RC1",
     "summary": "Déjà vu le 7 oct en bêta 6 : OBS 33.0 passe en release candidate (9 oct). Sources navigateur corrigées (page blanche au rafraîchissement, requêtes réseau local), Plugin Manager fiabilisé en mode sans échec : la version finale approche.",
+    "summary_en": "Already covered on Oct 7 as beta 6: OBS 33.0 reaches release candidate (Oct 9). Browser sources fixed (blank page on refresh, local network requests), Plugin Manager made more reliable in safe mode: the final release is getting close.",
     "url": "https://obsproject.com/",
     "tags": [
       "open-source",
@@ -354,13 +422,16 @@
     ],
     "source": {
       "label": "Release GitHub — obsproject/obs-studio 33.0.0-rc1",
+      "label_en": "GitHub release — obsproject/obs-studio 33.0.0-rc1",
       "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0-rc1"
     }
   },
   {
     "date": "2026-10-09",
     "name": "MediaMTX 1.21.2",
+    "name_en": "MediaMTX 1.21.2",
     "summary": "Serveur et proxy de flux live prêt à l’emploi (SRT, WebRTC, RTSP, RTMP, LL-HLS, Media-over-QUIC) qui publie, enregistre et relit audio et vidéo. La 1.21.2 (8 oct) ferme un accès libre au serveur de relecture et filtre les SEI non standard de certaines caméras.",
+    "summary_en": "Ready-to-use live stream server and proxy (SRT, WebRTC, RTSP, RTMP, LL-HLS, Media-over-QUIC) that publishes, records and plays back audio and video. 1.21.2 (Oct 8) closes open access to the playback server and filters non-standard SEI from some cameras.",
     "url": "https://github.com/bluenviron/mediamtx",
     "tags": [
       "open-source",
@@ -370,13 +441,16 @@
     ],
     "source": {
       "label": "Release GitHub — bluenviron/mediamtx v1.21.2",
+      "label_en": "GitHub release — bluenviron/mediamtx v1.21.2",
       "url": "https://github.com/bluenviron/mediamtx/releases/tag/v1.21.2"
     }
   },
   {
     "date": "2026-10-09",
     "name": "whisper.cpp 1.9.5",
+    "name_en": "whisper.cpp 1.9.5",
     "summary": "Transcription Whisper en C/C++ pur, en local sur CPU ou GPU, idéale pour sous-titrer sans cloud. La 1.9.5 (6 oct) embarque ggml 0.26.0 : optimisations CUDA, Metal et WebGPU, et flash attention clairsemée sous Vulkan.",
+    "summary_en": "Whisper transcription in pure C/C++, running locally on CPU or GPU, ideal for subtitling without the cloud. 1.9.5 (Oct 6) ships ggml 0.26.0: CUDA, Metal and WebGPU optimisations, and sparse flash attention on Vulkan.",
     "url": "https://github.com/ggml-org/whisper.cpp",
     "tags": [
       "open-source",
@@ -386,13 +460,16 @@
     ],
     "source": {
       "label": "Release GitHub — ggml-org/whisper.cpp v1.9.5",
+      "label_en": "GitHub release — ggml-org/whisper.cpp v1.9.5",
       "url": "https://github.com/ggml-org/whisper.cpp/releases/tag/v1.9.5"
     }
   },
   {
     "date": "2026-10-06",
     "name": "slatefree 1.2.0",
+    "name_en": "slatefree 1.2.0",
     "summary": "Outil Rust en ligne de commande qui synchronise des centaines de clips multi-caméras sans clap ni timecode, calés sur l’audio continu d’un enregistreur. Sortie : timeline FCP 7 XML pour Resolve et CSV de contrôle par clip. Repo créé le 6 oct, déjà en v1.2.0.",
+    "summary_en": "Rust command-line tool that syncs hundreds of multicam clips with no slate or timecode, lined up on a recorder’s continuous audio. Output: an FCP 7 XML timeline for Resolve and a per-clip check CSV. Repo created Oct 6, already at v1.2.0.",
     "url": "https://github.com/MayVortex/slatefree",
     "tags": [
       "open-source",
@@ -402,13 +479,16 @@
     ],
     "source": {
       "label": "Fil X — @VFXDESK",
+      "label_en": "X feed — @VFXDESK",
       "url": "https://x.com/VFXDESK/status/2107698253294887243"
     }
   },
   {
     "date": "2026-10-07",
     "name": "FFmpeg 9.0.2 « Lei »",
+    "name_en": "FFmpeg 9.0.2 “Lei”",
     "summary": "Le moteur d’encodage derrière Blender, OBS et Shotcut passe en 9.0 : filtres IA sur GPU via ONNX Runtime, vidéo 360° en Vulkan, WebP animé, ProRes RAW accéléré sur Mac. La 9.0.2 (18 sept) ajoute des correctifs de sécurité.",
+    "summary_en": "The encoding engine behind Blender, OBS and Shotcut moves to 9.0: AI filters on GPU via ONNX Runtime, 360° video in Vulkan, animated WebP, accelerated ProRes RAW on Mac. 9.0.2 (Sept 18) adds security fixes.",
     "url": "https://ffmpeg.org/download.html",
     "tags": [
       "open-source",
@@ -418,13 +498,16 @@
     ],
     "source": {
       "label": "Web — ffmpeg.org (Download + Changelog n9.0.2)",
+      "label_en": "Web — ffmpeg.org (Download + Changelog n9.0.2)",
       "url": "https://ffmpeg.org/download.html"
     }
   },
   {
     "date": "2026-10-07",
     "name": "Audacity 4.0.1",
+    "name_en": "Audacity 4.0.1",
     "summary": "Audacity 4 reconstruit son interface sur Qt : clips sélectionnables et groupables, espaces de travail, ASIO sous Windows. La 4.0.1 (30 sept) corrige les bugs de jeunesse et ajoute l’export d’une piste ou d’une région par fichier, plus une version portable Windows.",
+    "summary_en": "Audacity 4 rebuilds its interface on Qt: selectable and groupable clips, workspaces, ASIO on Windows. 4.0.1 (Sept 30) fixes teething bugs and adds exporting one track or one region per file, plus a portable Windows version.",
     "url": "https://www.audacityteam.org/",
     "tags": [
       "open-source",
@@ -434,13 +517,16 @@
     ],
     "source": {
       "label": "Release GitHub — audacity/audacity 4.0.1",
+      "label_en": "GitHub release — audacity/audacity 4.0.1",
       "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.1"
     }
   },
   {
     "date": "2026-10-07",
     "name": "OBS Studio 33.0 bêta 6",
+    "name_en": "OBS Studio 33.0 beta 6",
     "summary": "OBS 33 (bêta 6, 3 oct) refond le chargement des plugins, avec un nouveau dossier pour les plugins tiers à anticiper côté IT. Au programme aussi : moteur des sources navigateur mis à jour (CEF 150), magnétisme des sources revu et NVENC sur Arm64.",
+    "summary_en": "OBS 33 (beta 6, Oct 3) overhauls plugin loading, with a new folder for third-party plugins that IT should plan for. Also on the menu: updated browser source engine (CEF 150), reworked source snapping and NVENC on Arm64.",
     "url": "https://obsproject.com/",
     "tags": [
       "open-source",
@@ -450,13 +536,16 @@
     ],
     "source": {
       "label": "Release GitHub — obsproject/obs-studio 33.0.0-beta6",
+      "label_en": "GitHub release — obsproject/obs-studio 33.0.0-beta6",
       "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0-beta6"
     }
   },
   {
     "date": "2026-10-07",
     "name": "Shotcut 26.9.27 (+ MLT 7.42.0)",
+    "name_en": "Shotcut 26.9.27 (+ MLT 7.42.0)",
     "summary": "Le monteur libre ajoute le ducking audio automatique, un volume et un vumètre par piste, et un « Adjustment Clip » qui filtre toutes les pistes en dessous. Passage à FFmpeg 9.0 et failles de téléchargement corrigées : mise à jour recommandée.",
+    "summary_en": "The free editor adds automatic audio ducking, per-track volume and VU meter, and an “Adjustment Clip” that filters every track below it. Moves to FFmpeg 9.0 and fixes download vulnerabilities: update recommended.",
     "url": "https://www.shotcut.org/",
     "tags": [
       "open-source",
@@ -466,13 +555,16 @@
     ],
     "source": {
       "label": "Web — shotcut.org (blog 26.9.27)",
+      "label_en": "Web — shotcut.org (blog 26.9.27)",
       "url": "https://www.shotcut.org/blog/new-release-26.9.27/"
     }
   },
   {
     "date": "2026-10-07",
     "name": "Aegisub 3.5.0",
+    "name_en": "Aegisub 3.5.0",
     "summary": "L’éditeur de sous-titres ASS de référence sort la 3.5.0 (4 oct) : zoom et panoramique dans la vidéo, High-DPI bien meilleur, builds Apple Silicon natives. Elle corrige une faille où un fichier piégé pouvait exécuter du code : mise à jour à faire.",
+    "summary_en": "The reference ASS subtitle editor releases 3.5.0 (Oct 4): zoom and pan in the video, much better High-DPI, native Apple Silicon builds. It fixes a flaw where a crafted file could execute code: update now.",
     "url": "https://aegisub.org/",
     "tags": [
       "open-source",
@@ -482,13 +574,16 @@
     ],
     "source": {
       "label": "Release GitHub — TypesettingTools/Aegisub v3.5.0",
+      "label_en": "GitHub release — TypesettingTools/Aegisub v3.5.0",
       "url": "https://github.com/TypesettingTools/Aegisub/releases/tag/v3.5.0"
     }
   },
   {
     "date": "2026-10-07",
     "name": "Shutter Encoder 20.4",
+    "name_en": "Shutter Encoder 20.4",
     "summary": "Toute la puissance de FFmpeg sans terminal : proxys, ProRes/DNx, découpe sans réencodage. La 20.4 (28 sept) ajoute un filtre de grain film, la normalisation de crête et le retrait des images dupliquées pour tous les codecs.",
+    "summary_en": "All the power of FFmpeg without a terminal: proxies, ProRes/DNx, cutting without re-encoding. 20.4 (Sept 28) adds a film grain filter, peak normalisation and duplicate frame removal for all codecs.",
     "url": "https://www.shutterencoder.com/",
     "tags": [
       "open-source",
@@ -498,13 +593,16 @@
     ],
     "source": {
       "label": "Release GitHub — paulpacifico/shutter-encoder 20.4",
+      "label_en": "GitHub release — paulpacifico/shutter-encoder 20.4",
       "url": "https://github.com/paulpacifico/shutter-encoder/releases/tag/20.4"
     }
   },
   {
     "date": "2026-10-07",
     "name": "Image Sequence to MP4 (add-on Blender) 2.0.0",
+    "name_en": "Image Sequence to MP4 (Blender add-on) 2.0.0",
     "summary": "Vos rendus PNG/EXR deviennent un MP4 (H.264, H.265 ou AV1) en un clic, en tâche de fond, sans bloquer Blender. La 2.0.0 (2 oct) détecte les frames manquantes, respecte la gestion des couleurs et propose des presets Web, 720p et 9:16.",
+    "summary_en": "Your PNG/EXR renders become an MP4 (H.264, H.265 or AV1) in one click, in the background, without blocking Blender. 2.0.0 (Oct 2) detects missing frames, respects color management and offers Web, 720p and 9:16 presets.",
     "url": "https://extensions.blender.org/add-ons/image-sequence-to-mp4-video-converter/",
     "tags": [
       "open-source",
@@ -514,6 +612,7 @@
     ],
     "source": {
       "label": "Web — extensions.blender.org (historique des versions)",
+      "label_en": "Web — extensions.blender.org (version history)",
       "url": "https://extensions.blender.org/add-ons/image-sequence-to-mp4-video-converter/versions/"
     }
   }
