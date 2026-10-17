@@ -7,6 +7,11 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-17 | FilmCraft 0.8.0 | open-source, montage, etalonnage, multiplateforme | https://github.com/storytold/filmcraft | https://olanlive.github.io/revue-audio-video/#2026-10-17-filmcraft-0-8-0 |
+| 2026-10-17 | oscmix 2.0.11 | open-source, audio, gui, beta | https://github.com/huddx01/oscmix | https://olanlive.github.io/revue-audio-video/#2026-10-17-oscmix-2-0-11 |
+| 2026-10-17 | Plugin Alliance : 6 plugins gratuits | gratuit, audio, plugin-audio | https://www.plugin-alliance.com/pages/free-plugins | https://olanlive.github.io/revue-audio-video/#2026-10-17-plugin-alliance-6-plugins-gratuits |
+| 2026-10-17 | ChipTune (bêta) | gratuit, audio, plugin-audio, beta | https://morphoice.gumroad.com/l/chiptune | https://olanlive.github.io/revue-audio-video/#2026-10-17-chiptune-beta |
+| 2026-10-17 | Cali Reverb (Nembrini Audio) | gratuit, audio, plugin-audio | https://www.nembriniaudio.com/pages/cali-reverb-free-promotion | https://olanlive.github.io/revue-audio-video/#2026-10-17-cali-reverb-nembrini-audio |
 | 2026-10-16 | Subtitle Edit 5.3.0 | open-source, sous-titres, multiplateforme | https://github.com/SubtitleEdit/subtitleedit | https://olanlive.github.io/revue-audio-video/#2026-10-16-subtitle-edit-5-3-0 |
 | 2026-10-16 | FrameTrellis 1.2.0 | open-source, montage, mlt, ffmpeg | https://github.com/sanskarIN/frametrellis | https://olanlive.github.io/revue-audio-video/#2026-10-16-frametrellis-1-2-0 |
 | 2026-10-16 | Bagels V2 | gratuit, audio, plugin-audio, multiplateforme | https://dropshotaudio.com/bagels | https://olanlive.github.io/revue-audio-video/#2026-10-16-bagels-v2 |

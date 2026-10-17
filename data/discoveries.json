@@ -1,5 +1,83 @@
 [
   {
+    "date": "2026-10-17",
+    "name": "FilmCraft 0.8.0",
+    "summary": "Reprise libre (MIT/Apache) du workflow Premiere Pro, en pur Rust : montage, panneau façon Lumetri, mixage, échanges AAF/FCPXML et 650+ commandes pilotables en CLI ou via un serveur MCP. La 0.8.0 (14 oct) ajoute l’export audio 32 bits ; projet jeune.",
+    "url": "https://github.com/storytold/filmcraft",
+    "tags": [
+      "open-source",
+      "montage",
+      "etalonnage",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "AICrier — FilmCraft 0.8.0 brings Premiere-style editing to Rust",
+      "url": "https://aicrier.com/post/0vvp9bv6v6kmuqg09mct"
+    }
+  },
+  {
+    "date": "2026-10-17",
+    "name": "oscmix 2.0.11",
+    "summary": "Mixeur libre pour cartes RME Fireface (UCX II, UFX III, 802…) en mode class-compliant, là où TotalMix n’existe pas sous Linux. La 2.0.11 (préversion, 15 oct) ajoute 8 groupes de faders, deux bus FX aux. et une interface web qui garde l’état au rechargement.",
+    "url": "https://github.com/huddx01/oscmix",
+    "tags": [
+      "open-source",
+      "audio",
+      "gui",
+      "beta"
+    ],
+    "source": {
+      "label": "LinuxMusicians — oscmix, RME TotalMix alternative for Linux CC-mode",
+      "url": "https://linuxmusicians.com/viewtopic.php?p=188483#p188483"
+    }
+  },
+  {
+    "date": "2026-10-17",
+    "name": "Plugin Alliance : 6 plugins gratuits",
+    "summary": "Six plugins de mix et mastering offerts avec un compte gratuit : bx_masterdesk (mastering analogique), bx_console N, le compresseur 254E, bx_refinement V3, bx_boom V3 et Soft Limit. Installation via le gestionnaire Mac/Windows ; offre signalée le 16 oct.",
+    "url": "https://www.plugin-alliance.com/pages/free-plugins",
+    "tags": [
+      "gratuit",
+      "audio",
+      "plugin-audio"
+    ],
+    "source": {
+      "label": "Rekkerd — FREE: Bundle of 6 mixing and mastering plugins from Plugin Alliance",
+      "url": "https://rekkerd.org/free-6-mixing-and-mastering-plugins-from-plugin-alliance/"
+    }
+  },
+  {
+    "date": "2026-10-17",
+    "name": "ChipTune (bêta)",
+    "summary": "Synthé Morphoice qui recrée la puce SID du Commodore 64, modélisée au bit près à l’horloge d’origine (6581 et 8580) : modes solo, arpège chiptune et poly 16 voix, chorus façon Juno. Bêta gratuite à prix libre (16 oct) ; la version finale pourrait être payante.",
+    "url": "https://morphoice.gumroad.com/l/chiptune",
+    "tags": [
+      "gratuit",
+      "audio",
+      "plugin-audio",
+      "beta"
+    ],
+    "source": {
+      "label": "Rekkerd — FREE: ChipTune C64 SID chip emulation (public beta)",
+      "url": "https://rekkerd.org/free-chiptune-c64-sid-chip-emulation-public-beta/"
+    }
+  },
+  {
+    "date": "2026-10-17",
+    "name": "Cali Reverb (Nembrini Audio)",
+    "summary": "Ampli guitare high gain modélisé sur une tête Mesa Boogie Rectoverb 50 W, normalement payant, offert pendant quelques jours seulement (promo signalée le 16 oct) : il suffit d’un compte Nembrini Audio pour le récupérer.",
+    "url": "https://www.nembriniaudio.com/pages/cali-reverb-free-promotion",
+    "tags": [
+      "gratuit",
+      "audio",
+      "plugin-audio"
+    ],
+    "source": {
+      "label": "Rekkerd — FREE: Cali Reverb high gain guitar amplifier plugin (limited time)",
+      "url": "https://rekkerd.org/free-cali-reverb-high-gain-guitar-amplifier-plugin-limited-time/"
+    }
+  },
+  {
     "date": "2026-10-16",
     "name": "Subtitle Edit 5.3.0",
     "summary": "Version stable 5.3.0 (14 oct ; déjà vu en RC2 le 11) : palette de commandes, import DVD, remux multi-pistes, lecteur FFmpeg avec décodage GPU, musique ACE-Step locale, et moteurs ASR/TTS/traduction à jour (whisper.cpp 1.9.5, FFmpeg 9.0.2).",
