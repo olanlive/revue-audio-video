@@ -7,6 +7,10 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-18 | Kdenlive 26.11.70 (préversion 26.12) | open-source, montage, mlt, beta | https://kdenlive.org/news/2026/october-testing/ | https://olanlive.github.io/revue-audio-video/#2026-10-18-kdenlive-26-11-70-preversion-26-12 |
+| 2026-10-18 | Aeons Light EQ 2.0.0 (Harmonic EQ) | freemium, audio, plugin-audio, multiplateforme | https://www.aeonslight.com/plugins/harmonic-eq | https://olanlive.github.io/revue-audio-video/#2026-10-18-aeons-light-eq-2-0-0-harmonic-eq |
+| 2026-10-18 | Formator 1.0.0 | gratuit, audio, plugin-audio | https://heaven42.ru/en/formator/ | https://olanlive.github.io/revue-audio-video/#2026-10-18-formator-1-0-0 |
+| 2026-10-18 | Pointless Audio : 6 plugins gratuits | gratuit, audio, plugin-audio | https://pointlessaudio.studio/ | https://olanlive.github.io/revue-audio-video/#2026-10-18-pointless-audio-6-plugins-gratuits |
 | 2026-10-17 | FilmCraft 0.8.0 | open-source, montage, etalonnage, multiplateforme | https://github.com/storytold/filmcraft | https://olanlive.github.io/revue-audio-video/#2026-10-17-filmcraft-0-8-0 |
 | 2026-10-17 | oscmix 2.0.11 | open-source, audio, gui, beta | https://github.com/huddx01/oscmix | https://olanlive.github.io/revue-audio-video/#2026-10-17-oscmix-2-0-11 |
 | 2026-10-17 | Plugin Alliance : 6 plugins gratuits | gratuit, audio, plugin-audio | https://www.plugin-alliance.com/pages/free-plugins | https://olanlive.github.io/revue-audio-video/#2026-10-17-plugin-alliance-6-plugins-gratuits |

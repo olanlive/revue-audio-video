@@ -5,8 +5,50 @@
     <link>https://olanlive.github.io/revue-audio-video/</link>
     <description>Veille logiciels, solutions et add-ons audio &amp; vidéo — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Sat, 17 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Kdenlive 26.11.70 (préversion 26.12)</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-18-kdenlive-26-11-70-preversion-26-12</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-18-kdenlive-26-11-70-preversion-26-12</guid>
+      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
+      <description>L’équipe Kdenlive appelle à tester (16 oct) deux nouveautés de la 26.12 : chemins relatifs dans les projets, pour déplacer un montage entre disques, OS ou partages réseau sans médias perdus, et plusieurs styles de police dans un même bloc de l’éditeur de titres.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>mlt</category>
+      <category>beta</category>
+    </item>
+    <item>
+      <title>Aeons Light EQ 2.0.0 (Harmonic EQ)</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-18-aeons-light-eq-2-0-0-harmonic-eq</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-18-aeons-light-eq-2-0-0-harmonic-eq</guid>
+      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Égaliseur dont les 8 bandes suivent la hauteur de la note et ses harmoniques en temps réel (audio, MIDI ou sidechain) : on sculpte une voix ou une basse mouvante sans automation. VST3/CLAP natif Linux ; version complète gratuite avec écran d’attente, licence 25 $ en promo.</description>
+      <category>freemium</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>Formator 1.0.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-18-formator-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-18-formator-1-0-0</guid>
+      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Synthé wavetable gratuit bâti sur le cœur du soviétique Formanta P432 (ondes et presets de sa ROM repris bit à bit), enrichi d’oscillateurs, éditeur d’ondes, filtres et effets. VST3 et standalone sous Linux, VST2/VST3 sous Windows.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+    </item>
+    <item>
+      <title>Pointless Audio : 6 plugins gratuits</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-18-pointless-audio-6-plugins-gratuits</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-18-pointless-audio-6-plugins-gratuits</guid>
+      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Tout le catalogue Pointless Audio est gratuit jusqu’au 25 octobre : tranche cassette 4 pistes de 1987, delay BBD, ressorts jouables à la souris, orgue combo, tranche à lampe… des émulations qui modélisent l’usure plutôt que la machine neuve. VST3/AU/CLAP, macOS et Windows.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+    </item>
     <item>
       <title>FilmCraft 0.8.0</title>
       <link>https://olanlive.github.io/revue-audio-video/#2026-10-17-filmcraft-0-8-0</link>

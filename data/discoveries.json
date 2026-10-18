@@ -1,5 +1,79 @@
 [
   {
+    "date": "2026-10-18",
+    "name": "Kdenlive 26.11.70 (préversion 26.12)",
+    "name_en": "Kdenlive 26.11.70 (26.12 pre-release)",
+    "summary": "L’équipe Kdenlive appelle à tester (16 oct) deux nouveautés de la 26.12 : chemins relatifs dans les projets, pour déplacer un montage entre disques, OS ou partages réseau sans médias perdus, et plusieurs styles de police dans un même bloc de l’éditeur de titres.",
+    "summary_en": "The Kdenlive team is asking for testers (Oct 16) for two 26.12 features: relative paths in project files, so an edit moves between drives, OSes or network shares without missing media, and multiple font styles in one Title Editor text block.",
+    "url": "https://kdenlive.org/news/2026/october-testing/",
+    "tags": [
+      "open-source",
+      "montage",
+      "mlt",
+      "beta"
+    ],
+    "source": {
+      "label": "Mastodon — @kdenlive@floss.social",
+      "label_en": "Mastodon — @kdenlive@floss.social",
+      "url": "https://floss.social/@kdenlive/117451296213591669"
+    }
+  },
+  {
+    "date": "2026-10-18",
+    "name": "Aeons Light EQ 2.0.0 (Harmonic EQ)",
+    "name_en": "Aeons Light EQ 2.0.0 (Harmonic EQ)",
+    "summary": "Égaliseur dont les 8 bandes suivent la hauteur de la note et ses harmoniques en temps réel (audio, MIDI ou sidechain) : on sculpte une voix ou une basse mouvante sans automation. VST3/CLAP natif Linux ; version complète gratuite avec écran d’attente, licence 25 $ en promo.",
+    "summary_en": "An EQ whose 8 bands follow the note’s pitch and harmonics in real time (audio, MIDI or sidechain), shaping a moving vocal or bass line without automation. Native Linux VST3/CLAP; full version free with a countdown screen, $25 license on sale.",
+    "url": "https://www.aeonslight.com/plugins/harmonic-eq",
+    "tags": [
+      "freemium",
+      "audio",
+      "plugin-audio",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "LinuxMusicians — Harmonic EQ",
+      "label_en": "LinuxMusicians — Harmonic EQ",
+      "url": "https://linuxmusicians.com/viewtopic.php?p=188379#p188379"
+    }
+  },
+  {
+    "date": "2026-10-18",
+    "name": "Formator 1.0.0",
+    "name_en": "Formator 1.0.0",
+    "summary": "Synthé wavetable gratuit bâti sur le cœur du soviétique Formanta P432 (ondes et presets de sa ROM repris bit à bit), enrichi d’oscillateurs, éditeur d’ondes, filtres et effets. VST3 et standalone sous Linux, VST2/VST3 sous Windows.",
+    "summary_en": "A free wavetable synth built on the core of the Soviet Formanta P432 (its ROM waves and programs carried over bit for bit), plus extra oscillators, a wave editor, filters and effects. VST3 and standalone on Linux, VST2/VST3 on Windows.",
+    "url": "https://heaven42.ru/en/formator/",
+    "tags": [
+      "gratuit",
+      "audio",
+      "plugin-audio"
+    ],
+    "source": {
+      "label": "Mastodon — @amadeus@mstdn.social",
+      "label_en": "Mastodon — @amadeus@mstdn.social",
+      "url": "https://mstdn.social/@amadeus/117459693387048306"
+    }
+  },
+  {
+    "date": "2026-10-18",
+    "name": "Pointless Audio : 6 plugins gratuits",
+    "name_en": "Pointless Audio: 6 free plugins",
+    "summary": "Tout le catalogue Pointless Audio est gratuit jusqu’au 25 octobre : tranche cassette 4 pistes de 1987, delay BBD, ressorts jouables à la souris, orgue combo, tranche à lampe… des émulations qui modélisent l’usure plutôt que la machine neuve. VST3/AU/CLAP, macOS et Windows.",
+    "summary_en": "Pointless Audio’s whole catalog is free until October 25: a 1987 four-track cassette strip, BBD delay, mouse-playable springs, a combo organ, a tube strip… emulations that model the wear, not the machine when new. VST3/AU/CLAP, macOS and Windows.",
+    "url": "https://pointlessaudio.studio/",
+    "tags": [
+      "gratuit",
+      "audio",
+      "plugin-audio"
+    ],
+    "source": {
+      "label": "Rekkerd — FREE: Pointless Audio plugins modeled on old hardware (limited time)",
+      "label_en": "Rekkerd — FREE: Pointless Audio plugins modeled on old hardware (limited time)",
+      "url": "https://rekkerd.org/free-pointless-audio-plugins-modeled-on-old-hardware-limited-time/"
+    }
+  },
+  {
     "date": "2026-10-17",
     "name": "FilmCraft 0.8.0",
     "name_en": "FilmCraft 0.8.0",
