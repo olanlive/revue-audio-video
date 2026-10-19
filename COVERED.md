@@ -7,6 +7,10 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-19 | Concat 0.2.7 (bêta) | open-source, montage, sous-titres, ia, beta, multiplateforme | https://github.com/jub0t/concat | https://olanlive.github.io/revue-audio-video/#2026-10-19-concat-0-2-7-beta |
+| 2026-10-19 | SoundCraft 0.8.0 | open-source, audio, daw, multiplateforme | https://github.com/storytold/soundcraft | https://olanlive.github.io/revue-audio-video/#2026-10-19-soundcraft-0-8-0 |
+| 2026-10-19 | TDR Nova 2.2.3 | gratuit, audio, plugin-audio, multiplateforme | https://www.tokyodawn.net/tdr-nova/ | https://olanlive.github.io/revue-audio-video/#2026-10-19-tdr-nova-2-2-3 |
+| 2026-10-19 | StageRig 0.1.75 | open-source, audio, plugin-audio, beta | https://github.com/dguedry/stagerig | https://olanlive.github.io/revue-audio-video/#2026-10-19-stagerig-0-1-75 |
 | 2026-10-18 | Kdenlive 26.11.70 (préversion 26.12) | open-source, montage, mlt, beta | https://kdenlive.org/news/2026/october-testing/ | https://olanlive.github.io/revue-audio-video/#2026-10-18-kdenlive-26-11-70-preversion-26-12 |
 | 2026-10-18 | Aeons Light EQ 2.0.0 (Harmonic EQ) | freemium, audio, plugin-audio, multiplateforme | https://www.aeonslight.com/plugins/harmonic-eq | https://olanlive.github.io/revue-audio-video/#2026-10-18-aeons-light-eq-2-0-0-harmonic-eq |
 | 2026-10-18 | Formator 1.0.0 | gratuit, audio, plugin-audio | https://heaven42.ru/en/formator/ | https://olanlive.github.io/revue-audio-video/#2026-10-18-formator-1-0-0 |

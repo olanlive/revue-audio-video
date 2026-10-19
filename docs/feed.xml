@@ -5,8 +5,54 @@
     <link>https://olanlive.github.io/revue-audio-video/</link>
     <description>Veille logiciels, solutions et add-ons audio &amp; vidéo — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 18 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Concat 0.2.7 (bêta)</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-19-concat-0-2-7-beta</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-19-concat-0-2-7-beta</guid>
+      <pubDate>Mon, 19 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Alternative libre à CapCut (AGPL-3.0) en Rust avec compositeur GPU : sous-titres auto via Whisper, synthèse et clonage de voix, détourage, keyframes et export jusqu’en 4K60 10 bits, le tout en local, sans filigrane ni compte. Pilotable par API JSON-RPC et serveur MCP.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>sous-titres</category>
+      <category>ia</category>
+      <category>beta</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>SoundCraft 0.8.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-19-soundcraft-0-8-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-19-soundcraft-0-8-0</guid>
+      <pubDate>Mon, 19 Oct 2026 09:00:00 +0200</pubDate>
+      <description>DAW libre (Apache-2.0) en Rust qui reprend le flux Pro Tools, fenêtres Edit et Mix, avec plugins CLAP/VST3/AU, automation, MIDI, surround jusqu’en 9.1.6 et une piste image pour caler le son sur la vidéo. Linux, macOS, Windows, FreeBSD et navigateur ; 0.8.0 sortie le 18 oct.</description>
+      <category>open-source</category>
+      <category>audio</category>
+      <category>daw</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>TDR Nova 2.2.3</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-19-tdr-nova-2-2-3</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-19-tdr-nova-2-2-3</guid>
+      <pubDate>Mon, 19 Oct 2026 09:00:00 +0200</pubDate>
+      <description>L’égaliseur dynamique gratuit de Tokyo Dawn Labs, une référence au mixage, passe en 2.2.3 avec une version Linux native (archive x86-64) et corrige le clic droit dans DaVinci Resolve. L’édition GE reste payante.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>StageRig 0.1.75</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-19-stagerig-0-1-75</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-19-stagerig-0-1-75</guid>
+      <pubDate>Mon, 19 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Hôte de plugins libre (GPL-3.0) pour la scène sous Linux : un programme par son, changement au clavier, au pédalier ou depuis une tablette, qui affiche et pilote l’interface de chaque plugin dans le navigateur, sans appli à installer. Projet très jeune (.deb/.rpm).</description>
+      <category>open-source</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+      <category>beta</category>
+    </item>
     <item>
       <title>Kdenlive 26.11.70 (préversion 26.12)</title>
       <link>https://olanlive.github.io/revue-audio-video/#2026-10-18-kdenlive-26-11-70-preversion-26-12</link>

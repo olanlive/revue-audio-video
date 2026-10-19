@@ -1,5 +1,83 @@
 [
   {
+    "date": "2026-10-19",
+    "name": "Concat 0.2.7 (bêta)",
+    "name_en": "Concat 0.2.7 (beta)",
+    "summary": "Alternative libre à CapCut (AGPL-3.0) en Rust avec compositeur GPU : sous-titres auto via Whisper, synthèse et clonage de voix, détourage, keyframes et export jusqu’en 4K60 10 bits, le tout en local, sans filigrane ni compte. Pilotable par API JSON-RPC et serveur MCP.",
+    "summary_en": "A free CapCut alternative (AGPL-3.0) in Rust with a GPU compositor: Whisper auto-captions, TTS and voice cloning, background removal, keyframes and up to 4K60 10-bit export, all local, no watermark or account. Scriptable via JSON-RPC and an MCP server.",
+    "url": "https://github.com/jub0t/concat",
+    "tags": [
+      "open-source",
+      "montage",
+      "sous-titres",
+      "ia",
+      "beta",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Article BlockWorld.it — Concat, éditeur vidéo libre et local",
+      "label_en": "BlockWorld.it article — Concat, free local video editor",
+      "url": "https://blockworld.it/en/news/concat-the-free-and-open-source-video-editor-that-runs-locally/"
+    }
+  },
+  {
+    "date": "2026-10-19",
+    "name": "SoundCraft 0.8.0",
+    "name_en": "SoundCraft 0.8.0",
+    "summary": "DAW libre (Apache-2.0) en Rust qui reprend le flux Pro Tools, fenêtres Edit et Mix, avec plugins CLAP/VST3/AU, automation, MIDI, surround jusqu’en 9.1.6 et une piste image pour caler le son sur la vidéo. Linux, macOS, Windows, FreeBSD et navigateur ; 0.8.0 sortie le 18 oct.",
+    "summary_en": "A free DAW (Apache-2.0) in Rust following the Pro Tools workflow, Edit and Mix windows, with CLAP/VST3/AU plugins, automation, MIDI, up to 9.1.6 surround and a picture track to sync sound to video. Linux, macOS, Windows, FreeBSD and browser; 0.8.0 out Oct 18.",
+    "url": "https://github.com/storytold/soundcraft",
+    "tags": [
+      "open-source",
+      "audio",
+      "daw",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Article Reveneau — SoundCraft, alternative libre à Pro Tools",
+      "label_en": "Reveneau article — SoundCraft, open-source Pro Tools alternative",
+      "url": "https://reveneau.com/ainews/soundcraft-open-source-pro-tools-alternative-rust-3202-stars"
+    }
+  },
+  {
+    "date": "2026-10-19",
+    "name": "TDR Nova 2.2.3",
+    "name_en": "TDR Nova 2.2.3",
+    "summary": "L’égaliseur dynamique gratuit de Tokyo Dawn Labs, une référence au mixage, passe en 2.2.3 avec une version Linux native (archive x86-64) et corrige le clic droit dans DaVinci Resolve. L’édition GE reste payante.",
+    "summary_en": "Tokyo Dawn Labs’ free dynamic EQ, a mixing staple, reaches 2.2.3 with a native Linux build (x86-64 archive) and a fix for right-click in DaVinci Resolve. The GE edition stays paid.",
+    "url": "https://www.tokyodawn.net/tdr-nova/",
+    "tags": [
+      "gratuit",
+      "audio",
+      "plugin-audio",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Mastodon — @nund@social.tchncs.de",
+      "label_en": "Mastodon — @nund@social.tchncs.de",
+      "url": "https://social.tchncs.de/@nund/117462246764590876"
+    }
+  },
+  {
+    "date": "2026-10-19",
+    "name": "StageRig 0.1.75",
+    "name_en": "StageRig 0.1.75",
+    "summary": "Hôte de plugins libre (GPL-3.0) pour la scène sous Linux : un programme par son, changement au clavier, au pédalier ou depuis une tablette, qui affiche et pilote l’interface de chaque plugin dans le navigateur, sans appli à installer. Projet très jeune (.deb/.rpm).",
+    "summary_en": "A free (GPL-3.0) live plugin host for Linux: one program per sound, switched from the keyboard, a footswitch or a tablet that mirrors and drives each plugin’s own GUI in the browser, no app to install. A very young project (.deb/.rpm).",
+    "url": "https://github.com/dguedry/stagerig",
+    "tags": [
+      "open-source",
+      "audio",
+      "plugin-audio",
+      "beta"
+    ],
+    "source": {
+      "label": "LinuxMusicians — Introducing StageRig for Linux",
+      "label_en": "LinuxMusicians — Introducing StageRig for Linux",
+      "url": "https://linuxmusicians.com/viewtopic.php?p=188612#p188612"
+    }
+  },
+  {
     "date": "2026-10-18",
     "name": "Kdenlive 26.11.70 (préversion 26.12)",
     "name_en": "Kdenlive 26.11.70 (26.12 pre-release)",
