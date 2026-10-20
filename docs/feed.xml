@@ -5,8 +5,42 @@
     <link>https://olanlive.github.io/revue-audio-video/</link>
     <description>Veille logiciels, solutions et add-ons audio &amp; vidéo — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Mon, 19 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MusE 4.3</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-20-muse-4-3</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-20-muse-4-3</guid>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Le séquenceur MIDI/audio libre (GPL-2.0) pour Linux sort sa 4.3 le 19 oct, trois ans après la 4.2.1 : listes de noms de notes variables (microtonal), do central réglable, routage avancé revu, rack d’effets annulable et nombreux correctifs VST/LV2. Dernière version Qt5.</description>
+      <category>open-source</category>
+      <category>audio</category>
+      <category>daw</category>
+    </item>
+    <item>
+      <title>SQ8L 1.0.0 bêta 3 (portage 64 bits)</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-20-sq8l-1-0-0-beta-3-portage-64-bits</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-20-sq8l-1-0-0-beta-3-portage-64-bits</guid>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Portage 64 bits du SQ8L, émulation gratuite du synthé Ensoniq SQ-80 restée bloquée en 32 bits Windows : son identique à l’échantillon près, anciens projets et banques compatibles, en VST2/VST3/AU/CLAP et LV2 sous Linux. Code du portage sous MIT, encore en bêta.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+      <category>beta</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>LosslessCut 3.70.1</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-20-losslesscut-3-70-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-20-losslesscut-3-70-1</guid>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0200</pubDate>
+      <description>L’outil libre (GPL-2.0) pour couper et remuxer vidéo et audio sans réencodage passe en 3.70 (19 oct) : FFmpeg 8.1 embarqué (corrige une CVE), éditeur de métadonnées très enrichi, coupes plus justes en MKV/WebM et thème clair/sombre. Sous Windows, prendre la 3.70.1.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>ffmpeg</category>
+      <category>securite</category>
+      <category>multiplateforme</category>
+    </item>
     <item>
       <title>Concat 0.2.7 (bêta)</title>
       <link>https://olanlive.github.io/revue-audio-video/#2026-10-19-concat-0-2-7-beta</link>

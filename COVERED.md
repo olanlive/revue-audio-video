@@ -7,6 +7,9 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-20 | MusE 4.3 | open-source, audio, daw | https://muse-sequencer.github.io/ | https://olanlive.github.io/revue-audio-video/#2026-10-20-muse-4-3 |
+| 2026-10-20 | SQ8L 1.0.0 bêta 3 (portage 64 bits) | gratuit, audio, plugin-audio, beta, multiplateforme | https://github.com/sq8l-revival/SQ8L | https://olanlive.github.io/revue-audio-video/#2026-10-20-sq8l-1-0-0-beta-3-portage-64-bits |
+| 2026-10-20 | LosslessCut 3.70.1 | open-source, montage, ffmpeg, securite, multiplateforme | https://github.com/mifi/lossless-cut | https://olanlive.github.io/revue-audio-video/#2026-10-20-losslesscut-3-70-1 |
 | 2026-10-19 | Concat 0.2.7 (bêta) | open-source, montage, sous-titres, ia, beta, multiplateforme | https://github.com/jub0t/concat | https://olanlive.github.io/revue-audio-video/#2026-10-19-concat-0-2-7-beta |
 | 2026-10-19 | SoundCraft 0.8.0 | open-source, audio, daw, multiplateforme | https://github.com/storytold/soundcraft | https://olanlive.github.io/revue-audio-video/#2026-10-19-soundcraft-0-8-0 |
 | 2026-10-19 | TDR Nova 2.2.3 | gratuit, audio, plugin-audio, multiplateforme | https://www.tokyodawn.net/tdr-nova/ | https://olanlive.github.io/revue-audio-video/#2026-10-19-tdr-nova-2-2-3 |

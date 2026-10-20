@@ -1,5 +1,63 @@
 [
   {
+    "date": "2026-10-20",
+    "name": "MusE 4.3",
+    "name_en": "MusE 4.3",
+    "summary": "Le séquenceur MIDI/audio libre (GPL-2.0) pour Linux sort sa 4.3 le 19 oct, trois ans après la 4.2.1 : listes de noms de notes variables (microtonal), do central réglable, routage avancé revu, rack d’effets annulable et nombreux correctifs VST/LV2. Dernière version Qt5.",
+    "summary_en": "The free MIDI/audio sequencer (GPL-2.0) for Linux releases 4.3 on Oct 19, three years after 4.2.1: variable note-name lists (microtonal), adjustable middle C, a reworked advanced routing dialog, a fully undoable effect rack and many VST/LV2 fixes. Last Qt5 release.",
+    "url": "https://muse-sequencer.github.io/",
+    "tags": [
+      "open-source",
+      "audio",
+      "daw"
+    ],
+    "source": {
+      "label": "LinuxMusicians — MusE Sequencer 4.3 is released!",
+      "label_en": "LinuxMusicians — MusE Sequencer 4.3 is released!",
+      "url": "https://linuxmusicians.com/viewtopic.php?p=188618#p188618"
+    }
+  },
+  {
+    "date": "2026-10-20",
+    "name": "SQ8L 1.0.0 bêta 3 (portage 64 bits)",
+    "name_en": "SQ8L 1.0.0 beta 3 (64-bit port)",
+    "summary": "Portage 64 bits du SQ8L, émulation gratuite du synthé Ensoniq SQ-80 restée bloquée en 32 bits Windows : son identique à l’échantillon près, anciens projets et banques compatibles, en VST2/VST3/AU/CLAP et LV2 sous Linux. Code du portage sous MIT, encore en bêta.",
+    "summary_en": "A 64-bit port of SQ8L, the free Ensoniq SQ-80 emulation long stuck on 32-bit Windows: sample-identical sound, old projects and banks load unchanged, as VST2/VST3/AU/CLAP plus LV2 on Linux. Port code under MIT, still in beta.",
+    "url": "https://github.com/sq8l-revival/SQ8L",
+    "tags": [
+      "gratuit",
+      "audio",
+      "plugin-audio",
+      "beta",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Rekkerd — FREE: SQ8L Ensoniq SQ-80 emulation returns as 64-bit plugin",
+      "label_en": "Rekkerd — FREE: SQ8L Ensoniq SQ-80 emulation returns as 64-bit plugin",
+      "url": "https://rekkerd.org/free-sq8l-ensoniq-sq-80-emulation-returns-as-64-bit-plugin/"
+    }
+  },
+  {
+    "date": "2026-10-20",
+    "name": "LosslessCut 3.70.1",
+    "name_en": "LosslessCut 3.70.1",
+    "summary": "L’outil libre (GPL-2.0) pour couper et remuxer vidéo et audio sans réencodage passe en 3.70 (19 oct) : FFmpeg 8.1 embarqué (corrige une CVE), éditeur de métadonnées très enrichi, coupes plus justes en MKV/WebM et thème clair/sombre. Sous Windows, prendre la 3.70.1.",
+    "summary_en": "The free tool (GPL-2.0) for cutting and remuxing video and audio without re-encoding reaches 3.70 (Oct 19): bundled FFmpeg 8.1 (fixes a CVE), a much richer metadata editor, more accurate MKV/WebM cuts and a light/dark theme. On Windows, get 3.70.1.",
+    "url": "https://github.com/mifi/lossless-cut",
+    "tags": [
+      "open-source",
+      "montage",
+      "ffmpeg",
+      "securite",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Release GitHub — mifi/lossless-cut 3.70.1",
+      "label_en": "GitHub release — mifi/lossless-cut 3.70.1",
+      "url": "https://github.com/mifi/lossless-cut/releases/tag/v3.70.1"
+    }
+  },
+  {
     "date": "2026-10-19",
     "name": "Concat 0.2.7 (bêta)",
     "name_en": "Concat 0.2.7 (beta)",
