@@ -1,5 +1,41 @@
 [
   {
+    "date": "2026-10-21",
+    "name": "Swanky Amp Free 2.0.1",
+    "name_en": "Swanky Amp Free 2.0.1",
+    "summary": "Simulation d’ampli à lampes libre (GPL-3.0) qui réagit au toucher, avec sag et « note bloom ». La v2 (20 oct) refait l’interface, affine le tone stack, ajoute un suréchantillonnage auto et le format CLAP (VST3, AU, standalone ; Windows et macOS).",
+    "summary_en": "Free, open-source (GPL-3.0) tube amp simulation that reacts to your touch, with sag and note bloom. v2 (Oct 20) brings a new interface, a more accurate tone stack, auto oversampling and CLAP support (VST3, AU, standalone; Windows and macOS).",
+    "url": "https://resonantdsp.com/products/swanky-amp-free/",
+    "tags": [
+      "open-source",
+      "audio",
+      "plugin-audio"
+    ],
+    "source": {
+      "label": "Rekkerd — FREE: Swanky Amp Free 2.0.1",
+      "label_en": "Rekkerd — FREE: Swanky Amp Free 2.0.1",
+      "url": "https://rekkerd.org/free-swanky-amp-free-2-0-1-tube-amplifier-plugin-by-resonant-dsp/"
+    }
+  },
+  {
+    "date": "2026-10-21",
+    "name": "Why Dit (Teroof Plugins)",
+    "name_en": "Why Dit (Teroof Plugins)",
+    "summary": "Élargisseur stéréo gratuit à un seul bouton, plus un interrupteur « arc-en-ciel » pour ajouter de l’éclat : de l’air et de l’espace sur une voix ou un mix entier. VST3 (Windows, macOS) et AU (macOS).",
+    "summary_en": "Free one-knob stereo widener, plus a “rainbow” switch for extra bloom: adds air and space to a vocal or a full mix. VST3 (Windows, macOS) and AU (macOS).",
+    "url": "https://teroofplugins.com/plugins/why-dit",
+    "tags": [
+      "gratuit",
+      "audio",
+      "plugin-audio"
+    ],
+    "source": {
+      "label": "Rekkerd — FREE: Why Dit stereo widener",
+      "label_en": "Rekkerd — FREE: Why Dit stereo widener",
+      "url": "https://rekkerd.org/free-why-dit-stereo-widener-effect-by-teroof-plugins/"
+    }
+  },
+  {
     "date": "2026-10-20",
     "name": "MusE 4.3",
     "name_en": "MusE 4.3",
