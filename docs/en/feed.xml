@@ -5,8 +5,50 @@
     <link>https://olanlive.github.io/revue-audio-video/en/</link>
     <description>Software, solutions and add-ons for audio &amp; video — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Ultra Video Editor 1.4.6</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-22-ultra-video-editor-1-4-6</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-22-ultra-video-editor-1-4-6</guid>
+      <pubDate>Thu, 22 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Open-source (GPL-3.0) video editor built by a blind developer, fully keyboard-driven with JAWS and NVDA. 1.4.6 (Oct 21) generates audio description: Gemini watches the video, writes an editable script fitted to the pauses, and a voice mixes it in. Windows.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>ia</category>
+      <category>audio</category>
+    </item>
+    <item>
+      <title>melcom's FFmpeg Audio Normalizer 4.1.2</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-22-melcom-s-ffmpeg-audio-normalizer-4-1-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-22-melcom-s-ffmpeg-audio-normalizer-4-1-2</guid>
+      <pubDate>Thu, 22 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Open-source (MIT) GUI to loudness-normalize batches of audio files with FFmpeg. 4.1.2 (Oct 22) adds analysis reports (loudness, True Peak, dynamics), CSV export, optional output verification and fixes two-pass processing. Windows.</description>
+      <category>open-source</category>
+      <category>audio</category>
+      <category>ffmpeg</category>
+      <category>gui</category>
+    </item>
+    <item>
+      <title>Grain Freezer 1.0.0 (Amazing Noises)</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-22-grain-freezer-1-0-0-amazing-noises</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-22-grain-freezer-1-0-0-amazing-noises</guid>
+      <pubDate>Thu, 22 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Free plugin that freezes 150 ms of any sound into a granular cloud (up to 64 grains), manually or automatically in sync with tempo, blendable with the live input. No account or email; AU and VST3, macOS only.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+    </item>
+    <item>
+      <title>KIYMA (SubverseLab)</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-22-kiyma-subverselab</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-22-kiyma-subverselab</guid>
+      <pubDate>Thu, 22 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Free glitch/stutter effect that minces the last bars played, locked to the DAW tempo, with no latency and no randomness: same settings, same result. Five presets, from LEAN to BONE. VST3/AU/standalone on macOS, VST3 on Windows; free account required.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+    </item>
     <item>
       <title>Swanky Amp Free 2.0.1</title>
       <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-21-swanky-amp-free-2-0-1</link>

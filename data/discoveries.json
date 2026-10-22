@@ -1,5 +1,79 @@
 [
   {
+    "date": "2026-10-22",
+    "name": "Ultra Video Editor 1.4.6",
+    "name_en": "Ultra Video Editor 1.4.6",
+    "summary": "Monteur vidéo libre (GPL-3.0) conçu par un développeur aveugle, entièrement pilotable au clavier avec JAWS et NVDA. La 1.4.6 (21 oct) génère l’audiodescription : Gemini regarde la vidéo, écrit un script modifiable calé sur les silences, puis une voix le mixe. Windows.",
+    "summary_en": "Open-source (GPL-3.0) video editor built by a blind developer, fully keyboard-driven with JAWS and NVDA. 1.4.6 (Oct 21) generates audio description: Gemini watches the video, writes an editable script fitted to the pauses, and a voice mixes it in. Windows.",
+    "url": "https://github.com/demirajvazi10-max/Ultra-Creative-suite",
+    "tags": [
+      "open-source",
+      "montage",
+      "ia",
+      "audio"
+    ],
+    "source": {
+      "label": "Mastodon — @demirajvazi10@mastodon.social",
+      "label_en": "Mastodon — @demirajvazi10@mastodon.social",
+      "url": "https://mastodon.social/@demirajvazi10/117481516622604960"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "name": "melcom's FFmpeg Audio Normalizer 4.1.2",
+    "name_en": "melcom's FFmpeg Audio Normalizer 4.1.2",
+    "summary": "Interface libre (MIT) pour normaliser des lots de fichiers audio en loudness avec FFmpeg. La 4.1.2 (22 oct) ajoute des rapports d’analyse (loudness, True Peak, dynamique), l’export CSV, une vérification optionnelle du résultat et corrige le traitement en deux passes. Windows.",
+    "summary_en": "Open-source (MIT) GUI to loudness-normalize batches of audio files with FFmpeg. 4.1.2 (Oct 22) adds analysis reports (loudness, True Peak, dynamics), CSV export, optional output verification and fixes two-pass processing. Windows.",
+    "url": "https://github.com/melcom-creations/melcoms-ffmpeg-audio-normalizer",
+    "tags": [
+      "open-source",
+      "audio",
+      "ffmpeg",
+      "gui"
+    ],
+    "source": {
+      "label": "Mastodon — @melcom@mastodon.social",
+      "label_en": "Mastodon — @melcom@mastodon.social",
+      "url": "https://mastodon.social/@melcom/117483219377909285"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "name": "Grain Freezer 1.0.0 (Amazing Noises)",
+    "name_en": "Grain Freezer 1.0.0 (Amazing Noises)",
+    "summary": "Plugin gratuit qui fige 150 ms de n’importe quel son en nuage granulaire (jusqu’à 64 grains), à la main ou en auto synchronisé au tempo, mélangeable avec le direct. Sans compte ni e-mail ; AU et VST3, macOS uniquement.",
+    "summary_en": "Free plugin that freezes 150 ms of any sound into a granular cloud (up to 64 grains), manually or automatically in sync with tempo, blendable with the live input. No account or email; AU and VST3, macOS only.",
+    "url": "https://amazingnoises.com/grain-freezer.html",
+    "tags": [
+      "gratuit",
+      "audio",
+      "plugin-audio"
+    ],
+    "source": {
+      "label": "Rekkerd — FREE: Grain Freezer",
+      "label_en": "Rekkerd — FREE: Grain Freezer",
+      "url": "https://rekkerd.org/free-grain-freezer-granular-effect-plugin-by-amazing-noises-vst3-au/"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "name": "KIYMA (SubverseLab)",
+    "name_en": "KIYMA (SubverseLab)",
+    "summary": "Effet glitch/stutter gratuit qui hache les dernières mesures jouées, calé sur le tempo du DAW, sans latence et sans hasard : mêmes réglages, même résultat. Cinq presets, de LEAN à BONE. VST3/AU/standalone macOS, VST3 Windows ; compte gratuit requis.",
+    "summary_en": "Free glitch/stutter effect that minces the last bars played, locked to the DAW tempo, with no latency and no randomness: same settings, same result. Five presets, from LEAN to BONE. VST3/AU/standalone on macOS, VST3 on Windows; free account required.",
+    "url": "https://subverselab.com/plugins/kiyma",
+    "tags": [
+      "gratuit",
+      "audio",
+      "plugin-audio"
+    ],
+    "source": {
+      "label": "Rekkerd — FREE: KIYMA audio mincer",
+      "label_en": "Rekkerd — FREE: KIYMA audio mincer",
+      "url": "https://rekkerd.org/free-kiyma-audio-mincer-effect-plugin-by-subverselab/"
+    }
+  },
+  {
     "date": "2026-10-21",
     "name": "Swanky Amp Free 2.0.1",
     "name_en": "Swanky Amp Free 2.0.1",

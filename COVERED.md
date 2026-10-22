@@ -7,6 +7,10 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-22 | Ultra Video Editor 1.4.6 | open-source, montage, ia, audio | https://github.com/demirajvazi10-max/Ultra-Creative-suite | https://olanlive.github.io/revue-audio-video/#2026-10-22-ultra-video-editor-1-4-6 |
+| 2026-10-22 | melcom's FFmpeg Audio Normalizer 4.1.2 | open-source, audio, ffmpeg, gui | https://github.com/melcom-creations/melcoms-ffmpeg-audio-normalizer | https://olanlive.github.io/revue-audio-video/#2026-10-22-melcom-s-ffmpeg-audio-normalizer-4-1-2 |
+| 2026-10-22 | Grain Freezer 1.0.0 (Amazing Noises) | gratuit, audio, plugin-audio | https://amazingnoises.com/grain-freezer.html | https://olanlive.github.io/revue-audio-video/#2026-10-22-grain-freezer-1-0-0-amazing-noises |
+| 2026-10-22 | KIYMA (SubverseLab) | gratuit, audio, plugin-audio | https://subverselab.com/plugins/kiyma | https://olanlive.github.io/revue-audio-video/#2026-10-22-kiyma-subverselab |
 | 2026-10-21 | Swanky Amp Free 2.0.1 | open-source, audio, plugin-audio | https://resonantdsp.com/products/swanky-amp-free/ | https://olanlive.github.io/revue-audio-video/#2026-10-21-swanky-amp-free-2-0-1 |
 | 2026-10-21 | Why Dit (Teroof Plugins) | gratuit, audio, plugin-audio | https://teroofplugins.com/plugins/why-dit | https://olanlive.github.io/revue-audio-video/#2026-10-21-why-dit-teroof-plugins |
 | 2026-10-20 | MusE 4.3 | open-source, audio, daw | https://muse-sequencer.github.io/ | https://olanlive.github.io/revue-audio-video/#2026-10-20-muse-4-3 |
