@@ -1,5 +1,98 @@
 [
   {
+    "date": "2026-10-23",
+    "name": "FSVR 0.8.3",
+    "name_en": "FSVR 0.8.3",
+    "summary": "Le Yamaha FS1R de 1998 reconstruit en libre (GPL-3.0) depuis son firmware : 88 algorithmes FM, effets d’origine émulés, 1408 voix d’usine et lecture des Fseq formantiques. VST3, CLAP, VST2, AU ou autonome sur Linux, Windows et macOS ; la 0.8.3 est sortie le 23 oct.",
+    "summary_en": "The 1998 Yamaha FS1R rebuilt as open source (GPL-3.0) from its firmware: 88 FM algorithms, the original effects emulated, 1408 factory voices and formant Fseq playback. VST3, CLAP, VST2, AU or standalone on Linux, Windows and macOS; 0.8.3 is out (Oct 23).",
+    "url": "https://musica.studio/code/fsvr",
+    "tags": [
+      "open-source",
+      "audio",
+      "plugin-audio",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Rekkerd — FREE: FSVR",
+      "label_en": "Rekkerd — FREE: FSVR",
+      "url": "https://rekkerd.org/free-fsvr-software-recreation-of-yamaha-fs1r-synthesizer/"
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "name": "Noteahead 10.0.0",
+    "name_en": "Noteahead 10.0.0",
+    "summary": "Tracker et séquenceur MIDI libre (GPL-3.0) pensé pour Linux, avec synthés et effets intégrés. La 10.0.0 (17 oct) ajoute un polysynthé façon Juno-60, une boîte à rythmes FM, un module de 4 LFO, l’automation de tout paramètre et un EQ dynamique.",
+    "summary_en": "Open-source (GPL-3.0) MIDI tracker and sequencer built for Linux, with built-in synths and effects. 10.0.0 (Oct 17) adds a Juno-60-style polysynth, an FM drum machine, a four-LFO device, automation of any parameter and a dynamic EQ.",
+    "url": "https://juzzlin.github.io/Noteahead/",
+    "tags": [
+      "open-source",
+      "audio",
+      "daw"
+    ],
+    "source": {
+      "label": "LinuxMusicians — Noteahead 10.0.0 released!",
+      "label_en": "LinuxMusicians — Noteahead 10.0.0 released!",
+      "url": "https://linuxmusicians.com/viewtopic.php?p=188715#p188715"
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "name": "RTMP Server Source 0.1.0 (plugin OBS)",
+    "name_en": "RTMP Server Source 0.1.0 (plugin OBS)",
+    "summary": "Plugin libre (GPL-2.0) qui met un serveur RTMP dans OBS : caméra, téléphone ou autre PC y diffusent et arrivent comme une source normale, sans nginx. Plusieurs clés sur un port, reconnexion auto, H.264/HEVC/AV1. Écrit avec une IA ; 0.1.0 (22 oct), macOS seulement.",
+    "summary_en": "Open-source (GPL-2.0) plugin that puts an RTMP server inside OBS: cameras, phones or other PCs stream to it and show up as a normal source, no nginx. Several keys on one port, auto-reconnect, H.264/HEVC/AV1. AI-written; 0.1.0 (Oct 22), macOS only.",
+    "url": "https://github.com/davvore33/rtmp-server-source",
+    "tags": [
+      "open-source",
+      "captation",
+      "streaming",
+      "beta"
+    ],
+    "source": {
+      "label": "Mastodon — @davvore33@livellosegreto.it",
+      "label_en": "Mastodon — @davvore33@livellosegreto.it",
+      "url": "https://livellosegreto.it/@davvore33/117484381622419404"
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "name": "pyVideoTrans 4.17",
+    "name_en": "pyVideoTrans 4.17",
+    "summary": "L’outil libre de traduction et doublage vidéo par IA ajoute en 4.17 (23 oct) deux modèles de débruitage et de séparation de voix basés sur audio.cpp (zipenhancer, mel_band_roformer), et une option qui raccourcit les sous-titres traduits pour caler le doublage.",
+    "summary_en": "The open-source AI video translation and dubbing tool adds in 4.17 (Oct 23) two denoising and voice separation models based on audio.cpp (zipenhancer, mel_band_roformer), plus an option that shortens translated subtitles so dubbing fits.",
+    "url": "https://github.com/jianchang512/pyvideotrans",
+    "tags": [
+      "open-source",
+      "ia",
+      "sous-titres",
+      "restauration"
+    ],
+    "source": {
+      "label": "Release GitHub — jianchang512/pyvideotrans v4.17",
+      "label_en": "GitHub release — jianchang512/pyvideotrans v4.17",
+      "url": "https://github.com/jianchang512/pyvideotrans/releases/tag/v4.17"
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "name": "Casetera",
+    "name_en": "Casetera",
+    "summary": "Émulation gratuite de cassette et de bande studio, sans DRM ni activation en ligne : quatre caractères de bande, du chaud façon mixtape 80s jusqu’à la dégradation lo-fi façon dictaphone, avec pleurage et souffle. VST3, AU, CLAP.",
+    "summary_en": "Free cassette and studio tape emulation with no DRM or online activation: four tape characters, from warm 80s mixtape to dictaphone-style lo-fi degradation, with wow and hiss. VST3, AU, CLAP.",
+    "url": "https://cfplugins.io/casetera.html",
+    "tags": [
+      "gratuit",
+      "audio",
+      "plugin-audio"
+    ],
+    "source": {
+      "label": "Rekkerd — FREE: Casetera",
+      "label_en": "Rekkerd — FREE: Casetera",
+      "url": "https://rekkerd.org/free-casetera-vintage-cassette-tape-plugin-for-by-carbon-fiber-plugins/"
+    }
+  },
+  {
     "date": "2026-10-22",
     "name": "Ultra Video Editor 1.4.6",
     "name_en": "Ultra Video Editor 1.4.6",

@@ -7,6 +7,11 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-23 | FSVR 0.8.3 | open-source, audio, plugin-audio, multiplateforme | https://musica.studio/code/fsvr | https://olanlive.github.io/revue-audio-video/#2026-10-23-fsvr-0-8-3 |
+| 2026-10-23 | Noteahead 10.0.0 | open-source, audio, daw | https://juzzlin.github.io/Noteahead/ | https://olanlive.github.io/revue-audio-video/#2026-10-23-noteahead-10-0-0 |
+| 2026-10-23 | RTMP Server Source 0.1.0 (plugin OBS) | open-source, captation, streaming, beta | https://github.com/davvore33/rtmp-server-source | https://olanlive.github.io/revue-audio-video/#2026-10-23-rtmp-server-source-0-1-0-plugin-obs |
+| 2026-10-23 | pyVideoTrans 4.17 | open-source, ia, sous-titres, restauration | https://github.com/jianchang512/pyvideotrans | https://olanlive.github.io/revue-audio-video/#2026-10-23-pyvideotrans-4-17 |
+| 2026-10-23 | Casetera | gratuit, audio, plugin-audio | https://cfplugins.io/casetera.html | https://olanlive.github.io/revue-audio-video/#2026-10-23-casetera |
 | 2026-10-22 | Ultra Video Editor 1.4.6 | open-source, montage, ia, audio | https://github.com/demirajvazi10-max/Ultra-Creative-suite | https://olanlive.github.io/revue-audio-video/#2026-10-22-ultra-video-editor-1-4-6 |
 | 2026-10-22 | melcom's FFmpeg Audio Normalizer 4.1.2 | open-source, audio, ffmpeg, gui | https://github.com/melcom-creations/melcoms-ffmpeg-audio-normalizer | https://olanlive.github.io/revue-audio-video/#2026-10-22-melcom-s-ffmpeg-audio-normalizer-4-1-2 |
 | 2026-10-22 | Grain Freezer 1.0.0 (Amazing Noises) | gratuit, audio, plugin-audio | https://amazingnoises.com/grain-freezer.html | https://olanlive.github.io/revue-audio-video/#2026-10-22-grain-freezer-1-0-0-amazing-noises |

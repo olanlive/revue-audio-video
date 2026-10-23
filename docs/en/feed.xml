@@ -5,8 +5,61 @@
     <link>https://olanlive.github.io/revue-audio-video/en/</link>
     <description>Software, solutions and add-ons for audio &amp; video — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>FSVR 0.8.3</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-23-fsvr-0-8-3</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-23-fsvr-0-8-3</guid>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0200</pubDate>
+      <description>The 1998 Yamaha FS1R rebuilt as open source (GPL-3.0) from its firmware: 88 FM algorithms, the original effects emulated, 1408 factory voices and formant Fseq playback. VST3, CLAP, VST2, AU or standalone on Linux, Windows and macOS; 0.8.3 is out (Oct 23).</description>
+      <category>open-source</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>Noteahead 10.0.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-23-noteahead-10-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-23-noteahead-10-0-0</guid>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Open-source (GPL-3.0) MIDI tracker and sequencer built for Linux, with built-in synths and effects. 10.0.0 (Oct 17) adds a Juno-60-style polysynth, an FM drum machine, a four-LFO device, automation of any parameter and a dynamic EQ.</description>
+      <category>open-source</category>
+      <category>audio</category>
+      <category>daw</category>
+    </item>
+    <item>
+      <title>RTMP Server Source 0.1.0 (plugin OBS)</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-23-rtmp-server-source-0-1-0-plugin-obs</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-23-rtmp-server-source-0-1-0-plugin-obs</guid>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Open-source (GPL-2.0) plugin that puts an RTMP server inside OBS: cameras, phones or other PCs stream to it and show up as a normal source, no nginx. Several keys on one port, auto-reconnect, H.264/HEVC/AV1. AI-written; 0.1.0 (Oct 22), macOS only.</description>
+      <category>open-source</category>
+      <category>captation</category>
+      <category>streaming</category>
+      <category>beta</category>
+    </item>
+    <item>
+      <title>pyVideoTrans 4.17</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-23-pyvideotrans-4-17</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-23-pyvideotrans-4-17</guid>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0200</pubDate>
+      <description>The open-source AI video translation and dubbing tool adds in 4.17 (Oct 23) two denoising and voice separation models based on audio.cpp (zipenhancer, mel_band_roformer), plus an option that shortens translated subtitles so dubbing fits.</description>
+      <category>open-source</category>
+      <category>ia</category>
+      <category>sous-titres</category>
+      <category>restauration</category>
+    </item>
+    <item>
+      <title>Casetera</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-23-casetera</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-23-casetera</guid>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Free cassette and studio tape emulation with no DRM or online activation: four tape characters, from warm 80s mixtape to dictaphone-style lo-fi degradation, with wow and hiss. VST3, AU, CLAP.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+    </item>
     <item>
       <title>Ultra Video Editor 1.4.6</title>
       <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-22-ultra-video-editor-1-4-6</link>
