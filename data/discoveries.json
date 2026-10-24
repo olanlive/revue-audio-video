@@ -1,5 +1,79 @@
 [
   {
+    "date": "2026-10-24",
+    "name": "OBS Studio 33.0",
+    "name_en": "OBS Studio 33.0",
+    "summary": "La version finale d’OBS 33 est sortie dans la nuit du 23 au 24 oct : moteur de sources navigateur (CEF) mis à jour, chargement des plugins refondu, magnétisme des sources amélioré, NVENC sur Arm64 et derniers SDK NVIDIA Broadcast.",
+    "summary_en": "The final OBS 33 landed overnight Oct 23–24: updated browser-source engine (CEF), reworked plugin loading, better source snapping in the preview, NVENC on Arm64 and the latest NVIDIA Broadcast SDKs.",
+    "url": "https://obsproject.com/",
+    "tags": [
+      "open-source",
+      "captation",
+      "streaming",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Mastodon — @Patchbot_de",
+      "label_en": "Mastodon — @Patchbot_de",
+      "url": "https://mastodon.social/@Patchbot_de/117492609835695175"
+    }
+  },
+  {
+    "date": "2026-10-24",
+    "name": "Steam Audio Isolator 0.4.1",
+    "name_en": "Steam Audio Isolator 0.4.1",
+    "summary": "Outil Flatpak pour Linux qui relie via PipeWire le son des seuls jeux choisis à l’enregistrement ou au streaming Steam, sans le reste du son système. La 0.4 (24 oct) ajoute le routage multi-jeux et passe à PyQt6 ; code publié sans licence explicite.",
+    "summary_en": "A Linux Flatpak tool that uses PipeWire to route only the games you pick into Steam recording or streaming, without the rest of the system audio. 0.4 (Oct 24) adds multi-game routing and moves to PyQt6; source published without an explicit license.",
+    "url": "https://github.com/crashman79/steam-audio-isolator",
+    "tags": [
+      "gratuit",
+      "audio",
+      "captation",
+      "streaming"
+    ],
+    "source": {
+      "label": "Mastodon — @playingtux",
+      "label_en": "Mastodon — @playingtux",
+      "url": "https://mastodon.social/@playingtux/117493990488986299"
+    }
+  },
+  {
+    "date": "2026-10-24",
+    "name": "Echolite (D16 Group)",
+    "name_en": "Echolite (D16 Group)",
+    "summary": "Délai gratuit et sans chichis de D16 Group : pré-délai dédié, synchro au tempo du DAW, étalement stéréo et filtre multimode intégré, de l’ambiance discrète aux échos rythmiques. VST2/VST3/AAX sur Windows, AU sur macOS.",
+    "summary_en": "A free, no-nonsense delay from D16 Group: dedicated pre-delay, DAW tempo sync, stereo spread and a built-in multi-mode filter, from subtle ambience to rhythmic echoes. VST2/VST3/AAX on Windows, AU on macOS.",
+    "url": "https://d16.pl/echolite",
+    "tags": [
+      "gratuit",
+      "audio",
+      "plugin-audio"
+    ],
+    "source": {
+      "label": "Rekkerd — FREE: Echolite",
+      "label_en": "Rekkerd — FREE: Echolite",
+      "url": "https://rekkerd.org/free-echolite-delay-effect-plugin-by-d16-group/"
+    }
+  },
+  {
+    "date": "2026-10-24",
+    "name": "Mewlure (Cat Psychedelia)",
+    "name_en": "Mewlure (Cat Psychedelia)",
+    "summary": "Réverbe d’ambiance à un seul gros bouton : DIVE allonge, élargit, assombrit et fait onduler la queue à la fois, avec niveau compensé automatiquement et 36 presets. Prix libre à partir de 0 $, VST3/AU pour macOS et Windows, sans compte ni activation.",
+    "summary_en": "A one-knob ambient reverb: DIVE makes the tail longer, wider, darker and wobblier at once, with automatic level matching and 36 presets. Pay what you want from $0, VST3/AU for macOS and Windows, no account or activation.",
+    "url": "https://catpsychedelia.gumroad.com/l/mewlure",
+    "tags": [
+      "gratuit",
+      "audio",
+      "plugin-audio"
+    ],
+    "source": {
+      "label": "Rekkerd — FREE: Mewlure",
+      "label_en": "Rekkerd — FREE: Mewlure",
+      "url": "https://rekkerd.org/free-mewlure-one-knob-ambient-reverb-by-cat-psychedelia/"
+    }
+  },
+  {
     "date": "2026-10-23",
     "name": "FSVR 0.8.3",
     "name_en": "FSVR 0.8.3",

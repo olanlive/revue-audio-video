@@ -5,8 +5,50 @@
     <link>https://olanlive.github.io/revue-audio-video/en/</link>
     <description>Software, solutions and add-ons for audio &amp; video — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OBS Studio 33.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-24-obs-studio-33-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-24-obs-studio-33-0</guid>
+      <pubDate>Sat, 24 Oct 2026 09:00:00 +0200</pubDate>
+      <description>The final OBS 33 landed overnight Oct 23–24: updated browser-source engine (CEF), reworked plugin loading, better source snapping in the preview, NVENC on Arm64 and the latest NVIDIA Broadcast SDKs.</description>
+      <category>open-source</category>
+      <category>captation</category>
+      <category>streaming</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>Steam Audio Isolator 0.4.1</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-24-steam-audio-isolator-0-4-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-24-steam-audio-isolator-0-4-1</guid>
+      <pubDate>Sat, 24 Oct 2026 09:00:00 +0200</pubDate>
+      <description>A Linux Flatpak tool that uses PipeWire to route only the games you pick into Steam recording or streaming, without the rest of the system audio. 0.4 (Oct 24) adds multi-game routing and moves to PyQt6; source published without an explicit license.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>captation</category>
+      <category>streaming</category>
+    </item>
+    <item>
+      <title>Echolite (D16 Group)</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-24-echolite-d16-group</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-24-echolite-d16-group</guid>
+      <pubDate>Sat, 24 Oct 2026 09:00:00 +0200</pubDate>
+      <description>A free, no-nonsense delay from D16 Group: dedicated pre-delay, DAW tempo sync, stereo spread and a built-in multi-mode filter, from subtle ambience to rhythmic echoes. VST2/VST3/AAX on Windows, AU on macOS.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+    </item>
+    <item>
+      <title>Mewlure (Cat Psychedelia)</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-24-mewlure-cat-psychedelia</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-24-mewlure-cat-psychedelia</guid>
+      <pubDate>Sat, 24 Oct 2026 09:00:00 +0200</pubDate>
+      <description>A one-knob ambient reverb: DIVE makes the tail longer, wider, darker and wobblier at once, with automatic level matching and 36 presets. Pay what you want from $0, VST3/AU for macOS and Windows, no account or activation.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+    </item>
     <item>
       <title>FSVR 0.8.3</title>
       <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-23-fsvr-0-8-3</link>

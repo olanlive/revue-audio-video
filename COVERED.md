@@ -7,6 +7,10 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-24 | OBS Studio 33.0 | open-source, captation, streaming, multiplateforme | https://obsproject.com/ | https://olanlive.github.io/revue-audio-video/#2026-10-24-obs-studio-33-0 |
+| 2026-10-24 | Steam Audio Isolator 0.4.1 | gratuit, audio, captation, streaming | https://github.com/crashman79/steam-audio-isolator | https://olanlive.github.io/revue-audio-video/#2026-10-24-steam-audio-isolator-0-4-1 |
+| 2026-10-24 | Echolite (D16 Group) | gratuit, audio, plugin-audio | https://d16.pl/echolite | https://olanlive.github.io/revue-audio-video/#2026-10-24-echolite-d16-group |
+| 2026-10-24 | Mewlure (Cat Psychedelia) | gratuit, audio, plugin-audio | https://catpsychedelia.gumroad.com/l/mewlure | https://olanlive.github.io/revue-audio-video/#2026-10-24-mewlure-cat-psychedelia |
 | 2026-10-23 | FSVR 0.8.3 | open-source, audio, plugin-audio, multiplateforme | https://musica.studio/code/fsvr | https://olanlive.github.io/revue-audio-video/#2026-10-23-fsvr-0-8-3 |
 | 2026-10-23 | Noteahead 10.0.0 | open-source, audio, daw | https://juzzlin.github.io/Noteahead/ | https://olanlive.github.io/revue-audio-video/#2026-10-23-noteahead-10-0-0 |
 | 2026-10-23 | RTMP Server Source 0.1.0 (plugin OBS) | open-source, captation, streaming, beta | https://github.com/davvore33/rtmp-server-source | https://olanlive.github.io/revue-audio-video/#2026-10-23-rtmp-server-source-0-1-0-plugin-obs |
