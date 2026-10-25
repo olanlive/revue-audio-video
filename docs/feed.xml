@@ -5,8 +5,28 @@
     <link>https://olanlive.github.io/revue-audio-video/</link>
     <description>Veille logiciels, solutions et add-ons audio &amp; vidéo — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Sat, 24 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ZANHYANG6 0.9.0 (Reverb Rack)</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-25-zanhyang6-0-9-0-reverb-rack</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-25-zanhyang6-0-9-0-reverb-rack</guid>
+      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Réverbe libre (GPL-3.0) pour Linux en CLAP/VST3, écrite en Rust : six moteurs (pièce, hall, plaque, ressort, numérique vintage, shimmer) avec visualiseurs en temps réel. La 0.9.0 la rend indépendante de la fréquence d’échantillonnage (44,1 à 192 kHz). À compiler soi-même.</description>
+      <category>open-source</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+    </item>
+    <item>
+      <title>Noah Voxstrip Magik (Velvet Audio)</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-25-noah-voxstrip-magik-velvet-audio</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-25-noah-voxstrip-magik-velvet-audio</guid>
+      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Tranche de console vocale gratuite en VST3 (Windows, macOS) : deux compresseurs FET et MOD chaînables, EQ, saturation à lampe, de-esser et un moteur de compression parallèle pour la densité. Compte gratuit requis.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+    </item>
     <item>
       <title>OBS Studio 33.0</title>
       <link>https://olanlive.github.io/revue-audio-video/#2026-10-24-obs-studio-33-0</link>

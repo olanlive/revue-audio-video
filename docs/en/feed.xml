@@ -5,8 +5,28 @@
     <link>https://olanlive.github.io/revue-audio-video/en/</link>
     <description>Software, solutions and add-ons for audio &amp; video — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ZANHYANG6 0.9.0 (Reverb Rack)</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-25-zanhyang6-0-9-0-reverb-rack</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-25-zanhyang6-0-9-0-reverb-rack</guid>
+      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Free (GPL-3.0) Rust reverb for Linux in CLAP/VST3: six engines (room, hall, plate, spring, vintage digital, shimmer) with real-time visualizers. 0.9.0 adds full sample-rate independence (44.1–192 kHz). Build from source.</description>
+      <category>open-source</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+    </item>
+    <item>
+      <title>Noah Voxstrip Magik (Velvet Audio)</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-25-noah-voxstrip-magik-velvet-audio</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-25-noah-voxstrip-magik-velvet-audio</guid>
+      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Free vocal channel strip in VST3 (Windows, macOS): two chainable FET and MOD compressors, EQ, tube color, de-esser and a parallel-compression engine for loudness. Free account required.</description>
+      <category>gratuit</category>
+      <category>audio</category>
+      <category>plugin-audio</category>
+    </item>
     <item>
       <title>OBS Studio 33.0</title>
       <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-24-obs-studio-33-0</link>

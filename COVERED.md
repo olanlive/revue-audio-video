@@ -7,6 +7,8 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-25 | ZANHYANG6 0.9.0 (Reverb Rack) | open-source, audio, plugin-audio | https://codeberg.org/yimrakhee/zanhyang6 | https://olanlive.github.io/revue-audio-video/#2026-10-25-zanhyang6-0-9-0-reverb-rack |
+| 2026-10-25 | Noah Voxstrip Magik (Velvet Audio) | gratuit, audio, plugin-audio | https://velvetaudiolab.com/ | https://olanlive.github.io/revue-audio-video/#2026-10-25-noah-voxstrip-magik-velvet-audio |
 | 2026-10-24 | OBS Studio 33.0 | open-source, captation, streaming, multiplateforme | https://obsproject.com/ | https://olanlive.github.io/revue-audio-video/#2026-10-24-obs-studio-33-0 |
 | 2026-10-24 | Steam Audio Isolator 0.4.1 | gratuit, audio, captation, streaming | https://github.com/crashman79/steam-audio-isolator | https://olanlive.github.io/revue-audio-video/#2026-10-24-steam-audio-isolator-0-4-1 |
 | 2026-10-24 | Echolite (D16 Group) | gratuit, audio, plugin-audio | https://d16.pl/echolite | https://olanlive.github.io/revue-audio-video/#2026-10-24-echolite-d16-group |

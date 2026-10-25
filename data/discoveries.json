@@ -1102,5 +1102,41 @@
       "label_en": "Web — extensions.blender.org (version history)",
       "url": "https://extensions.blender.org/add-ons/image-sequence-to-mp4-video-converter/versions/"
     }
+  },
+  {
+    "date": "2026-10-25",
+    "name": "ZANHYANG6 0.9.0 (Reverb Rack)",
+    "name_en": "ZANHYANG6 0.9.0 (Reverb Rack)",
+    "summary": "Réverbe libre (GPL-3.0) pour Linux en CLAP/VST3, écrite en Rust : six moteurs (pièce, hall, plaque, ressort, numérique vintage, shimmer) avec visualiseurs en temps réel. La 0.9.0 la rend indépendante de la fréquence d’échantillonnage (44,1 à 192 kHz). À compiler soi-même.",
+    "summary_en": "Free (GPL-3.0) Rust reverb for Linux in CLAP/VST3: six engines (room, hall, plate, spring, vintage digital, shimmer) with real-time visualizers. 0.9.0 adds full sample-rate independence (44.1–192 kHz). Build from source.",
+    "url": "https://codeberg.org/yimrakhee/zanhyang6",
+    "tags": [
+      "open-source",
+      "audio",
+      "plugin-audio"
+    ],
+    "source": {
+      "label": "Linux Music News (linuxmusicians.com) — ZANHYANG6 - Reverb Rack",
+      "label_en": "Linux Music News (linuxmusicians.com) — ZANHYANG6 - Reverb Rack",
+      "url": "https://linuxmusicians.com/viewtopic.php?p=188756#p188756"
+    }
+  },
+  {
+    "date": "2026-10-25",
+    "name": "Noah Voxstrip Magik (Velvet Audio)",
+    "name_en": "Noah Voxstrip Magik (Velvet Audio)",
+    "summary": "Tranche de console vocale gratuite en VST3 (Windows, macOS) : deux compresseurs FET et MOD chaînables, EQ, saturation à lampe, de-esser et un moteur de compression parallèle pour la densité. Compte gratuit requis.",
+    "summary_en": "Free vocal channel strip in VST3 (Windows, macOS): two chainable FET and MOD compressors, EQ, tube color, de-esser and a parallel-compression engine for loudness. Free account required.",
+    "url": "https://velvetaudiolab.com/",
+    "tags": [
+      "gratuit",
+      "audio",
+      "plugin-audio"
+    ],
+    "source": {
+      "label": "Rekkerd — FREE: Noah Voxstrip Magik channel strip effect plugin (VST3)",
+      "label_en": "Rekkerd — FREE: Noah Voxstrip Magik channel strip effect plugin (VST3)",
+      "url": "https://rekkerd.org/free-noah-voxstrip-magik-channel-strip-effect-plugin-vst3/"
+    }
   }
 ]
