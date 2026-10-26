@@ -7,6 +7,9 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-26 | FrameTrellis 1.3.0 | open-source, montage, mlt, ffmpeg | https://github.com/sanskarIN/frametrellis | https://olanlive.github.io/revue-audio-video/#2026-10-26-frametrellis-1-3-0 |
+| 2026-10-26 | FilmCraft 0.13.0 | open-source, montage, etalonnage, securite | https://github.com/storytold/filmcraft | https://olanlive.github.io/revue-audio-video/#2026-10-26-filmcraft-0-13-0 |
+| 2026-10-26 | Fasttracker II clone 2.27 | open-source, audio, daw, multiplateforme | https://16-bits.org/ft2.php | https://olanlive.github.io/revue-audio-video/#2026-10-26-fasttracker-ii-clone-2-27 |
 | 2026-10-25 | ZANHYANG6 0.9.0 (Reverb Rack) | open-source, audio, plugin-audio | https://codeberg.org/yimrakhee/zanhyang6 | https://olanlive.github.io/revue-audio-video/#2026-10-25-zanhyang6-0-9-0-reverb-rack |
 | 2026-10-25 | Noah Voxstrip Magik (Velvet Audio) | gratuit, audio, plugin-audio | https://velvetaudiolab.com/ | https://olanlive.github.io/revue-audio-video/#2026-10-25-noah-voxstrip-magik-velvet-audio |
 | 2026-10-24 | OBS Studio 33.0 | open-source, captation, streaming, multiplateforme | https://obsproject.com/ | https://olanlive.github.io/revue-audio-video/#2026-10-24-obs-studio-33-0 |

@@ -5,8 +5,41 @@
     <link>https://olanlive.github.io/revue-audio-video/en/</link>
     <description>Software, solutions and add-ons for audio &amp; video — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Oct 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>FrameTrellis 1.3.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-26-frametrellis-1-3-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-26-frametrellis-1-3-0</guid>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Free video editor (GPL-3, Qt/MLT/FFmpeg, seen Oct 16): 1.3.0 (Oct 25) adds media bin search and filters, Go to Timecode (Ctrl+G), command-line project inspection, and better guards against overwriting projects and footage.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>mlt</category>
+      <category>ffmpeg</category>
+    </item>
+    <item>
+      <title>FilmCraft 0.13.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-26-filmcraft-0-13-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-26-filmcraft-0-13-0</guid>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0100</pubDate>
+      <description>The pure-Rust, Premiere-style free editor (seen Oct 17) adds Fujifilm F-Log, F-Log2 and F-Log2 C colour spaces in 0.13.0 (Oct 25), and hardens many decoders (HEVC, ProRes, AV1, EXR, MXF…) against malicious files.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>etalonnage</category>
+      <category>securite</category>
+    </item>
+    <item>
+      <title>Fasttracker II clone 2.27</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-26-fasttracker-ii-clone-2-27</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-26-fasttracker-ii-clone-2-27</guid>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0100</pubDate>
+      <description>A faithful, portable clone (C/SDL2, BSD-3) of the cult Fasttracker II tracker, for pattern-based XM/MOD composing on Windows, macOS and Linux. 2.27 (Oct 25) fixes a double-free when loading OGG samples.</description>
+      <category>open-source</category>
+      <category>audio</category>
+      <category>daw</category>
+      <category>multiplateforme</category>
+    </item>
     <item>
       <title>ZANHYANG6 0.9.0 (Reverb Rack)</title>
       <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-25-zanhyang6-0-9-0-reverb-rack</link>
