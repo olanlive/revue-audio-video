@@ -5,8 +5,51 @@
     <link>https://olanlive.github.io/revue-audio-video/en/</link>
     <description>Software, solutions and add-ons for audio &amp; video — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Vegas Pro 2027</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-27-vegas-pro-2027</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-27-vegas-pro-2027</guid>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Boris FX's editor rebuilds its colour management: it reads Log/HDR/SDR metadata on import and converts on the GPU into one timeline. Also: AI Quick Mask, revised captions and hardware AVC/HEVC 4:2:2 export. Subscription or perpetual licence.</description>
+      <category>payant</category>
+      <category>montage</category>
+      <category>etalonnage</category>
+      <category>sous-titres</category>
+    </item>
+    <item>
+      <title>Paperwolf Studio (plugins DaVinci Resolve)</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-27-paperwolf-studio-plugins-davinci-resolve</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-27-paperwolf-studio-plugins-davinci-resolve</guid>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Eight OpenFX plugins for Resolve 20+ (Edit, Cut, Color, Fusion): blob tracking with overlays (TRACE), images rebuilt from characters (GLYPH), datamoshing (MELT), camcorder looks, handheld motion… Apple Silicon Macs, free trial, from €39 perpetual.</description>
+      <category>payant</category>
+      <category>montage</category>
+      <category>etalonnage</category>
+    </item>
+    <item>
+      <title>Zrythm 2.0 alpha 7</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-27-zrythm-2-0-alpha-7</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-27-zrythm-2-0-alpha-7</guid>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0100</pubDate>
+      <description>The free DAW (AGPL-3.0) adds in 2.0 alpha 7 (Oct 25) a non-destructive audio transform stack (polarity, reverse, normalize, fades), MIDI functions (legato, strum…), track colours and ARM64 AppImages. Alpha: older projects won't load.</description>
+      <category>open-source</category>
+      <category>audio</category>
+      <category>daw</category>
+      <category>beta</category>
+    </item>
+    <item>
+      <title>Noise Suppression for Voice 1.22</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-27-noise-suppression-for-voice-1-22</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-27-noise-suppression-for-voice-1-22</guid>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0100</pubDate>
+      <description>The RNNoise-based real-time voice denoiser (GPL-3.0, LV2/VST/LADSPA) reverts new weights that cut words, reports its latency to the host and adds noise-suppressor-setup for one-step PipeWire setup on Linux (Oct 25).</description>
+      <category>open-source</category>
+      <category>restauration</category>
+      <category>plugin-audio</category>
+      <category>streaming</category>
+    </item>
     <item>
       <title>FrameTrellis 1.3.0</title>
       <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-26-frametrellis-1-3-0</link>

@@ -1,5 +1,80 @@
 [
   {
+    "date": "2026-10-27",
+    "name": "Vegas Pro 2027",
+    "name_en": "Vegas Pro 2027",
+    "summary": "Le monteur de Boris FX refait sa gestion couleur : il lit les métadonnées Log/HDR/SDR à l'import et convertit au GPU dans une timeline unique. Aussi : AI Quick Mask, sous-titres revus et export matériel AVC/HEVC 4:2:2. Abonnement ou licence perpétuelle.",
+    "summary_en": "Boris FX's editor rebuilds its colour management: it reads Log/HDR/SDR metadata on import and converts on the GPU into one timeline. Also: AI Quick Mask, revised captions and hardware AVC/HEVC 4:2:2 export. Subscription or perpetual licence.",
+    "url": "https://www.vegascreativesoftware.com/vegas-pro/whats-new/",
+    "tags": [
+      "payant",
+      "montage",
+      "etalonnage",
+      "sous-titres"
+    ],
+    "source": {
+      "label": "Digital Production — « Vegas Pro 2027 Reworks Colour and GPU Delivery » (22 oct)",
+      "label_en": "Digital Production — \"Vegas Pro 2027 Reworks Colour and GPU Delivery\" (Oct 22)",
+      "url": "https://digitalproduction.com/2026/10/22/vegas-pro-2027-colour-gpu-delivery/"
+    }
+  },
+  {
+    "date": "2026-10-27",
+    "name": "Paperwolf Studio (plugins DaVinci Resolve)",
+    "name_en": "Paperwolf Studio (plugins DaVinci Resolve)",
+    "summary": "Huit plugins OpenFX pour Resolve 20+ (Edit, Cut, Color, Fusion) : suivi de blobs avec incrustations (TRACE), image en caractères (GLYPH), datamoshing (MELT), looks caméscope, bougé caméra… Mac Apple Silicon, essai gratuit, dès 39 € en licence perpétuelle.",
+    "summary_en": "Eight OpenFX plugins for Resolve 20+ (Edit, Cut, Color, Fusion): blob tracking with overlays (TRACE), images rebuilt from characters (GLYPH), datamoshing (MELT), camcorder looks, handheld motion… Apple Silicon Macs, free trial, from €39 perpetual.",
+    "url": "https://studio.paperwolf.it/en/",
+    "tags": [
+      "payant",
+      "montage",
+      "etalonnage"
+    ],
+    "source": {
+      "label": "Digital Production — « Paperwolf: Eight Ways to Misbehave in Resolve » (22 oct)",
+      "label_en": "Digital Production — \"Paperwolf: Eight Ways to Misbehave in Resolve\" (Oct 22)",
+      "url": "https://digitalproduction.com/2026/10/22/paperwolf-plugins-davinci-resolve/"
+    }
+  },
+  {
+    "date": "2026-10-27",
+    "name": "Zrythm 2.0 alpha 7",
+    "name_en": "Zrythm 2.0 alpha 7",
+    "summary": "La DAW libre (AGPL-3.0) ajoute dans sa 2.0 alpha 7 (25 oct) une pile de transformations audio non destructive (inversion, reverse, normalisation, fondus), des fonctions MIDI (legato, strum…), des couleurs de pistes et des AppImage ARM64. Alpha : anciens projets illisibles.",
+    "summary_en": "The free DAW (AGPL-3.0) adds in 2.0 alpha 7 (Oct 25) a non-destructive audio transform stack (polarity, reverse, normalize, fades), MIDI functions (legato, strum…), track colours and ARM64 AppImages. Alpha: older projects won't load.",
+    "url": "https://www.zrythm.org/",
+    "tags": [
+      "open-source",
+      "audio",
+      "daw",
+      "beta"
+    ],
+    "source": {
+      "label": "Release GitHub — zrythm/zrythm v2.0.0-alpha.7",
+      "label_en": "GitHub release — zrythm/zrythm v2.0.0-alpha.7",
+      "url": "https://github.com/zrythm/zrythm/releases/tag/v2.0.0-alpha.7"
+    }
+  },
+  {
+    "date": "2026-10-27",
+    "name": "Noise Suppression for Voice 1.22",
+    "name_en": "Noise Suppression for Voice 1.22",
+    "summary": "Le débruiteur de voix temps réel basé sur RNNoise (GPL-3.0, LV2/VST/LADSPA) abandonne les nouveaux poids qui coupaient des mots, annonce sa latence à l'hôte et ajoute noise-suppressor-setup pour l'installer en un geste sous PipeWire (25 oct).",
+    "summary_en": "The RNNoise-based real-time voice denoiser (GPL-3.0, LV2/VST/LADSPA) reverts new weights that cut words, reports its latency to the host and adds noise-suppressor-setup for one-step PipeWire setup on Linux (Oct 25).",
+    "url": "https://github.com/werman/noise-suppression-for-voice",
+    "tags": [
+      "open-source",
+      "restauration",
+      "plugin-audio",
+      "streaming"
+    ],
+    "source": {
+      "label": "Release GitHub — werman/noise-suppression-for-voice v1.22",
+      "label_en": "GitHub release — werman/noise-suppression-for-voice v1.22",
+      "url": "https://github.com/werman/noise-suppression-for-voice/releases/tag/v1.22"
+    }
+  },
+  {
     "date": "2026-10-24",
     "name": "OBS Studio 33.0",
     "name_en": "OBS Studio 33.0",

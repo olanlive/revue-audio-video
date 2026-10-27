@@ -7,6 +7,10 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-27 | Vegas Pro 2027 | payant, montage, etalonnage, sous-titres | https://www.vegascreativesoftware.com/vegas-pro/whats-new/ | https://olanlive.github.io/revue-audio-video/#2026-10-27-vegas-pro-2027 |
+| 2026-10-27 | Paperwolf Studio (plugins DaVinci Resolve) | payant, montage, etalonnage | https://studio.paperwolf.it/en/ | https://olanlive.github.io/revue-audio-video/#2026-10-27-paperwolf-studio-plugins-davinci-resolve |
+| 2026-10-27 | Zrythm 2.0 alpha 7 | open-source, audio, daw, beta | https://www.zrythm.org/ | https://olanlive.github.io/revue-audio-video/#2026-10-27-zrythm-2-0-alpha-7 |
+| 2026-10-27 | Noise Suppression for Voice 1.22 | open-source, restauration, plugin-audio, streaming | https://github.com/werman/noise-suppression-for-voice | https://olanlive.github.io/revue-audio-video/#2026-10-27-noise-suppression-for-voice-1-22 |
 | 2026-10-26 | FrameTrellis 1.3.0 | open-source, montage, mlt, ffmpeg | https://github.com/sanskarIN/frametrellis | https://olanlive.github.io/revue-audio-video/#2026-10-26-frametrellis-1-3-0 |
 | 2026-10-26 | FilmCraft 0.13.0 | open-source, montage, etalonnage, securite | https://github.com/storytold/filmcraft | https://olanlive.github.io/revue-audio-video/#2026-10-26-filmcraft-0-13-0 |
 | 2026-10-26 | Fasttracker II clone 2.27 | open-source, audio, daw, multiplateforme | https://16-bits.org/ft2.php | https://olanlive.github.io/revue-audio-video/#2026-10-26-fasttracker-ii-clone-2-27 |
