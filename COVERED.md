@@ -7,6 +7,10 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-28 | DaVinci Resolve 21.1.2 | freemium, montage, etalonnage, multiplateforme | https://www.blackmagicdesign.com/products/davinciresolve | https://olanlive.github.io/revue-audio-video/#2026-10-28-davinci-resolve-21-1-2 |
+| 2026-10-28 | EverLive 1.2.2 | open-source, captation, streaming, gui | https://github.com/Everlite/EverLive | https://olanlive.github.io/revue-audio-video/#2026-10-28-everlive-1-2-2 |
+| 2026-10-28 | Broadcast Box 2.0.2 (serveur WHIP) | open-source, streaming, ffmpeg, multiplateforme | https://github.com/glimesh/broadcast-box | https://olanlive.github.io/revue-audio-video/#2026-10-28-broadcast-box-2-0-2-serveur-whip |
+| 2026-10-28 | Sonix Studio 0.9.167 | open-source, audio, daw, beta | https://github.com/alexwest1981/sonix | https://olanlive.github.io/revue-audio-video/#2026-10-28-sonix-studio-0-9-167 |
 | 2026-10-27 | Vegas Pro 2027 | payant, montage, etalonnage, sous-titres | https://www.vegascreativesoftware.com/vegas-pro/whats-new/ | https://olanlive.github.io/revue-audio-video/#2026-10-27-vegas-pro-2027 |
 | 2026-10-27 | Paperwolf Studio (plugins DaVinci Resolve) | payant, montage, etalonnage | https://studio.paperwolf.it/en/ | https://olanlive.github.io/revue-audio-video/#2026-10-27-paperwolf-studio-plugins-davinci-resolve |
 | 2026-10-27 | Zrythm 2.0 alpha 7 | open-source, audio, daw, beta | https://www.zrythm.org/ | https://olanlive.github.io/revue-audio-video/#2026-10-27-zrythm-2-0-alpha-7 |

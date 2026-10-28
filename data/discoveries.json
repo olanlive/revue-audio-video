@@ -1,5 +1,81 @@
 [
   {
+    "date": "2026-10-28",
+    "name": "DaVinci Resolve 21.1.2",
+    "name_en": "DaVinci Resolve 21.1.2",
+    "summary": "Mise à jour gratuite du monteur-étalonneur de Blackmagic : sélection des points de montage revue (trim dynamique au lasso), OGraf jusqu'à 4× plus fluide et enfin OGraf/Lottie sous Linux, API de script élargie. Attention : un projet ouvert en 21.1.2 ne rouvre plus en 20.3.2.",
+    "summary_en": "Free update to Blackmagic's editor and grader: reworked edit-point selection (lasso into dynamic trim), up to 4× faster OGraf playback, OGraf/Lottie now on Linux, wider scripting API. Note: projects opened in 21.1.2 no longer open in 20.3.2.",
+    "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+    "tags": [
+      "freemium",
+      "montage",
+      "etalonnage",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Digital Production — « Resolve 21.1.2 Speeds Up AI and OGraf » (27 oct)",
+      "label_en": "Digital Production — \"Resolve 21.1.2 Speeds Up AI and OGraf\" (Oct 27)",
+      "url": "https://digitalproduction.com/2026/10/27/davinci-resolve-21-1-2-ai-ograf-scripting/"
+    }
+  },
+  {
+    "date": "2026-10-28",
+    "name": "EverLive 1.2.2",
+    "name_en": "EverLive 1.2.2",
+    "summary": "Pilote libre en espace utilisateur pour la carte de capture AVerMedia Live Gamer 4K (GC573) sous Linux. La branche 1.2 ajoute une webcam virtuelle pour OBS/Discord, un mode Studio sans fenêtre pour PC de stream et le décodage Dolby Digital/DTS 5.1.",
+    "summary_en": "Free userspace driver for the AVerMedia Live Gamer 4K (GC573) capture card on Linux. The 1.2 series adds a virtual camera for OBS/Discord, a headless Studio mode for streaming PCs and Dolby Digital/DTS 5.1 decoding.",
+    "url": "https://github.com/Everlite/EverLive",
+    "tags": [
+      "open-source",
+      "captation",
+      "streaming",
+      "gui"
+    ],
+    "source": {
+      "label": "Mastodon — @playingtux, « EverLive: console capture suite released in version 1.2.0 »",
+      "label_en": "Mastodon — @playingtux, \"EverLive: console capture suite released in version 1.2.0\"",
+      "url": "https://mastodon.social/@playingtux/117514437554929592"
+    }
+  },
+  {
+    "date": "2026-10-28",
+    "name": "Broadcast Box 2.0.2 (serveur WHIP)",
+    "name_en": "Broadcast Box 2.0.2 (WHIP server)",
+    "summary": "Petit serveur WebRTC auto-hébergeable (MIT) : OBS ou FFmpeg y envoient en WHIP et les spectateurs regardent dans le navigateur avec moins d'une seconde de latence. Idéal pour partager un écran net à la place du partage flou du navigateur.",
+    "summary_en": "Small self-hostable WebRTC server (MIT): OBS or FFmpeg push to it over WHIP and viewers watch in the browser with sub-second latency. Handy for sharing a crisp screen instead of the browser's blurry screenshare.",
+    "url": "https://github.com/glimesh/broadcast-box",
+    "tags": [
+      "open-source",
+      "streaming",
+      "ffmpeg",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Mastodon — @ChrisPirillo, à propos de shittyscreenshare.com (WHIP dans OBS/FFmpeg)",
+      "label_en": "Mastodon — @ChrisPirillo, on shittyscreenshare.com (WHIP in OBS/FFmpeg)",
+      "url": "https://mastodon.social/@ChrisPirillo/117515669562292899"
+    }
+  },
+  {
+    "date": "2026-10-28",
+    "name": "Sonix Studio 0.9.167",
+    "name_en": "Sonix Studio 0.9.167",
+    "summary": "Nouvelle STAN native Linux en Rust (GPL-3.0), façon FL Studio : rack de canaux, piano roll, mixeur à bus, hôte VST3/CLAP/VST2, en un seul binaire (.deb, .rpm, AppImage). Un assistant IA optionnel, avec votre propre clé d'API, pose un beat à partir d'une phrase.",
+    "summary_en": "New native Linux DAW in Rust (GPL-3.0), FL Studio-style: channel rack, piano roll, mixer with buses, VST3/CLAP/VST2 hosting, in one binary (.deb, .rpm, AppImage). An optional AI assistant, using your own API key, lays down a beat from a sentence.",
+    "url": "https://github.com/alexwest1981/sonix",
+    "tags": [
+      "open-source",
+      "audio",
+      "daw",
+      "beta"
+    ],
+    "source": {
+      "label": "Reddit r/linuxaudio — « Sonix — a native Linux DAW in Rust »",
+      "label_en": "Reddit r/linuxaudio — \"Sonix — a native Linux DAW in Rust\"",
+      "url": "https://www.reddit.com/r/linuxaudio/comments/1xgor6o/sonix_a_native_linux_daw_in_rust_and_itll_write/"
+    }
+  },
+  {
     "date": "2026-10-27",
     "name": "Vegas Pro 2027",
     "name_en": "Vegas Pro 2027",

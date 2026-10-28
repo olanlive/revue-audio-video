@@ -5,8 +5,52 @@
     <link>https://olanlive.github.io/revue-audio-video/</link>
     <description>Veille logiciels, solutions et add-ons audio &amp; vidéo — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 27 Oct 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>DaVinci Resolve 21.1.2</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-28-davinci-resolve-21-1-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-28-davinci-resolve-21-1-2</guid>
+      <pubDate>Wed, 28 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Mise à jour gratuite du monteur-étalonneur de Blackmagic : sélection des points de montage revue (trim dynamique au lasso), OGraf jusqu'à 4× plus fluide et enfin OGraf/Lottie sous Linux, API de script élargie. Attention : un projet ouvert en 21.1.2 ne rouvre plus en 20.3.2.</description>
+      <category>freemium</category>
+      <category>montage</category>
+      <category>etalonnage</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>EverLive 1.2.2</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-28-everlive-1-2-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-28-everlive-1-2-2</guid>
+      <pubDate>Wed, 28 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Pilote libre en espace utilisateur pour la carte de capture AVerMedia Live Gamer 4K (GC573) sous Linux. La branche 1.2 ajoute une webcam virtuelle pour OBS/Discord, un mode Studio sans fenêtre pour PC de stream et le décodage Dolby Digital/DTS 5.1.</description>
+      <category>open-source</category>
+      <category>captation</category>
+      <category>streaming</category>
+      <category>gui</category>
+    </item>
+    <item>
+      <title>Broadcast Box 2.0.2 (serveur WHIP)</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-28-broadcast-box-2-0-2-serveur-whip</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-28-broadcast-box-2-0-2-serveur-whip</guid>
+      <pubDate>Wed, 28 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Petit serveur WebRTC auto-hébergeable (MIT) : OBS ou FFmpeg y envoient en WHIP et les spectateurs regardent dans le navigateur avec moins d'une seconde de latence. Idéal pour partager un écran net à la place du partage flou du navigateur.</description>
+      <category>open-source</category>
+      <category>streaming</category>
+      <category>ffmpeg</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>Sonix Studio 0.9.167</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-28-sonix-studio-0-9-167</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-28-sonix-studio-0-9-167</guid>
+      <pubDate>Wed, 28 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Nouvelle STAN native Linux en Rust (GPL-3.0), façon FL Studio : rack de canaux, piano roll, mixeur à bus, hôte VST3/CLAP/VST2, en un seul binaire (.deb, .rpm, AppImage). Un assistant IA optionnel, avec votre propre clé d'API, pose un beat à partir d'une phrase.</description>
+      <category>open-source</category>
+      <category>audio</category>
+      <category>daw</category>
+      <category>beta</category>
+    </item>
     <item>
       <title>Vegas Pro 2027</title>
       <link>https://olanlive.github.io/revue-audio-video/#2026-10-27-vegas-pro-2027</link>
