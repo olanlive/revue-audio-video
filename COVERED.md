@@ -7,6 +7,8 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-29 | FilmCraft 0.14.0 | open-source, montage, multiplateforme | https://github.com/storytold/filmcraft | https://olanlive.github.io/revue-audio-video/#2026-10-29-filmcraft-0-14-0 |
+| 2026-10-29 | Cap 0.6.2 | open-source, captation, montage, sous-titres, multiplateforme | https://cap.so | https://olanlive.github.io/revue-audio-video/#2026-10-29-cap-0-6-2 |
 | 2026-10-28 | DaVinci Resolve 21.1.2 | freemium, montage, etalonnage, multiplateforme | https://www.blackmagicdesign.com/products/davinciresolve | https://olanlive.github.io/revue-audio-video/#2026-10-28-davinci-resolve-21-1-2 |
 | 2026-10-28 | EverLive 1.2.2 | open-source, captation, streaming, gui | https://github.com/Everlite/EverLive | https://olanlive.github.io/revue-audio-video/#2026-10-28-everlive-1-2-2 |
 | 2026-10-28 | Broadcast Box 2.0.2 (serveur WHIP) | open-source, streaming, ffmpeg, multiplateforme | https://github.com/glimesh/broadcast-box | https://olanlive.github.io/revue-audio-video/#2026-10-28-broadcast-box-2-0-2-serveur-whip |

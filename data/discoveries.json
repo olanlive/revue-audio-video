@@ -1,5 +1,43 @@
 [
   {
+    "date": "2026-10-29",
+    "name": "FilmCraft 0.14.0",
+    "name_en": "FilmCraft 0.14.0",
+    "summary": "Le monteur libre en Rust (déjà vu le 26 oct) passe en 0.14.0 (28 oct) : le mode Trim taille enfin son et image liés ensemble (Alt pour un seul côté), il lit le QuickTime non compressé (v210, 2vuy) et son interface est désormais entièrement traduite en français.",
+    "summary_en": "The free Rust editor (seen Oct 26) reaches 0.14.0 (Oct 28): Trim mode now edits linked audio and picture together (Alt for one side only), it decodes uncompressed QuickTime (v210, 2vuy), and its interface is now fully translated into French.",
+    "url": "https://github.com/storytold/filmcraft",
+    "tags": [
+      "open-source",
+      "montage",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Release GitHub — storytold/filmcraft v0.14.0",
+      "label_en": "GitHub release — storytold/filmcraft v0.14.0",
+      "url": "https://github.com/storytold/filmcraft/releases/tag/v0.14.0"
+    }
+  },
+  {
+    "date": "2026-10-29",
+    "name": "Cap 0.6.2",
+    "name_en": "Cap 0.6.2",
+    "summary": "Alternative libre (AGPL-3.0) à Loom pour enregistrer écran et webcam puis monter dans la foulée. La 0.6.2 (28 oct) ajoute un export MP4 jusqu'à 2,8× plus rapide, la capture d'une seule fenêtre, des fondus entre clips et une interface en français.",
+    "summary_en": "Free (AGPL-3.0) Loom alternative to record screen and webcam, then edit right away. Version 0.6.2 (Oct 28) adds MP4 export up to 2.8× faster, single-window capture, crossfades between clips and a French interface.",
+    "url": "https://cap.so",
+    "tags": [
+      "open-source",
+      "captation",
+      "montage",
+      "sous-titres",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Release GitHub — CapSoftware/Cap v0.6.2",
+      "label_en": "GitHub release — CapSoftware/Cap v0.6.2",
+      "url": "https://github.com/CapSoftware/Cap/releases/tag/cap-v0.6.2"
+    }
+  },
+  {
     "date": "2026-10-28",
     "name": "DaVinci Resolve 21.1.2",
     "name_en": "DaVinci Resolve 21.1.2",

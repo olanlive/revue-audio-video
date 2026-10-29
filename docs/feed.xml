@@ -5,8 +5,30 @@
     <link>https://olanlive.github.io/revue-audio-video/</link>
     <description>Veille logiciels, solutions et add-ons audio &amp; vidéo — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 28 Oct 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>FilmCraft 0.14.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-29-filmcraft-0-14-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-29-filmcraft-0-14-0</guid>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Le monteur libre en Rust (déjà vu le 26 oct) passe en 0.14.0 (28 oct) : le mode Trim taille enfin son et image liés ensemble (Alt pour un seul côté), il lit le QuickTime non compressé (v210, 2vuy) et son interface est désormais entièrement traduite en français.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>Cap 0.6.2</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-29-cap-0-6-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-29-cap-0-6-2</guid>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Alternative libre (AGPL-3.0) à Loom pour enregistrer écran et webcam puis monter dans la foulée. La 0.6.2 (28 oct) ajoute un export MP4 jusqu'à 2,8× plus rapide, la capture d'une seule fenêtre, des fondus entre clips et une interface en français.</description>
+      <category>open-source</category>
+      <category>captation</category>
+      <category>montage</category>
+      <category>sous-titres</category>
+      <category>multiplateforme</category>
+    </item>
     <item>
       <title>DaVinci Resolve 21.1.2</title>
       <link>https://olanlive.github.io/revue-audio-video/#2026-10-28-davinci-resolve-21-1-2</link>
