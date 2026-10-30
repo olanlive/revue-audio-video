@@ -5,8 +5,41 @@
     <link>https://olanlive.github.io/revue-audio-video/en/</link>
     <description>Software, solutions and add-ons for audio &amp; video — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>auto-editor 31.8.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-30-auto-editor-31-8-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-30-auto-editor-31-8-0</guid>
+      <pubDate>Fri, 30 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Command-line auto-editing: cuts silences and dead air, then exports to Premiere, Resolve, Shotcut or Kdenlive. 31.8.0 (Oct 30) adds SRT/ASS subtitle burn-in, text overlays, rotation and up to 1.6× faster exports.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>cli</category>
+      <category>sous-titres</category>
+    </item>
+    <item>
+      <title>AviSynth+ 3.7.6</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-30-avisynth-3-7-6</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-30-avisynth-3-7-6</guid>
+      <pubDate>Fri, 30 Oct 2026 09:00:00 +0100</pubDate>
+      <description>The scriptable frameserver (GPL-2.0) used as a filtering stage before encoding is back after 18 months: 3.7.6 (Oct 29) adds NEON acceleration for ARM64, new YUV formats and many fixes; Windows and macOS installers.</description>
+      <category>open-source</category>
+      <category>encodage</category>
+      <category>cli</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>OBS Studio 33.0.1</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-30-obs-studio-33-0-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-30-obs-studio-33-0-1</guid>
+      <pubDate>Fri, 30 Oct 2026 09:00:00 +0100</pubDate>
+      <description>OBS 33's first hotfix (Oct 29): no more crashes and hangs when logging into Twitch and YouTube, plugins load again on Flatpak, and the image slideshow memory leak is fixed. Worth installing if 33.0 gave you trouble.</description>
+      <category>open-source</category>
+      <category>captation</category>
+      <category>streaming</category>
+      <category>multiplateforme</category>
+    </item>
     <item>
       <title>FilmCraft 0.14.0</title>
       <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-29-filmcraft-0-14-0</link>

@@ -7,6 +7,9 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-30 | auto-editor 31.8.0 | open-source, montage, cli, sous-titres | https://auto-editor.com/ | https://olanlive.github.io/revue-audio-video/#2026-10-30-auto-editor-31-8-0 |
+| 2026-10-30 | AviSynth+ 3.7.6 | open-source, encodage, cli, multiplateforme | https://github.com/AviSynth/AviSynthPlus | https://olanlive.github.io/revue-audio-video/#2026-10-30-avisynth-3-7-6 |
+| 2026-10-30 | OBS Studio 33.0.1 | open-source, captation, streaming, multiplateforme | https://obsproject.com/ | https://olanlive.github.io/revue-audio-video/#2026-10-30-obs-studio-33-0-1 |
 | 2026-10-29 | FilmCraft 0.14.0 | open-source, montage, multiplateforme | https://github.com/storytold/filmcraft | https://olanlive.github.io/revue-audio-video/#2026-10-29-filmcraft-0-14-0 |
 | 2026-10-29 | Cap 0.6.2 | open-source, captation, montage, sous-titres, multiplateforme | https://cap.so | https://olanlive.github.io/revue-audio-video/#2026-10-29-cap-0-6-2 |
 | 2026-10-28 | DaVinci Resolve 21.1.2 | freemium, montage, etalonnage, multiplateforme | https://www.blackmagicdesign.com/products/davinciresolve | https://olanlive.github.io/revue-audio-video/#2026-10-28-davinci-resolve-21-1-2 |

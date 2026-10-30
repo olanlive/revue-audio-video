@@ -1,5 +1,62 @@
 [
   {
+    "date": "2026-10-30",
+    "name": "auto-editor 31.8.0",
+    "name_en": "auto-editor 31.8.0",
+    "summary": "Montage automatique en ligne de commande : coupe les silences et temps morts, puis exporte vers Premiere, Resolve, Shotcut ou Kdenlive. La 31.8.0 (30 oct) ajoute l’incrustation de sous-titres SRT/ASS, du texte, des rotations et des exports jusqu’à 1,6× plus rapides.",
+    "summary_en": "Command-line auto-editing: cuts silences and dead air, then exports to Premiere, Resolve, Shotcut or Kdenlive. 31.8.0 (Oct 30) adds SRT/ASS subtitle burn-in, text overlays, rotation and up to 1.6× faster exports.",
+    "url": "https://auto-editor.com/",
+    "tags": [
+      "open-source",
+      "montage",
+      "cli",
+      "sous-titres"
+    ],
+    "source": {
+      "label": "Release GitHub — WyattBlue/auto-editor 31.8.0",
+      "label_en": "GitHub release — WyattBlue/auto-editor 31.8.0",
+      "url": "https://github.com/WyattBlue/auto-editor/releases/tag/31.8.0"
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "name": "AviSynth+ 3.7.6",
+    "name_en": "AviSynth+ 3.7.6",
+    "summary": "Le serveur d’images scriptable (GPL-2.0) qui sert de banc de filtrage avant l’encodage revient après 18 mois : la 3.7.6 (29 oct) ajoute l’accélération NEON pour ARM64, de nouveaux formats YUV et de nombreux correctifs ; installeurs Windows et macOS.",
+    "summary_en": "The scriptable frameserver (GPL-2.0) used as a filtering stage before encoding is back after 18 months: 3.7.6 (Oct 29) adds NEON acceleration for ARM64, new YUV formats and many fixes; Windows and macOS installers.",
+    "url": "https://github.com/AviSynth/AviSynthPlus",
+    "tags": [
+      "open-source",
+      "encodage",
+      "cli",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Release GitHub — AviSynth/AviSynthPlus v3.7.6",
+      "label_en": "GitHub release — AviSynth/AviSynthPlus v3.7.6",
+      "url": "https://github.com/AviSynth/AviSynthPlus/releases/tag/v3.7.6"
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "name": "OBS Studio 33.0.1",
+    "name_en": "OBS Studio 33.0.1",
+    "summary": "Premier correctif d’OBS 33 (29 oct) : fin des plantages et blocages à la connexion Twitch et YouTube, plugins de nouveau chargés en Flatpak et fuite mémoire du diaporama d’images corrigée. À installer si la 33.0 vous a posé souci.",
+    "summary_en": "OBS 33's first hotfix (Oct 29): no more crashes and hangs when logging into Twitch and YouTube, plugins load again on Flatpak, and the image slideshow memory leak is fixed. Worth installing if 33.0 gave you trouble.",
+    "url": "https://obsproject.com/",
+    "tags": [
+      "open-source",
+      "captation",
+      "streaming",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Mastodon — @playingtux@mastodon.social",
+      "label_en": "Mastodon — @playingtux@mastodon.social",
+      "url": "https://mastodon.social/@playingtux/117528259721374780"
+    }
+  },
+  {
     "date": "2026-10-29",
     "name": "FilmCraft 0.14.0",
     "name_en": "FilmCraft 0.14.0",
