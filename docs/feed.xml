@@ -5,8 +5,52 @@
     <link>https://olanlive.github.io/revue-audio-video/</link>
     <description>Veille logiciels, solutions et add-ons audio &amp; vidéo — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 30 Oct 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Catavan 0.1.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-31-catavan-0-1-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-31-catavan-0-1-0</guid>
+      <pubDate>Sat, 31 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Fork de Kdenlive 26.08.2 (MLT 7.42) qui reprend la logique de montage de VEGAS Pro sous Linux : curseur d’action pendant la lecture, auto-ripple, fondu enchaîné par chevauchement. Projets .kdenlive compatibles ; première version (29 oct), à tester avec sauvegardes.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>mlt</category>
+      <category>beta</category>
+    </item>
+    <item>
+      <title>Shotcut 26.11 bêta</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-31-shotcut-26-11-beta</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-31-shotcut-26-11-beta</guid>
+      <pubDate>Sat, 31 Oct 2026 09:00:00 +0100</pubDate>
+      <description>La bêta 26.11 (30 oct) de l’éditeur vidéo libre reconnaît les proxys au format Premiere et Resolve (dossier Proxy/Proxies), lit les logs texte de dashcam dans les filtres GPS, ajoute une recherche dans Éléments et corrige les régressions de la 26.9.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>mlt</category>
+      <category>beta</category>
+    </item>
+    <item>
+      <title>OpenXLR 0.3.5</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-31-openxlr-0-3-5</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-31-openxlr-0-3-5</guid>
+      <pubDate>Sat, 31 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Remplaçant libre de Wave Link pour Linux : mixeur PipeWire avec effets, sous-mixages et plugin OpenDeck pour tout micro, plus le contrôle complet des interfaces Elgato Wave XLR. La 0.3.5 (30 oct) ajoute un changeur de voix par micro, pratique en stream.</description>
+      <category>open-source</category>
+      <category>audio</category>
+      <category>streaming</category>
+      <category>gui</category>
+    </item>
+    <item>
+      <title>MorningDAW 1.5.9</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-10-31-morningdaw-1-5-9</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-31-morningdaw-1-5-9</guid>
+      <pubDate>Sat, 31 Oct 2026 09:00:00 +0100</pubDate>
+      <description>DAW complet et gratuit (add-ons payants en option) pour Linux, macOS et Windows : arrangement, enregistrement, tracker, partition et export de clip musical. La 1.5.8 charge les plugins LV2 sous Linux ; la 1.5.9 (30 oct) corrige les notes coupées des instruments VST3.</description>
+      <category>freemium</category>
+      <category>audio</category>
+      <category>daw</category>
+      <category>multiplateforme</category>
+    </item>
     <item>
       <title>auto-editor 31.8.0</title>
       <link>https://olanlive.github.io/revue-audio-video/#2026-10-30-auto-editor-31-8-0</link>

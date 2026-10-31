@@ -1,5 +1,81 @@
 [
   {
+    "date": "2026-10-31",
+    "name": "Catavan 0.1.0",
+    "name_en": "Catavan 0.1.0",
+    "summary": "Fork de Kdenlive 26.08.2 (MLT 7.42) qui reprend la logique de montage de VEGAS Pro sous Linux : curseur d’action pendant la lecture, auto-ripple, fondu enchaîné par chevauchement. Projets .kdenlive compatibles ; première version (29 oct), à tester avec sauvegardes.",
+    "summary_en": "A Kdenlive 26.08.2 (MLT 7.42) fork bringing VEGAS Pro-style editing to Linux: action cursor during playback, auto ripple, crossfade by overlapping clips. Saves standard .kdenlive projects; first release (Oct 29), keep backups.",
+    "url": "https://github.com/Matheus290/Catavan",
+    "tags": [
+      "open-source",
+      "montage",
+      "mlt",
+      "beta"
+    ],
+    "source": {
+      "label": "Post Mastodon — @emsquared@social.coop",
+      "label_en": "Mastodon post — @emsquared@social.coop",
+      "url": "https://social.coop/@emsquared/117530118956702839"
+    }
+  },
+  {
+    "date": "2026-10-31",
+    "name": "Shotcut 26.11 bêta",
+    "name_en": "Shotcut 26.11 bêta",
+    "summary": "La bêta 26.11 (30 oct) de l’éditeur vidéo libre reconnaît les proxys au format Premiere et Resolve (dossier Proxy/Proxies), lit les logs texte de dashcam dans les filtres GPS, ajoute une recherche dans Éléments et corrige les régressions de la 26.9.",
+    "summary_en": "The 26.11 beta (Oct 30) of the free video editor picks up Premiere and Resolve proxy conventions (Proxy/Proxies folder), reads plain-text dashcam logs in GPS filters, adds an Elements search and fixes 26.9 regressions.",
+    "url": "https://www.shotcut.org/",
+    "tags": [
+      "open-source",
+      "montage",
+      "mlt",
+      "beta"
+    ],
+    "source": {
+      "label": "Release GitHub — mltframework/shotcut v26.10.30",
+      "label_en": "GitHub release — mltframework/shotcut v26.10.30",
+      "url": "https://github.com/mltframework/shotcut/releases/tag/v26.10.30"
+    }
+  },
+  {
+    "date": "2026-10-31",
+    "name": "OpenXLR 0.3.5",
+    "name_en": "OpenXLR 0.3.5",
+    "summary": "Remplaçant libre de Wave Link pour Linux : mixeur PipeWire avec effets, sous-mixages et plugin OpenDeck pour tout micro, plus le contrôle complet des interfaces Elgato Wave XLR. La 0.3.5 (30 oct) ajoute un changeur de voix par micro, pratique en stream.",
+    "summary_en": "A free Wave Link replacement for Linux: a PipeWire mixer with effects, submixes and an OpenDeck plugin for any mic, plus full control of Elgato Wave XLR interfaces. 0.3.5 (Oct 30) adds a per-mic voice changer, handy for streaming.",
+    "url": "https://github.com/emaspa/openxlr",
+    "tags": [
+      "open-source",
+      "audio",
+      "streaming",
+      "gui"
+    ],
+    "source": {
+      "label": "Post Reddit — r/linuxaudio (OpenXLR 0.3.4)",
+      "label_en": "Reddit post — r/linuxaudio (OpenXLR 0.3.4)",
+      "url": "https://www.reddit.com/r/linuxaudio/comments/1xjmc29/openxlr_034_elgato_wave_xlr_and_usb_mics_on_linux/"
+    }
+  },
+  {
+    "date": "2026-10-31",
+    "name": "MorningDAW 1.5.9",
+    "name_en": "MorningDAW 1.5.9",
+    "summary": "DAW complet et gratuit (add-ons payants en option) pour Linux, macOS et Windows : arrangement, enregistrement, tracker, partition et export de clip musical. La 1.5.8 charge les plugins LV2 sous Linux ; la 1.5.9 (30 oct) corrige les notes coupées des instruments VST3.",
+    "summary_en": "A complete free DAW (optional paid add-ons) for Linux, macOS and Windows: arranging, recording, tracker, score and music-video export. 1.5.8 loads LV2 plugins on Linux; 1.5.9 (Oct 30) fixes cut-off notes from VST3 instruments.",
+    "url": "https://edu.morningdewmedia.com/product/morningdaw",
+    "tags": [
+      "freemium",
+      "audio",
+      "daw",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Post Mastodon — @nund@social.tchncs.de",
+      "label_en": "Mastodon post — @nund@social.tchncs.de",
+      "url": "https://social.tchncs.de/@nund/117534345300873219"
+    }
+  },
+  {
     "date": "2026-10-30",
     "name": "auto-editor 31.8.0",
     "name_en": "auto-editor 31.8.0",

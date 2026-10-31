@@ -7,6 +7,10 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-31 | Catavan 0.1.0 | open-source, montage, mlt, beta | https://github.com/Matheus290/Catavan | https://olanlive.github.io/revue-audio-video/#2026-10-31-catavan-0-1-0 |
+| 2026-10-31 | Shotcut 26.11 bêta | open-source, montage, mlt, beta | https://www.shotcut.org/ | https://olanlive.github.io/revue-audio-video/#2026-10-31-shotcut-26-11-beta |
+| 2026-10-31 | OpenXLR 0.3.5 | open-source, audio, streaming, gui | https://github.com/emaspa/openxlr | https://olanlive.github.io/revue-audio-video/#2026-10-31-openxlr-0-3-5 |
+| 2026-10-31 | MorningDAW 1.5.9 | freemium, audio, daw, multiplateforme | https://edu.morningdewmedia.com/product/morningdaw | https://olanlive.github.io/revue-audio-video/#2026-10-31-morningdaw-1-5-9 |
 | 2026-10-30 | auto-editor 31.8.0 | open-source, montage, cli, sous-titres | https://auto-editor.com/ | https://olanlive.github.io/revue-audio-video/#2026-10-30-auto-editor-31-8-0 |
 | 2026-10-30 | AviSynth+ 3.7.6 | open-source, encodage, cli, multiplateforme | https://github.com/AviSynth/AviSynthPlus | https://olanlive.github.io/revue-audio-video/#2026-10-30-avisynth-3-7-6 |
 | 2026-10-30 | OBS Studio 33.0.1 | open-source, captation, streaming, multiplateforme | https://obsproject.com/ | https://olanlive.github.io/revue-audio-video/#2026-10-30-obs-studio-33-0-1 |
