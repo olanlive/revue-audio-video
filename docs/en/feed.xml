@@ -5,8 +5,52 @@
     <link>https://olanlive.github.io/revue-audio-video/en/</link>
     <description>Software, solutions and add-ons for audio &amp; video — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenShot 4.1.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-01-openshot-4-1-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-01-openshot-4-1-0</guid>
+      <pubDate>Sun, 01 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The free video editor (GPL-3.0), out Oct 31, now edits text right in the preview, auto-optimizes 4K+ footage for smooth editing, and adds a command-line interface to edit and export by script, plus native Linux ARM64 builds.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>cli</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>CompressO 4.0.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-01-compresso-4-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-01-compresso-4-0-0</guid>
+      <pubDate>Sun, 01 Nov 2026 09:00:00 +0100</pubDate>
+      <description>A free video, image and audio compressor (AGPL-3.0, Windows/macOS/Linux) built on FFmpeg. 4.0 (Oct 27) hits a target size (say 10 MB for email) by compressing in rounds, and adds watch folders and a system-tray drop zone.</description>
+      <category>open-source</category>
+      <category>encodage</category>
+      <category>ffmpeg</category>
+      <category>gui</category>
+    </item>
+    <item>
+      <title>Qtractor 1.6.5</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-01-qtractor-1-6-5</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-01-qtractor-1-6-5</guid>
+      <pubDate>Sun, 01 Nov 2026 09:00:00 +0100</pubDate>
+      <description>An audio/MIDI multitrack sequencer for Linux (JACK/ALSA, GPL-2.0) built for home studios. 1.6.5 (Oct 31) docks a Session overview in the main window, always processes audio track plugin chains and polishes CLAP, VST3 and LV2 support.</description>
+      <category>open-source</category>
+      <category>audio</category>
+      <category>daw</category>
+      <category>gui</category>
+    </item>
+    <item>
+      <title>EverLive 1.3.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-01-everlive-1-3-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-01-everlive-1-3-0</guid>
+      <pubDate>Sun, 01 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Seen Oct 28: this open driver for the AVerMedia GC573 capture card on Linux now detects HDR10/HLG and tonemaps to SDR on the fly for OBS, and publishes HDMI audio to a dedicated PipeWire sink so it can be recorded on its own.</description>
+      <category>open-source</category>
+      <category>captation</category>
+      <category>streaming</category>
+      <category>gui</category>
+    </item>
     <item>
       <title>Catavan 0.1.0</title>
       <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-31-catavan-0-1-0</link>

@@ -1,5 +1,81 @@
 [
   {
+    "date": "2026-11-01",
+    "name": "OpenShot 4.1.0",
+    "name_en": "OpenShot 4.1.0",
+    "summary": "Le monteur libre (GPL-3.0) sorti le 31 oct édite le texte directement dans l’aperçu, prépare tout seul les rushes 4K+ pour un montage fluide et ajoute une interface en ligne de commande pour monter et exporter par script, plus des builds Linux ARM64.",
+    "summary_en": "The free video editor (GPL-3.0), out Oct 31, now edits text right in the preview, auto-optimizes 4K+ footage for smooth editing, and adds a command-line interface to edit and export by script, plus native Linux ARM64 builds.",
+    "url": "https://www.openshot.org/",
+    "tags": [
+      "open-source",
+      "montage",
+      "cli",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Mastodon — @9to5linux@floss.social",
+      "label_en": "Mastodon — @9to5linux@floss.social",
+      "url": "https://floss.social/@9to5linux/117537732446690600"
+    }
+  },
+  {
+    "date": "2026-11-01",
+    "name": "CompressO 4.0.0",
+    "name_en": "CompressO 4.0.0",
+    "summary": "Compresseur vidéo, image et audio libre (AGPL-3.0, Windows/macOS/Linux) basé sur FFmpeg. La 4.0 du 27 oct vise une taille cible (ex. 10 Mo pour un mail) en recompressant par passes, et ajoute dossiers surveillés et zone de dépôt dans la barre système.",
+    "summary_en": "A free video, image and audio compressor (AGPL-3.0, Windows/macOS/Linux) built on FFmpeg. 4.0 (Oct 27) hits a target size (say 10 MB for email) by compressing in rounds, and adds watch folders and a system-tray drop zone.",
+    "url": "https://compresso.codeforreal.com/",
+    "tags": [
+      "open-source",
+      "encodage",
+      "ffmpeg",
+      "gui"
+    ],
+    "source": {
+      "label": "Reddit — r/opensource, « CompressO 4.0 is released »",
+      "label_en": "Reddit — r/opensource, “CompressO 4.0 is released”",
+      "url": "https://www.reddit.com/r/opensource/comments/1xk956o/compresso_40_is_released/"
+    }
+  },
+  {
+    "date": "2026-11-01",
+    "name": "Qtractor 1.6.5",
+    "name_en": "Qtractor 1.6.5",
+    "summary": "Séquenceur multipiste audio/MIDI pour Linux (JACK/ALSA, GPL-2.0), pensé pour le home-studio. La 1.6.5 du 31 oct intègre une vue Session ancrable dans la fenêtre principale, traite toujours la chaîne de plugins des pistes audio et peaufine CLAP, VST3 et LV2.",
+    "summary_en": "An audio/MIDI multitrack sequencer for Linux (JACK/ALSA, GPL-2.0) built for home studios. 1.6.5 (Oct 31) docks a Session overview in the main window, always processes audio track plugin chains and polishes CLAP, VST3 and LV2 support.",
+    "url": "https://qtractor.org/",
+    "tags": [
+      "open-source",
+      "audio",
+      "daw",
+      "gui"
+    ],
+    "source": {
+      "label": "LinuxMusicians — [ANN] Qtractor 1.6.5",
+      "label_en": "LinuxMusicians — [ANN] Qtractor 1.6.5",
+      "url": "https://linuxmusicians.com/viewtopic.php?p=188897#p188897"
+    }
+  },
+  {
+    "date": "2026-11-01",
+    "name": "EverLive 1.3.0",
+    "name_en": "EverLive 1.3.0",
+    "summary": "Déjà vu le 28 oct : ce pilote libre de la carte de capture AVerMedia GC573 sous Linux détecte désormais HDR10/HLG et convertit en SDR à la volée pour OBS, et publie l’audio HDMI sur une sortie PipeWire dédiée pour l’enregistrer à part.",
+    "summary_en": "Seen Oct 28: this open driver for the AVerMedia GC573 capture card on Linux now detects HDR10/HLG and tonemaps to SDR on the fly for OBS, and publishes HDMI audio to a dedicated PipeWire sink so it can be recorded on its own.",
+    "url": "https://github.com/Everlite/EverLive",
+    "tags": [
+      "open-source",
+      "captation",
+      "streaming",
+      "gui"
+    ],
+    "source": {
+      "label": "Mastodon — @playingtux@mastodon.social",
+      "label_en": "Mastodon — @playingtux@mastodon.social",
+      "url": "https://mastodon.social/@playingtux/117538256065980616"
+    }
+  },
+  {
     "date": "2026-10-31",
     "name": "Catavan 0.1.0",
     "name_en": "Catavan 0.1.0",

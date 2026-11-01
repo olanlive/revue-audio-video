@@ -7,6 +7,10 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-01 | OpenShot 4.1.0 | open-source, montage, cli, multiplateforme | https://www.openshot.org/ | https://olanlive.github.io/revue-audio-video/#2026-11-01-openshot-4-1-0 |
+| 2026-11-01 | CompressO 4.0.0 | open-source, encodage, ffmpeg, gui | https://compresso.codeforreal.com/ | https://olanlive.github.io/revue-audio-video/#2026-11-01-compresso-4-0-0 |
+| 2026-11-01 | Qtractor 1.6.5 | open-source, audio, daw, gui | https://qtractor.org/ | https://olanlive.github.io/revue-audio-video/#2026-11-01-qtractor-1-6-5 |
+| 2026-11-01 | EverLive 1.3.0 | open-source, captation, streaming, gui | https://github.com/Everlite/EverLive | https://olanlive.github.io/revue-audio-video/#2026-11-01-everlive-1-3-0 |
 | 2026-10-31 | Catavan 0.1.0 | open-source, montage, mlt, beta | https://github.com/Matheus290/Catavan | https://olanlive.github.io/revue-audio-video/#2026-10-31-catavan-0-1-0 |
 | 2026-10-31 | Shotcut 26.11 bêta | open-source, montage, mlt, beta | https://www.shotcut.org/ | https://olanlive.github.io/revue-audio-video/#2026-10-31-shotcut-26-11-beta |
 | 2026-10-31 | OpenXLR 0.3.5 | open-source, audio, streaming, gui | https://github.com/emaspa/openxlr | https://olanlive.github.io/revue-audio-video/#2026-10-31-openxlr-0-3-5 |
