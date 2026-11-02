@@ -5,8 +5,41 @@
     <link>https://olanlive.github.io/revue-audio-video/en/</link>
     <description>Software, solutions and add-ons for audio &amp; video — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>VapourSynth R82</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-02-vapoursynth-r82</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-02-vapoursynth-r82</guid>
+      <pubDate>Mon, 02 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The Python-scriptable video processing framework (LGPL-2.1), a modern cousin of AviSynth, ships R82 (Nov 1): vspipe's Matroska output now plays in mpv and carries color metadata, and GPU filters no longer crawl at PCIe speed on Nvidia cards.</description>
+      <category>open-source</category>
+      <category>encodage</category>
+      <category>cli</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>Subtitle Edit 5.4.0 RC1</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-02-subtitle-edit-5-4-0-rc1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-02-subtitle-edit-5-4-0-rc1</guid>
+      <pubDate>Mon, 02 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The free subtitle editor (seen Oct 16) gears up for 5.4: RC1 (Nov 1) shows source and translation side by side in auto-translate, runs local models through llama.cpp (CPU or Vulkan on Linux) and refreshes its whole interface.</description>
+      <category>open-source</category>
+      <category>sous-titres</category>
+      <category>beta</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>FilmCraft 0.16.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-02-filmcraft-0-16-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-02-filmcraft-0-16-0</guid>
+      <pubDate>Mon, 02 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The Premiere-style free editor written in Rust (seen Oct 29) merges 244 contributions in 0.16.0 (Nov 1): 2x faster 4K ProRes encoding, effect rendering limited to red segments like Premiere, and transitions kept when copying clips.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>encodage</category>
+      <category>multiplateforme</category>
+    </item>
     <item>
       <title>OpenShot 4.1.0</title>
       <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-01-openshot-4-1-0</link>

@@ -7,6 +7,9 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-02 | VapourSynth R82 | open-source, encodage, cli, multiplateforme | http://www.vapoursynth.com/ | https://olanlive.github.io/revue-audio-video/#2026-11-02-vapoursynth-r82 |
+| 2026-11-02 | Subtitle Edit 5.4.0 RC1 | open-source, sous-titres, beta, multiplateforme | https://github.com/SubtitleEdit/subtitleedit | https://olanlive.github.io/revue-audio-video/#2026-11-02-subtitle-edit-5-4-0-rc1 |
+| 2026-11-02 | FilmCraft 0.16.0 | open-source, montage, encodage, multiplateforme | https://github.com/storytold/filmcraft | https://olanlive.github.io/revue-audio-video/#2026-11-02-filmcraft-0-16-0 |
 | 2026-11-01 | OpenShot 4.1.0 | open-source, montage, cli, multiplateforme | https://www.openshot.org/ | https://olanlive.github.io/revue-audio-video/#2026-11-01-openshot-4-1-0 |
 | 2026-11-01 | CompressO 4.0.0 | open-source, encodage, ffmpeg, gui | https://compresso.codeforreal.com/ | https://olanlive.github.io/revue-audio-video/#2026-11-01-compresso-4-0-0 |
 | 2026-11-01 | Qtractor 1.6.5 | open-source, audio, daw, gui | https://qtractor.org/ | https://olanlive.github.io/revue-audio-video/#2026-11-01-qtractor-1-6-5 |

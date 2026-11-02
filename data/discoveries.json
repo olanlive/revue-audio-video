@@ -1,5 +1,62 @@
 [
   {
+    "date": "2026-11-02",
+    "name": "VapourSynth R82",
+    "name_en": "VapourSynth R82",
+    "summary": "Le cadre de traitement vidéo scriptable en Python (LGPL-2.1), cousin moderne d’AviSynth, sort sa R82 (1er nov) : la sortie Matroska de vspipe se lit dans mpv et transporte les métadonnées couleur, et les filtres GPU ne sont plus bridés sur cartes Nvidia.",
+    "summary_en": "The Python-scriptable video processing framework (LGPL-2.1), a modern cousin of AviSynth, ships R82 (Nov 1): vspipe's Matroska output now plays in mpv and carries color metadata, and GPU filters no longer crawl at PCIe speed on Nvidia cards.",
+    "url": "http://www.vapoursynth.com/",
+    "tags": [
+      "open-source",
+      "encodage",
+      "cli",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Release GitHub — vapoursynth/vapoursynth R82",
+      "label_en": "GitHub release — vapoursynth/vapoursynth R82",
+      "url": "https://github.com/vapoursynth/vapoursynth/releases/tag/R82"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "name": "Subtitle Edit 5.4.0 RC1",
+    "name_en": "Subtitle Edit 5.4.0 RC1",
+    "summary": "L’éditeur de sous-titres libre (déjà vu le 16 oct) prépare sa 5.4 : la RC1 (1er nov) affiche source et traduction côte à côte dans l’auto-traduction, accepte des modèles locaux via llama.cpp (CPU ou Vulkan sous Linux) et rafraîchit toute son interface.",
+    "summary_en": "The free subtitle editor (seen Oct 16) gears up for 5.4: RC1 (Nov 1) shows source and translation side by side in auto-translate, runs local models through llama.cpp (CPU or Vulkan on Linux) and refreshes its whole interface.",
+    "url": "https://github.com/SubtitleEdit/subtitleedit",
+    "tags": [
+      "open-source",
+      "sous-titres",
+      "beta",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Release GitHub — SubtitleEdit/subtitleedit v5.4.0-rc1",
+      "label_en": "GitHub release — SubtitleEdit/subtitleedit v5.4.0-rc1",
+      "url": "https://github.com/SubtitleEdit/subtitleedit/releases/tag/v5.4.0-rc1"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "name": "FilmCraft 0.16.0",
+    "name_en": "FilmCraft 0.16.0",
+    "summary": "Le monteur libre en Rust façon Premiere (déjà vu le 29 oct) intègre 244 contributions dans sa 0.16.0 (1er nov) : encodage ProRes 4K deux fois plus rapide, rendu des effets limité aux zones rouges comme Premiere, transitions conservées au copier-coller.",
+    "summary_en": "The Premiere-style free editor written in Rust (seen Oct 29) merges 244 contributions in 0.16.0 (Nov 1): 2x faster 4K ProRes encoding, effect rendering limited to red segments like Premiere, and transitions kept when copying clips.",
+    "url": "https://github.com/storytold/filmcraft",
+    "tags": [
+      "open-source",
+      "montage",
+      "encodage",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Release GitHub — storytold/filmcraft v0.16.0",
+      "label_en": "GitHub release — storytold/filmcraft v0.16.0",
+      "url": "https://github.com/storytold/filmcraft/releases/tag/v0.16.0"
+    }
+  },
+  {
     "date": "2026-11-01",
     "name": "OpenShot 4.1.0",
     "name_en": "OpenShot 4.1.0",
