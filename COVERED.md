@@ -7,6 +7,8 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-03 | FrameTrellis 1.4.0 | open-source, montage, mlt, sous-titres | https://sanskarin.github.io/frametrellis/ | https://olanlive.github.io/revue-audio-video/#2026-11-03-frametrellis-1-4-0 |
+| 2026-11-03 | Audacity 4.0.2 | open-source, audio, edition-audio, multiplateforme | https://www.audacityteam.org/ | https://olanlive.github.io/revue-audio-video/#2026-11-03-audacity-4-0-2 |
 | 2026-11-02 | VapourSynth R82 | open-source, encodage, cli, multiplateforme | http://www.vapoursynth.com/ | https://olanlive.github.io/revue-audio-video/#2026-11-02-vapoursynth-r82 |
 | 2026-11-02 | Subtitle Edit 5.4.0 RC1 | open-source, sous-titres, beta, multiplateforme | https://github.com/SubtitleEdit/subtitleedit | https://olanlive.github.io/revue-audio-video/#2026-11-02-subtitle-edit-5-4-0-rc1 |
 | 2026-11-02 | FilmCraft 0.16.0 | open-source, montage, encodage, multiplateforme | https://github.com/storytold/filmcraft | https://olanlive.github.io/revue-audio-video/#2026-11-02-filmcraft-0-16-0 |

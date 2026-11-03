@@ -1,5 +1,43 @@
 [
   {
+    "date": "2026-11-03",
+    "name": "FrameTrellis 1.4.0",
+    "name_en": "FrameTrellis 1.4.0",
+    "summary": "Le monteur vidéo local en C++/Qt sur MLT (GPL-3.0) passe un vrai cap : images clés de volume, opacité et transformations, outils de timeline multipiste (slip, roll, gestion des vides), piste de sous-titres SRT/WebVTT et export EDL CMX3600.",
+    "summary_en": "The local C++/Qt video editor built on MLT (GPL-3.0) takes a real step up: volume, opacity and transform keyframes, multi-track timeline tools (slip, roll, gap handling), an SRT/WebVTT subtitle track and CMX3600 EDL export.",
+    "url": "https://sanskarin.github.io/frametrellis/",
+    "tags": [
+      "open-source",
+      "montage",
+      "mlt",
+      "sous-titres"
+    ],
+    "source": {
+      "label": "Release GitHub — sanskarIN/frametrellis v1.4.0",
+      "label_en": "GitHub release — sanskarIN/frametrellis v1.4.0",
+      "url": "https://github.com/sanskarIN/frametrellis/releases/tag/v1.4.0"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "name": "Audacity 4.0.2",
+    "name_en": "Audacity 4.0.2",
+    "summary": "L’éditeur audio libre (GPL-3.0) corrige les défauts de jeunesse de la 4.0 : plusieurs cas de corruption de projet et de plantages réglés, sauvegarde automatique pendant l’enregistrement rétablie, raccourcis de découpe et de zoom revenus. La mise à jour à faire avant la 4.1.",
+    "summary_en": "The free audio editor (GPL-3.0) fixes 4.0's teething problems: several project-corruption and crash cases resolved, autosave during recording restored, trim and zoom shortcuts back. The update to grab before 4.1.",
+    "url": "https://www.audacityteam.org/",
+    "tags": [
+      "open-source",
+      "audio",
+      "edition-audio",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Release GitHub — audacity/audacity 4.0.2",
+      "label_en": "GitHub release — audacity/audacity 4.0.2",
+      "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.2"
+    }
+  },
+  {
     "date": "2026-11-02",
     "name": "VapourSynth R82",
     "name_en": "VapourSynth R82",

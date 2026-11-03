@@ -5,8 +5,30 @@
     <link>https://olanlive.github.io/revue-audio-video/en/</link>
     <description>Software, solutions and add-ons for audio &amp; video — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>FrameTrellis 1.4.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-03-frametrellis-1-4-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-03-frametrellis-1-4-0</guid>
+      <pubDate>Tue, 03 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The local C++/Qt video editor built on MLT (GPL-3.0) takes a real step up: volume, opacity and transform keyframes, multi-track timeline tools (slip, roll, gap handling), an SRT/WebVTT subtitle track and CMX3600 EDL export.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>mlt</category>
+      <category>sous-titres</category>
+    </item>
+    <item>
+      <title>Audacity 4.0.2</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-03-audacity-4-0-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-03-audacity-4-0-2</guid>
+      <pubDate>Tue, 03 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The free audio editor (GPL-3.0) fixes 4.0's teething problems: several project-corruption and crash cases resolved, autosave during recording restored, trim and zoom shortcuts back. The update to grab before 4.1.</description>
+      <category>open-source</category>
+      <category>audio</category>
+      <category>edition-audio</category>
+      <category>multiplateforme</category>
+    </item>
     <item>
       <title>VapourSynth R82</title>
       <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-02-vapoursynth-r82</link>

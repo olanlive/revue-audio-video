@@ -5,8 +5,30 @@
     <link>https://olanlive.github.io/revue-audio-video/</link>
     <description>Veille logiciels, solutions et add-ons audio &amp; vidéo — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Mon, 02 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>FrameTrellis 1.4.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-11-03-frametrellis-1-4-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-11-03-frametrellis-1-4-0</guid>
+      <pubDate>Tue, 03 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Le monteur vidéo local en C++/Qt sur MLT (GPL-3.0) passe un vrai cap : images clés de volume, opacité et transformations, outils de timeline multipiste (slip, roll, gestion des vides), piste de sous-titres SRT/WebVTT et export EDL CMX3600.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>mlt</category>
+      <category>sous-titres</category>
+    </item>
+    <item>
+      <title>Audacity 4.0.2</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-11-03-audacity-4-0-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-11-03-audacity-4-0-2</guid>
+      <pubDate>Tue, 03 Nov 2026 09:00:00 +0100</pubDate>
+      <description>L’éditeur audio libre (GPL-3.0) corrige les défauts de jeunesse de la 4.0 : plusieurs cas de corruption de projet et de plantages réglés, sauvegarde automatique pendant l’enregistrement rétablie, raccourcis de découpe et de zoom revenus. La mise à jour à faire avant la 4.1.</description>
+      <category>open-source</category>
+      <category>audio</category>
+      <category>edition-audio</category>
+      <category>multiplateforme</category>
+    </item>
     <item>
       <title>VapourSynth R82</title>
       <link>https://olanlive.github.io/revue-audio-video/#2026-11-02-vapoursynth-r82</link>
