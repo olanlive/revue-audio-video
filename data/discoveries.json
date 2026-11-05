@@ -51,9 +51,9 @@
       "multiplateforme"
     ],
     "source": {
-      "label": "Mastodon — @9to5linux@floss.social",
-      "label_en": "Mastodon — @9to5linux@floss.social",
-      "url": "https://floss.social/@9to5linux/117561327045779554"
+      "label": "Release GitHub — mpv-player/mpv v0.42.0",
+      "label_en": "GitHub release — mpv-player/mpv v0.42.0",
+      "url": "https://github.com/mpv-player/mpv/releases/tag/v0.42.0"
     }
   },
   {
