@@ -1,5 +1,62 @@
 [
   {
+    "date": "2026-11-05",
+    "name": "CompressO 4.1.0",
+    "name_en": "CompressO 4.1.0",
+    "summary": "Déjà vu le 01/11, le compresseur vidéo/image libre (AGPL-3.0) garde désormais le HDR des vidéos (iPhone, Dolby Vision) en H.265, sait le retirer avec tone mapping et ajoute une commande compresso scriptable, utilisable aussi par des agents IA via MCP.",
+    "summary_en": "Already seen on 11/01, the free video/image compressor (AGPL-3.0) now keeps HDR in videos (iPhone, Dolby Vision) using H.265, can strip it with tone mapping, and adds a scriptable compresso command that AI agents can also drive through MCP.",
+    "url": "https://compresso.codeforreal.com/",
+    "tags": [
+      "open-source",
+      "encodage",
+      "hdr",
+      "cli"
+    ],
+    "source": {
+      "label": "Release GitHub — codeforreal1/compressO 4.1.0",
+      "label_en": "GitHub release — codeforreal1/compressO 4.1.0",
+      "url": "https://github.com/codeforreal1/compressO/releases/tag/4.1.0"
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "name": "Open Test Patterns",
+    "name_en": "Open Test Patterns",
+    "summary": "Générateur libre (Apache-2.0) de mires exactes pour l'étalonnage et le contrôle HDR : barres SMPTE RP 219, ColorChecker, paliers PQ, zone plates, grilles, plus des bips de test audio, exportés en EXR, DPX, TIFF ou PNG dans la résolution et l'espace couleur voulus.",
+    "summary_en": "A free (Apache-2.0) generator of exact test patterns for grading and HDR QC: SMPTE RP 219 bars, ColorChecker, PQ steps, zone plates, grids, plus audio test tones, exported as EXR, DPX, TIFF or PNG in the resolution and color space you need.",
+    "url": "https://github.com/jdvandenberg/Open-Test-Patterns",
+    "tags": [
+      "open-source",
+      "etalonnage",
+      "hdr",
+      "cli"
+    ],
+    "source": {
+      "label": "Digital Production — Open Test Patterns rejoint l'ASWF DPEL",
+      "label_en": "Digital Production — Open Test Patterns joins ASWF DPEL",
+      "url": "https://digitalproduction.com/2026/11/04/open-test-patterns-joins-aswf-dpel-finally-the-right-bars/"
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "name": "mpv 0.42",
+    "name_en": "mpv 0.42",
+    "summary": "Le lecteur vidéo libre de référence pour vérifier un export gagne la couche Dolby Vision profil 7, la gestion des couleurs Wayland, la sortie scRGB, les menus DVD/Blu-ray, les sous-titres SRV3 et un menu contextuel au clic droit.",
+    "summary_en": "The go-to free video player for checking an export gains Dolby Vision profile 7 enhancement layers, Wayland color management, scRGB output, DVD/Blu-ray menus, SRV3 subtitles and a right-click context menu.",
+    "url": "https://mpv.io/",
+    "tags": [
+      "open-source",
+      "lecture",
+      "hdr",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Mastodon — @9to5linux@floss.social",
+      "label_en": "Mastodon — @9to5linux@floss.social",
+      "url": "https://floss.social/@9to5linux/117561327045779554"
+    }
+  },
+  {
     "date": "2026-11-03",
     "name": "FrameTrellis 1.4.0",
     "name_en": "FrameTrellis 1.4.0",

@@ -5,8 +5,41 @@
     <link>https://olanlive.github.io/revue-audio-video/en/</link>
     <description>Software, solutions and add-ons for audio &amp; video — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>CompressO 4.1.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-05-compresso-4-1-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-05-compresso-4-1-0</guid>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Already seen on 11/01, the free video/image compressor (AGPL-3.0) now keeps HDR in videos (iPhone, Dolby Vision) using H.265, can strip it with tone mapping, and adds a scriptable compresso command that AI agents can also drive through MCP.</description>
+      <category>open-source</category>
+      <category>encodage</category>
+      <category>hdr</category>
+      <category>cli</category>
+    </item>
+    <item>
+      <title>Open Test Patterns</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-05-open-test-patterns</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-05-open-test-patterns</guid>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0100</pubDate>
+      <description>A free (Apache-2.0) generator of exact test patterns for grading and HDR QC: SMPTE RP 219 bars, ColorChecker, PQ steps, zone plates, grids, plus audio test tones, exported as EXR, DPX, TIFF or PNG in the resolution and color space you need.</description>
+      <category>open-source</category>
+      <category>etalonnage</category>
+      <category>hdr</category>
+      <category>cli</category>
+    </item>
+    <item>
+      <title>mpv 0.42</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-05-mpv-0-42</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-05-mpv-0-42</guid>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The go-to free video player for checking an export gains Dolby Vision profile 7 enhancement layers, Wayland color management, scRGB output, DVD/Blu-ray menus, SRV3 subtitles and a right-click context menu.</description>
+      <category>open-source</category>
+      <category>lecture</category>
+      <category>hdr</category>
+      <category>multiplateforme</category>
+    </item>
     <item>
       <title>FrameTrellis 1.4.0</title>
       <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-03-frametrellis-1-4-0</link>

@@ -7,6 +7,9 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-05 | CompressO 4.1.0 | open-source, encodage, hdr, cli | https://compresso.codeforreal.com/ | https://olanlive.github.io/revue-audio-video/#2026-11-05-compresso-4-1-0 |
+| 2026-11-05 | Open Test Patterns | open-source, etalonnage, hdr, cli | https://github.com/jdvandenberg/Open-Test-Patterns | https://olanlive.github.io/revue-audio-video/#2026-11-05-open-test-patterns |
+| 2026-11-05 | mpv 0.42 | open-source, lecture, hdr, multiplateforme | https://mpv.io/ | https://olanlive.github.io/revue-audio-video/#2026-11-05-mpv-0-42 |
 | 2026-11-03 | FrameTrellis 1.4.0 | open-source, montage, mlt, sous-titres | https://sanskarin.github.io/frametrellis/ | https://olanlive.github.io/revue-audio-video/#2026-11-03-frametrellis-1-4-0 |
 | 2026-11-03 | Audacity 4.0.2 | open-source, audio, edition-audio, multiplateforme | https://www.audacityteam.org/ | https://olanlive.github.io/revue-audio-video/#2026-11-03-audacity-4-0-2 |
 | 2026-11-02 | VapourSynth R82 | open-source, encodage, cli, multiplateforme | http://www.vapoursynth.com/ | https://olanlive.github.io/revue-audio-video/#2026-11-02-vapoursynth-r82 |
