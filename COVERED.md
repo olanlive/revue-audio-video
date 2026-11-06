@@ -7,6 +7,10 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-06 | Subtitle Edit 5.4.0 | open-source, sous-titres, multiplateforme | https://github.com/SubtitleEdit/subtitleedit | https://olanlive.github.io/revue-audio-video/#2026-11-06-subtitle-edit-5-4-0 |
+| 2026-11-06 | Catavan 0.2.0 | open-source, montage, mlt, beta | https://github.com/Matheus290/Catavan | https://olanlive.github.io/revue-audio-video/#2026-11-06-catavan-0-2-0 |
+| 2026-11-06 | Shutter Encoder 20.5 | open-source, encodage, ffmpeg, gui | https://www.shutterencoder.com/ | https://olanlive.github.io/revue-audio-video/#2026-11-06-shutter-encoder-20-5 |
+| 2026-11-06 | pyVideoTrans 4.18 | open-source, ia, sous-titres, restauration | https://github.com/jianchang512/pyvideotrans | https://olanlive.github.io/revue-audio-video/#2026-11-06-pyvideotrans-4-18 |
 | 2026-11-05 | CompressO 4.1.0 | open-source, encodage, hdr, cli | https://compresso.codeforreal.com/ | https://olanlive.github.io/revue-audio-video/#2026-11-05-compresso-4-1-0 |
 | 2026-11-05 | Open Test Patterns | open-source, etalonnage, hdr, cli | https://github.com/jdvandenberg/Open-Test-Patterns | https://olanlive.github.io/revue-audio-video/#2026-11-05-open-test-patterns |
 | 2026-11-05 | mpv 0.42 | open-source, lecture, hdr, multiplateforme | https://mpv.io/ | https://olanlive.github.io/revue-audio-video/#2026-11-05-mpv-0-42 |

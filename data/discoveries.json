@@ -1,5 +1,80 @@
 [
   {
+    "date": "2026-11-06",
+    "name": "Subtitle Edit 5.4.0",
+    "name_en": "Subtitle Edit 5.4.0",
+    "summary": "Version stable 5.4.0 (6 nov ; déjà vu en RC1 le 2) : interface entièrement revue avec thèmes live, sync sous-titres↔audio façon ffsubsync, YouTube timed text, OCR via llama.cpp et effets ASSA façon CapCut.",
+    "summary_en": "Stable 5.4.0 (Nov 6; already seen as RC1 on the 2nd): fully redesigned UI with live themes, ffsubsync-style subtitle↔audio sync, YouTube timed text, llama.cpp OCR and CapCut-style ASSA effects.",
+    "url": "https://github.com/SubtitleEdit/subtitleedit",
+    "tags": [
+      "open-source",
+      "sous-titres",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Release GitHub — SubtitleEdit/subtitleedit v5.4.0",
+      "label_en": "GitHub release — SubtitleEdit/subtitleedit v5.4.0",
+      "url": "https://github.com/SubtitleEdit/subtitleedit/releases/tag/v5.4.0"
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "name": "Catavan 0.2.0",
+    "name_en": "Catavan 0.2.0",
+    "summary": "Le fork Kdenlive façon VEGAS (déjà vu le 31 oct) corrige groupes et crossfades, et fait suivre le fondu pendant le glisser-déposer. Toujours MLT 7.42 / Kdenlive 26.08.2 ; AppImage et Flatpak Linux (pas encore de build Windows).",
+    "summary_en": "The VEGAS-style Kdenlive fork (seen Oct 31) fixes grouped clips and crossfades, and makes fades follow while you drag. Still on MLT 7.42 / Kdenlive 26.08.2; Linux AppImage and Flatpak (no Windows build yet).",
+    "url": "https://github.com/Matheus290/Catavan",
+    "tags": [
+      "open-source",
+      "montage",
+      "mlt",
+      "beta"
+    ],
+    "source": {
+      "label": "Release GitHub — Matheus290/Catavan v0.2.0",
+      "label_en": "GitHub release — Matheus290/Catavan v0.2.0",
+      "url": "https://github.com/Matheus290/Catavan/releases/tag/v0.2.0"
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "name": "Shutter Encoder 20.5",
+    "name_en": "Shutter Encoder 20.5",
+    "summary": "Le convertisseur FFmpeg à interface graphique (déjà vu en 20.4 le 7 oct) ajoute un filtre « Reduce blocks », un curseur anti-banding, la conservation des sous-titres en Web video, et des arguments CLI --preset/--autostart/--output.",
+    "summary_en": "The FFmpeg GUI converter (seen as 20.4 on Oct 7) adds a Reduce blocks filter, a banding slider, Preserve subtitles for Web video, and CLI --preset/--autostart/--output arguments.",
+    "url": "https://www.shutterencoder.com/",
+    "tags": [
+      "open-source",
+      "encodage",
+      "ffmpeg",
+      "gui"
+    ],
+    "source": {
+      "label": "Release GitHub — paulpacifico/shutter-encoder 20.5",
+      "label_en": "GitHub release — paulpacifico/shutter-encoder 20.5",
+      "url": "https://github.com/paulpacifico/shutter-encoder/releases/tag/20.5"
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "name": "pyVideoTrans 4.18",
+    "name_en": "pyVideoTrans 4.18",
+    "summary": "L’outil libre de traduction/doublage vidéo (déjà vu en 4.17 le 23 oct) importe mieux les ASS, ajoute les canaux Runcrate et CloudGPU, le STT audio.cpp, et corrige volume et stéréo du doublage.",
+    "summary_en": "The open-source video translation/dubbing tool (seen as 4.17 on Oct 23) improves ASS import, adds Runcrate and CloudGPU channels, audio.cpp STT, and fixes dubbing volume and stereo.",
+    "url": "https://github.com/jianchang512/pyvideotrans",
+    "tags": [
+      "open-source",
+      "ia",
+      "sous-titres",
+      "restauration"
+    ],
+    "source": {
+      "label": "Release GitHub — jianchang512/pyvideotrans v4.18",
+      "label_en": "GitHub release — jianchang512/pyvideotrans v4.18",
+      "url": "https://github.com/jianchang512/pyvideotrans/releases/tag/v4.18"
+    }
+  },
+  {
     "date": "2026-11-05",
     "name": "CompressO 4.1.0",
     "name_en": "CompressO 4.1.0",

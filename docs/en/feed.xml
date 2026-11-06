@@ -5,8 +5,51 @@
     <link>https://olanlive.github.io/revue-audio-video/en/</link>
     <description>Software, solutions and add-ons for audio &amp; video — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Subtitle Edit 5.4.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-06-subtitle-edit-5-4-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-06-subtitle-edit-5-4-0</guid>
+      <pubDate>Fri, 06 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Stable 5.4.0 (Nov 6; already seen as RC1 on the 2nd): fully redesigned UI with live themes, ffsubsync-style subtitle↔audio sync, YouTube timed text, llama.cpp OCR and CapCut-style ASSA effects.</description>
+      <category>open-source</category>
+      <category>sous-titres</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>Catavan 0.2.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-06-catavan-0-2-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-06-catavan-0-2-0</guid>
+      <pubDate>Fri, 06 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The VEGAS-style Kdenlive fork (seen Oct 31) fixes grouped clips and crossfades, and makes fades follow while you drag. Still on MLT 7.42 / Kdenlive 26.08.2; Linux AppImage and Flatpak (no Windows build yet).</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>mlt</category>
+      <category>beta</category>
+    </item>
+    <item>
+      <title>Shutter Encoder 20.5</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-06-shutter-encoder-20-5</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-06-shutter-encoder-20-5</guid>
+      <pubDate>Fri, 06 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The FFmpeg GUI converter (seen as 20.4 on Oct 7) adds a Reduce blocks filter, a banding slider, Preserve subtitles for Web video, and CLI --preset/--autostart/--output arguments.</description>
+      <category>open-source</category>
+      <category>encodage</category>
+      <category>ffmpeg</category>
+      <category>gui</category>
+    </item>
+    <item>
+      <title>pyVideoTrans 4.18</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-06-pyvideotrans-4-18</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-06-pyvideotrans-4-18</guid>
+      <pubDate>Fri, 06 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The open-source video translation/dubbing tool (seen as 4.17 on Oct 23) improves ASS import, adds Runcrate and CloudGPU channels, audio.cpp STT, and fixes dubbing volume and stereo.</description>
+      <category>open-source</category>
+      <category>ia</category>
+      <category>sous-titres</category>
+      <category>restauration</category>
+    </item>
     <item>
       <title>CompressO 4.1.0</title>
       <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-05-compresso-4-1-0</link>
