@@ -7,6 +7,7 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-07 | Timeline Studio 1.0.9 | open-source, montage, ia, sous-titres | https://github.com/MartinDelophy/ai-video-editor | https://olanlive.github.io/revue-audio-video/#2026-11-07-timeline-studio-1-0-9 |
 | 2026-11-06 | Subtitle Edit 5.4.0 | open-source, sous-titres, multiplateforme | https://github.com/SubtitleEdit/subtitleedit | https://olanlive.github.io/revue-audio-video/#2026-11-06-subtitle-edit-5-4-0 |
 | 2026-11-06 | Catavan 0.2.0 | open-source, montage, mlt, beta | https://github.com/Matheus290/Catavan | https://olanlive.github.io/revue-audio-video/#2026-11-06-catavan-0-2-0 |
 | 2026-11-06 | Shutter Encoder 20.5 | open-source, encodage, ffmpeg, gui | https://www.shutterencoder.com/ | https://olanlive.github.io/revue-audio-video/#2026-11-06-shutter-encoder-20-5 |

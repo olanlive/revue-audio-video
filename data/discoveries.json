@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-11-07",
+    "name": "Timeline Studio 1.0.9",
+    "name_en": "Timeline Studio 1.0.9",
+    "url": "https://github.com/MartinDelophy/ai-video-editor",
+    "summary": "Éditeur vidéo libre (MIT) façon CapCut qui tourne dans le navigateur : timeline multipiste, sous-titres Whisper, voix off, séparation des voix et détourage calculés en local via WebGPU, export MP4/WebM. Encore expérimental (v1.0.9).",
+    "summary_en": "A free (MIT) CapCut-style video editor that runs in the browser: multi-track timeline, Whisper captions, voiceovers, vocal separation and background removal computed locally via WebGPU, MP4/WebM export. Still experimental (v1.0.9).",
+    "tags": [
+      "open-source",
+      "montage",
+      "ia",
+      "sous-titres"
+    ],
+    "source": {
+      "label": "Mastodon — @WebAppsMagazine@mastodon.uno",
+      "label_en": "Mastodon — @WebAppsMagazine@mastodon.uno",
+      "url": "https://mastodon.uno/@WebAppsMagazine/117574070735738145"
+    }
+  },
+  {
     "date": "2026-11-06",
     "name": "Subtitle Edit 5.4.0",
     "name_en": "Subtitle Edit 5.4.0",

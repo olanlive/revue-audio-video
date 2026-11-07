@@ -5,8 +5,19 @@
     <link>https://olanlive.github.io/revue-audio-video/en/</link>
     <description>Software, solutions and add-ons for audio &amp; video — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Timeline Studio 1.0.9</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-07-timeline-studio-1-0-9</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-07-timeline-studio-1-0-9</guid>
+      <pubDate>Sat, 07 Nov 2026 09:00:00 +0100</pubDate>
+      <description>A free (MIT) CapCut-style video editor that runs in the browser: multi-track timeline, Whisper captions, voiceovers, vocal separation and background removal computed locally via WebGPU, MP4/WebM export. Still experimental (v1.0.9).</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>ia</category>
+      <category>sous-titres</category>
+    </item>
     <item>
       <title>Subtitle Edit 5.4.0</title>
       <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-06-subtitle-edit-5-4-0</link>
