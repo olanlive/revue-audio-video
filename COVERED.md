@@ -7,6 +7,9 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-08 | Drift 0.9.1 | open-source, montage, gui, multiplateforme | https://cutwire.org/drift | https://olanlive.github.io/revue-audio-video/#2026-11-08-drift-0-9-1 |
+| 2026-11-08 | Concat 0.2.9 | open-source, montage, sous-titres, ia, beta, multiplateforme | https://concat.standalones.org | https://olanlive.github.io/revue-audio-video/#2026-11-08-concat-0-2-9 |
+| 2026-11-08 | Subtitle Edit 5.5.0 bêta 1 | open-source, sous-titres, beta, multiplateforme | https://github.com/SubtitleEdit/subtitleedit | https://olanlive.github.io/revue-audio-video/#2026-11-08-subtitle-edit-5-5-0-beta-1 |
 | 2026-11-07 | Timeline Studio 1.0.9 | open-source, montage, ia, sous-titres | https://github.com/MartinDelophy/ai-video-editor | https://olanlive.github.io/revue-audio-video/#2026-11-07-timeline-studio-1-0-9 |
 | 2026-11-06 | Subtitle Edit 5.4.0 | open-source, sous-titres, multiplateforme | https://github.com/SubtitleEdit/subtitleedit | https://olanlive.github.io/revue-audio-video/#2026-11-06-subtitle-edit-5-4-0 |
 | 2026-11-06 | Catavan 0.2.0 | open-source, montage, mlt, beta | https://github.com/Matheus290/Catavan | https://olanlive.github.io/revue-audio-video/#2026-11-06-catavan-0-2-0 |

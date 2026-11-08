@@ -1,5 +1,64 @@
 [
   {
+    "date": "2026-11-08",
+    "name": "Drift 0.9.1",
+    "name_en": "Drift 0.9.1",
+    "url": "https://cutwire.org/drift",
+    "summary": "Éditeur vidéo libre (GPL-3.0) sous Qt 6 et FFmpeg, sans compte ni filigrane : Linux, Windows, macOS et Android. La 0.9.1 ajoute les recadrages en forme, un flou vie privée, la suppression des silences, la synchro par le son et un historique d’annulation illimité dans le projet.",
+    "summary_en": "A free video editor (GPL-3.0) built with Qt 6 and FFmpeg, with no account or watermark, for Linux, Windows, macOS and Android. 0.9.1 adds shape crops, a privacy blur, silence removal, sync-by-audio, and unlimited undo history saved in the project.",
+    "tags": [
+      "open-source",
+      "montage",
+      "gui",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Release GitHub — CutWire-Studios/Drift v0.9.1",
+      "label_en": "GitHub release — CutWire-Studios/Drift v0.9.1",
+      "url": "https://github.com/CutWire-Studios/Drift/releases/tag/v0.9.1"
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "name": "Concat 0.2.9",
+    "name_en": "Concat 0.2.9",
+    "url": "https://concat.standalones.org",
+    "summary": "L’éditeur vidéo libre (AGPL-3.0 ; déjà vu en 0.2.7 le 19 oct) traite désormais les transitions comme des clips, exporte avec transparence (ProRes 4444 ou VP9), ajoute des courbes de vitesse, améliore le fond vert, et rend l’export 4K environ 2,4× plus rapide.",
+    "summary_en": "The free video editor (AGPL-3.0; seen as 0.2.7 on Oct 19) now treats transitions as clips, exports with transparency (ProRes 4444 or VP9), adds speed curves, improves chroma key, and makes 4K export about 2.4× faster.",
+    "tags": [
+      "open-source",
+      "montage",
+      "sous-titres",
+      "ia",
+      "beta",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Release GitHub — jub0t/concat v0.2.9",
+      "label_en": "GitHub release — jub0t/concat v0.2.9",
+      "url": "https://github.com/jub0t/concat/releases/tag/v0.2.9"
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "name": "Subtitle Edit 5.5.0 bêta 1",
+    "name_en": "Subtitle Edit 5.5.0 beta 1",
+    "url": "https://github.com/SubtitleEdit/subtitleedit",
+    "summary": "Première bêta de la 5.5.0 (déjà vu en 5.4.0 le 6 nov) : l’OCR vidéo retire les sous-titres incrustés (inpainting IA, boîtes noires, flou, delogo), même dans un rectangle tracé. La timeline montre les sous-titres sans forme d’onde ; WhisperX y télécharge ses modèles.",
+    "summary_en": "First 5.5.0 beta (seen as 5.4.0 on Nov 6): Video OCR can remove burned-in subtitles (AI inpainting, black boxes, blur, delogo), including inside a drawn rectangle. The timeline can show subtitles without generating a waveform, and WhisperX downloads its models in the app.",
+    "tags": [
+      "open-source",
+      "sous-titres",
+      "beta",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Release GitHub — SubtitleEdit/subtitleedit v5.5.0-beta1",
+      "label_en": "GitHub release — SubtitleEdit/subtitleedit v5.5.0-beta1",
+      "url": "https://github.com/SubtitleEdit/subtitleedit/releases/tag/v5.5.0-beta1"
+    }
+  },
+  {
     "date": "2026-11-07",
     "name": "Timeline Studio 1.0.9",
     "name_en": "Timeline Studio 1.0.9",

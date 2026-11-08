@@ -5,8 +5,43 @@
     <link>https://olanlive.github.io/revue-audio-video/en/</link>
     <description>Software, solutions and add-ons for audio &amp; video — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Drift 0.9.1</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-08-drift-0-9-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-08-drift-0-9-1</guid>
+      <pubDate>Sun, 08 Nov 2026 09:00:00 +0100</pubDate>
+      <description>A free video editor (GPL-3.0) built with Qt 6 and FFmpeg, with no account or watermark, for Linux, Windows, macOS and Android. 0.9.1 adds shape crops, a privacy blur, silence removal, sync-by-audio, and unlimited undo history saved in the project.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>gui</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>Concat 0.2.9</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-08-concat-0-2-9</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-08-concat-0-2-9</guid>
+      <pubDate>Sun, 08 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The free video editor (AGPL-3.0; seen as 0.2.7 on Oct 19) now treats transitions as clips, exports with transparency (ProRes 4444 or VP9), adds speed curves, improves chroma key, and makes 4K export about 2.4× faster.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>sous-titres</category>
+      <category>ia</category>
+      <category>beta</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>Subtitle Edit 5.5.0 beta 1</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-08-subtitle-edit-5-5-0-beta-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-08-subtitle-edit-5-5-0-beta-1</guid>
+      <pubDate>Sun, 08 Nov 2026 09:00:00 +0100</pubDate>
+      <description>First 5.5.0 beta (seen as 5.4.0 on Nov 6): Video OCR can remove burned-in subtitles (AI inpainting, black boxes, blur, delogo), including inside a drawn rectangle. The timeline can show subtitles without generating a waveform, and WhisperX downloads its models in the app.</description>
+      <category>open-source</category>
+      <category>sous-titres</category>
+      <category>beta</category>
+      <category>multiplateforme</category>
+    </item>
     <item>
       <title>Timeline Studio 1.0.9</title>
       <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-07-timeline-studio-1-0-9</link>
@@ -1052,17 +1087,6 @@
       <category>blender-addon</category>
       <category>vse</category>
       <category>encodage</category>
-    </item>
-    <item>
-      <title>slatefree 1.2.0</title>
-      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-06-slatefree-1-2-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-06-slatefree-1-2-0</guid>
-      <pubDate>Tue, 06 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Rust command-line tool that syncs hundreds of multicam clips with no slate or timecode, lined up on a recorder’s continuous audio. Output: an FCP 7 XML timeline for Resolve and a per-clip check CSV. Repo created Oct 6, already at v1.2.0.</description>
-      <category>open-source</category>
-      <category>montage</category>
-      <category>cli</category>
-      <category>multiplateforme</category>
     </item>
   </channel>
 </rss>
