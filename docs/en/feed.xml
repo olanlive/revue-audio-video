@@ -5,8 +5,18 @@
     <link>https://olanlive.github.io/revue-audio-video/en/</link>
     <description>Software, solutions and add-ons for audio &amp; video — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PySceneDetect 0.7.3</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-09-pyscenedetect-0-7-3</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-09-pyscenedetect-0-7-3</guid>
+      <pubDate>Mon, 09 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Detects cuts in a video and splits it into scenes (CLI + Python API, BSD-3). 0.7.3 exports thumbnails at a set interval per scene and fixes EDL timecode drift at 23.976/29.97 fps (about 3.6 s per hour).</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>cli</category>
+    </item>
     <item>
       <title>Drift 0.9.1</title>
       <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-08-drift-0-9-1</link>
@@ -1076,17 +1086,6 @@
       <category>encodage</category>
       <category>ffmpeg</category>
       <category>gui</category>
-    </item>
-    <item>
-      <title>Image Sequence to MP4 (Blender add-on) 2.0.0</title>
-      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-07-image-sequence-to-mp4-add-on-blender-2-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-07-image-sequence-to-mp4-add-on-blender-2-0-0</guid>
-      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Your PNG/EXR renders become an MP4 (H.264, H.265 or AV1) in one click, in the background, without blocking Blender. 2.0.0 (Oct 2) detects missing frames, respects color management and offers Web, 720p and 9:16 presets.</description>
-      <category>open-source</category>
-      <category>blender-addon</category>
-      <category>vse</category>
-      <category>encodage</category>
     </item>
   </channel>
 </rss>

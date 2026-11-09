@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-09",
+    "name": "PySceneDetect 0.7.3",
+    "name_en": "PySceneDetect 0.7.3",
+    "summary": "Détecte les coupes d’une vidéo et la découpe en scènes (CLI + API Python, BSD-3). La 0.7.3 exporte des vignettes à intervalle régulier par scène et corrige la dérive des timecodes EDL en 23,976/29,97 fps (environ 3,6 s par heure).",
+    "summary_en": "Detects cuts in a video and splits it into scenes (CLI + Python API, BSD-3). 0.7.3 exports thumbnails at a set interval per scene and fixes EDL timecode drift at 23.976/29.97 fps (about 3.6 s per hour).",
+    "url": "https://www.scenedetect.com/",
+    "tags": [
+      "open-source",
+      "montage",
+      "cli"
+    ],
+    "source": {
+      "label": "Release GitHub — Breakthrough/PySceneDetect v0.7.3",
+      "label_en": "GitHub release — Breakthrough/PySceneDetect v0.7.3",
+      "url": "https://github.com/Breakthrough/PySceneDetect/releases/tag/v0.7.3"
+    }
+  },
+  {
     "date": "2026-11-08",
     "name": "Drift 0.9.1",
     "name_en": "Drift 0.9.1",

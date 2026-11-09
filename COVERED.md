@@ -7,6 +7,7 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-09 | PySceneDetect 0.7.3 | open-source, montage, cli | https://www.scenedetect.com/ | https://olanlive.github.io/revue-audio-video/#2026-11-09-pyscenedetect-0-7-3 |
 | 2026-11-08 | Drift 0.9.1 | open-source, montage, gui, multiplateforme | https://cutwire.org/drift | https://olanlive.github.io/revue-audio-video/#2026-11-08-drift-0-9-1 |
 | 2026-11-08 | Concat 0.2.9 | open-source, montage, sous-titres, ia, beta, multiplateforme | https://concat.standalones.org | https://olanlive.github.io/revue-audio-video/#2026-11-08-concat-0-2-9 |
 | 2026-11-08 | Subtitle Edit 5.5.0 bêta 1 | open-source, sous-titres, beta, multiplateforme | https://github.com/SubtitleEdit/subtitleedit | https://olanlive.github.io/revue-audio-video/#2026-11-08-subtitle-edit-5-5-0-beta-1 |
