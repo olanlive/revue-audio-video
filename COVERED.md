@@ -7,6 +7,8 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-10 | Kinoklip 1.1.8 bêta | open-source, montage, ffmpeg, beta | https://github.com/SeniorMatt/kinoklip | https://olanlive.github.io/revue-audio-video/#2026-11-10-kinoklip-1-1-8-beta |
+| 2026-11-10 | hum (bêta) | payant, montage, ia, beta | https://hum.studio/ | https://olanlive.github.io/revue-audio-video/#2026-11-10-hum-beta |
 | 2026-11-09 | PySceneDetect 0.7.3 | open-source, montage, cli | https://www.scenedetect.com/ | https://olanlive.github.io/revue-audio-video/#2026-11-09-pyscenedetect-0-7-3 |
 | 2026-11-08 | Drift 0.9.1 | open-source, montage, gui, multiplateforme | https://cutwire.org/drift | https://olanlive.github.io/revue-audio-video/#2026-11-08-drift-0-9-1 |
 | 2026-11-08 | Concat 0.2.9 | open-source, montage, sous-titres, ia, beta, multiplateforme | https://concat.standalones.org | https://olanlive.github.io/revue-audio-video/#2026-11-08-concat-0-2-9 |

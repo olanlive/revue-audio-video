@@ -1,5 +1,43 @@
 [
   {
+    "date": "2026-11-10",
+    "name": "Kinoklip 1.1.8 bêta",
+    "name_en": "Kinoklip 1.1.8 beta",
+    "summary": "Monteur vidéo natif Linux (C++/Qt 6 + FFmpeg, GPL-3.0) calqué sur la page Edit de DaVinci Resolve, raccourcis compris : décodage GPU VA-API, rendu OpenGL, H.264/H.265 gratuits. Bêta d’un projet lancé le 1er nov., en AppImage.",
+    "summary_en": "Native Linux video editor (C++/Qt 6 + FFmpeg, GPL-3.0) modelled on DaVinci Resolve’s Edit page, shortcuts included: VA-API GPU decoding, OpenGL compositing, free H.264/H.265. Beta of a project started on Nov 1, shipped as an AppImage.",
+    "url": "https://github.com/SeniorMatt/kinoklip",
+    "tags": [
+      "open-source",
+      "montage",
+      "ffmpeg",
+      "beta"
+    ],
+    "source": {
+      "label": "Recherche GitHub — SeniorMatt/kinoklip v1.1.8-beta.1",
+      "label_en": "GitHub search — SeniorMatt/kinoklip v1.1.8-beta.1",
+      "url": "https://github.com/SeniorMatt/kinoklip/releases/tag/v1.1.8-beta.1"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "name": "hum (bêta)",
+    "name_en": "hum (beta)",
+    "summary": "Web app de « vibe editing » : on décrit chaque bloc en une phrase et Claude monte le motion design ; le mode Magique part d’une simple voix off. Bêta : 20 s offertes, puis 19 à 99 € HT/mois prévus, abonnement Claude payant requis.",
+    "summary_en": "A “vibe editing” web app: describe each block in one sentence and Claude builds the motion design; Magic mode starts from a plain voice-over. Beta: 20 s free, then €19–99/month (excl. VAT) planned, paid Claude subscription required.",
+    "url": "https://hum.studio/",
+    "tags": [
+      "payant",
+      "montage",
+      "ia",
+      "beta"
+    ],
+    "source": {
+      "label": "Signet X — @IV2FI",
+      "label_en": "X bookmark — @IV2FI",
+      "url": "https://x.com/IV2FI/status/2116574111384383517"
+    }
+  },
+  {
     "date": "2026-11-09",
     "name": "PySceneDetect 0.7.3",
     "name_en": "PySceneDetect 0.7.3",
