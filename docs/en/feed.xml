@@ -5,8 +5,32 @@
     <link>https://olanlive.github.io/revue-audio-video/en/</link>
     <description>Software, solutions and add-ons for audio &amp; video — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenRoll 0.2.1 bêta</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-11-openroll-0-2-1-beta</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-11-openroll-0-2-1-beta</guid>
+      <pubDate>Wed, 11 Nov 2026 09:00:00 +0100</pubDate>
+      <description>A young free video editor (GPL-3.0, macOS/Windows/Linux) in the CapCut mould, fully local: magnetic timeline, speech-to-text captions with SRT/VTT export, auto silence cuts, LUTs, background removal, ProRes export, and editing that AI agents can drive over MCP.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>sous-titres</category>
+      <category>ia</category>
+      <category>beta</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>Ardour 9.10</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-11-ardour-9-10</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-11-ardour-9-10</guid>
+      <pubDate>Wed, 11 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The free cross-platform DAW can now redraw waveforms live as you drag the gain envelope, rename tracks in sequence ("stem 1..8") and sync its transport to the system wall clock, plus faster rendering on macOS.</description>
+      <category>open-source</category>
+      <category>audio</category>
+      <category>daw</category>
+      <category>multiplateforme</category>
+    </item>
     <item>
       <title>Kinoklip 1.1.8 beta</title>
       <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-10-kinoklip-1-1-8-beta</link>
@@ -1064,28 +1088,6 @@
       <category>audio</category>
       <category>edition-audio</category>
       <category>multiplateforme</category>
-    </item>
-    <item>
-      <title>OBS Studio 33.0 beta 6</title>
-      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-07-obs-studio-33-0-beta-6</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-07-obs-studio-33-0-beta-6</guid>
-      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
-      <description>OBS 33 (beta 6, Oct 3) overhauls plugin loading, with a new folder for third-party plugins that IT should plan for. Also on the menu: updated browser source engine (CEF 150), reworked source snapping and NVENC on Arm64.</description>
-      <category>open-source</category>
-      <category>captation</category>
-      <category>streaming</category>
-      <category>beta</category>
-    </item>
-    <item>
-      <title>Shotcut 26.9.27 (+ MLT 7.42.0)</title>
-      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-07-shotcut-26-9-27-mlt-7-42-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-07-shotcut-26-9-27-mlt-7-42-0</guid>
-      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
-      <description>The free editor adds automatic audio ducking, per-track volume and VU meter, and an “Adjustment Clip” that filters every track below it. Moves to FFmpeg 9.0 and fixes download vulnerabilities: update recommended.</description>
-      <category>open-source</category>
-      <category>montage</category>
-      <category>mlt</category>
-      <category>securite</category>
     </item>
   </channel>
 </rss>

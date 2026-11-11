@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-11-11",
+    "name": "OpenRoll 0.2.1 bêta",
+    "name_en": "OpenRoll 0.2.1 bêta",
+    "summary": "Jeune monteur vidéo libre (GPL-3.0, macOS/Windows/Linux) façon CapCut, 100 % local : timeline magnétique, sous-titres par reconnaissance vocale avec export SRT/VTT, coupe auto des silences, LUT, détourage, export ProRes, et édition pilotable par des agents IA via MCP.",
+    "summary_en": "A young free video editor (GPL-3.0, macOS/Windows/Linux) in the CapCut mould, fully local: magnetic timeline, speech-to-text captions with SRT/VTT export, auto silence cuts, LUTs, background removal, ProRes export, and editing that AI agents can drive over MCP.",
+    "url": "https://openroll.dev",
+    "tags": [
+      "open-source",
+      "montage",
+      "sous-titres",
+      "ia",
+      "beta",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Recherche GitHub — noah-thing/openroll v0.2.1",
+      "label_en": "GitHub search — noah-thing/openroll v0.2.1",
+      "url": "https://github.com/noah-thing/openroll/releases/tag/v0.2.1"
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "name": "Ardour 9.10",
+    "name_en": "Ardour 9.10",
+    "summary": "Le DAW libre multiplateforme peut désormais redessiner la forme d’onde en direct quand on tire l’enveloppe de gain, renommer des pistes en série (« stem 1..8 ») et caler son transport sur l’horloge système, avec un rendu macOS plus rapide.",
+    "summary_en": "The free cross-platform DAW can now redraw waveforms live as you drag the gain envelope, rename tracks in sequence (\"stem 1..8\") and sync its transport to the system wall clock, plus faster rendering on macOS.",
+    "url": "https://ardour.org/whatsnew.html",
+    "tags": [
+      "open-source",
+      "audio",
+      "daw",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Linuxiac — Ardour 9.10 DAW Released",
+      "label_en": "Linuxiac — Ardour 9.10 DAW Released",
+      "url": "https://linuxiac.com/ardour-9-10-daw-released-with-waveform-and-automation-improvements/"
+    }
+  },
+  {
     "date": "2026-11-10",
     "name": "Kinoklip 1.1.8 bêta",
     "name_en": "Kinoklip 1.1.8 beta",
