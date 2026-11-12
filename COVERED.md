@@ -7,6 +7,8 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-12 | H3 Editor 0.4.1 | open-source, ia, montage, beta | https://igorls.github.io/comfyui-h3-editor/ | https://olanlive.github.io/revue-audio-video/#2026-11-12-h3-editor-0-4-1 |
+| 2026-11-12 | Concat 0.2.10 | open-source, montage, ia, beta, multiplateforme | https://concat.standalones.org | https://olanlive.github.io/revue-audio-video/#2026-11-12-concat-0-2-10 |
 | 2026-11-11 | OpenRoll 0.2.1 bêta | open-source, montage, sous-titres, ia, beta, multiplateforme | https://openroll.dev | https://olanlive.github.io/revue-audio-video/#2026-11-11-openroll-0-2-1-beta |
 | 2026-11-11 | Ardour 9.10 | open-source, audio, daw, multiplateforme | https://ardour.org/whatsnew.html | https://olanlive.github.io/revue-audio-video/#2026-11-11-ardour-9-10 |
 | 2026-11-10 | Kinoklip 1.1.8 bêta | open-source, montage, ffmpeg, beta | https://github.com/SeniorMatt/kinoklip | https://olanlive.github.io/revue-audio-video/#2026-11-10-kinoklip-1-1-8-beta |

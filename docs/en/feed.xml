@@ -5,8 +5,31 @@
     <link>https://olanlive.github.io/revue-audio-video/en/</link>
     <description>Software, solutions and add-ons for audio &amp; video — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>H3 Editor 0.4.1</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-12-h3-editor-0-4-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-12-h3-editor-0-4-1</guid>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0100</pubDate>
+      <description>A timeline editor inside ComfyUI: write shots, render them locally with the MiniMax H3 video model, sound included, then cut, mix and export; an agent can drive it all over HTTP. 0.4.1 (Nov 11) adds lighter render sizes.</description>
+      <category>open-source</category>
+      <category>ia</category>
+      <category>montage</category>
+      <category>beta</category>
+    </item>
+    <item>
+      <title>Concat 0.2.10</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-12-concat-0-2-10</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-12-concat-0-2-10</guid>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The free CapCut-style editor gains voice isolation (keep or remove a clip's voice, each part at its own level), In/Out/Loop animations for clips, titles and shapes, and shake effects. 0.2.10 (Nov 11) also fixes auto captions on Windows.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>ia</category>
+      <category>beta</category>
+      <category>multiplateforme</category>
+    </item>
     <item>
       <title>OpenRoll 0.2.1 bêta</title>
       <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-11-openroll-0-2-1-beta</link>
@@ -1066,28 +1089,6 @@
       <category>ia</category>
       <category>sous-titres</category>
       <category>cli</category>
-    </item>
-    <item>
-      <title>FFmpeg 9.0.2 “Lei”</title>
-      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-07-ffmpeg-9-0-2-lei</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-07-ffmpeg-9-0-2-lei</guid>
-      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
-      <description>The encoding engine behind Blender, OBS and Shotcut moves to 9.0: AI filters on GPU via ONNX Runtime, 360° video in Vulkan, animated WebP, accelerated ProRes RAW on Mac. 9.0.2 (Sept 18) adds security fixes.</description>
-      <category>open-source</category>
-      <category>encodage</category>
-      <category>ffmpeg</category>
-      <category>cli</category>
-    </item>
-    <item>
-      <title>Audacity 4.0.1</title>
-      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-07-audacity-4-0-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-07-audacity-4-0-1</guid>
-      <pubDate>Wed, 07 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Audacity 4 rebuilds its interface on Qt: selectable and groupable clips, workspaces, ASIO on Windows. 4.0.1 (Sept 30) fixes teething bugs and adds exporting one track or one region per file, plus a portable Windows version.</description>
-      <category>open-source</category>
-      <category>audio</category>
-      <category>edition-audio</category>
-      <category>multiplateforme</category>
     </item>
   </channel>
 </rss>

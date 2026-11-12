@@ -1,5 +1,44 @@
 [
   {
+    "date": "2026-11-12",
+    "name": "H3 Editor 0.4.1",
+    "name_en": "H3 Editor 0.4.1",
+    "summary": "Monteur à timeline dans ComfyUI : on écrit ses plans, ils sont générés en local par le modèle vidéo MiniMax H3 avec le son, puis montés, mixés et exportés ; un agent peut piloter le tout via une API HTTP. La 0.4.1 (11 nov) ajoute des tailles de rendu plus légères.",
+    "summary_en": "A timeline editor inside ComfyUI: write shots, render them locally with the MiniMax H3 video model, sound included, then cut, mix and export; an agent can drive it all over HTTP. 0.4.1 (Nov 11) adds lighter render sizes.",
+    "url": "https://igorls.github.io/comfyui-h3-editor/",
+    "tags": [
+      "open-source",
+      "ia",
+      "montage",
+      "beta"
+    ],
+    "source": {
+      "label": "Recherche GitHub — igorls/comfyui-h3-editor",
+      "label_en": "GitHub search — igorls/comfyui-h3-editor",
+      "url": "https://github.com/igorls/comfyui-h3-editor/releases/tag/v0.4.1"
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "name": "Concat 0.2.10",
+    "name_en": "Concat 0.2.10",
+    "summary": "Le monteur libre façon CapCut gagne l’isolation de voix (garder ou retirer la voix d’un clip), des animations d’entrée/sortie/boucle pour clips, titres et formes, et des effets de secousse. La 0.2.10 (11 nov) corrige aussi les sous-titres auto sous Windows.",
+    "summary_en": "The free CapCut-style editor gains voice isolation (keep or remove a clip's voice, each part at its own level), In/Out/Loop animations for clips, titles and shapes, and shake effects. 0.2.10 (Nov 11) also fixes auto captions on Windows.",
+    "url": "https://concat.standalones.org",
+    "tags": [
+      "open-source",
+      "montage",
+      "ia",
+      "beta",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Neowin — Concat Video Editor 0.2.10",
+      "label_en": "Neowin — Concat Video Editor 0.2.10",
+      "url": "https://www.neowin.net/software/concat-video-editor-0210/"
+    }
+  },
+  {
     "date": "2026-11-11",
     "name": "OpenRoll 0.2.1 bêta",
     "name_en": "OpenRoll 0.2.1 bêta",
