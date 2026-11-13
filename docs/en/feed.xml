@@ -5,8 +5,38 @@
     <link>https://olanlive.github.io/revue-audio-video/en/</link>
     <description>Software, solutions and add-ons for audio &amp; video — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Kinoklip 1.7.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-13-kinoklip-1-7-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-13-kinoklip-1-7-0</guid>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The free Kinoklip video editor (Qt 6 + FFmpeg, Linux) gets a real node-based Compositing page in 1.7 (Nov 13): full Merge/Transform, Luma and Delta Keyers, Corner Positioner, B-Spline masks, plus per-clip renders in Deliver.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>ffmpeg</category>
+    </item>
+    <item>
+      <title>Unbound 0.7.1</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-13-unbound-0-7-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-13-unbound-0-7-1</guid>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0100</pubDate>
+      <description>A free add-on that undocks DaVinci Resolve panels (Inspector, viewers, scopes, Color wheels and curves, Fairlight) into floating windows you can spread across displays, with saved layouts. 0.7.1 (Nov 12) speeds up macOS.</description>
+      <category>open-source</category>
+      <category>etalonnage</category>
+      <category>montage</category>
+    </item>
+    <item>
+      <title>BetterMediaInfo 1.2.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-13-bettermediainfo-1-2-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-13-bettermediainfo-1-2-0</guid>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0100</pubDate>
+      <description>A nicer GUI for MediaInfo: drag and drop files or folders, real-time filtering, precise durations and bit rates, on Linux, macOS and Windows. 1.2.0 (Nov 11) moves to MediaInfoLib 26.10 and repairs MKV track statistics via MKVToolNix.</description>
+      <category>open-source</category>
+      <category>gui</category>
+      <category>multiplateforme</category>
+    </item>
     <item>
       <title>H3 Editor 0.4.1</title>
       <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-12-h3-editor-0-4-1</link>
@@ -1056,39 +1086,6 @@
       <category>sous-titres</category>
       <category>beta</category>
       <category>multiplateforme</category>
-    </item>
-    <item>
-      <title>OBS Studio 33.0 RC1</title>
-      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-09-obs-studio-33-0-rc1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-09-obs-studio-33-0-rc1</guid>
-      <pubDate>Fri, 09 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Already covered on Oct 7 as beta 6: OBS 33.0 reaches release candidate (Oct 9). Browser sources fixed (blank page on refresh, local network requests), Plugin Manager made more reliable in safe mode: the final release is getting close.</description>
-      <category>open-source</category>
-      <category>captation</category>
-      <category>streaming</category>
-      <category>beta</category>
-    </item>
-    <item>
-      <title>MediaMTX 1.21.2</title>
-      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-09-mediamtx-1-21-2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-09-mediamtx-1-21-2</guid>
-      <pubDate>Fri, 09 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Ready-to-use live stream server and proxy (SRT, WebRTC, RTSP, RTMP, LL-HLS, Media-over-QUIC) that publishes, records and plays back audio and video. 1.21.2 (Oct 8) closes open access to the playback server and filters non-standard SEI from some cameras.</description>
-      <category>open-source</category>
-      <category>streaming</category>
-      <category>securite</category>
-      <category>multiplateforme</category>
-    </item>
-    <item>
-      <title>whisper.cpp 1.9.5</title>
-      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-09-whisper-cpp-1-9-5</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-09-whisper-cpp-1-9-5</guid>
-      <pubDate>Fri, 09 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Whisper transcription in pure C/C++, running locally on CPU or GPU, ideal for subtitling without the cloud. 1.9.5 (Oct 6) ships ggml 0.26.0: CUDA, Metal and WebGPU optimisations, and sparse flash attention on Vulkan.</description>
-      <category>open-source</category>
-      <category>ia</category>
-      <category>sous-titres</category>
-      <category>cli</category>
     </item>
   </channel>
 </rss>

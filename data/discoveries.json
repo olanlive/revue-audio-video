@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-11-13",
+    "name": "Kinoklip 1.7.0",
+    "name_en": "Kinoklip 1.7.0",
+    "summary": "Le monteur vidéo libre Kinoklip (Qt 6 + FFmpeg, Linux) gagne avec la 1.7 (13 nov) une vraie page Compositing nodale : Merge/Transform complets, Luma et Delta Keyer, Corner Positioner, masques B-Spline, plus le rendu clip par clip dans Deliver.",
+    "summary_en": "The free Kinoklip video editor (Qt 6 + FFmpeg, Linux) gets a real node-based Compositing page in 1.7 (Nov 13): full Merge/Transform, Luma and Delta Keyers, Corner Positioner, B-Spline masks, plus per-clip renders in Deliver.",
+    "url": "https://github.com/SeniorMatt/kinoklip",
+    "tags": [
+      "open-source",
+      "montage",
+      "ffmpeg"
+    ],
+    "source": {
+      "label": "Release GitHub — SeniorMatt/kinoklip v1.7.0",
+      "label_en": "GitHub release — SeniorMatt/kinoklip v1.7.0",
+      "url": "https://github.com/SeniorMatt/kinoklip/releases/tag/v1.7.0"
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "name": "Unbound 0.7.1",
+    "name_en": "Unbound 0.7.1",
+    "summary": "Module libre qui détache les panneaux de DaVinci Resolve (Inspector, viewers, scopes, roues et courbes de Color, Fairlight) en fenêtres flottantes à répartir sur plusieurs écrans, avec mises en page mémorisées. La 0.7.1 (12 nov) accélère macOS.",
+    "summary_en": "A free add-on that undocks DaVinci Resolve panels (Inspector, viewers, scopes, Color wheels and curves, Fairlight) into floating windows you can spread across displays, with saved layouts. 0.7.1 (Nov 12) speeds up macOS.",
+    "url": "https://github.com/wolfgangw/unbound",
+    "tags": [
+      "open-source",
+      "etalonnage",
+      "montage"
+    ],
+    "source": {
+      "label": "Digital Production — Unbound: Resolve’s Panels Get Their Own Place",
+      "label_en": "Digital Production — Unbound: Resolve’s Panels Get Their Own Place",
+      "url": "https://digitalproduction.com/2026/11/09/unbound-davinci-resolve-floating-panels/"
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "name": "BetterMediaInfo 1.2.0",
+    "name_en": "BetterMediaInfo 1.2.0",
+    "summary": "Une interface plus agréable pour MediaInfo : glisser-déposer de fichiers ou dossiers, filtre en temps réel, durées et débits précis, sous Linux, macOS et Windows. La 1.2.0 (11 nov) passe à MediaInfoLib 26.10 et répare les statistiques de pistes MKV via MKVToolNix.",
+    "summary_en": "A nicer GUI for MediaInfo: drag and drop files or folders, real-time filtering, precise durations and bit rates, on Linux, macOS and Windows. 1.2.0 (Nov 11) moves to MediaInfoLib 26.10 and repairs MKV track statistics via MKVToolNix.",
+    "url": "https://github.com/caoccao/BetterMediaInfo",
+    "tags": [
+      "open-source",
+      "gui",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Neowin — BetterMediaInfo 1.2.0",
+      "label_en": "Neowin — BetterMediaInfo 1.2.0",
+      "url": "https://www.neowin.net/software/bettermediainfo-120/"
+    }
+  },
+  {
     "date": "2026-11-12",
     "name": "H3 Editor 0.4.1",
     "name_en": "H3 Editor 0.4.1",

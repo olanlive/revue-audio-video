@@ -7,6 +7,9 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-13 | Kinoklip 1.7.0 | open-source, montage, ffmpeg | https://github.com/SeniorMatt/kinoklip | https://olanlive.github.io/revue-audio-video/#2026-11-13-kinoklip-1-7-0 |
+| 2026-11-13 | Unbound 0.7.1 | open-source, etalonnage, montage | https://github.com/wolfgangw/unbound | https://olanlive.github.io/revue-audio-video/#2026-11-13-unbound-0-7-1 |
+| 2026-11-13 | BetterMediaInfo 1.2.0 | open-source, gui, multiplateforme | https://github.com/caoccao/BetterMediaInfo | https://olanlive.github.io/revue-audio-video/#2026-11-13-bettermediainfo-1-2-0 |
 | 2026-11-12 | H3 Editor 0.4.1 | open-source, ia, montage, beta | https://igorls.github.io/comfyui-h3-editor/ | https://olanlive.github.io/revue-audio-video/#2026-11-12-h3-editor-0-4-1 |
 | 2026-11-12 | Concat 0.2.10 | open-source, montage, ia, beta, multiplateforme | https://concat.standalones.org | https://olanlive.github.io/revue-audio-video/#2026-11-12-concat-0-2-10 |
 | 2026-11-11 | OpenRoll 0.2.1 bêta | open-source, montage, sous-titres, ia, beta, multiplateforme | https://openroll.dev | https://olanlive.github.io/revue-audio-video/#2026-11-11-openroll-0-2-1-beta |
