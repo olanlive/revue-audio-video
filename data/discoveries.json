@@ -1,5 +1,62 @@
 [
   {
+    "date": "2026-11-14",
+    "name": "Kinoklip 1.8.1",
+    "name_en": "Kinoklip 1.8.1",
+    "summary": "Déjà vu le 13 nov en 1.7. La 1.8 (13 nov) ajoute le Sync Lock façon Resolve (les pistes restent calées au ripple) et l’interface en russe, allemand, ukrainien et espagnol. La 1.8.1 du 14 nov colmate une fuite mémoire en ralenti et ajoute le son sur la page Compositing.",
+    "summary_en": "Last seen Nov 13 as 1.7. Version 1.8 (Nov 13) adds Resolve-style Sync Lock (ripple edits keep tracks in sync) and a Russian, German, Ukrainian and Spanish UI. 1.8.1 on Nov 14 plugs a slow-motion memory leak and brings sound to the Compositing page.",
+    "url": "https://github.com/SeniorMatt/kinoklip",
+    "tags": [
+      "open-source",
+      "montage",
+      "ffmpeg"
+    ],
+    "source": {
+      "label": "Release GitHub — SeniorMatt/kinoklip v1.8.1",
+      "label_en": "GitHub release — SeniorMatt/kinoklip v1.8.1",
+      "url": "https://github.com/SeniorMatt/kinoklip/releases/tag/v1.8.1"
+    }
+  },
+  {
+    "date": "2026-11-14",
+    "name": "Concat 0.2.11",
+    "name_en": "Concat 0.2.11",
+    "summary": "L’éditeur vidéo libre façon CapCut (déjà vu en 0.2.10 le 12 nov) corrige dans la 0.2.11 (14 nov) les images noires aux coupes et l’aperçu noir sous Windows, évite le plantage des sous-titres auto sur Mac Intel, et gagne un journal lisible en cas d’export raté ou de crash.",
+    "summary_en": "The free CapCut-style editor (seen as 0.2.10 on Nov 12) fixes black frames at cuts and the black preview on Windows in 0.2.11 (Nov 14), stops auto captions crashing on Intel Macs, and adds a readable log when an export fails or the app crashes.",
+    "url": "https://concat.standalones.org",
+    "tags": [
+      "open-source",
+      "montage",
+      "ia",
+      "beta",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Neowin — Concat Video Editor 0.2.11",
+      "label_en": "Neowin — Concat Video Editor 0.2.11",
+      "url": "https://www.neowin.net/software/concat-video-editor-0211/"
+    }
+  },
+  {
+    "date": "2026-11-14",
+    "name": "Kdenlive 26.08.3",
+    "name_en": "Kdenlive 26.08.3",
+    "summary": "Dernière maintenance de la série 26.08 (7 nov ; déjà vu en 26.08.2 le 14 oct) : récupération des projets corrompus, conservation de l’autosave si l’enregistrement échoue, correctifs de plantages (fondus, proxies, scopes audio) et un correctif de démarrage sous macOS.",
+    "summary_en": "Final 26.08 maintenance release (Nov 7; seen as 26.08.2 on Oct 14): recovery of corrupted projects, autosave kept if saving fails, crash fixes (fades, proxies, audio scopes) and a macOS startup fix.",
+    "url": "https://kdenlive.org/news/releases/26.08.3/",
+    "tags": [
+      "open-source",
+      "montage",
+      "mlt",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Page web — kdenlive.org, « Kdenlive 26.08.3 released »",
+      "label_en": "Web page — kdenlive.org, “Kdenlive 26.08.3 released”",
+      "url": "https://kdenlive.org/news/releases/26.08.3/"
+    }
+  },
+  {
     "date": "2026-11-13",
     "name": "Kinoklip 1.7.0",
     "name_en": "Kinoklip 1.7.0",
