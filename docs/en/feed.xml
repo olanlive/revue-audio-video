@@ -5,8 +5,41 @@
     <link>https://olanlive.github.io/revue-audio-video/en/</link>
     <description>Software, solutions and add-ons for audio &amp; video — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Shotcut 26.11.15</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-18-shotcut-26-11-15</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-18-shotcut-26-11-15</guid>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The stable release of the free MLT-based editor (beta seen Oct 31) landed Nov 15 with an Audio Mixing Assistant that analyses the timeline and applies its advice, plus fixes for 26.9 regressions: scratchy audio, hardware-decoding crashes, a slow timeline.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>mlt</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>Kinoklip 1.10.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-18-kinoklip-1-10-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-18-kinoklip-1-10-0</guid>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The free Resolve-style editor (seen as 1.8.1 on Nov 14) beefs up its Color page in 1.10 (Nov 18): tracked Curve windows, RGB/Luma/3D qualifiers, an RGB Mixer and AgX tone mapping with camera log inputs. 1.9 (Nov 16) already cut memory use by about a third.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>etalonnage</category>
+      <category>ffmpeg</category>
+    </item>
+    <item>
+      <title>Drift 0.9.2</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-18-drift-0-9-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-18-drift-0-9-2</guid>
+      <pubDate>Wed, 18 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The free Qt 6 + FFmpeg video editor (seen as 0.9.1 on Nov 8) lets any clip act as a live mask in 0.9.2 (Nov 14), and adds 19 blend modes, motion blur, a teleprompter panel for recording and several timelines per project.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>gui</category>
+      <category>multiplateforme</category>
+    </item>
     <item>
       <title>Kinoklip 1.8.1</title>
       <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-14-kinoklip-1-8-1</link>
@@ -1055,37 +1088,6 @@
       <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
       <description>Free saturator designed for mastering: physical model of a 12AX7 triode whose harmonics follow the envelope, Tilt EQ before the tube, adjustable Mid/Side saturation, ×8 oversampling and gain compensation. VST3/AAX (Win, Mac) and AU; spotted Oct 13.</description>
       <category>gratuit</category>
-      <category>audio</category>
-      <category>plugin-audio</category>
-    </item>
-    <item>
-      <title>UN/T-01</title>
-      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-14-un-t-01</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-14-un-t-01</guid>
-      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Free two-engine drum machine: 6 tracks of 808 synthesised like the original circuits, or a sample player (your own samples too), 32-step polymetric sequencer with Euclid, built-in effects and 48 presets. VST3, CLAP, AU and standalone, Mac and Windows; released Oct 13.</description>
-      <category>gratuit</category>
-      <category>audio</category>
-      <category>plugin-audio</category>
-    </item>
-    <item>
-      <title>Phase Align 1.0.0</title>
-      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-13-phase-align-1-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-13-phase-align-1-0-0</guid>
-      <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Free plugin (AGPL) that aligns two tracks from the same source (close/room mic, DI/amp): ±4 ms delay, phase rotation, polarity, correlation meter, and ANALYSE, which suggests the right setting. v1.0.0 released Oct 9 as VST3/AU for Windows, macOS and Linux.</description>
-      <category>open-source</category>
-      <category>audio</category>
-      <category>plugin-audio</category>
-      <category>multiplateforme</category>
-    </item>
-    <item>
-      <title>DuckingSpace 1.1</title>
-      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-13-duckingspace-1-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-13-duckingspace-1-1</guid>
-      <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Free reverb (GPL-3) with built-in ducking: it steps back while the sound plays and blooms in the silences, with no bus or sidechain. 1.1 (Oct 11) comes to Mac (VST3/AU) and adds a HALL engine, 13 presets and a redesigned interface.</description>
-      <category>open-source</category>
       <category>audio</category>
       <category>plugin-audio</category>
     </item>

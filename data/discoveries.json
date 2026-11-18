@@ -1,5 +1,62 @@
 [
   {
+    "date": "2026-11-18",
+    "name": "Shotcut 26.11.15",
+    "name_en": "Shotcut 26.11.15",
+    "summary": "La version stable du monteur libre basé sur MLT (bêta vue le 31 oct) sort le 15 nov avec un Assistant de mixage audio qui analyse la timeline et applique ses recommandations, et corrige les régressions de la 26.9 : son haché, plantages en décodage matériel, timeline lente.",
+    "summary_en": "The stable release of the free MLT-based editor (beta seen Oct 31) landed Nov 15 with an Audio Mixing Assistant that analyses the timeline and applies its advice, plus fixes for 26.9 regressions: scratchy audio, hardware-decoding crashes, a slow timeline.",
+    "url": "https://www.shotcut.org/",
+    "tags": [
+      "open-source",
+      "montage",
+      "mlt",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Release GitHub — mltframework/shotcut v26.11.15",
+      "label_en": "GitHub release — mltframework/shotcut v26.11.15",
+      "url": "https://github.com/mltframework/shotcut/releases/tag/v26.11.15"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "name": "Kinoklip 1.10.0",
+    "name_en": "Kinoklip 1.10.0",
+    "summary": "Le monteur libre façon Resolve (vu en 1.8.1 le 14 nov) muscle sa page Couleur en 1.10 (18 nov) : fenêtres Curve suivies par un tracker, qualificateurs RGB/Luma/3D, RGB Mixer et tone mapping AgX avec entrées log caméra. La 1.9 (16 nov) consommait déjà un tiers de mémoire en moins.",
+    "summary_en": "The free Resolve-style editor (seen as 1.8.1 on Nov 14) beefs up its Color page in 1.10 (Nov 18): tracked Curve windows, RGB/Luma/3D qualifiers, an RGB Mixer and AgX tone mapping with camera log inputs. 1.9 (Nov 16) already cut memory use by about a third.",
+    "url": "https://github.com/SeniorMatt/kinoklip",
+    "tags": [
+      "open-source",
+      "montage",
+      "etalonnage",
+      "ffmpeg"
+    ],
+    "source": {
+      "label": "Release GitHub — SeniorMatt/kinoklip v1.10.0",
+      "label_en": "GitHub release — SeniorMatt/kinoklip v1.10.0",
+      "url": "https://github.com/SeniorMatt/kinoklip/releases/tag/v1.10.0"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "name": "Drift 0.9.2",
+    "name_en": "Drift 0.9.2",
+    "summary": "L’éditeur vidéo libre Qt 6 + FFmpeg (vu en 0.9.1 le 8 nov) permet en 0.9.2 (14 nov) d’utiliser n’importe quel clip comme masque vivant, ajoute 19 modes de fusion, le flou de mouvement, un panneau prompteur pour l’enregistrement et plusieurs timelines par projet.",
+    "summary_en": "The free Qt 6 + FFmpeg video editor (seen as 0.9.1 on Nov 8) lets any clip act as a live mask in 0.9.2 (Nov 14), and adds 19 blend modes, motion blur, a teleprompter panel for recording and several timelines per project.",
+    "url": "https://cutwire.org/drift",
+    "tags": [
+      "open-source",
+      "montage",
+      "gui",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Release GitHub — CutWire-Studios/Drift v0.9.2",
+      "label_en": "GitHub release — CutWire-Studios/Drift v0.9.2",
+      "url": "https://github.com/CutWire-Studios/Drift/releases/tag/v0.9.2"
+    }
+  },
+  {
     "date": "2026-11-14",
     "name": "Kinoklip 1.8.1",
     "name_en": "Kinoklip 1.8.1",

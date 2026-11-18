@@ -7,6 +7,9 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-18 | Shotcut 26.11.15 | open-source, montage, mlt, multiplateforme | https://www.shotcut.org/ | https://olanlive.github.io/revue-audio-video/#2026-11-18-shotcut-26-11-15 |
+| 2026-11-18 | Kinoklip 1.10.0 | open-source, montage, etalonnage, ffmpeg | https://github.com/SeniorMatt/kinoklip | https://olanlive.github.io/revue-audio-video/#2026-11-18-kinoklip-1-10-0 |
+| 2026-11-18 | Drift 0.9.2 | open-source, montage, gui, multiplateforme | https://cutwire.org/drift | https://olanlive.github.io/revue-audio-video/#2026-11-18-drift-0-9-2 |
 | 2026-11-14 | Kinoklip 1.8.1 | open-source, montage, ffmpeg | https://github.com/SeniorMatt/kinoklip | https://olanlive.github.io/revue-audio-video/#2026-11-14-kinoklip-1-8-1 |
 | 2026-11-14 | Concat 0.2.11 | open-source, montage, ia, beta, multiplateforme | https://concat.standalones.org | https://olanlive.github.io/revue-audio-video/#2026-11-14-concat-0-2-11 |
 | 2026-11-14 | Kdenlive 26.08.3 | open-source, montage, mlt, multiplateforme | https://kdenlive.org/news/releases/26.08.3/ | https://olanlive.github.io/revue-audio-video/#2026-11-14-kdenlive-26-08-3 |
