@@ -5,8 +5,42 @@
     <link>https://olanlive.github.io/revue-audio-video/en/</link>
     <description>Software, solutions and add-ons for audio &amp; video — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Scarlet 0.1.263</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-19-scarlet-0-1-263</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-19-scarlet-0-1-263</guid>
+      <pubDate>Thu, 19 Nov 2026 09:00:00 +0100</pubDate>
+      <description>A free AI editor (macOS, Windows, Ubuntu preview) built for interviews and video podcasts: ask Claude Code or Codex, typed or spoken, to tighten pauses or keep the best take, then export to MP4 or to Resolve/Premiere (FCPXML, OTIO, SRT).</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>ia</category>
+      <category>sous-titres</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>Gyroflow 1.7.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-19-gyroflow-1-7-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-19-gyroflow-1-7-0</guid>
+      <pubDate>Thu, 19 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The free video stabilizer (Nov 7) can now stabilize without gyro data using optical tracking, plans the whole camera path with “Optimal path” smoothing, compensates zooms and lens breathing, and exports AV1 on the GPU.</description>
+      <category>open-source</category>
+      <category>gui</category>
+      <category>encodage</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>H3 Editor 0.13.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-19-h3-editor-0-13-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-19-h3-editor-0-13-0</guid>
+      <pubDate>Thu, 19 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The AI video editor inside ComfyUI (seen at 0.4.1 on Nov 12) now turns a good draft into a final shot much faster and offers reusable looks; 0.13 (Nov 19) adds reframing, range export, mixing with fades and volume points, and a 2× upscaler.</description>
+      <category>open-source</category>
+      <category>ia</category>
+      <category>montage</category>
+      <category>beta</category>
+    </item>
     <item>
       <title>Shotcut 26.11.15</title>
       <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-18-shotcut-26-11-15</link>
@@ -1058,38 +1092,6 @@
       <category>montage</category>
       <category>cli</category>
       <category>sous-titres</category>
-    </item>
-    <item>
-      <title>Fish Audio Drama 3 (fish-speech 3.0.0 beta)</title>
-      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-14-fish-audio-drama-3-fish-speech-3-0-0-beta</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-14-fish-audio-drama-3-fish-speech-3-0-0-beta</guid>
-      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Open-weights “directed” speech synthesis model (Oct 13): voice cloning, acting cues ([laughs], &lt;whisper&gt;), retaking a line from a simple note, scenes with up to 16 voices and editing one word in existing audio. ~80 languages; 48 GB GPU required.</description>
-      <category>gratuit</category>
-      <category>ia</category>
-      <category>audio</category>
-      <category>beta</category>
-    </item>
-    <item>
-      <title>pyVideoTrans 4.16</title>
-      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-14-pyvideotrans-4-16</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-14-pyvideotrans-4-16</guid>
-      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Translates a video from one language to another: transcription, translation, dubbing and burned-in subtitles (GPL-3). 4.16 (Oct 13) adds a French web UI and an audio.cpp dubbing backend, and fixes Edge-TTS’s 403 error.</description>
-      <category>open-source</category>
-      <category>ia</category>
-      <category>sous-titres</category>
-      <category>audio</category>
-    </item>
-    <item>
-      <title>Mr.Warmer</title>
-      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-14-mr-warmer</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-14-mr-warmer</guid>
-      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Free saturator designed for mastering: physical model of a 12AX7 triode whose harmonics follow the envelope, Tilt EQ before the tube, adjustable Mid/Side saturation, ×8 oversampling and gain compensation. VST3/AAX (Win, Mac) and AU; spotted Oct 13.</description>
-      <category>gratuit</category>
-      <category>audio</category>
-      <category>plugin-audio</category>
     </item>
   </channel>
 </rss>

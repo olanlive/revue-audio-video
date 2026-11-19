@@ -1,5 +1,63 @@
 [
   {
+    "date": "2026-11-19",
+    "name": "Scarlet 0.1.263",
+    "name_en": "Scarlet 0.1.263",
+    "summary": "Monteur IA libre (macOS, Windows, préversion Ubuntu) taillé pour interviews et podcasts vidéo : on demande à Claude Code ou Codex, par écrit ou à la voix, de resserrer les pauses ou garder la meilleure prise, puis on exporte en MP4 ou vers Resolve/Premiere (FCPXML, OTIO, SRT).",
+    "summary_en": "A free AI editor (macOS, Windows, Ubuntu preview) built for interviews and video podcasts: ask Claude Code or Codex, typed or spoken, to tighten pauses or keep the best take, then export to MP4 or to Resolve/Premiere (FCPXML, OTIO, SRT).",
+    "url": "https://github.com/Forward-Future/scarlet",
+    "tags": [
+      "open-source",
+      "montage",
+      "ia",
+      "sous-titres",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Recherche GitHub — Forward-Future/scarlet v0.1.263",
+      "label_en": "GitHub search — Forward-Future/scarlet v0.1.263",
+      "url": "https://github.com/Forward-Future/scarlet/releases/tag/v0.1.263"
+    }
+  },
+  {
+    "date": "2026-11-19",
+    "name": "Gyroflow 1.7.0",
+    "name_en": "Gyroflow 1.7.0",
+    "summary": "Le stabilisateur vidéo libre (7 nov) sait désormais stabiliser sans données gyro grâce à un suivi optique, planifie toute la trajectoire caméra avec le lissage « Optimal path », compense zooms et respiration d’objectif, et exporte en AV1 sur GPU.",
+    "summary_en": "The free video stabilizer (Nov 7) can now stabilize without gyro data using optical tracking, plans the whole camera path with “Optimal path” smoothing, compensates zooms and lens breathing, and exports AV1 on the GPU.",
+    "url": "https://gyroflow.xyz",
+    "tags": [
+      "open-source",
+      "gui",
+      "encodage",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Release GitHub — gyroflow/gyroflow v1.7.0",
+      "label_en": "GitHub release — gyroflow/gyroflow v1.7.0",
+      "url": "https://github.com/gyroflow/gyroflow/releases/tag/v1.7.0"
+    }
+  },
+  {
+    "date": "2026-11-19",
+    "name": "H3 Editor 0.13.0",
+    "name_en": "H3 Editor 0.13.0",
+    "summary": "Le monteur vidéo IA dans ComfyUI (déjà vu en 0.4.1 le 12 nov) transforme un brouillon réussi en plan final bien plus vite et gère des looks réutilisables ; la 0.13 (19 nov) ajoute recadrage, export d’une plage, mixage avec fondus et points de volume, et un upscaler 2×.",
+    "summary_en": "The AI video editor inside ComfyUI (seen at 0.4.1 on Nov 12) now turns a good draft into a final shot much faster and offers reusable looks; 0.13 (Nov 19) adds reframing, range export, mixing with fades and volume points, and a 2× upscaler.",
+    "url": "https://igorls.github.io/comfyui-h3-editor/",
+    "tags": [
+      "open-source",
+      "ia",
+      "montage",
+      "beta"
+    ],
+    "source": {
+      "label": "Release GitHub — igorls/comfyui-h3-editor v0.13.0",
+      "label_en": "GitHub release — igorls/comfyui-h3-editor v0.13.0",
+      "url": "https://github.com/igorls/comfyui-h3-editor/releases/tag/v0.13.0"
+    }
+  },
+  {
     "date": "2026-11-18",
     "name": "Shotcut 26.11.15",
     "name_en": "Shotcut 26.11.15",
