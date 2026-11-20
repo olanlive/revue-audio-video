@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-11-20",
+    "name": "FFmpeg 9.1 « Gauss »",
+    "name_en": "FFmpeg 9.1 \"Gauss\"",
+    "summary": "FFmpeg 9.1 « Gauss » (20 nov) : encodeur AAC natif nettement amélioré, encodeur APV sur Vulkan, filtre d’interpolation d’images fruc_vulkan (flux optique NVIDIA), décodeur RAW Panasonic RW2 et encodage xHE-AAC via libfdk-xhe-aac.",
+    "summary_en": "FFmpeg 9.1 \"Gauss\" (Nov 20): a much improved native AAC encoder, an APV encoder on Vulkan, the fruc_vulkan frame-interpolation filter (NVIDIA optical flow), a Panasonic RW2 RAW decoder and xHE-AAC encoding via libfdk-xhe-aac.",
+    "url": "https://ffmpeg.org/download.html",
+    "tags": [
+      "open-source",
+      "encodage",
+      "ffmpeg",
+      "cli"
+    ],
+    "source": {
+      "label": "Release GitHub — GyanD/codexffmpeg 9.1",
+      "label_en": "GitHub release — GyanD/codexffmpeg 9.1",
+      "url": "https://github.com/GyanD/codexffmpeg/releases/tag/9.1"
+    }
+  },
+  {
     "date": "2026-11-19",
     "name": "Scarlet 0.1.263",
     "name_en": "Scarlet 0.1.263",

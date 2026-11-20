@@ -7,6 +7,7 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-20 | FFmpeg 9.1 « Gauss » | open-source, encodage, ffmpeg, cli | https://ffmpeg.org/download.html | https://olanlive.github.io/revue-audio-video/#2026-11-20-ffmpeg-9-1-gauss |
 | 2026-11-19 | Scarlet 0.1.263 | open-source, montage, ia, sous-titres, multiplateforme | https://github.com/Forward-Future/scarlet | https://olanlive.github.io/revue-audio-video/#2026-11-19-scarlet-0-1-263 |
 | 2026-11-19 | Gyroflow 1.7.0 | open-source, gui, encodage, multiplateforme | https://gyroflow.xyz | https://olanlive.github.io/revue-audio-video/#2026-11-19-gyroflow-1-7-0 |
 | 2026-11-19 | H3 Editor 0.13.0 | open-source, ia, montage, beta | https://igorls.github.io/comfyui-h3-editor/ | https://olanlive.github.io/revue-audio-video/#2026-11-19-h3-editor-0-13-0 |

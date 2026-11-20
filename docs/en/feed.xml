@@ -5,8 +5,19 @@
     <link>https://olanlive.github.io/revue-audio-video/en/</link>
     <description>Software, solutions and add-ons for audio &amp; video — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>FFmpeg 9.1 "Gauss"</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-20-ffmpeg-9-1-gauss</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-20-ffmpeg-9-1-gauss</guid>
+      <pubDate>Fri, 20 Nov 2026 09:00:00 +0100</pubDate>
+      <description>FFmpeg 9.1 "Gauss" (Nov 20): a much improved native AAC encoder, an APV encoder on Vulkan, the fruc_vulkan frame-interpolation filter (NVIDIA optical flow), a Panasonic RW2 RAW decoder and xHE-AAC encoding via libfdk-xhe-aac.</description>
+      <category>open-source</category>
+      <category>encodage</category>
+      <category>ffmpeg</category>
+      <category>cli</category>
+    </item>
     <item>
       <title>Scarlet 0.1.263</title>
       <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-19-scarlet-0-1-263</link>
@@ -1081,17 +1092,6 @@
       <category>montage</category>
       <category>mlt</category>
       <category>multiplateforme</category>
-    </item>
-    <item>
-      <title>PySceneDetect 0.7.2</title>
-      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-14-pyscenedetect-0-7-2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-14-pyscenedetect-0-7-2</guid>
-      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Automatic shot and cut detection for video, as a CLI or a Python library (BSD-3). 0.7.2 (Oct 12) exports cuts as a keyframes file for Aegisub, recalibrates its histogram and hash detectors on benchmarks and supports PyAV 19.</description>
-      <category>open-source</category>
-      <category>montage</category>
-      <category>cli</category>
-      <category>sous-titres</category>
     </item>
   </channel>
 </rss>

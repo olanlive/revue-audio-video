@@ -5,8 +5,19 @@
     <link>https://olanlive.github.io/revue-audio-video/</link>
     <description>Veille logiciels, solutions et add-ons audio &amp; vidéo — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 19 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>FFmpeg 9.1 « Gauss »</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-11-20-ffmpeg-9-1-gauss</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-11-20-ffmpeg-9-1-gauss</guid>
+      <pubDate>Fri, 20 Nov 2026 09:00:00 +0100</pubDate>
+      <description>FFmpeg 9.1 « Gauss » (20 nov) : encodeur AAC natif nettement amélioré, encodeur APV sur Vulkan, filtre d’interpolation d’images fruc_vulkan (flux optique NVIDIA), décodeur RAW Panasonic RW2 et encodage xHE-AAC via libfdk-xhe-aac.</description>
+      <category>open-source</category>
+      <category>encodage</category>
+      <category>ffmpeg</category>
+      <category>cli</category>
+    </item>
     <item>
       <title>Scarlet 0.1.263</title>
       <link>https://olanlive.github.io/revue-audio-video/#2026-11-19-scarlet-0-1-263</link>
@@ -1081,17 +1092,6 @@
       <category>montage</category>
       <category>mlt</category>
       <category>multiplateforme</category>
-    </item>
-    <item>
-      <title>PySceneDetect 0.7.2</title>
-      <link>https://olanlive.github.io/revue-audio-video/#2026-10-14-pyscenedetect-0-7-2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-14-pyscenedetect-0-7-2</guid>
-      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Détection automatique des plans et coupes d’une vidéo, en CLI ou en bibliothèque Python (BSD-3). La 0.7.2 (12 oct) exporte les coupes en fichier keyframes pour Aegisub, recalibre ses détecteurs histogramme et hash sur benchmarks et gère PyAV 19.</description>
-      <category>open-source</category>
-      <category>montage</category>
-      <category>cli</category>
-      <category>sous-titres</category>
     </item>
   </channel>
 </rss>
