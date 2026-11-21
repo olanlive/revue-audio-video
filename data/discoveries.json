@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-11-21",
+    "name": "FFmpeg Batch AV Converter 3.3.0",
+    "name_en": "FFmpeg Batch AV Converter 3.3.0",
+    "summary": "Interface graphique libre (LGPL-2.1, Windows) qui pilote FFmpeg en lots : encodage multi-fichiers en parallèle, sous-titres incrustés, découpe, concaténation, capture d’URL M3U8. La 3.3.0 (19 nov) répare les playlists YouTube via yt-dlp et la conservation des réglages.",
+    "summary_en": "Free GUI (LGPL-2.1, Windows) that drives FFmpeg in batches: parallel multi-file encoding, burned-in subtitles, trimming, concatenation, M3U8 URL capture. 3.3.0 (Nov 19) fixes YouTube playlists via yt-dlp and settings persistence.",
+    "url": "https://ffmpeg-batch.sourceforge.io/",
+    "tags": [
+      "open-source",
+      "encodage",
+      "ffmpeg",
+      "gui"
+    ],
+    "source": {
+      "label": "Neowin — FFmpeg Batch AV Converter 3.3.0",
+      "label_en": "Neowin — FFmpeg Batch AV Converter 3.3.0",
+      "url": "https://www.neowin.net/software/ffmpeg-batch-av-converter-330/"
+    }
+  },
+  {
     "date": "2026-11-20",
     "name": "FFmpeg 9.1 « Gauss »",
     "name_en": "FFmpeg 9.1 \"Gauss\"",

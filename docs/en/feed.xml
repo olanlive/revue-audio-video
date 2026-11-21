@@ -5,8 +5,19 @@
     <link>https://olanlive.github.io/revue-audio-video/en/</link>
     <description>Software, solutions and add-ons for audio &amp; video — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>FFmpeg Batch AV Converter 3.3.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-21-ffmpeg-batch-av-converter-3-3-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-21-ffmpeg-batch-av-converter-3-3-0</guid>
+      <pubDate>Sat, 21 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Free GUI (LGPL-2.1, Windows) that drives FFmpeg in batches: parallel multi-file encoding, burned-in subtitles, trimming, concatenation, M3U8 URL capture. 3.3.0 (Nov 19) fixes YouTube playlists via yt-dlp and settings persistence.</description>
+      <category>open-source</category>
+      <category>encodage</category>
+      <category>ffmpeg</category>
+      <category>gui</category>
+    </item>
     <item>
       <title>FFmpeg 9.1 "Gauss"</title>
       <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-20-ffmpeg-9-1-gauss</link>
@@ -1081,17 +1092,6 @@
       <category>gratuit</category>
       <category>audio</category>
       <category>plugin-audio</category>
-    </item>
-    <item>
-      <title>Kdenlive 26.08.2</title>
-      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-14-kdenlive-26-08-2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-14-kdenlive-26-08-2</guid>
-      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Second maintenance release of KDE’s free video editor (Oct 13): the Dynamic Text filter can count frames from 1, handy for animation, plus some thirty fixes to proxies (including NVIDIA encoding), the titler, audio levels and audio recording.</description>
-      <category>open-source</category>
-      <category>montage</category>
-      <category>mlt</category>
-      <category>multiplateforme</category>
     </item>
   </channel>
 </rss>

@@ -5,8 +5,19 @@
     <link>https://olanlive.github.io/revue-audio-video/</link>
     <description>Veille logiciels, solutions et add-ons audio &amp; vidéo — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 20 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>FFmpeg Batch AV Converter 3.3.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-11-21-ffmpeg-batch-av-converter-3-3-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-11-21-ffmpeg-batch-av-converter-3-3-0</guid>
+      <pubDate>Sat, 21 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Interface graphique libre (LGPL-2.1, Windows) qui pilote FFmpeg en lots : encodage multi-fichiers en parallèle, sous-titres incrustés, découpe, concaténation, capture d’URL M3U8. La 3.3.0 (19 nov) répare les playlists YouTube via yt-dlp et la conservation des réglages.</description>
+      <category>open-source</category>
+      <category>encodage</category>
+      <category>ffmpeg</category>
+      <category>gui</category>
+    </item>
     <item>
       <title>FFmpeg 9.1 « Gauss »</title>
       <link>https://olanlive.github.io/revue-audio-video/#2026-11-20-ffmpeg-9-1-gauss</link>
@@ -1081,17 +1092,6 @@
       <category>gratuit</category>
       <category>audio</category>
       <category>plugin-audio</category>
-    </item>
-    <item>
-      <title>Kdenlive 26.08.2</title>
-      <link>https://olanlive.github.io/revue-audio-video/#2026-10-14-kdenlive-26-08-2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-14-kdenlive-26-08-2</guid>
-      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Deuxième version de maintenance du monteur libre de KDE (13 oct) : le filtre Dynamic Text peut compter les images à partir de 1, pratique en animation, et une trentaine de correctifs sur proxys (dont l’encodage NVIDIA), titreur, niveaux audio et enregistrement audio.</description>
-      <category>open-source</category>
-      <category>montage</category>
-      <category>mlt</category>
-      <category>multiplateforme</category>
     </item>
   </channel>
 </rss>
