@@ -5,8 +5,40 @@
     <link>https://olanlive.github.io/revue-audio-video/</link>
     <description>Veille logiciels, solutions et add-ons audio &amp; vidéo — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Sat, 21 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>FrameTrellis 1.5.1</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-11-22-frametrellis-1-5-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-11-22-frametrellis-1-5-1</guid>
+      <pubDate>Sun, 22 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Monteur vidéo libre (GPL-3.0, Qt 6 + MLT + FFmpeg) qui gagne avec la 1.5 un moniteur Source/Programme avec points d’entrée/sortie à l’image près, l’insertion et le remplacement de plans, et un export à cadence libre (NTSC, rationnelle). La 1.5.1 (20 nov) fiabilise l’export.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>mlt</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>Kinoklip 1.12.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-11-22-kinoklip-1-12-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-11-22-kinoklip-1-12-0</guid>
+      <pubDate>Sun, 22 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Le monteur Linux façon DaVinci Resolve (GPL-3.0) muscle sa page Couleur : roues Log, courbe Sat/Lum, Soft Clip, génération d’une LUT 3D .cube depuis l’étalonnage d’un plan, scope CIE. Et il s’installe désormais via un dépôt Flatpak signé (stable et nightly).</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>etalonnage</category>
+    </item>
+    <item>
+      <title>Purelapse 2.42.2 bêta</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-11-22-purelapse-2-42-2-beta</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-11-22-purelapse-2-42-2-beta</guid>
+      <pubDate>Sun, 22 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Outil Linux libre (GPL-3.0) pour timelapses : il retire le scintillement des séries RAW ou JPG (même en « Holy Grail » jour→nuit), pilote ART, RawTherapee ou darktable, puis rend la vidéo via FFmpeg jusqu’en 8K, HEVC 10 bits ou ProRes. AppImage, encore en bêta.</description>
+      <category>open-source</category>
+      <category>encodage</category>
+      <category>ffmpeg</category>
+      <category>beta</category>
+    </item>
     <item>
       <title>FFmpeg Batch AV Converter 3.3.0</title>
       <link>https://olanlive.github.io/revue-audio-video/#2026-11-21-ffmpeg-batch-av-converter-3-3-0</link>
@@ -1061,37 +1093,6 @@
       <category>audio</category>
       <category>plugin-audio</category>
       <category>multiplateforme</category>
-    </item>
-    <item>
-      <title>VinylNoize</title>
-      <link>https://olanlive.github.io/revue-audio-video/#2026-10-16-vinylnoize</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-16-vinylnoize</guid>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Plugin vinyle gratuit (Win/Mac/Linux, VST3/AU/LV2) qui reconstruit une vraie lecture de disque plutôt que des boucles de bruit : moteur calibré sur un LP mesuré, modèle physique de platine, et mode Deck (scratch, freinage). Sortie gratuite signalée le 15 oct.</description>
-      <category>gratuit</category>
-      <category>audio</category>
-      <category>plugin-audio</category>
-      <category>multiplateforme</category>
-    </item>
-    <item>
-      <title>Aetheriae 1.0.0</title>
-      <link>https://olanlive.github.io/revue-audio-video/#2026-10-16-aetheriae-1-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-16-aetheriae-1-0-0</guid>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Synthé de textures gratuit (Morphor) : jusqu’à 8 sources par voix (granulaire, FM 6 ops, phase distortion, résonateurs, wavetables), chaîne BBD et lo-fi, 282 presets. VST3/AU/CLAP/standalone Mac et Windows, plus version navigateur ; v1.0.0, repérée le 15 oct.</description>
-      <category>gratuit</category>
-      <category>audio</category>
-      <category>plugin-audio</category>
-    </item>
-    <item>
-      <title>Synpathy 2.0</title>
-      <link>https://olanlive.github.io/revue-audio-video/#2026-10-16-synpathy-2-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-16-synpathy-2-0</guid>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Machine à cordes gratuite (VST3/AU/AAX/standalone) autour de la résonance sympathique : les voix tenues se nourrissent mutuellement. La 2.0 (15 oct) remplace le moteur pour un champ plus vivant ; trois knobs (Form, Aura, Synpathy), Mac et Windows.</description>
-      <category>gratuit</category>
-      <category>audio</category>
-      <category>plugin-audio</category>
     </item>
   </channel>
 </rss>

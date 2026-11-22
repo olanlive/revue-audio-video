@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-11-22",
+    "name": "FrameTrellis 1.5.1",
+    "name_en": "FrameTrellis 1.5.1",
+    "summary": "Monteur vidéo libre (GPL-3.0, Qt 6 + MLT + FFmpeg) qui gagne avec la 1.5 un moniteur Source/Programme avec points d’entrée/sortie à l’image près, l’insertion et le remplacement de plans, et un export à cadence libre (NTSC, rationnelle). La 1.5.1 (20 nov) fiabilise l’export.",
+    "summary_en": "Free video editor (GPL-3.0, Qt 6 + MLT + FFmpeg). Version 1.5 adds Source/Program monitors with frame-accurate In/Out, insert and replace edits, and exports at any frame rate (NTSC, custom rational). 1.5.1 (Nov 20) makes exporting more reliable.",
+    "url": "https://sanskarin.github.io/frametrellis/",
+    "tags": [
+      "open-source",
+      "montage",
+      "mlt",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Release GitHub — sanskarIN/frametrellis v1.5.1",
+      "label_en": "GitHub release — sanskarIN/frametrellis v1.5.1",
+      "url": "https://github.com/sanskarIN/frametrellis/releases/tag/v1.5.1"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "name": "Kinoklip 1.12.0",
+    "name_en": "Kinoklip 1.12.0",
+    "summary": "Le monteur Linux façon DaVinci Resolve (GPL-3.0) muscle sa page Couleur : roues Log, courbe Sat/Lum, Soft Clip, génération d’une LUT 3D .cube depuis l’étalonnage d’un plan, scope CIE. Et il s’installe désormais via un dépôt Flatpak signé (stable et nightly).",
+    "summary_en": "The Resolve-style Linux editor (GPL-3.0) beefs up its Color page: Log wheels, Sat vs Lum curve, Soft Clip, 3D .cube LUT generation from a clip’s grade, CIE scope. It now also installs from a signed Flatpak repository (stable and nightly).",
+    "url": "https://seniormatt.github.io/kinoklip/",
+    "tags": [
+      "open-source",
+      "montage",
+      "etalonnage"
+    ],
+    "source": {
+      "label": "Release GitHub — SeniorMatt/kinoklip v1.12.0",
+      "label_en": "GitHub release — SeniorMatt/kinoklip v1.12.0",
+      "url": "https://github.com/SeniorMatt/kinoklip/releases/tag/v1.12.0"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "name": "Purelapse 2.42.2 bêta",
+    "name_en": "Purelapse 2.42.2 beta",
+    "summary": "Outil Linux libre (GPL-3.0) pour timelapses : il retire le scintillement des séries RAW ou JPG (même en « Holy Grail » jour→nuit), pilote ART, RawTherapee ou darktable, puis rend la vidéo via FFmpeg jusqu’en 8K, HEVC 10 bits ou ProRes. AppImage, encore en bêta.",
+    "summary_en": "Free Linux tool (GPL-3.0) for timelapses: it removes flicker from RAW or JPG sequences (even day-to-night “Holy Grail” shots), drives ART, RawTherapee or darktable, then renders the video with FFmpeg up to 8K, 10-bit HEVC or ProRes. AppImage, still in beta.",
+    "url": "https://purelapse.org/",
+    "tags": [
+      "open-source",
+      "encodage",
+      "ffmpeg",
+      "beta"
+    ],
+    "source": {
+      "label": "Mastodon — @purelapse@mastodon.social",
+      "label_en": "Mastodon — @purelapse@mastodon.social",
+      "url": "https://mastodon.social/@purelapse/117656413788303486"
+    }
+  },
+  {
     "date": "2026-11-21",
     "name": "FFmpeg Batch AV Converter 3.3.0",
     "name_en": "FFmpeg Batch AV Converter 3.3.0",
