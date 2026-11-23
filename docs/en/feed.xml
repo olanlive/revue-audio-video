@@ -5,8 +5,30 @@
     <link>https://olanlive.github.io/revue-audio-video/en/</link>
     <description>Software, solutions and add-ons for audio &amp; video — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Drift 0.9.3</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-23-drift-0-9-3</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-23-drift-0-9-3</guid>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Free video editor (GPL-3.0, Qt 6 + FFmpeg). Version 0.9.3 (Nov 22) adds node-based video and audio effect makers, auto ducking of music under speech, shortcut presets from Premiere, Resolve or Kdenlive, and richer masking (lasso, magic wand).</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>gui</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>Frame 0.35.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-23-frame-0-35-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-11-23-frame-0-35-0</guid>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Native Rust front end for FFmpeg (GPL-3.0, Windows, macOS, Linux) that batch-converts video, audio, images and subtitles. 0.35.0 (Nov 15) adds stabilization, queue recovery after restart and PNG frame export; 0.34 auto-crops black bars.</description>
+      <category>open-source</category>
+      <category>encodage</category>
+      <category>ffmpeg</category>
+      <category>gui</category>
+    </item>
     <item>
       <title>FrameTrellis 1.5.1</title>
       <link>https://olanlive.github.io/revue-audio-video/en/#2026-11-22-frametrellis-1-5-1</link>
@@ -1070,28 +1092,6 @@
       <description>Stable 5.3.0 (Oct 14; already covered as RC2 on the 11th): command palette, DVD import, multi-track remux, FFmpeg player with GPU decoding, local ACE-Step music, and updated ASR/TTS/translation engines (whisper.cpp 1.9.5, FFmpeg 9.0.2).</description>
       <category>open-source</category>
       <category>sous-titres</category>
-      <category>multiplateforme</category>
-    </item>
-    <item>
-      <title>FrameTrellis 1.2.0</title>
-      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-16-frametrellis-1-2-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-16-frametrellis-1-2-0</guid>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Free video editor (GPL-3, C++/Qt/MLT/FFmpeg): 1.2.0 (Oct 15) adds multi-clip duplication, an audio/image attribute clipboard, batch mute and frame-by-frame nudging. H.264 MP4 export; Windows (installer) and Linux (source).</description>
-      <category>open-source</category>
-      <category>montage</category>
-      <category>mlt</category>
-      <category>ffmpeg</category>
-    </item>
-    <item>
-      <title>Bagels V2</title>
-      <link>https://olanlive.github.io/revue-audio-video/en/#2026-10-16-bagels-v2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/en/#2026-10-16-bagels-v2</guid>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Free resonant synth (VST3/AU/CLAP/standalone) for Windows, macOS and Linux: three banks of four resonators and a combined spectrum. V2 (spotted Oct 15) polishes the UI, cuts CPU use sharply (SIMD) and adds a limiter, presets and fast partials.</description>
-      <category>gratuit</category>
-      <category>audio</category>
-      <category>plugin-audio</category>
       <category>multiplateforme</category>
     </item>
   </channel>

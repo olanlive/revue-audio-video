@@ -1,5 +1,43 @@
 [
   {
+    "date": "2026-11-23",
+    "name": "Drift 0.9.3",
+    "name_en": "Drift 0.9.3",
+    "summary": "Monteur vidéo libre (GPL-3.0, Qt 6 + FFmpeg) dont la 0.9.3 (22 nov) ajoute des créateurs d’effets vidéo et audio en graphe de nœuds, le ducking auto de la musique sous la voix, des raccourcis façon Premiere, Resolve ou Kdenlive et un masquage enrichi (lasso, baguette magique).",
+    "summary_en": "Free video editor (GPL-3.0, Qt 6 + FFmpeg). Version 0.9.3 (Nov 22) adds node-based video and audio effect makers, auto ducking of music under speech, shortcut presets from Premiere, Resolve or Kdenlive, and richer masking (lasso, magic wand).",
+    "url": "https://cutwire.org/drift",
+    "tags": [
+      "open-source",
+      "montage",
+      "gui",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Release GitHub — CutWire-Studios/Drift v0.9.3",
+      "label_en": "GitHub release — CutWire-Studios/Drift v0.9.3",
+      "url": "https://github.com/CutWire-Studios/Drift/releases/tag/v0.9.3"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "name": "Frame 0.35.0",
+    "name_en": "Frame 0.35.0",
+    "summary": "Interface native en Rust pour FFmpeg (GPL-3.0, Windows, macOS, Linux) : conversion par lots de vidéo, audio, images et sous-titres. La 0.35.0 (15 nov) ajoute stabilisation, reprise de la file après redémarrage et export PNG de l’image ; la 0.34 recadre seule les bandes noires.",
+    "summary_en": "Native Rust front end for FFmpeg (GPL-3.0, Windows, macOS, Linux) that batch-converts video, audio, images and subtitles. 0.35.0 (Nov 15) adds stabilization, queue recovery after restart and PNG frame export; 0.34 auto-crops black bars.",
+    "url": "https://www.framegui.app/",
+    "tags": [
+      "open-source",
+      "encodage",
+      "ffmpeg",
+      "gui"
+    ],
+    "source": {
+      "label": "Recherche GitHub — 66HEX/frame 0.35.0",
+      "label_en": "GitHub search — 66HEX/frame 0.35.0",
+      "url": "https://github.com/66HEX/frame/releases/tag/0.35.0"
+    }
+  },
+  {
     "date": "2026-11-22",
     "name": "FrameTrellis 1.5.1",
     "name_en": "FrameTrellis 1.5.1",

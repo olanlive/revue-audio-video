@@ -5,8 +5,30 @@
     <link>https://olanlive.github.io/revue-audio-video/</link>
     <description>Veille logiciels, solutions et add-ons audio &amp; vidéo — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 22 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Drift 0.9.3</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-11-23-drift-0-9-3</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-11-23-drift-0-9-3</guid>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Monteur vidéo libre (GPL-3.0, Qt 6 + FFmpeg) dont la 0.9.3 (22 nov) ajoute des créateurs d’effets vidéo et audio en graphe de nœuds, le ducking auto de la musique sous la voix, des raccourcis façon Premiere, Resolve ou Kdenlive et un masquage enrichi (lasso, baguette magique).</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>gui</category>
+      <category>multiplateforme</category>
+    </item>
+    <item>
+      <title>Frame 0.35.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-11-23-frame-0-35-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-11-23-frame-0-35-0</guid>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Interface native en Rust pour FFmpeg (GPL-3.0, Windows, macOS, Linux) : conversion par lots de vidéo, audio, images et sous-titres. La 0.35.0 (15 nov) ajoute stabilisation, reprise de la file après redémarrage et export PNG de l’image ; la 0.34 recadre seule les bandes noires.</description>
+      <category>open-source</category>
+      <category>encodage</category>
+      <category>ffmpeg</category>
+      <category>gui</category>
+    </item>
     <item>
       <title>FrameTrellis 1.5.1</title>
       <link>https://olanlive.github.io/revue-audio-video/#2026-11-22-frametrellis-1-5-1</link>
@@ -1070,28 +1092,6 @@
       <description>Version stable 5.3.0 (14 oct ; déjà vu en RC2 le 11) : palette de commandes, import DVD, remux multi-pistes, lecteur FFmpeg avec décodage GPU, musique ACE-Step locale, et moteurs ASR/TTS/traduction à jour (whisper.cpp 1.9.5, FFmpeg 9.0.2).</description>
       <category>open-source</category>
       <category>sous-titres</category>
-      <category>multiplateforme</category>
-    </item>
-    <item>
-      <title>FrameTrellis 1.2.0</title>
-      <link>https://olanlive.github.io/revue-audio-video/#2026-10-16-frametrellis-1-2-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-16-frametrellis-1-2-0</guid>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Monteur vidéo libre (GPL-3, C++/Qt/MLT/FFmpeg) : la 1.2.0 (15 oct) ajoute duplication multi-clips, presse-papiers d’attributs audio/image, mute par lot et nudge image par image. Export MP4 H.264 ; Windows (installeur) et Linux (sources).</description>
-      <category>open-source</category>
-      <category>montage</category>
-      <category>mlt</category>
-      <category>ffmpeg</category>
-    </item>
-    <item>
-      <title>Bagels V2</title>
-      <link>https://olanlive.github.io/revue-audio-video/#2026-10-16-bagels-v2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-16-bagels-v2</guid>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Synthé résonant gratuit (VST3/AU/CLAP/standalone) pour Windows, macOS et Linux : trois banques de quatre résonateurs et spectre combiné. La V2 (repérée le 15 oct) peaufine l’UI, baisse fortement le CPU (SIMD) et ajoute limiteur, presets et partials rapides.</description>
-      <category>gratuit</category>
-      <category>audio</category>
-      <category>plugin-audio</category>
       <category>multiplateforme</category>
     </item>
   </channel>
