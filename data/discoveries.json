@@ -1,5 +1,62 @@
 [
   {
+    "date": "2026-11-25",
+    "name": "Kinoklip 1.14.1",
+    "name_en": "Kinoklip 1.14.1",
+    "summary": "Le monteur Linux façon DaVinci Resolve (GPL-3.0) aligne désormais seul des clips de pistes différentes sur leur son ou leur timecode (1.14, 24 nov), aussi en ligne de commande. La 1.13 ajoutait l’export HDR (Rec.2020, PQ, HLG) en H.265/AV1 10 bits et des LUT par clip.",
+    "summary_en": "The Resolve-style Linux editor (GPL-3.0) now auto-aligns clips on different tracks by their sound or timecode (1.14, Nov 24), also from the command line. 1.13 added HDR delivery (Rec.2020, PQ, HLG) in 10-bit H.265/AV1 and per-clip input LUTs.",
+    "url": "https://seniormatt.github.io/kinoklip/",
+    "tags": [
+      "open-source",
+      "montage",
+      "etalonnage"
+    ],
+    "source": {
+      "label": "Release GitHub — SeniorMatt/kinoklip v1.14.1",
+      "label_en": "GitHub release — SeniorMatt/kinoklip v1.14.1",
+      "url": "https://github.com/SeniorMatt/kinoklip/releases/tag/v1.14.1"
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "name": "auto-editor 31.10.0",
+    "name_en": "auto-editor 31.10.0",
+    "summary": "Le monteur automatique en ligne de commande (Unlicense) qui coupe silences et temps morts gagne des marqueurs de timeline qui suivent les coupes, exportés en chapitres et vers FCPXML/EDL (23 nov), des sous-titres recalés à côté de la sortie et des rendus plus rapides.",
+    "summary_en": "The command-line auto-editor (Unlicense) that cuts silences and dead air gains timeline markers that follow the cuts, exported as chapters and to FCPXML/EDL (Nov 23), retimed subtitle sidecars next to the output and faster renders.",
+    "url": "https://auto-editor.com/",
+    "tags": [
+      "open-source",
+      "montage",
+      "cli",
+      "sous-titres"
+    ],
+    "source": {
+      "label": "Release GitHub — WyattBlue/auto-editor 31.10.0",
+      "label_en": "GitHub release — WyattBlue/auto-editor 31.10.0",
+      "url": "https://github.com/WyattBlue/auto-editor/releases/tag/31.10.0"
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "name": "Recordly 2.0 bêta",
+    "name_en": "Recordly 2.0 beta",
+    "summary": "Enregistreur d’écran libre (AGPL-3.0, Windows, macOS, Linux) pour vidéos de démo avec zooms auto et effets de curseur. La 2.0 bêta (24 nov) refait l’interface, ajoute l’import de clips dans la timeline, des formats réseaux sociaux et des sous-titres animés exportables en SRT/VTT.",
+    "summary_en": "Free screen recorder (AGPL-3.0, Windows, macOS, Linux) for demo videos with auto zooms and cursor effects. The 2.0 beta (Nov 24) redesigns the UI and adds clip import into the timeline, social-media aspect presets and animated captions exportable to SRT/VTT.",
+    "url": "https://recordly.dev",
+    "tags": [
+      "open-source",
+      "captation",
+      "montage",
+      "beta",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Article Neowin — Recordly 2.0 Beta",
+      "label_en": "Neowin article — Recordly 2.0 Beta",
+      "url": "https://www.neowin.net/software/recordly-20-beta/"
+    }
+  },
+  {
     "date": "2026-11-23",
     "name": "Drift 0.9.3",
     "name_en": "Drift 0.9.3",

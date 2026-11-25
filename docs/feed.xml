@@ -5,8 +5,41 @@
     <link>https://olanlive.github.io/revue-audio-video/</link>
     <description>Veille logiciels, solutions et add-ons audio &amp; vidéo — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Mon, 23 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Kinoklip 1.14.1</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-11-25-kinoklip-1-14-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-11-25-kinoklip-1-14-1</guid>
+      <pubDate>Wed, 25 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Le monteur Linux façon DaVinci Resolve (GPL-3.0) aligne désormais seul des clips de pistes différentes sur leur son ou leur timecode (1.14, 24 nov), aussi en ligne de commande. La 1.13 ajoutait l’export HDR (Rec.2020, PQ, HLG) en H.265/AV1 10 bits et des LUT par clip.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>etalonnage</category>
+    </item>
+    <item>
+      <title>auto-editor 31.10.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-11-25-auto-editor-31-10-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-11-25-auto-editor-31-10-0</guid>
+      <pubDate>Wed, 25 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Le monteur automatique en ligne de commande (Unlicense) qui coupe silences et temps morts gagne des marqueurs de timeline qui suivent les coupes, exportés en chapitres et vers FCPXML/EDL (23 nov), des sous-titres recalés à côté de la sortie et des rendus plus rapides.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>cli</category>
+      <category>sous-titres</category>
+    </item>
+    <item>
+      <title>Recordly 2.0 bêta</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-11-25-recordly-2-0-beta</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-11-25-recordly-2-0-beta</guid>
+      <pubDate>Wed, 25 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Enregistreur d’écran libre (AGPL-3.0, Windows, macOS, Linux) pour vidéos de démo avec zooms auto et effets de curseur. La 2.0 bêta (24 nov) refait l’interface, ajoute l’import de clips dans la timeline, des formats réseaux sociaux et des sous-titres animés exportables en SRT/VTT.</description>
+      <category>open-source</category>
+      <category>captation</category>
+      <category>montage</category>
+      <category>beta</category>
+      <category>multiplateforme</category>
+    </item>
     <item>
       <title>Drift 0.9.3</title>
       <link>https://olanlive.github.io/revue-audio-video/#2026-11-23-drift-0-9-3</link>
@@ -1062,37 +1095,6 @@
       <category>gratuit</category>
       <category>audio</category>
       <category>plugin-audio</category>
-    </item>
-    <item>
-      <title>ChipTune (bêta)</title>
-      <link>https://olanlive.github.io/revue-audio-video/#2026-10-17-chiptune-beta</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-17-chiptune-beta</guid>
-      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Synthé Morphoice qui recrée la puce SID du Commodore 64, modélisée au bit près à l’horloge d’origine (6581 et 8580) : modes solo, arpège chiptune et poly 16 voix, chorus façon Juno. Bêta gratuite à prix libre (16 oct) ; la version finale pourrait être payante.</description>
-      <category>gratuit</category>
-      <category>audio</category>
-      <category>plugin-audio</category>
-      <category>beta</category>
-    </item>
-    <item>
-      <title>Cali Reverb (Nembrini Audio)</title>
-      <link>https://olanlive.github.io/revue-audio-video/#2026-10-17-cali-reverb-nembrini-audio</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-17-cali-reverb-nembrini-audio</guid>
-      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Ampli guitare high gain modélisé sur une tête Mesa Boogie Rectoverb 50 W, normalement payant, offert pendant quelques jours seulement (promo signalée le 16 oct) : il suffit d’un compte Nembrini Audio pour le récupérer.</description>
-      <category>gratuit</category>
-      <category>audio</category>
-      <category>plugin-audio</category>
-    </item>
-    <item>
-      <title>Subtitle Edit 5.3.0</title>
-      <link>https://olanlive.github.io/revue-audio-video/#2026-10-16-subtitle-edit-5-3-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-16-subtitle-edit-5-3-0</guid>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Version stable 5.3.0 (14 oct ; déjà vu en RC2 le 11) : palette de commandes, import DVD, remux multi-pistes, lecteur FFmpeg avec décodage GPU, musique ACE-Step locale, et moteurs ASR/TTS/traduction à jour (whisper.cpp 1.9.5, FFmpeg 9.0.2).</description>
-      <category>open-source</category>
-      <category>sous-titres</category>
-      <category>multiplateforme</category>
     </item>
   </channel>
 </rss>

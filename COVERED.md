@@ -7,6 +7,9 @@ Hors périmètre (voir `olanlive/revue-oss-3d`) : 3D, VFX, compositing, rendu, m
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-25 | Kinoklip 1.14.1 | open-source, montage, etalonnage | https://seniormatt.github.io/kinoklip/ | https://olanlive.github.io/revue-audio-video/#2026-11-25-kinoklip-1-14-1 |
+| 2026-11-25 | auto-editor 31.10.0 | open-source, montage, cli, sous-titres | https://auto-editor.com/ | https://olanlive.github.io/revue-audio-video/#2026-11-25-auto-editor-31-10-0 |
+| 2026-11-25 | Recordly 2.0 bêta | open-source, captation, montage, beta, multiplateforme | https://recordly.dev | https://olanlive.github.io/revue-audio-video/#2026-11-25-recordly-2-0-beta |
 | 2026-11-23 | Drift 0.9.3 | open-source, montage, gui, multiplateforme | https://cutwire.org/drift | https://olanlive.github.io/revue-audio-video/#2026-11-23-drift-0-9-3 |
 | 2026-11-23 | Frame 0.35.0 | open-source, encodage, ffmpeg, gui | https://www.framegui.app/ | https://olanlive.github.io/revue-audio-video/#2026-11-23-frame-0-35-0 |
 | 2026-11-22 | FrameTrellis 1.5.1 | open-source, montage, mlt, multiplateforme | https://sanskarin.github.io/frametrellis/ | https://olanlive.github.io/revue-audio-video/#2026-11-22-frametrellis-1-5-1 |
