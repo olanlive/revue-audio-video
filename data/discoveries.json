@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-11-27",
+    "name": "Kinoklip 1.15.0",
+    "name_en": "Kinoklip 1.15.0",
+    "summary": "Grosse version pour le monteur Linux façon DaVinci Resolve (GPL-3.0) : plugins OpenFX (pack openfx-misc, G’MIC), audio LV2/CLAP, fichiers DCTL, 394 transitions GL, transformations ACES et suppression d’objets sans IA.",
+    "summary_en": "Big release for the Resolve-style Linux editor (GPL-3.0): OpenFX plugins (openfx-misc pack, G’MIC), LV2/CLAP audio plugins, DCTL files, 394 GL transitions, ACES transforms and AI-free object removal.",
+    "url": "https://seniormatt.github.io/kinoklip/",
+    "tags": [
+      "open-source",
+      "montage",
+      "etalonnage"
+    ],
+    "source": {
+      "label": "Release GitHub — SeniorMatt/kinoklip v1.15.0",
+      "label_en": "GitHub release — SeniorMatt/kinoklip v1.15.0",
+      "url": "https://github.com/SeniorMatt/kinoklip/releases/tag/v1.15.0"
+    }
+  },
+  {
+    "date": "2026-11-27",
+    "name": "OpenScreen 2.4.0",
+    "name_en": "OpenScreen 2.4.0",
+    "summary": "Enregistreur d’écran et monteur libre (MIT, Windows, macOS, Linux) pour tutos et démos : zooms qui suivent le curseur, webcam en incrustation, sous-titres générés en local, coupe par le texte de la transcription et export GPU, aussi en ligne de commande.",
+    "summary_en": "Free screen recorder and editor (MIT, Windows, macOS, Linux) for tutorials and demos: cursor-following zooms, webcam overlay, locally generated captions, cutting by editing the transcript, and GPU export, also from the command line.",
+    "url": "https://getopenscreen.com/",
+    "tags": [
+      "open-source",
+      "captation",
+      "montage",
+      "multiplateforme"
+    ],
+    "source": {
+      "label": "Fiche LinuxLinks — OpenScreen",
+      "label_en": "LinuxLinks article — OpenScreen",
+      "url": "https://www.linuxlinks.com/openscreen-screen-recorder-video-editor/"
+    }
+  },
+  {
     "date": "2026-11-25",
     "name": "Kinoklip 1.14.1",
     "name_en": "Kinoklip 1.14.1",

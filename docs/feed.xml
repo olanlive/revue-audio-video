@@ -5,8 +5,29 @@
     <link>https://olanlive.github.io/revue-audio-video/</link>
     <description>Veille logiciels, solutions et add-ons audio &amp; vidéo — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 25 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-audio-video/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Kinoklip 1.15.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-11-27-kinoklip-1-15-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-11-27-kinoklip-1-15-0</guid>
+      <pubDate>Fri, 27 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Grosse version pour le monteur Linux façon DaVinci Resolve (GPL-3.0) : plugins OpenFX (pack openfx-misc, G’MIC), audio LV2/CLAP, fichiers DCTL, 394 transitions GL, transformations ACES et suppression d’objets sans IA.</description>
+      <category>open-source</category>
+      <category>montage</category>
+      <category>etalonnage</category>
+    </item>
+    <item>
+      <title>OpenScreen 2.4.0</title>
+      <link>https://olanlive.github.io/revue-audio-video/#2026-11-27-openscreen-2-4-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-11-27-openscreen-2-4-0</guid>
+      <pubDate>Fri, 27 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Enregistreur d’écran et monteur libre (MIT, Windows, macOS, Linux) pour tutos et démos : zooms qui suivent le curseur, webcam en incrustation, sous-titres générés en local, coupe par le texte de la transcription et export GPU, aussi en ligne de commande.</description>
+      <category>open-source</category>
+      <category>captation</category>
+      <category>montage</category>
+      <category>multiplateforme</category>
+    </item>
     <item>
       <title>Kinoklip 1.14.1</title>
       <link>https://olanlive.github.io/revue-audio-video/#2026-11-25-kinoklip-1-14-1</link>
@@ -1074,27 +1095,6 @@
       <category>montage</category>
       <category>etalonnage</category>
       <category>multiplateforme</category>
-    </item>
-    <item>
-      <title>oscmix 2.0.11</title>
-      <link>https://olanlive.github.io/revue-audio-video/#2026-10-17-oscmix-2-0-11</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-17-oscmix-2-0-11</guid>
-      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Mixeur libre pour cartes RME Fireface (UCX II, UFX III, 802…) en mode class-compliant, là où TotalMix n’existe pas sous Linux. La 2.0.11 (préversion, 15 oct) ajoute 8 groupes de faders, deux bus FX aux. et une interface web qui garde l’état au rechargement.</description>
-      <category>open-source</category>
-      <category>audio</category>
-      <category>gui</category>
-      <category>beta</category>
-    </item>
-    <item>
-      <title>Plugin Alliance : 6 plugins gratuits</title>
-      <link>https://olanlive.github.io/revue-audio-video/#2026-10-17-plugin-alliance-6-plugins-gratuits</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-audio-video/#2026-10-17-plugin-alliance-6-plugins-gratuits</guid>
-      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Six plugins de mix et mastering offerts avec un compte gratuit : bx_masterdesk (mastering analogique), bx_console N, le compresseur 254E, bx_refinement V3, bx_boom V3 et Soft Limit. Installation via le gestionnaire Mac/Windows ; offre signalée le 16 oct.</description>
-      <category>gratuit</category>
-      <category>audio</category>
-      <category>plugin-audio</category>
     </item>
   </channel>
 </rss>
